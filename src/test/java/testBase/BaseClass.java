@@ -34,7 +34,7 @@ public class BaseClass {
 
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" })
-	public void setup(@Optional("Windows") String os, @Optional("chrome") String br) throws IOException {
+	public void setup( String os,  String br) throws IOException {
 
 		// Loading config.properties file
 		FileReader file = new FileReader("./src//test//resources//config.properties");
