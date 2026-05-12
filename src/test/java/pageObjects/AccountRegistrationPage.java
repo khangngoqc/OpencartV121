@@ -29,6 +29,15 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement confMsg;
 
+	@FindBy(xpath="//div[contains(text(),'First Name must be between 1 and 32 characters!')]") WebElement firstNameWarning;
+	@FindBy(xpath="//div[contains(text(),'Last Name must be between 1 and 32 characters!')]") WebElement lastNameWarning;
+	@FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]") WebElement EmailWarning;
+	@FindBy(xpath="//div[contains(text(),'Telephone must be between 3 and 32 characters!')]") WebElement TelephoneWarning;
+	@FindBy(xpath="//div[contains(text(),'Password must be between 4 and 20 characters!')]") WebElement PasswordWarning;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement PolicyWarning;
+	
+	
+	
 	public void setFirstName(String fname) {
 		txtFirstName.sendKeys(fname);
 	}
@@ -92,5 +101,44 @@ public class AccountRegistrationPage extends BasePage {
 		}
 
 	}
+	
+	//Check if warning is Display with WebElement as parameter
+	public boolean isWarningDisplayed(WebElement e) {
+		try {
+			return e.isDisplayed();
+			
+		} catch (Exception ex) {
+			return false;
+		
+		}
+	}
+
+	//getters
+	public WebElement getTelephoneWarning() {
+		return TelephoneWarning;
+	}
+
+	public WebElement getFirstNameWarning() {
+		return firstNameWarning;
+	}
+
+	public WebElement getLastNameWarning() {
+		return lastNameWarning;
+	}
+
+	public WebElement getEmailWarning() {
+		return EmailWarning;
+	}
+
+	public WebElement getPasswordWarning() {
+		return PasswordWarning;
+	}
+
+	public WebElement getPolicyWarning() {
+		return PolicyWarning;
+	}
+
+
+	
 
 }

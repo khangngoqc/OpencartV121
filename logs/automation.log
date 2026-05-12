@@ -1232,3 +1232,27 @@ Session ID: 23b060282ae6b777725c306d5105e3f6
 23:19:59.264 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Finished TC001_AccountRegistrationTest *******
 23:20:02.548 [main] INFO  testCases.TC002_LoginTest - ***Starting TC002_LoginTest ***
 23:20:03.712 [main] INFO  testCases.TC002_LoginTest - ***Finished TC002_LoginTest ***
+23:51:15.882 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+23:51:16.017 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on MyAccount link
+23:51:16.279 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on Register link
+23:51:16.282 [main] INFO  testCases.TC001_AccountRegistrationTest - set registration details
+23:51:18.129 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+23:51:18.144 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Finished TC001_AccountRegistrationTest *******
+23:51:21.905 [main] INFO  testCases.TC002_LoginTest - ***Starting TC002_LoginTest ***
+23:51:23.170 [main] INFO  testCases.TC002_LoginTest - ***Finished TC002_LoginTest ***
+23:55:08.277 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+23:55:08.388 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on MyAccount link
+23:55:09.316 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on Register link
+23:55:09.319 [main] INFO  testCases.TC001_AccountRegistrationTest - set registration details
+23:55:13.314 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+23:55:13.327 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Finished TC001_AccountRegistrationTest *******
+23:55:17.173 [main] INFO  testCases.TC002_LoginTest - ***Starting TC002_LoginTest ***
+23:55:20.439 [main] INFO  testCases.TC002_LoginTest - ***Finished TC002_LoginTest ***
+01:23:50.795 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+01:23:50.894 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on MyAccount link
+01:23:51.181 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on Register link
+01:23:51.183 [main] INFO  testCases.TC001_AccountRegistrationTest - set registration details
+01:23:53.356 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+01:23:53.371 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Finished TC001_AccountRegistrationTest *******
+01:23:56.692 [main] INFO  testCases.TC002_LoginTest - ***Starting TC002_LoginTest ***
+01:23:58.426 [main] INFO  testCases.TC002_LoginTest - ***Finished TC002_LoginTest ***

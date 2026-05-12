@@ -8,13 +8,16 @@
 	<test thread-count="5" name="Test">
 
 		<parameter name="os" value="Windows"></parameter>
-		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
 
-			<class name="testCases.TC001_AccountRegistrationTest" />
-			<class name="testCases.TC002_LoginTest" />
+			<!--<class name="testCases.TC001_AccountRegistrationTest" />
+			<class name="testCases.TC002_LoginTest" />-->
 			<!--<class name="testCases.TC003_LoginDDT" />-->
+			<!--<class name="testCases.TC_SF_001_SearchExistingProductTest" />-->
+			<class name="testCases.TC_RF_004_WarningMessageTest" />
+			<class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" />
 
 		</classes>
 	</test> <!--
