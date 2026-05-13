@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC_RF_007_RegisterAccountPageNavigatingTest extends BaseClass{
 
-	@Test(groups= {"master"})
+	@Test(groups= {"master", "register"})
 	void verify_different_ways_of_navigating(){
 		
 		try {
@@ -34,7 +34,7 @@ public class TC_RF_007_RegisterAccountPageNavigatingTest extends BaseClass{
 				
 		} catch (Exception e) {
 			Assert.fail();
-			e.getMessage();
+			logger.debug(e.getMessage());
 		
 		}
 		

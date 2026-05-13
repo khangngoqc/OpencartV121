@@ -34,8 +34,9 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]") WebElement EmailWarning;
 	@FindBy(xpath="//div[contains(text(),'Telephone must be between 3 and 32 characters!')]") WebElement TelephoneWarning;
 	@FindBy(xpath="//div[contains(text(),'Password must be between 4 and 20 characters!')]") WebElement PasswordWarning;
-	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement PolicyWarning;
-	
+	@FindBy(xpath="//div[contains(text(),'Password confirmation does not match password!')]") WebElement PasswordConfirmWarning;
+	@FindBy(xpath="//div[contains(text(),'Warning: You must agree to the Privacy Policy!')]") WebElement PolicyWarning;
+	@FindBy(xpath="//div[contains(text(),'Warning: E-Mail Address is already registered!')]") WebElement UsedEmailWarning;
 	
 	
 	public void setFirstName(String fname) {
@@ -50,6 +51,11 @@ public class AccountRegistrationPage extends BasePage {
 		txtEmail.sendKeys(email);
 	}
 
+	public void clearEmail() {
+		txtEmail.clear();;
+	}
+
+	
 	public void setTelephone(String phone) {
 		txtTelephone.sendKeys(phone);
 	}
@@ -133,9 +139,17 @@ public class AccountRegistrationPage extends BasePage {
 	public WebElement getPasswordWarning() {
 		return PasswordWarning;
 	}
+	
+	public WebElement getPasswordConfirmWarning() {
+		return PasswordConfirmWarning;
+	}
 
 	public WebElement getPolicyWarning() {
 		return PolicyWarning;
+	}
+
+	public WebElement getUsedEmailWarning() {
+		return UsedEmailWarning;
 	}
 
 

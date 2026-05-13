@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest">
+      <class name="testCases.TC_RF_0010_InvalidEmailRegistrationTest">
         <methods>
-          <include name="verify_different_ways_of_navigating"/>
           <include name="tearDown"/>
+          <include name="validate_registration_with_invalid_email"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_RF_007_RegisterAccountPageNavigatingTest -->
+      </class> <!-- testCases.TC_RF_0010_InvalidEmailRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

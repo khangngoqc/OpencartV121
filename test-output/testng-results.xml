@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-13T03:28:55 GMT+07:00" name="Master Suite" finished-at="2026-05-13T03:29:00 GMT+07:00" duration-ms="4625">
+  <suite started-at="2026-05-14T06:05:07 GMT+07:00" name="Master Suite" finished-at="2026-05-14T06:06:24 GMT+07:00" duration-ms="77097">
     <groups>
+      <group name="register">
+        <method signature="TC_RF_0010_InvalidEmailRegistrationTest.validate_registration_with_invalid_email()[pri:0, instance:testCases.TC_RF_0010_InvalidEmailRegistrationTest@359f7cdf]" name="validate_registration_with_invalid_email" class="testCases.TC_RF_0010_InvalidEmailRegistrationTest"/>
+        <method signature="TC_RF_004_WarningMessageTest.verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@323b36e0]" name="verify_required_field_warning" class="testCases.TC_RF_004_WarningMessageTest"/>
+        <method signature="TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@5ffead27]" name="verify_different_ways_of_navigating" class="testCases.TC_RF_007_RegisterAccountPageNavigatingTest"/>
+        <method signature="TC_RF_008_ConfirmPasswordTest.validate_different_confirm_password()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@6356695f]" name="validate_different_confirm_password" class="testCases.TC_RF_008_ConfirmPasswordTest"/>
+        <method signature="TC_RF_009_UsedEmailRegistrationTest.validate_registration_with_used_email()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@4f18837a]" name="validate_registration_with_used_email" class="testCases.TC_RF_009_UsedEmailRegistrationTest"/>
+      </group> <!-- register -->
       <group name="master">
-        <method signature="TC_RF_004_WarningMessageTest.verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@3bb9a3ff]" name="verify_required_field_warning" class="testCases.TC_RF_004_WarningMessageTest"/>
-        <method signature="TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@694abbdc]" name="verify_different_ways_of_navigating" class="testCases.TC_RF_007_RegisterAccountPageNavigatingTest"/>
+        <method signature="TC_RF_0010_InvalidEmailRegistrationTest.validate_registration_with_invalid_email()[pri:0, instance:testCases.TC_RF_0010_InvalidEmailRegistrationTest@359f7cdf]" name="validate_registration_with_invalid_email" class="testCases.TC_RF_0010_InvalidEmailRegistrationTest"/>
+        <method signature="TC_RF_004_WarningMessageTest.verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@323b36e0]" name="verify_required_field_warning" class="testCases.TC_RF_004_WarningMessageTest"/>
+        <method signature="TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@5ffead27]" name="verify_different_ways_of_navigating" class="testCases.TC_RF_007_RegisterAccountPageNavigatingTest"/>
+        <method signature="TC_RF_008_ConfirmPasswordTest.validate_different_confirm_password()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@6356695f]" name="validate_different_confirm_password" class="testCases.TC_RF_008_ConfirmPasswordTest"/>
+        <method signature="TC_RF_009_UsedEmailRegistrationTest.validate_registration_with_used_email()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@4f18837a]" name="validate_registration_with_used_email" class="testCases.TC_RF_009_UsedEmailRegistrationTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-05-13T03:28:55 GMT+07:00" name="Test" finished-at="2026-05-13T03:29:00 GMT+07:00" duration-ms="4625">
+    <test started-at="2026-05-14T06:05:07 GMT+07:00" name="Test" finished-at="2026-05-14T06:06:24 GMT+07:00" duration-ms="77097">
       <class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@694abbdc]" started-at="2026-05-13T03:28:58 GMT+07:00" name="setup" finished-at="2026-05-13T03:28:59 GMT+07:00" duration-ms="1112" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@5ffead27]" started-at="2026-05-14T06:05:14 GMT+07:00" name="setup" finished-at="2026-05-14T06:05:15 GMT+07:00" duration-ms="1157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,59 +37,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@694abbdc]" started-at="2026-05-13T03:28:59 GMT+07:00" name="verify_different_ways_of_navigating" finished-at="2026-05-13T03:29:00 GMT+07:00" duration-ms="998" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Register Account!] but found [Register Account]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Register Account!] but found [Register Account]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at testCases.TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating(TC_RF_007_RegisterAccountPageNavigatingTest.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@5ffead27]" started-at="2026-05-14T06:05:15 GMT+07:00" name="verify_different_ways_of_navigating" finished-at="2026-05-14T06:05:16 GMT+07:00" duration-ms="1151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_different_ways_of_navigating -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@694abbdc]" started-at="2026-05-13T03:29:00 GMT+07:00" name="tearDown" finished-at="2026-05-13T03:29:00 GMT+07:00" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@5ffead27]" started-at="2026-05-14T06:05:16 GMT+07:00" name="tearDown" finished-at="2026-05-14T06:05:16 GMT+07:00" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_RF_007_RegisterAccountPageNavigatingTest -->
-      <class name="testCases.TC_RF_004_WarningMessageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@3bb9a3ff]" started-at="2026-05-13T03:28:55 GMT+07:00" name="setup" finished-at="2026-05-13T03:28:57 GMT+07:00" duration-ms="1525" status="PASS">
+      <class name="testCases.TC_RF_009_UsedEmailRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@4f18837a]" started-at="2026-05-14T06:05:19 GMT+07:00" name="setup" finished-at="2026-05-14T06:05:20 GMT+07:00" duration-ms="1079" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,15 +63,93 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@3bb9a3ff]" started-at="2026-05-13T03:28:57 GMT+07:00" name="verify_required_field_warning" finished-at="2026-05-13T03:28:58 GMT+07:00" duration-ms="595" status="PASS">
+        <test-method signature="validate_registration_with_used_email()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@4f18837a]" started-at="2026-05-14T06:05:20 GMT+07:00" name="validate_registration_with_used_email" finished-at="2026-05-14T06:05:21 GMT+07:00" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_with_used_email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@4f18837a]" started-at="2026-05-14T06:05:21 GMT+07:00" name="tearDown" finished-at="2026-05-14T06:05:21 GMT+07:00" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_009_UsedEmailRegistrationTest -->
+      <class name="testCases.TC_RF_004_WarningMessageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@323b36e0]" started-at="2026-05-14T06:05:07 GMT+07:00" name="setup" finished-at="2026-05-14T06:05:09 GMT+07:00" duration-ms="2575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@323b36e0]" started-at="2026-05-14T06:05:09 GMT+07:00" name="verify_required_field_warning" finished-at="2026-05-14T06:05:14 GMT+07:00" duration-ms="4422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_required_field_warning -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@3bb9a3ff]" started-at="2026-05-13T03:28:58 GMT+07:00" name="tearDown" finished-at="2026-05-13T03:28:58 GMT+07:00" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@323b36e0]" started-at="2026-05-14T06:05:14 GMT+07:00" name="tearDown" finished-at="2026-05-14T06:05:14 GMT+07:00" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_RF_004_WarningMessageTest -->
+      <class name="testCases.TC_RF_0010_InvalidEmailRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_0010_InvalidEmailRegistrationTest@359f7cdf]" started-at="2026-05-14T06:05:21 GMT+07:00" name="setup" finished-at="2026-05-14T06:05:22 GMT+07:00" duration-ms="1034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_with_invalid_email()[pri:0, instance:testCases.TC_RF_0010_InvalidEmailRegistrationTest@359f7cdf]" started-at="2026-05-14T06:05:22 GMT+07:00" name="validate_registration_with_invalid_email" finished-at="2026-05-14T06:06:24 GMT+07:00" duration-ms="61498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_with_invalid_email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_0010_InvalidEmailRegistrationTest@359f7cdf]" started-at="2026-05-14T06:06:24 GMT+07:00" name="tearDown" finished-at="2026-05-14T06:06:24 GMT+07:00" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_0010_InvalidEmailRegistrationTest -->
+      <class name="testCases.TC_RF_008_ConfirmPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@6356695f]" started-at="2026-05-14T06:05:16 GMT+07:00" name="setup" finished-at="2026-05-14T06:05:17 GMT+07:00" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_different_confirm_password()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@6356695f]" started-at="2026-05-14T06:05:17 GMT+07:00" name="validate_different_confirm_password" finished-at="2026-05-14T06:05:19 GMT+07:00" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_different_confirm_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@6356695f]" started-at="2026-05-14T06:05:19 GMT+07:00" name="tearDown" finished-at="2026-05-14T06:05:19 GMT+07:00" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_008_ConfirmPasswordTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

@@ -9,16 +9,31 @@ import testBase.BaseClass;
 
 public class TC_SF_001_SearchExistingProductTest extends BaseClass {
 
+	
 	@Test(groups = {"master", "sanity"})
 	void validate_search_existing_product() {
+
+		logger.info("******* Starting TC_SF_001_SearchExistingProductTest *******");
 		
-		HomePage hp = new HomePage(driver);
-		hp.setSearchInput("iMac");
-		hp.clickSearch();
+		try {
 		
-		SearchPage sp = new SearchPage(driver);
+			HomePage hp = new HomePage(driver);
+			hp.setSearchInput("iMac");
+			hp.clickSearch();
+			
+			SearchPage sp = new SearchPage(driver);
+			
+			Assert.assertTrue(sp.isSearchProductExist());
+			
+			
+		} catch (Exception e) {
 		
-		Assert.assertTrue(sp.isSearchProductExist());
+			Assert.fail();
+			logger.debug(e.getMessage());
+		
+		}
+		
+		logger.info("******* Finished TC_SF_001_SearchExistingProductTest *******");
 		
 		
 	}

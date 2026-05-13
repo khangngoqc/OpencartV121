@@ -1256,3 +1256,7 @@ Session ID: 23b060282ae6b777725c306d5105e3f6
 01:23:53.371 [main] INFO  testCases.TC001_AccountRegistrationTest - ******* Finished TC001_AccountRegistrationTest *******
 01:23:56.692 [main] INFO  testCases.TC002_LoginTest - ***Starting TC002_LoginTest ***
 01:23:58.426 [main] INFO  testCases.TC002_LoginTest - ***Finished TC002_LoginTest ***
+06:05:09.810 [main] INFO  testCases.TC_RF_004_WarningMessageTest - ******* Starting TC_RF_004_WarningMessageTest *******
+06:05:14.222 [main] INFO  testCases.TC_RF_004_WarningMessageTest - ******* Finished TC_RF_004_WarningMessageTest *******
+06:05:22.581 [main] INFO  testCases.TC_RF_0010_InvalidEmailRegistrationTest - ******* Starting TC_RF_0010_InvalidEmailRegistrationTest *******
+06:06:24.078 [main] INFO  testCases.TC_RF_0010_InvalidEmailRegistrationTest - ******* Finished TC_RF_0010_InvalidEmailRegistrationTest *******

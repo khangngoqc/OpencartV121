@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Master Suite</span>
+              <span class="suite-name border-passed">Master Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Master_Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods failed suite-Master_Suite"> (hide)</a> <!-- hide-methods failed suite-Master_Suite -->
-                      <a href="#" panel-name="suite-Master_Suite" class="show-methods failed suite-Master_Suite"> (show)</a> <!-- show-methods failed suite-Master_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Master_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" class="method navigator-link" hash-for-method="verify_different_ways_of_navigating">verify_different_ways_of_navigating</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Master_Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,6 +101,26 @@
                       <a href="#" panel-name="suite-Master_Suite" class="show-methods passed suite-Master_Suite"> (show)</a> <!-- show-methods passed suite-Master_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Master_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_RF_008_ConfirmPasswordTest" class="method navigator-link" hash-for-method="validate_different_confirm_password">validate_different_confirm_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_RF_0010_InvalidEmailRegistrationTest" class="method navigator-link" hash-for-method="validate_registration_with_invalid_email">validate_registration_with_invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_RF_009_UsedEmailRegistrationTest" class="method navigator-link" hash-for-method="validate_registration_with_used_email">validate_registration_with_used_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" class="method navigator-link" hash-for-method="verify_different_ways_of_navigating">verify_different_ways_of_navigating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_RF_004_WarningMessageTest" class="method navigator-link" hash-for-method="verify_required_field_warning">verify_required_field_warning</a> <!-- method navigator-link -->
@@ -132,26 +138,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master_Suite" class="panel Master_Suite">
-          <div class="suite-Master_Suite-class-failed">
+          <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC_RF_007_RegisterAccountPageNavigatingTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_RF_0010_InvalidEmailRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_different_ways_of_navigating">
-                  </a> <!-- verify_different_ways_of_navigating -->
-                  <span class="method-name">verify_different_ways_of_navigating</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Register Account!] but found [Register Account]
-	at testCases.TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating(TC_RF_007_RegisterAccountPageNavigatingTest.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
+                  <a name="validate_registration_with_invalid_email">
+                  </a> <!-- validate_registration_with_invalid_email -->
+                  <span class="method-name">validate_registration_with_invalid_email</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_Suite-class-failed -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_RF_009_UsedEmailRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_registration_with_used_email">
+                  </a> <!-- validate_registration_with_used_email -->
+                  <span class="method-name">validate_registration_with_used_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -163,6 +179,36 @@
                   <a name="verify_required_field_warning">
                   </a> <!-- verify_required_field_warning -->
                   <span class="method-name">verify_required_field_warning</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_RF_008_ConfirmPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_different_confirm_password">
+                  </a> <!-- validate_different_confirm_password -->
+                  <span class="method-name">validate_different_confirm_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_RF_007_RegisterAccountPageNavigatingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_different_ways_of_navigating">
+                  </a> <!-- verify_different_ways_of_navigating -->
+                  <span class="method-name">verify_different_ways_of_navigating</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,6 +232,9 @@
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC_RF_004_WarningMessageTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_RF_007_RegisterAccountPageNavigatingTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_RF_008_ConfirmPasswordTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_RF_009_UsedEmailRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_RF_0010_InvalidEmailRegistrationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
@@ -199,7 +248,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,6 +261,42 @@
             <div class="test-group">
               <span class="test-group-name">master</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_different_confirm_password</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_registration_with_invalid_email</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_registration_with_used_email</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_different_ways_of_navigating</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_required_field_warning</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">register</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_different_confirm_password</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_registration_with_invalid_email</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_registration_with_used_email</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">verify_different_ways_of_navigating</span>
                 <br/>
@@ -237,20 +322,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_different_ways_of_navigating')
-data.setCell(0, 2, 'testCases.TC_RF_007_RegisterAccountPageNavigatingTest')
-data.setCell(0, 3, 998);
+data.setCell(0, 1, 'validate_registration_with_invalid_email')
+data.setCell(0, 2, 'testCases.TC_RF_0010_InvalidEmailRegistrationTest')
+data.setCell(0, 3, 61498);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verify_required_field_warning')
 data.setCell(1, 2, 'testCases.TC_RF_004_WarningMessageTest')
-data.setCell(1, 3, 595);
+data.setCell(1, 3, 4422);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validate_different_confirm_password')
+data.setCell(2, 2, 'testCases.TC_RF_008_ConfirmPasswordTest')
+data.setCell(2, 3, 1299);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_different_ways_of_navigating')
+data.setCell(3, 2, 'testCases.TC_RF_007_RegisterAccountPageNavigatingTest')
+data.setCell(3, 3, 1151);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validate_registration_with_used_email')
+data.setCell(4, 2, 'testCases.TC_RF_009_UsedEmailRegistrationTest')
+data.setCell(4, 3, 1123);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -283,28 +380,71 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verify_required_field_warning</span>
-                <span class="method-start">1532 ms</span>
+                <span class="method-start">2580 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2135 ms</span>
+                <span class="method-start">7011 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_RF_007_RegisterAccountPageNavigatingTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">2225 ms</span>
+                <span class="method-start">7113 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verify_different_ways_of_navigating</span>
-                <span class="method-start">3337 ms</span>
+                <span class="method-start">8271 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4402 ms</span>
+                <span class="method-start">9425 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_RF_008_ConfirmPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">9511 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validate_different_confirm_password</span>
+                <span class="method-start">10630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11930 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_RF_009_UsedEmailRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">12024 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validate_registration_with_used_email</span>
+                <span class="method-start">13103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14226 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_RF_0010_InvalidEmailRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">14326 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validate_registration_with_invalid_email</span>
+                <span class="method-start">15360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76859 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

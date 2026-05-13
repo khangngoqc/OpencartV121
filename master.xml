@@ -18,6 +18,9 @@
 			<!--<class name="testCases.TC_SF_001_SearchExistingProductTest" />-->
 			<class name="testCases.TC_RF_004_WarningMessageTest" />
 			<class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" />
+			<class name="testCases.TC_RF_008_ConfirmPasswordTest" />
+			<class name="testCases.TC_RF_009_UsedEmailRegistrationTest" />
+			<class name="testCases.TC_RF_0010_InvalidEmailRegistrationTest" />
 
 		</classes>
 	</test> <!--
