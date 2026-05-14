@@ -19,6 +19,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
@@ -30,6 +31,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public Logger logger; // ;Log4j
 	public Properties p;
+	public Actions act;
 
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" })
@@ -109,6 +111,11 @@ public class BaseClass {
 
 		// launch the website
 		driver.get(p.getProperty("appURL")); // reading URL from properties file
+		
+		//Action class object
+		act = new Actions(driver);
+		
+		
 	}
 
 	@AfterClass(groups = { "Sanity", "Regression", "Master" })

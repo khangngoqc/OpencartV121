@@ -60,6 +60,11 @@ public class AccountRegistrationPage extends BasePage {
 		txtTelephone.sendKeys(phone);
 	}
 
+	public void clearTelephone() {
+		txtTelephone.clear();
+	}
+
+	
 	public void setPassword(String pwd) {
 		txtPassword.sendKeys(pwd);
 	}
@@ -108,6 +113,11 @@ public class AccountRegistrationPage extends BasePage {
 
 	}
 	
+	//get element's placeholder value
+	public String getPlaceHolderValue(WebElement e) {
+		return e.getAttribute("placeholder");
+	}
+	
 	//Check if warning is Display with WebElement as parameter
 	public boolean isWarningDisplayed(WebElement e) {
 		try {
@@ -118,12 +128,38 @@ public class AccountRegistrationPage extends BasePage {
 		
 		}
 	}
-
-	//getters
+	
+	//fields elements getters
 	public WebElement getTelephoneWarning() {
 		return TelephoneWarning;
 	}
 
+	public WebElement getTxtFirstName() {
+		return txtFirstName;
+	}
+
+	public WebElement getTxtLastName() {
+		return txtLastName;
+	}
+
+	public WebElement getTxtEmail() {
+		return txtEmail;
+	}
+
+	public WebElement getTxtTelephone() {
+		return txtTelephone;
+	}
+
+	public WebElement getTxtPassword() {
+		return txtPassword;
+	}
+
+	public WebElement getTxtPasswordConfirm() {
+		return txtPasswordConfirm;
+	}
+	
+
+	//warnings elements getters
 	public WebElement getFirstNameWarning() {
 		return firstNameWarning;
 	}

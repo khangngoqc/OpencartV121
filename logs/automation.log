@@ -1260,3 +1260,49 @@ Session ID: 23b060282ae6b777725c306d5105e3f6
 06:05:14.222 [main] INFO  testCases.TC_RF_004_WarningMessageTest - ******* Finished TC_RF_004_WarningMessageTest *******
 06:05:22.581 [main] INFO  testCases.TC_RF_0010_InvalidEmailRegistrationTest - ******* Starting TC_RF_0010_InvalidEmailRegistrationTest *******
 06:06:24.078 [main] INFO  testCases.TC_RF_0010_InvalidEmailRegistrationTest - ******* Finished TC_RF_0010_InvalidEmailRegistrationTest *******
+03:25:54.731 [main] INFO  testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest - ******* Starting TC_RF_011_InvalidPhoneNumberRegistrationTest *******
+04:02:35.758 [main] ERROR testCases.TC_RF_012_KeyboardKeysRegistrationTest - Test failed...
+04:02:35.759 [main] DEBUG testCases.TC_RF_012_KeyboardKeysRegistrationTest - Debug logs...
+04:03:46.508 [main] ERROR testCases.TC_RF_012_KeyboardKeysRegistrationTest - Test failed...
+04:03:46.510 [main] DEBUG testCases.TC_RF_012_KeyboardKeysRegistrationTest - Debug logs...
+04:05:59.533 [main] ERROR testCases.TC_RF_012_KeyboardKeysRegistrationTest - Test failed...
+04:05:59.535 [main] DEBUG testCases.TC_RF_012_KeyboardKeysRegistrationTest - Debug logs...
+04:15:17.080 [main] INFO  testCases.TC_RF_012_KeyboardKeysRegistrationTest - ******* Starting TC_RF_012_KeyboardKeysRegistrationTest *******
+04:15:29.481 [main] INFO  testCases.TC_RF_012_KeyboardKeysRegistrationTest - ******* Finished TC_RF_012_KeyboardKeysRegistrationTest *******
+04:36:25.839 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+04:37:55.097 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+04:42:55.442 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+04:46:55.293 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+04:48:01.295 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+04:50:11.985 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+04:52:42.500 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+05:02:37.198 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+05:02:37.573 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - First Name
+05:02:37.573 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Last Name
+05:02:37.574 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - E-Mail
+05:02:37.574 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Telephone
+05:02:37.574 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Password
+05:02:37.574 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Password Confirm
+05:02:37.575 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Finished TC_RF_013_FieldsPlaceholderTest *******
+05:05:03.773 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+05:05:04.242 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - First Name
+05:05:04.242 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Last Name
+05:05:04.242 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - E-Mail
+05:05:04.242 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Telephone
+05:05:04.242 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Password
+05:05:04.242 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Password Confirm
+05:05:04.242 [main] DEBUG testCases.TC_RF_013_FieldsPlaceholderTest - Cannot invoke "Object.equals(Object)" because "p" is null
+05:06:11.384 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+05:06:11.794 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - First Name
+05:06:11.794 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Last Name
+05:06:11.794 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - E-Mail
+05:06:11.794 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Telephone
+05:06:11.794 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Password
+05:06:11.794 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - Password Confirm
+05:06:11.794 [main] DEBUG testCases.TC_RF_013_FieldsPlaceholderTest - Cannot invoke "Object.equals(Object)" because "p" is null
+05:08:27.576 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+05:08:27.972 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Finished TC_RF_013_FieldsPlaceholderTest *******
+05:10:18.670 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+05:10:19.118 [main] DEBUG testCases.TC_RF_013_FieldsPlaceholderTest - Cannot invoke "String.equals(Object)" because "p" is null
+05:12:24.830 [main] INFO  testCases.TC_RF_013_FieldsPlaceholderTest - ******* Starting TC_RF_013_FieldsPlaceholderTest *******
+05:12:25.408 [main] DEBUG testCases.TC_RF_013_FieldsPlaceholderTest - Cannot invoke "String.equals(Object)" because "p" is null

@@ -7,62 +7,57 @@ import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
 
-public class TC_RF_0010_InvalidEmailRegistrationTest extends BaseClass{
+public class TC_RF_011_InvalidPhoneNumberRegistrationTest extends BaseClass {
 
-	@Test(groups = {"master", "register"})
-	void validate_registration_with_invalid_email(){
-		
-		logger.info("******* Starting TC_RF_0010_InvalidEmailRegistrationTest *******");
-		
+	@Test(groups = { "master", "register" })
+	void validate_registration_with_invalid_phone_number() {
+		logger.info("******* Starting TC_RF_011_InvalidPhoneNumberRegistrationTest *******");
+
 		try {
-		
+
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			hp.clickRegister();
-			
+
 			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
 			rp.setFirstName(randomString());
 			rp.setLastName(randomString());
-			
-			rp.setTelephone(randomNumber());
-			
+
+			rp.setEmail(randomString() + "@gmail.com");
+
 			String pwd = p.getProperty("password");
 			rp.setPassword(pwd);
 			rp.setPasswordConfirm(pwd);
-			
+
 			rp.clickPrivacyPolicy();
-			
-			String[] invalidEmail = {randomString(), randomString()+"@", randomString()+"@gmail"};
- 			
-			for(String e : invalidEmail) {
-			
-				rp.setEmail(e);
+
+			String[] invalidData = { "1111", "abcde" };
+
+			for (String p : invalidData) {
+
+				rp.setTelephone(p);
 				rp.clickContinue();
-				
-				boolean warningDisplay = rp.isWarningDisplayed(rp.getUsedEmailWarning());
-				
+
 				if (rp.getConfirmMessage().equals("Your Account Has Been Created!")) {
-					Assert.fail("test failed with one invalid email available!");
+					Assert.fail("test failed with one invalid phone number available!");
 					break;
 				}
-				
+
 				rp.clearEmail();
-				
+
 			}
-				
+
 			Assert.assertTrue(true);
-		
-		
+
 		} catch (Exception e) {
-		
+
 			logger.debug(e.getMessage());
 			Assert.fail();
-			
-		}
-		
-		logger.info("******* Finished TC_RF_0010_InvalidEmailRegistrationTest *******");
 
-			
+		}
+
+		logger.info("******* Finished TC_RF_011_InvalidPhoneNumberRegistrationTest *******");
+
 	}
-	
+
 }

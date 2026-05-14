@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_RF_0010_InvalidEmailRegistrationTest">
+      <class name="testCases.TC_RF_013_FieldsPlaceholderTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_registration_with_invalid_email"/>
           <include name="setup"/>
+          <include name="validate_fields_placeholder"/>
         </methods>
-      </class> <!-- testCases.TC_RF_0010_InvalidEmailRegistrationTest -->
+      </class> <!-- testCases.TC_RF_013_FieldsPlaceholderTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
