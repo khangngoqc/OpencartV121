@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-15T05:12:22 GMT+07:00" name="Master Suite" finished-at="2026-05-15T05:12:25 GMT+07:00" duration-ms="2927">
+  <suite started-at="2026-05-16T23:26:55 GMT+07:00" name="Master Suite" finished-at="2026-05-16T23:26:59 GMT+07:00" duration-ms="4170">
     <groups>
-      <group name="registration">
-        <method signature="TC_RF_013_FieldsPlaceholderTest.validate_fields_placeholder()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@7c729a55]" name="validate_fields_placeholder" class="testCases.TC_RF_013_FieldsPlaceholderTest"/>
-      </group> <!-- registration -->
-      <group name="master">
-        <method signature="TC_RF_013_FieldsPlaceholderTest.validate_fields_placeholder()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@7c729a55]" name="validate_fields_placeholder" class="testCases.TC_RF_013_FieldsPlaceholderTest"/>
-      </group> <!-- master -->
+      <group name="Master">
+        <method signature="TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@3bb9a3ff]" name="verify_password_complexity_standards" class="testCases.TC_RF_017_PasswordComplexityRegistrationTest"/>
+      </group> <!-- Master -->
+      <group name="register">
+        <method signature="TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@3bb9a3ff]" name="verify_password_complexity_standards" class="testCases.TC_RF_017_PasswordComplexityRegistrationTest"/>
+      </group> <!-- register -->
     </groups>
-    <test started-at="2026-05-15T05:12:22 GMT+07:00" name="Test" finished-at="2026-05-15T05:12:25 GMT+07:00" duration-ms="2927">
-      <class name="testCases.TC_RF_013_FieldsPlaceholderTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@7c729a55]" started-at="2026-05-15T05:12:22 GMT+07:00" name="setup" finished-at="2026-05-15T05:12:24 GMT+07:00" duration-ms="2000" status="PASS">
+    <test started-at="2026-05-16T23:26:55 GMT+07:00" name="Test" finished-at="2026-05-16T23:26:59 GMT+07:00" duration-ms="4170">
+      <class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@3bb9a3ff]" started-at="2026-05-16T23:26:55 GMT+07:00" name="setup" finished-at="2026-05-16T23:26:57 GMT+07:00" duration-ms="1771" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_fields_placeholder()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@7c729a55]" started-at="2026-05-15T05:12:24 GMT+07:00" name="validate_fields_placeholder" finished-at="2026-05-15T05:12:25 GMT+07:00" duration-ms="590" status="FAIL">
+        <test-method signature="verify_password_complexity_standards()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@3bb9a3ff]" started-at="2026-05-16T23:26:57 GMT+07:00" name="verify_password_complexity_standards" finished-at="2026-05-16T23:26:59 GMT+07:00" duration-ms="2068" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -38,7 +38,7 @@
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC_RF_013_FieldsPlaceholderTest.validate_fields_placeholder(TC_RF_013_FieldsPlaceholderTest.java:55)
+at testCases.TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards(TC_RF_017_PasswordComplexityRegistrationTest.java:46)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -70,12 +70,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_fields_placeholder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@7c729a55]" started-at="2026-05-15T05:12:25 GMT+07:00" name="tearDown" finished-at="2026-05-15T05:12:25 GMT+07:00" duration-ms="111" status="PASS">
+        </test-method> <!-- verify_password_complexity_standards -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@3bb9a3ff]" started-at="2026-05-16T23:26:59 GMT+07:00" name="tearDown" finished-at="2026-05-16T23:26:59 GMT+07:00" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_RF_013_FieldsPlaceholderTest -->
+      </class> <!-- testCases.TC_RF_017_PasswordComplexityRegistrationTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

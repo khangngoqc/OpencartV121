@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_RF_013_FieldsPlaceholderTest">
+      <class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_password_complexity_standards"/>
           <include name="setup"/>
-          <include name="validate_fields_placeholder"/>
         </methods>
-      </class> <!-- testCases.TC_RF_013_FieldsPlaceholderTest -->
+      </class> <!-- testCases.TC_RF_017_PasswordComplexityRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

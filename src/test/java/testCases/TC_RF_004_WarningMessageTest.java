@@ -24,10 +24,11 @@ public class TC_RF_004_WarningMessageTest extends BaseClass {
 			rp.clickContinue();
 
 			boolean[] warningsDiplayed = new boolean[] { rp.isWarningDisplayed(rp.getFirstNameWarning()),
-					rp.isWarningDisplayed(rp.getLastNameWarning()), rp.isWarningDisplayed(rp.getEmailWarning()),
+					rp.isWarningDisplayed(rp.getLastNameWarning()), rp.isWarningDisplayed(rp.getEmailWarning()), false,
 					rp.isWarningDisplayed(rp.getPasswordWarning()), rp.isWarningDisplayed(rp.getPolicyWarning())};
 		
 			for(boolean warning : warningsDiplayed) {
+				//logger.debug(warning);
 				Assert.assertTrue(warning, "One or more warning was not displayed");
 			}
 
