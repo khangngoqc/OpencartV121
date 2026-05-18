@@ -18,6 +18,15 @@ public class testdraft {
 		driver = new ChromeDriver();
 		driver.get("https://tutorialsninja.com/demo/index.php?route=account/register");
 
+		WebElement input = driver.findElement(By.xpath("//input[@id='input-password']"));
+		input.sendKeys("123125dgf");
+		
+		// Check if the CSS forces password masking symbols visually
+		String textSecurity = input.getCssValue("-webkit-text-security");
+
+		if ("disc".equals(textSecurity) || "circle".equals(textSecurity) || "square".equals(textSecurity)) {
+		    System.out.println("The text is visually masked by CSS.");
+		}
 
 	}
 	

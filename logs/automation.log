@@ -1363,3 +1363,103 @@ Session ID: 23b060282ae6b777725c306d5105e3f6
 23:26:57.349 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - Click on Register link
 23:26:57.351 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - set registration details
 23:26:59.064 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - Validating expected message
+20:34:04.367 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:34:04.470 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:34:04.758 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:34:04.760 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:34:06.197 [main] ERROR testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Test failed...
+20:34:06.198 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - invalid selector: Unable to locate an element with the xpath expression //input[@id='input-telephone']'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='input-telephone']']' is not a valid XPath expression.
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [413e066ad67de20e90c889cbc2b23efd, findElement {value=//input[@id='input-telephone']'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55896}, goog:processID: 10288, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55896/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 413e066ad67de20e90c889cbc2b23efd
+20:36:19.682 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:36:19.754 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:36:20.009 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:36:20.012 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:36:22.353 [main] ERROR testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Test failed...
+20:36:22.354 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - invalid selector: Unable to locate an element with the xpath expression //input[@id='input-telephone']'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='input-telephone']']' is not a valid XPath expression.
+  (Session info: chrome=148.0.7778.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23625a9fffd6c3a3ca2a10fb028ecca6, findElement {using=xpath, value=//input[@id='input-telephone']']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59273}, goog:processID: 4052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59273/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23625a9fffd6c3a3ca2a10fb028ecca6
+20:37:39.381 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:37:39.482 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:37:39.720 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:37:39.722 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:37:41.577 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Finished TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:38:50.067 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:38:50.138 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:38:50.368 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:38:50.371 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:38:52.299 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Finished TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:39:29.226 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:39:29.303 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:39:29.533 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:39:29.535 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:39:40.484 [main] ERROR testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Test failed...
+20:39:40.486 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Unable to find element with locator By.xpath: //a[normalize-space()='Edit Account']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: RemoteWebDriver
+20:40:05.247 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:40:05.325 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:40:05.569 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:40:05.571 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:41:04.635 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:41:04.713 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:41:04.937 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:41:04.939 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:41:06.838 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - An info contains untrimmed spaces
+20:41:40.413 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:41:40.488 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:41:40.750 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:41:40.752 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:41:42.842 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - An info contains untrimmed spaces3569397895 
+20:42:31.567 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:42:31.645 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:42:31.889 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:42:31.891 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:42:33.901 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - An info contains untrimmed spaces7647729741 
+20:44:18.358 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+20:44:18.428 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+20:44:18.654 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+20:44:18.657 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+20:44:20.993 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - An info contains untrimmed spaces:    LSDNV   
+20:55:34.637 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Starting TC_RF_020_PolicyCheckboxTest *******
+20:55:34.705 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on MyAccount link
+20:55:34.945 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on Register link
+20:55:34.970 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Finished TC_RF_020_PolicyCheckboxTest *******
+20:56:14.613 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Starting TC_RF_020_PolicyCheckboxTest *******
+20:56:14.692 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on MyAccount link
+20:56:14.916 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on Register link
+20:56:14.981 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Finished TC_RF_020_PolicyCheckboxTest *******
+20:56:54.190 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Starting TC_RF_020_PolicyCheckboxTest *******
+20:56:54.262 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on MyAccount link
+20:56:54.511 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on Register link
+20:59:30.000 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Starting TC_RF_020_PolicyCheckboxTest *******
+20:59:30.062 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on MyAccount link
+20:59:30.288 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on Register link
+20:59:30.290 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Get check box status
+20:59:30.308 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Finished TC_RF_020_PolicyCheckboxTest *******
+21:06:39.271 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Starting TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+21:06:40.337 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Finished TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+21:07:20.894 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Starting TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+21:08:32.409 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Starting TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+21:08:34.034 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Finished TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+21:34:07.293 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Starting TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+21:34:08.853 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Finished TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+21:34:40.456 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Starting TC_RF_022_PasswordFieldsCoveringTest *******
+21:35:07.756 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Starting TC_RF_022_PasswordFieldsCoveringTest *******
+21:36:44.247 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Starting TC_RF_022_PasswordFieldsCoveringTest *******

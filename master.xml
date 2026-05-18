@@ -28,7 +28,11 @@
 			<!--<class name="testCases.TC_RF_013_FieldsPlaceholderTest"></class>-->
 			<!--<class name="testCases.TC_RF_014_RequiredMarkTest"></class>-->
 			<!--<class name="testCases.TC_RF_016_SpaceInputRegistrationTest"></class>-->
-			<class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest"></class>
+			<!--<class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest"></class>-->
+			<!--<class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>-->
+			<!--<class name="testCases.TC_RF_020_PolicyCheckboxTest"></class>-->
+			<!--<class name="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>-->
+			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>
 
 		</classes>
 	</test> <!--

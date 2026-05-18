@@ -39,6 +39,9 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//div[contains(text(),'Warning: E-Mail Address is already registered!')]") WebElement UsedEmailWarning;
 	
 	
+	@FindBy(xpath="//a[normalize-space()='Edit Account']") WebElement btnEditAccount;
+	
+	
 	public void setFirstName(String fname) {
 		txtFirstName.sendKeys(fname);
 	}
@@ -76,6 +79,10 @@ public class AccountRegistrationPage extends BasePage {
 	public void clickPrivacyPolicy() {
 		chkPrivacyPolicy.click();
 	}
+	
+	public boolean isPrivacyPolicyChecked() {
+		return chkPrivacyPolicy.isSelected();
+	}
 
 	public void clickContinue() {
 		//sol 1
@@ -100,6 +107,10 @@ public class AccountRegistrationPage extends BasePage {
 		//mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
 	
 		
+	}
+	
+	public void clickEditAccount() {
+		btnEditAccount.click();
 	}
 
 	public String getConfirmMessage() {

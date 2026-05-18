@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_RF_016_SpaceInputRegistrationTest">
+      <class name="testCases.TC_RF_022_PasswordFieldsCoveringTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="validate_registration_with_space_input"/>
+          <include name="validate_password_fields_is_hidden"/>
         </methods>
-      </class> <!-- testCases.TC_RF_016_SpaceInputRegistrationTest -->
+      </class> <!-- testCases.TC_RF_022_PasswordFieldsCoveringTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
