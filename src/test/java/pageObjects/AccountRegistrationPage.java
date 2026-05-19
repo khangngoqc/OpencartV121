@@ -29,6 +29,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement confMsg;
 
+	//warning locators
 	@FindBy(xpath="//div[contains(text(),'First Name must be between 1 and 32 characters!')]") WebElement firstNameWarning;
 	@FindBy(xpath="//div[contains(text(),'Last Name must be between 1 and 32 characters!')]") WebElement lastNameWarning;
 	@FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]") WebElement EmailWarning;
@@ -38,8 +39,25 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//div[contains(text(),'Warning: You must agree to the Privacy Policy!')]") WebElement PolicyWarning;
 	@FindBy(xpath="//div[contains(text(),'Warning: E-Mail Address is already registered!')]") WebElement UsedEmailWarning;
 	
+	@FindBy(xpath="//a[normalize-space()='login page']") WebElement lnkLoginPage;
+	@FindBy(xpath="//b[normalize-space()='Privacy Policy']") WebElement lnkPrivacyPolicy;
+	@FindBy(xpath="//div[@class='modal-conent']h4[normalize-space()='Privacy Policy']") WebElement puPrivacyPolicyHeading;
 	
-	@FindBy(xpath="//a[normalize-space()='Edit Account']") WebElement btnEditAccount;
+	//right column buttons
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Login']") WebElement btnLogin;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Register']") WebElement btnRegister;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Edit Account']") WebElement btnEditAccount;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Forgotten Password']") WebElement btnForgottenPassword;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='My Account']") WebElement btnMyAccount;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Address Book']") WebElement btnAddressBook;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Wish List']") WebElement btnWishList ;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Order History']") WebElement btnOrderHistory ;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Downloads']") WebElement btnDownloads ;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Recurring payments']") WebElement btnRecurringPayments ;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Reward Points']") WebElement btnRewardPoints ;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Returns']") WebElement btnReturns ;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Transactions']") WebElement btnTransactions ;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Newsletter']") WebElement btnNewsletter;
 	
 	
 	public void setFirstName(String fname) {
@@ -169,7 +187,64 @@ public class AccountRegistrationPage extends BasePage {
 		return txtPasswordConfirm;
 	}
 	
+	//right column buttons click methods
+	public void clickLoginPageLink() {
+		lnkLoginPage.click();
+	}
+	
+	public void clickLogin() {
+		btnLogin.click();
+	}
 
+	public void clickRegister() {
+		btnRegister.click();
+	}
+	
+	public void clickForgottenPasswod() {
+		btnForgottenPassword.click();
+	}
+	
+	public void clickMyAccount() {
+		btnMyAccount.click();
+	}
+	
+	public void clickAddressBook() {
+		btnAddressBook.click();
+	}
+	
+	public void clickWishList() {
+		btnWishList.click();
+	}
+	
+	public void clickOrderHistory() {
+		btnOrderHistory.click();
+	}
+	
+	public void clickDownloads() {
+		btnDownloads.click();
+	}
+	
+	public void clickRecurringPayments() {
+		btnRecurringPayments.click();
+	}
+	
+	public void clickRewardPoints() {
+		btnRewardPoints.click();
+	}
+	
+	public void clickReturns() {
+		btnReturns.click();
+	}
+	
+	public void clickTransactions() {
+		btnTransactions.click();
+	}
+	
+	public void clickNewsletter() {
+		btnNewsletter.click();
+	}
+	
+	
 	//warnings elements getters
 	public WebElement getFirstNameWarning() {
 		return firstNameWarning;
@@ -198,6 +273,11 @@ public class AccountRegistrationPage extends BasePage {
 	public WebElement getUsedEmailWarning() {
 		return UsedEmailWarning;
 	}
+	
+	public WebElement getPuPrivacyPolicyHeading() {
+		return puPrivacyPolicyHeading;
+	}
+
 
 
 	

@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-18T21:36:42 GMT+07:00" name="Master Suite" finished-at="2026-05-18T21:36:44 GMT+07:00" duration-ms="2531">
+  <suite started-at="2026-05-19T18:05:45 GMT+07:00" name="Master Suite" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="22823">
     <groups>
       <group name="register">
-        <method signature="TC_RF_022_PasswordFieldsCoveringTest.validate_password_fields_is_hidden()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@7c729a55]" name="validate_password_fields_is_hidden" class="testCases.TC_RF_022_PasswordFieldsCoveringTest"/>
+        <method signature="TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" name="validate_on_page_links" class="testCases.TC_RF_023_AccountRegistrationPageLinksTest"/>
       </group> <!-- register -->
       <group name="master">
-        <method signature="TC_RF_022_PasswordFieldsCoveringTest.validate_password_fields_is_hidden()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@7c729a55]" name="validate_password_fields_is_hidden" class="testCases.TC_RF_022_PasswordFieldsCoveringTest"/>
+        <method signature="TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" name="validate_on_page_links" class="testCases.TC_RF_023_AccountRegistrationPageLinksTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-05-18T21:36:42 GMT+07:00" name="Test" finished-at="2026-05-18T21:36:44 GMT+07:00" duration-ms="2531">
-      <class name="testCases.TC_RF_022_PasswordFieldsCoveringTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@7c729a55]" started-at="2026-05-18T21:36:42 GMT+07:00" name="setup" finished-at="2026-05-18T21:36:44 GMT+07:00" duration-ms="1688" status="PASS">
+    <test started-at="2026-05-19T18:05:45 GMT+07:00" name="Test" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="22823">
+      <class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" started-at="2026-05-19T18:05:45 GMT+07:00" name="setup" finished-at="2026-05-19T18:05:47 GMT+07:00" duration-ms="1751" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,17 +29,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_password_fields_is_hidden()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@7c729a55]" started-at="2026-05-18T21:36:44 GMT+07:00" name="validate_password_fields_is_hidden" finished-at="2026-05-18T21:36:44 GMT+07:00" duration-ms="492" status="FAIL">
+        <test-method signature="validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" started-at="2026-05-19T18:05:47 GMT+07:00" name="validate_on_page_links" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="20720" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[the password confirm is not covered(masked) expected [true] but found [false]]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: the password confirm is not covered(masked) expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at testCases.TC_RF_022_PasswordFieldsCoveringTest.validate_password_fields_is_hidden(TC_RF_022_PasswordFieldsCoveringTest.java:43)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links(TC_RF_023_AccountRegistrationPageLinksTest.java:66)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -71,12 +70,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_password_fields_is_hidden -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@7c729a55]" started-at="2026-05-18T21:36:44 GMT+07:00" name="tearDown" finished-at="2026-05-18T21:36:44 GMT+07:00" duration-ms="105" status="PASS">
+        </test-method> <!-- validate_on_page_links -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" started-at="2026-05-19T18:06:08 GMT+07:00" name="tearDown" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_RF_022_PasswordFieldsCoveringTest -->
+      </class> <!-- testCases.TC_RF_023_AccountRegistrationPageLinksTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

@@ -13,6 +13,14 @@ public class BasePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+	
+	public String getElementText(WebElement e) {
+		return e.getText();
+	}
 
 
 	

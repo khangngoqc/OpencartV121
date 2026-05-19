@@ -1463,3 +1463,431 @@ Driver info: driver.version: RemoteWebDriver
 21:34:40.456 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Starting TC_RF_022_PasswordFieldsCoveringTest *******
 21:35:07.756 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Starting TC_RF_022_PasswordFieldsCoveringTest *******
 21:36:44.247 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Starting TC_RF_022_PasswordFieldsCoveringTest *******
+17:34:13.191 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+17:50:38.058 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+17:50:38.645 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links: 81
+17:50:39.125 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:50:39.656 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:50:40.040 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:50:40.517 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:50:41.162 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List (0)	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:50:41.605 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Shopping Cart	https://tutorialsninja.com/demo/index.php?route=checkout/cart	=> Not a broken link
+17:50:42.161 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Checkout	https://tutorialsninja.com/demo/index.php?route=checkout/checkout	=> Not a broken link
+17:50:42.710 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Qafox.com	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:50:43.386 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Desktops	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:50:43.840 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_26	=> Not a broken link
+17:50:44.224 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_27	=> Not a broken link
+17:50:44.666 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:50:45.112 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Laptops & Notebooks	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:50:45.478 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_46	=> Not a broken link
+17:50:45.839 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_45	=> Not a broken link
+17:50:46.229 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:50:46.581 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Components	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:50:46.981 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_29	=> Not a broken link
+17:50:47.308 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_28	=> Not a broken link
+17:50:47.753 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_30	=> Not a broken link
+17:50:48.773 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_31	=> Not a broken link
+17:50:49.111 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_32	=> Not a broken link
+17:50:49.480 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:50:49.835 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Tablets	https://tutorialsninja.com/demo/index.php?route=product/category&path=57	=> Not a broken link
+17:50:50.057 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Software	https://tutorialsninja.com/demo/index.php?route=product/category&path=17	=> Not a broken link
+17:50:50.359 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Phones & PDAs	https://tutorialsninja.com/demo/index.php?route=product/category&path=24	=> Not a broken link
+17:50:50.614 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Cameras	https://tutorialsninja.com/demo/index.php?route=product/category&path=33	=> Not a broken link
+17:50:50.949 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - MP3 Players	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:50:51.218 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_43	=> Not a broken link
+17:50:51.460 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_44	=> Not a broken link
+17:50:51.713 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_47	=> Not a broken link
+17:50:51.972 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_48	=> Not a broken link
+17:50:52.388 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_49	=> Not a broken link
+17:50:52.639 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_50	=> Not a broken link
+17:50:52.913 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_51	=> Not a broken link
+17:50:53.115 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_52	=> Not a broken link
+17:50:53.470 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_53	=> Not a broken link
+17:50:53.767 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_54	=> Not a broken link
+17:50:54.038 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_55	=> Not a broken link
+17:50:54.253 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_56	=> Not a broken link
+17:50:54.511 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_38	=> Not a broken link
+17:50:54.748 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_37	=> Not a broken link
+17:50:54.982 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_39	=> Not a broken link
+17:50:55.219 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_40	=> Not a broken link
+17:50:55.505 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_41	=> Not a broken link
+17:50:55.741 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_42	=> Not a broken link
+17:50:55.993 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:50:56.241 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:50:56.617 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:50:56.862 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:50:57.097 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - login page	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:50:57.293 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information/agree&information_id=3	=> Not a broken link
+17:50:57.508 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Login	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:50:57.918 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:50:58.138 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Forgotten Password	https://tutorialsninja.com/demo/index.php?route=account/forgotten	=> Not a broken link
+17:50:58.550 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:50:58.880 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Address Book	https://tutorialsninja.com/demo/index.php?route=account/address	=> Not a broken link
+17:50:59.351 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:50:59.688 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:51:00.017 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Downloads	https://tutorialsninja.com/demo/index.php?route=account/download	=> Not a broken link
+17:51:00.424 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Recurring payments	https://tutorialsninja.com/demo/index.php?route=account/recurring	=> Not a broken link
+17:51:03.099 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Reward Points	https://tutorialsninja.com/demo/index.php?route=account/reward	=> Not a broken link
+17:51:03.750 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return	=> Not a broken link
+17:51:04.480 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Transactions	https://tutorialsninja.com/demo/index.php?route=account/transaction	=> Not a broken link
+17:51:05.817 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:51:06.154 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - About Us	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4	=> Not a broken link
+17:51:06.475 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Delivery Information	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6	=> Not a broken link
+17:51:06.648 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3	=> Not a broken link
+17:51:06.815 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Terms & Conditions	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5	=> Not a broken link
+17:51:07.114 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Contact Us	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:51:07.388 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return/add	=> Not a broken link
+17:51:07.612 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Site Map	https://tutorialsninja.com/demo/index.php?route=information/sitemap	=> Not a broken link
+17:51:07.820 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Brands	https://tutorialsninja.com/demo/index.php?route=product/manufacturer	=> Not a broken link
+17:51:08.011 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Gift Certificates	https://tutorialsninja.com/demo/index.php?route=account/voucher	=> Not a broken link
+17:51:08.265 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Affiliate	https://tutorialsninja.com/demo/index.php?route=affiliate/login	=> Not a broken link
+17:51:08.532 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Specials	https://tutorialsninja.com/demo/index.php?route=product/special	=> Not a broken link
+17:51:08.945 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:51:09.405 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:51:09.746 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:51:10.118 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:51:10.237 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart	http://www.opencart.com/	(Broken link)
+17:54:47.388 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+17:54:47.827 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links: 81
+17:54:48.184 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:54:48.604 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:54:48.812 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:54:49.036 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:54:49.418 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List (0)	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:54:49.599 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Shopping Cart	https://tutorialsninja.com/demo/index.php?route=checkout/cart	=> Not a broken link
+17:54:49.946 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Checkout	https://tutorialsninja.com/demo/index.php?route=checkout/checkout	=> Not a broken link
+17:54:50.166 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Qafox.com	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:54:50.479 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Desktops	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:54:50.712 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_26	=> Not a broken link
+17:54:50.945 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_27	=> Not a broken link
+17:54:51.236 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:54:51.554 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Laptops & Notebooks	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:54:51.831 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_46	=> Not a broken link
+17:54:52.159 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_45	=> Not a broken link
+17:54:52.490 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:54:52.750 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Components	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:54:52.999 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_29	=> Not a broken link
+17:54:53.287 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_28	=> Not a broken link
+17:54:53.587 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_30	=> Not a broken link
+17:54:53.821 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_31	=> Not a broken link
+17:54:54.035 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_32	=> Not a broken link
+17:54:54.266 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:54:54.498 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Tablets	https://tutorialsninja.com/demo/index.php?route=product/category&path=57	=> Not a broken link
+17:54:54.705 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Software	https://tutorialsninja.com/demo/index.php?route=product/category&path=17	=> Not a broken link
+17:54:54.948 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Phones & PDAs	https://tutorialsninja.com/demo/index.php?route=product/category&path=24	=> Not a broken link
+17:54:55.196 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Cameras	https://tutorialsninja.com/demo/index.php?route=product/category&path=33	=> Not a broken link
+17:54:55.522 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - MP3 Players	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:54:55.740 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_43	=> Not a broken link
+17:54:55.969 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_44	=> Not a broken link
+17:54:56.259 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_47	=> Not a broken link
+17:54:56.526 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_48	=> Not a broken link
+17:54:56.747 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_49	=> Not a broken link
+17:54:57.013 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_50	=> Not a broken link
+17:54:57.213 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_51	=> Not a broken link
+17:54:57.433 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_52	=> Not a broken link
+17:54:57.636 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_53	=> Not a broken link
+17:54:57.914 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_54	=> Not a broken link
+17:54:58.153 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_55	=> Not a broken link
+17:54:58.362 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_56	=> Not a broken link
+17:54:58.573 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_38	=> Not a broken link
+17:54:58.784 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_37	=> Not a broken link
+17:54:58.987 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_39	=> Not a broken link
+17:54:59.218 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_40	=> Not a broken link
+17:54:59.500 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_41	=> Not a broken link
+17:54:59.819 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_42	=> Not a broken link
+17:55:00.182 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:55:00.492 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:55:00.888 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:55:01.218 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:55:01.459 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - login page	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:55:01.683 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information/agree&information_id=3	=> Not a broken link
+17:55:01.923 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Login	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:55:02.187 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:55:02.379 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Forgotten Password	https://tutorialsninja.com/demo/index.php?route=account/forgotten	=> Not a broken link
+17:55:02.700 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:55:03.016 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Address Book	https://tutorialsninja.com/demo/index.php?route=account/address	=> Not a broken link
+17:55:03.380 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:55:03.710 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:55:04.028 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Downloads	https://tutorialsninja.com/demo/index.php?route=account/download	=> Not a broken link
+17:55:04.460 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Recurring payments	https://tutorialsninja.com/demo/index.php?route=account/recurring	=> Not a broken link
+17:55:04.790 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Reward Points	https://tutorialsninja.com/demo/index.php?route=account/reward	=> Not a broken link
+17:55:05.119 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return	=> Not a broken link
+17:55:05.477 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Transactions	https://tutorialsninja.com/demo/index.php?route=account/transaction	=> Not a broken link
+17:55:05.847 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:55:06.023 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - About Us	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4	=> Not a broken link
+17:55:06.186 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Delivery Information	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6	=> Not a broken link
+17:55:06.383 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3	=> Not a broken link
+17:55:06.575 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Terms & Conditions	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5	=> Not a broken link
+17:55:06.790 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Contact Us	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:55:07.018 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return/add	=> Not a broken link
+17:55:07.211 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Site Map	https://tutorialsninja.com/demo/index.php?route=information/sitemap	=> Not a broken link
+17:55:07.428 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Brands	https://tutorialsninja.com/demo/index.php?route=product/manufacturer	=> Not a broken link
+17:55:07.649 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Gift Certificates	https://tutorialsninja.com/demo/index.php?route=account/voucher	=> Not a broken link
+17:55:07.881 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Affiliate	https://tutorialsninja.com/demo/index.php?route=affiliate/login	=> Not a broken link
+17:55:08.203 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Specials	https://tutorialsninja.com/demo/index.php?route=product/special	=> Not a broken link
+17:55:08.612 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:55:08.955 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:55:09.325 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:55:09.650 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:55:09.734 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart	http://www.opencart.com/	(Broken link)
+17:55:11.808 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
+17:55:11.808 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Finished TC_RF_023_AccountRegistrationPageLinksTest *******
+17:57:10.229 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+17:57:10.551 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links: 81
+17:57:10.891 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:57:11.288 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:57:11.520 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:57:11.739 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:57:12.097 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List (0)	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:57:12.330 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Shopping Cart	https://tutorialsninja.com/demo/index.php?route=checkout/cart	=> Not a broken link
+17:57:12.637 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Checkout	https://tutorialsninja.com/demo/index.php?route=checkout/checkout	=> Not a broken link
+17:57:12.857 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Qafox.com	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:57:13.112 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Desktops	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:57:13.302 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_26	=> Not a broken link
+17:57:13.633 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_27	=> Not a broken link
+17:57:14.084 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:57:14.342 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Laptops & Notebooks	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:57:14.586 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_46	=> Not a broken link
+17:57:14.829 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_45	=> Not a broken link
+17:57:15.095 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:57:15.367 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Components	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:57:15.739 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_29	=> Not a broken link
+17:57:16.088 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_28	=> Not a broken link
+17:57:16.472 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_30	=> Not a broken link
+17:57:16.767 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_31	=> Not a broken link
+17:57:17.046 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_32	=> Not a broken link
+17:57:18.110 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:57:19.124 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Tablets	https://tutorialsninja.com/demo/index.php?route=product/category&path=57	=> Not a broken link
+17:57:20.197 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Software	https://tutorialsninja.com/demo/index.php?route=product/category&path=17	=> Not a broken link
+17:57:21.116 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Phones & PDAs	https://tutorialsninja.com/demo/index.php?route=product/category&path=24	=> Not a broken link
+17:57:21.916 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Cameras	https://tutorialsninja.com/demo/index.php?route=product/category&path=33	=> Not a broken link
+17:57:22.374 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - MP3 Players	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:57:22.790 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_43	=> Not a broken link
+17:57:23.205 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_44	=> Not a broken link
+17:57:23.460 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_47	=> Not a broken link
+17:57:23.769 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_48	=> Not a broken link
+17:57:24.154 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_49	=> Not a broken link
+17:57:24.445 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_50	=> Not a broken link
+17:57:24.660 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_51	=> Not a broken link
+17:57:24.891 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_52	=> Not a broken link
+17:57:25.160 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_53	=> Not a broken link
+17:57:25.421 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_54	=> Not a broken link
+17:57:25.635 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_55	=> Not a broken link
+17:57:25.886 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_56	=> Not a broken link
+17:57:26.105 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_38	=> Not a broken link
+17:57:26.317 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_37	=> Not a broken link
+17:57:26.568 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_39	=> Not a broken link
+17:57:26.817 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_40	=> Not a broken link
+17:57:27.055 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_41	=> Not a broken link
+17:57:27.327 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_42	=> Not a broken link
+17:57:27.570 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:57:27.846 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:57:28.267 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:57:28.532 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:57:28.727 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - login page	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:57:28.867 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information/agree&information_id=3	=> Not a broken link
+17:57:29.061 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Login	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:57:29.285 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:57:29.490 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Forgotten Password	https://tutorialsninja.com/demo/index.php?route=account/forgotten	=> Not a broken link
+17:57:29.827 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:57:30.196 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Address Book	https://tutorialsninja.com/demo/index.php?route=account/address	=> Not a broken link
+17:57:30.568 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:57:30.958 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:57:31.282 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Downloads	https://tutorialsninja.com/demo/index.php?route=account/download	=> Not a broken link
+17:57:31.655 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Recurring payments	https://tutorialsninja.com/demo/index.php?route=account/recurring	=> Not a broken link
+17:57:31.996 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Reward Points	https://tutorialsninja.com/demo/index.php?route=account/reward	=> Not a broken link
+17:57:32.375 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return	=> Not a broken link
+17:57:32.733 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Transactions	https://tutorialsninja.com/demo/index.php?route=account/transaction	=> Not a broken link
+17:57:33.105 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:57:33.283 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - About Us	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4	=> Not a broken link
+17:57:33.533 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Delivery Information	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6	=> Not a broken link
+17:57:33.732 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3	=> Not a broken link
+17:57:33.963 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Terms & Conditions	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5	=> Not a broken link
+17:57:34.187 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Contact Us	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:57:34.385 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return/add	=> Not a broken link
+17:57:34.615 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Site Map	https://tutorialsninja.com/demo/index.php?route=information/sitemap	=> Not a broken link
+17:57:34.835 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Brands	https://tutorialsninja.com/demo/index.php?route=product/manufacturer	=> Not a broken link
+17:57:35.039 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Gift Certificates	https://tutorialsninja.com/demo/index.php?route=account/voucher	=> Not a broken link
+17:57:35.351 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Affiliate	https://tutorialsninja.com/demo/index.php?route=affiliate/login	=> Not a broken link
+17:57:35.614 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Specials	https://tutorialsninja.com/demo/index.php?route=product/special	=> Not a broken link
+17:57:35.951 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:57:36.298 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:57:36.744 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:57:37.066 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:57:37.176 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart	http://www.opencart.com/	(Broken link)
+17:57:39.223 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
+17:57:39.223 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Finished TC_RF_023_AccountRegistrationPageLinksTest *******
+17:58:57.745 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+17:58:58.242 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links: 81
+17:58:59.104 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:58:59.678 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:58:59.956 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:59:00.295 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:59:00.672 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List (0)	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:59:00.873 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Shopping Cart	https://tutorialsninja.com/demo/index.php?route=checkout/cart	=> Not a broken link
+17:59:01.204 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Checkout	https://tutorialsninja.com/demo/index.php?route=checkout/checkout	=> Not a broken link
+17:59:01.425 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Qafox.com	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:59:01.771 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Desktops	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:59:02.058 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_26	=> Not a broken link
+17:59:02.473 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_27	=> Not a broken link
+17:59:02.928 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+17:59:03.149 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Laptops & Notebooks	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:59:03.423 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_46	=> Not a broken link
+17:59:03.653 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_45	=> Not a broken link
+17:59:03.913 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+17:59:04.118 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Components	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:59:04.370 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_29	=> Not a broken link
+17:59:04.617 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_28	=> Not a broken link
+17:59:04.823 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_30	=> Not a broken link
+17:59:05.039 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_31	=> Not a broken link
+17:59:05.238 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_32	=> Not a broken link
+17:59:05.458 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+17:59:05.689 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Tablets	https://tutorialsninja.com/demo/index.php?route=product/category&path=57	=> Not a broken link
+17:59:05.883 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Software	https://tutorialsninja.com/demo/index.php?route=product/category&path=17	=> Not a broken link
+17:59:06.123 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Phones & PDAs	https://tutorialsninja.com/demo/index.php?route=product/category&path=24	=> Not a broken link
+17:59:06.424 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Cameras	https://tutorialsninja.com/demo/index.php?route=product/category&path=33	=> Not a broken link
+17:59:06.660 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - MP3 Players	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:59:06.906 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_43	=> Not a broken link
+17:59:07.121 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_44	=> Not a broken link
+17:59:07.349 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_47	=> Not a broken link
+17:59:07.571 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_48	=> Not a broken link
+17:59:07.784 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_49	=> Not a broken link
+17:59:08.035 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_50	=> Not a broken link
+17:59:08.296 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_51	=> Not a broken link
+17:59:08.536 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_52	=> Not a broken link
+17:59:08.765 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_53	=> Not a broken link
+17:59:09.015 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_54	=> Not a broken link
+17:59:09.283 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_55	=> Not a broken link
+17:59:09.506 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_56	=> Not a broken link
+17:59:09.731 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_38	=> Not a broken link
+17:59:10.017 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_37	=> Not a broken link
+17:59:10.269 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_39	=> Not a broken link
+17:59:10.569 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_40	=> Not a broken link
+17:59:10.832 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_41	=> Not a broken link
+17:59:11.087 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_42	=> Not a broken link
+17:59:11.296 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+17:59:11.610 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+17:59:12.065 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:59:12.263 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:59:12.458 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - login page	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:59:12.619 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information/agree&information_id=3	=> Not a broken link
+17:59:13.129 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Login	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+17:59:13.622 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+17:59:13.809 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Forgotten Password	https://tutorialsninja.com/demo/index.php?route=account/forgotten	=> Not a broken link
+17:59:14.293 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:59:14.632 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Address Book	https://tutorialsninja.com/demo/index.php?route=account/address	=> Not a broken link
+17:59:14.951 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:59:15.316 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:59:15.702 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Downloads	https://tutorialsninja.com/demo/index.php?route=account/download	=> Not a broken link
+17:59:16.043 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Recurring payments	https://tutorialsninja.com/demo/index.php?route=account/recurring	=> Not a broken link
+17:59:16.370 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Reward Points	https://tutorialsninja.com/demo/index.php?route=account/reward	=> Not a broken link
+17:59:16.744 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return	=> Not a broken link
+17:59:17.440 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Transactions	https://tutorialsninja.com/demo/index.php?route=account/transaction	=> Not a broken link
+17:59:17.990 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:59:18.268 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - About Us	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4	=> Not a broken link
+17:59:18.528 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Delivery Information	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6	=> Not a broken link
+17:59:18.777 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3	=> Not a broken link
+17:59:19.021 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Terms & Conditions	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5	=> Not a broken link
+17:59:19.292 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Contact Us	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+17:59:19.600 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return/add	=> Not a broken link
+17:59:19.863 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Site Map	https://tutorialsninja.com/demo/index.php?route=information/sitemap	=> Not a broken link
+17:59:20.094 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Brands	https://tutorialsninja.com/demo/index.php?route=product/manufacturer	=> Not a broken link
+17:59:20.329 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Gift Certificates	https://tutorialsninja.com/demo/index.php?route=account/voucher	=> Not a broken link
+17:59:20.562 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Affiliate	https://tutorialsninja.com/demo/index.php?route=affiliate/login	=> Not a broken link
+17:59:20.775 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Specials	https://tutorialsninja.com/demo/index.php?route=product/special	=> Not a broken link
+17:59:21.140 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+17:59:21.541 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+17:59:21.897 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+17:59:22.271 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+17:59:22.378 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart	http://www.opencart.com/	(Broken link)
+17:59:24.476 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
+17:59:24.476 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Finished TC_RF_023_AccountRegistrationPageLinksTest *******
+18:00:33.021 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+18:00:36.501 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links: 81
+18:00:37.761 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+18:00:40.563 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+18:00:42.633 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+18:00:44.302 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+18:00:46.687 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List (0)	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+18:00:48.031 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Shopping Cart	https://tutorialsninja.com/demo/index.php?route=checkout/cart	=> Not a broken link
+18:00:49.583 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Checkout	https://tutorialsninja.com/demo/index.php?route=checkout/checkout	=> Not a broken link
+18:00:50.374 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Qafox.com	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+18:00:51.833 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Desktops	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+18:00:53.003 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_26	=> Not a broken link
+18:00:54.843 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20_27	=> Not a broken link
+18:00:57.516 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=20	=> Not a broken link
+18:00:59.600 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Laptops & Notebooks	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+18:00:59.929 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_46	=> Not a broken link
+18:01:00.343 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18_45	=> Not a broken link
+18:01:00.675 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=18	=> Not a broken link
+18:01:01.037 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Components	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+18:01:01.584 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_29	=> Not a broken link
+18:01:01.994 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_28	=> Not a broken link
+18:01:02.480 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_30	=> Not a broken link
+18:01:02.831 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_31	=> Not a broken link
+18:01:03.717 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25_32	=> Not a broken link
+18:01:04.075 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=25	=> Not a broken link
+18:01:04.374 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Tablets	https://tutorialsninja.com/demo/index.php?route=product/category&path=57	=> Not a broken link
+18:01:04.785 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Software	https://tutorialsninja.com/demo/index.php?route=product/category&path=17	=> Not a broken link
+18:01:05.194 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Phones & PDAs	https://tutorialsninja.com/demo/index.php?route=product/category&path=24	=> Not a broken link
+18:01:05.543 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Cameras	https://tutorialsninja.com/demo/index.php?route=product/category&path=33	=> Not a broken link
+18:01:05.938 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - MP3 Players	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+18:01:06.284 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_43	=> Not a broken link
+18:01:06.688 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_44	=> Not a broken link
+18:01:07.496 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_47	=> Not a broken link
+18:01:08.156 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_48	=> Not a broken link
+18:01:08.625 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_49	=> Not a broken link
+18:01:09.045 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_50	=> Not a broken link
+18:01:09.444 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_51	=> Not a broken link
+18:01:09.813 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_52	=> Not a broken link
+18:01:10.258 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_53	=> Not a broken link
+18:01:10.498 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_54	=> Not a broken link
+18:01:10.768 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_55	=> Not a broken link
+18:01:11.046 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_56	=> Not a broken link
+18:01:11.322 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_38	=> Not a broken link
+18:01:11.595 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_37	=> Not a broken link
+18:01:11.857 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_39	=> Not a broken link
+18:01:12.107 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_40	=> Not a broken link
+18:01:12.351 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_41	=> Not a broken link
+18:01:12.600 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34_42	=> Not a broken link
+18:01:12.912 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=product/category&path=34	=> Not a broken link
+18:01:13.178 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - 	https://tutorialsninja.com/demo/index.php?route=common/home	=> Not a broken link
+18:01:13.563 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+18:01:13.776 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+18:01:13.979 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - login page	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+18:01:14.161 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information/agree&information_id=3	=> Not a broken link
+18:01:14.445 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Login	https://tutorialsninja.com/demo/index.php?route=account/login	=> Not a broken link
+18:01:14.689 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Register	https://tutorialsninja.com/demo/index.php?route=account/register	=> Not a broken link
+18:01:14.891 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Forgotten Password	https://tutorialsninja.com/demo/index.php?route=account/forgotten	=> Not a broken link
+18:01:15.238 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+18:01:15.606 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Address Book	https://tutorialsninja.com/demo/index.php?route=account/address	=> Not a broken link
+18:01:15.977 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+18:01:16.321 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+18:01:16.697 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Downloads	https://tutorialsninja.com/demo/index.php?route=account/download	=> Not a broken link
+18:01:17.115 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Recurring payments	https://tutorialsninja.com/demo/index.php?route=account/recurring	=> Not a broken link
+18:01:17.658 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Reward Points	https://tutorialsninja.com/demo/index.php?route=account/reward	=> Not a broken link
+18:01:18.201 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return	=> Not a broken link
+18:01:18.732 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Transactions	https://tutorialsninja.com/demo/index.php?route=account/transaction	=> Not a broken link
+18:01:19.169 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+18:01:19.386 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - About Us	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4	=> Not a broken link
+18:01:19.612 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Delivery Information	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6	=> Not a broken link
+18:01:19.833 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Privacy Policy	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3	=> Not a broken link
+18:01:20.063 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Terms & Conditions	https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5	=> Not a broken link
+18:01:20.330 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Contact Us	https://tutorialsninja.com/demo/index.php?route=information/contact	=> Not a broken link
+18:01:20.659 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Returns	https://tutorialsninja.com/demo/index.php?route=account/return/add	=> Not a broken link
+18:01:20.910 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Site Map	https://tutorialsninja.com/demo/index.php?route=information/sitemap	=> Not a broken link
+18:01:21.194 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Brands	https://tutorialsninja.com/demo/index.php?route=product/manufacturer	=> Not a broken link
+18:01:21.486 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Gift Certificates	https://tutorialsninja.com/demo/index.php?route=account/voucher	=> Not a broken link
+18:01:21.774 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Affiliate	https://tutorialsninja.com/demo/index.php?route=affiliate/login	=> Not a broken link
+18:01:22.028 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Specials	https://tutorialsninja.com/demo/index.php?route=product/special	=> Not a broken link
+18:01:22.470 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - My Account	https://tutorialsninja.com/demo/index.php?route=account/account	=> Not a broken link
+18:01:22.875 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Order History	https://tutorialsninja.com/demo/index.php?route=account/order	=> Not a broken link
+18:01:23.269 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Wish List	https://tutorialsninja.com/demo/index.php?route=account/wishlist	=> Not a broken link
+18:01:23.633 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Newsletter	https://tutorialsninja.com/demo/index.php?route=account/newsletter	=> Not a broken link
+18:01:23.710 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart	403	http://www.opencart.com/	(Broken link)
+18:01:23.710 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
+18:01:23.710 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Finished TC_RF_023_AccountRegistrationPageLinksTest *******
+18:05:47.402 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+18:05:47.743 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links: 81
+18:06:08.110 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart	403	http://www.opencart.com/	(Broken link)
+18:06:08.110 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
