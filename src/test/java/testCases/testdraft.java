@@ -4,6 +4,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -25,61 +26,64 @@ public class testdraft {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://tutorialsninja.com/demo/index.php?route=account/register");
 
-		//capture all the links from the webpage
+		
+		driver.quit();
+	}
+
+	void broken_link_check() {
+		// capture all the links from the webpage
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println("Total number of links: " + links.size());
-		
+
 		int noOfBrokenLink = 0;
-		
-		for(WebElement l : links) {
-			
-			String hrefAttrValue = l.getAttribute("href"); 
-			
-			if(hrefAttrValue==null|| hrefAttrValue.isEmpty()) {
+
+		for (WebElement l : links) {
+
+			String hrefAttrValue = l.getAttribute("href");
+
+			if (hrefAttrValue == null || hrefAttrValue.isEmpty()) {
 				System.out.println(l.getText() + "href attribute value is empty => Impossible to check");
 				continue;
 			}
-			
-			
-			//hit the URL to the server
+
+			// hit the URL to the server
 			try {
-				
-				URL linkURL = new URL(hrefAttrValue); //converted href value from string to URL format
-				HttpURLConnection conn = (HttpURLConnection)linkURL.openConnection(); //open connection to the server
-				conn.connect(); //connect to server and send request to the server
-			
-				if(conn.getResponseCode()>= 400) {
-					System.out.println(l.getText() + "	" + conn.getResponseCode() + "	" + hrefAttrValue + "	(Broken link)");
+
+				URL linkURL = new URL(hrefAttrValue); // converted href value from string to URL format
+				HttpURLConnection conn = (HttpURLConnection) linkURL.openConnection(); // open connection to the server
+				conn.connect(); // connect to server and send request to the server
+
+				if (conn.getResponseCode() >= 400) {
+					System.out.println(
+							l.getText() + "	" + conn.getResponseCode() + "	" + hrefAttrValue + "	(Broken link)");
 					noOfBrokenLink++;
-				}else {
-					System.out.println(l.getText() + "	" + hrefAttrValue+ "	=> Not a broken link");
+				} else {
+					System.out.println(l.getText() + "	" + hrefAttrValue + "	=> Not a broken link");
 				}
-				
-			} catch (Exception e) {}
-	
+
+			} catch (Exception e) {
+			}
+
 		}
-		
+
 		System.out.println("Number of broken links: " + noOfBrokenLink);
-		
-		
 
 	}
-	
+
 	void check_covered_password() {
 		WebElement input = driver.findElement(By.xpath("//input[@id='input-password']"));
 		input.sendKeys("123125dgf");
-		
+
 		// Check if the CSS forces password masking symbols visually
 		String textSecurity = input.getCssValue("-webkit-text-security");
 
 		if ("disc".equals(textSecurity) || "circle".equals(textSecurity) || "square".equals(textSecurity)) {
-		    System.out.println("The text is visually masked by CSS.");
+			System.out.println("The text is visually masked by CSS.");
 		}
 	}
-	
-	
+
 	void store_null_element_attribute() {
-		
+
 		String s = driver.findElement(By.xpath("//input[@id='input-firstname']")).getAttribute("placeholder");
 		String s1 = driver.findElement(By.xpath("//input[@id='input-lastname']")).getAttribute("placeholder");
 		String s3 = null;
@@ -90,9 +94,8 @@ public class testdraft {
 		placeholders.add(s3);
 
 		System.out.println(placeholders.toString());
-		
+
 	}
-	
 
 	void get_pseudo_element_content() {
 

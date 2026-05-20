@@ -8,6 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validate_registration_with_invalid_phone_number"/>
+        </methods>
+      </class> <!-- testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest -->
       <class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest">
         <methods>
           <include name="tearDown"/>
@@ -15,6 +22,27 @@
           <include name="validate_on_page_links"/>
         </methods>
       </class> <!-- testCases.TC_RF_023_AccountRegistrationPageLinksTest -->
+      <class name="testCases.TC_RF_016_SpaceInputRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validate_registration_with_space_input"/>
+        </methods>
+      </class> <!-- testCases.TC_RF_016_SpaceInputRegistrationTest -->
+      <class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_account_registration_with_leading_trailing"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest -->
+      <class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_password_complexity_standards"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_RF_017_PasswordComplexityRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

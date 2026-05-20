@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 19 18:05:45 GMT+07:00 2026</td>
+<td>Started on:</td><td>Wed May 20 18:19:41 GMT+07:00 2026</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22823 ms)</td>
+<tr><td>Total time:</td><td>108 seconds (108430 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,13 +77,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testCases.TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links()'><b>validate_on_page_links</b><br>Test class: testCases.TC_RF_023_AccountRegistrationPageLinksTest</td>
-<td><div><pre>java.lang.AssertionError: null
+<td><div><pre>java.lang.AssertionError: Broken links detected!  expected [true] but found [false]
 	at testCases.TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links(TC_RF_023_AccountRegistrationPageLinksTest.java:66)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace447477005", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace447477005'><pre>java.lang.AssertionError: null
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace197711499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace197711499'><pre>java.lang.AssertionError: Broken links detected!  expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
 	at testCases.TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links(TC_RF_023_AccountRegistrationPageLinksTest.java:66)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
@@ -112,8 +113,240 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>20</td>
-<td>testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55</td></tr>
+<td>21</td>
+<td>testCases.TC_RF_023_AccountRegistrationPageLinksTest@52bf72b5</td></tr>
+<tr>
+<td title='testCases.TC_RF_016_SpaceInputRegistrationTest.validate_registration_with_space_input()'><b>validate_registration_with_space_input</b><br>Test class: testCases.TC_RF_016_SpaceInputRegistrationTest</td>
+<td><div><pre>java.lang.AssertionError: One or more warning was not displayed expected [true] but found [false]
+	at testCases.TC_RF_016_SpaceInputRegistrationTest.validate_registration_with_space_input(TC_RF_016_SpaceInputRegistrationTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace258027623", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace258027623'><pre>java.lang.AssertionError: One or more warning was not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_RF_016_SpaceInputRegistrationTest.validate_registration_with_space_input(TC_RF_016_SpaceInputRegistrationTest.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>11</td>
+<td>testCases.TC_RF_016_SpaceInputRegistrationTest@7ec7ffd3</td></tr>
+<tr>
+<td title='testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest.validate_registration_with_invalid_phone_number()'><b>validate_registration_with_invalid_phone_number</b><br>Test class: testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest</td>
+<td><div><pre>java.lang.AssertionError: test failed with one invalid phone number available!
+	at testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest.validate_registration_with_invalid_phone_number(TC_RF_011_InvalidPhoneNumberRegistrationTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace328314683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace328314683'><pre>java.lang.AssertionError: test failed with one invalid phone number available!
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest.validate_registration_with_invalid_phone_number(TC_RF_011_InvalidPhoneNumberRegistrationTest.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest@12468a38</td></tr>
+<tr>
+<td title='testCases.TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards()'><b>verify_password_complexity_standards</b><br>Test class: testCases.TC_RF_017_PasswordComplexityRegistrationTest</td>
+<td><div><pre>java.lang.AssertionError: Account registration bypassed with invalid password! 12345 expected [true] but found [false]
+	at testCases.TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards(TC_RF_017_PasswordComplexityRegistrationTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1259950595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1259950595'><pre>java.lang.AssertionError: Account registration bypassed with invalid password! 12345 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards(TC_RF_017_PasswordComplexityRegistrationTest.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>testCases.TC_RF_017_PasswordComplexityRegistrationTest@5b239d7d</td></tr>
+<tr>
+<td title='testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.verify_account_registration_with_leading_trailing()'><b>verify_account_registration_with_leading_trailing</b><br>Test class: testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest</td>
+<td><div><pre>java.lang.AssertionError: An info contains untrimmed spaces:    MYOOB    | expected [true] but found [false]
+	at testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.verify_account_registration_with_leading_trailing(TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1402751024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1402751024'><pre>java.lang.AssertionError: An info contains untrimmed spaces:    MYOOB    | expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.verify_account_registration_with_leading_trailing(TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest@6572421</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating()'><b>verify_different_ways_of_navigating</b><br>Test class: testCases.TC_RF_007_RegisterAccountPageNavigatingTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_RF_007_RegisterAccountPageNavigatingTest@6379eb</td></tr>
+<tr>
+<td title='testCases.TC_RF_013_FieldsPlaceholderTest.validate_fields_placeholder()'><b>validate_fields_placeholder</b><br>Test class: testCases.TC_RF_013_FieldsPlaceholderTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_RF_013_FieldsPlaceholderTest@59309333</td></tr>
+<tr>
+<td title='testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest.validate_registration_without_checking_privacy_policy_checkbox()'><b>validate_registration_without_checking_privacy_policy_checkbox</b><br>Test class: testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest@2a798d51</td></tr>
+<tr>
+<td title='testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()'><b>validate_breadcrumbs_heading_url_title</b><br>Test class: testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest@515aebb0</td></tr>
+<tr>
+<td title='testCases.TC_RF_008_ConfirmPasswordTest.validate_different_confirm_password()'><b>validate_different_confirm_password</b><br>Test class: testCases.TC_RF_008_ConfirmPasswordTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_RF_008_ConfirmPasswordTest@294425a7</td></tr>
+<tr>
+<td title='testCases.TC_RF_009_UsedEmailRegistrationTest.validate_registration_with_used_email()'><b>validate_registration_with_used_email</b><br>Test class: testCases.TC_RF_009_UsedEmailRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_RF_009_UsedEmailRegistrationTest@67d48005</td></tr>
+<tr>
+<td title='testCases.TC_RF_010_InvalidEmailRegistrationTest.validate_registration_with_invalid_email()'><b>validate_registration_with_invalid_email</b><br>Test class: testCases.TC_RF_010_InvalidEmailRegistrationTest</td>
+<td></td>
+<td>31</td>
+<td>testCases.TC_RF_010_InvalidEmailRegistrationTest@9f116cc</td></tr>
+<tr>
+<td title='testCases.TC_RF_022_PasswordFieldsCoveringTest.validate_password_fields_is_hidden()'><b>validate_password_fields_is_hidden</b><br>Test class: testCases.TC_RF_022_PasswordFieldsCoveringTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_RF_022_PasswordFieldsCoveringTest@6d763516</td></tr>
+<tr>
+<td title='testCases.TC_RF_014_RequiredMarkTest.validate_required_field_asterisk()'><b>validate_required_field_asterisk</b><br>Test class: testCases.TC_RF_014_RequiredMarkTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_RF_014_RequiredMarkTest@5876a9af</td></tr>
+<tr>
+<td title='testCases.TC_RF_020_PolicyCheckboxTest.validate_policy_checkbox_status()'><b>validate_policy_checkbox_status</b><br>Test class: testCases.TC_RF_020_PolicyCheckboxTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_RF_020_PolicyCheckboxTest@6b81ce95</td></tr>
+<tr>
+<td title='testCases.TC_RF_004_WarningMessageTest.verify_required_field_warning()'><b>verify_required_field_warning</b><br>Test class: testCases.TC_RF_004_WarningMessageTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_RF_004_WarningMessageTest@4fb0f2b9</td></tr>
+<tr>
+<td title='testCases.TC_RF_012_KeyboardKeysRegistrationTest.validate_registration_with_Keyboard()'><b>validate_registration_with_Keyboard</b><br>Test class: testCases.TC_RF_012_KeyboardKeysRegistrationTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC_RF_012_KeyboardKeysRegistrationTest@1aa7ecca</td></tr>
+<tr>
+<td title='testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest.validate_registration_without_filling_passwordConfirm()'><b>validate_registration_without_filling_passwordConfirm</b><br>Test class: testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest@37afeb11</td></tr>
 </table><p>
 </body>
 </html>

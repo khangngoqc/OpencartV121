@@ -52,7 +52,7 @@ public class TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest extends Bas
 			for(String s : infoFields) {
 				if (s.contains(" ")) {
 					logger.debug("An info contains untrimmed spaces: " + s);
-					Assert.fail();
+					Assert.assertTrue(false, "An info contains untrimmed spaces: " + s +" |");
 					break;
 					
 				}

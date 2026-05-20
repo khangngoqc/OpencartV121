@@ -22,12 +22,15 @@ public class AccountRegistrationPage extends BasePage {
 	WebElement txtPassword;
 	@FindBy(xpath = "//input[@id='input-confirm']")
 	WebElement txtPasswordConfirm;
+	
+
 	@FindBy(xpath = "//input[@name='agree']")
 	WebElement chkPrivacyPolicy;
 	@FindBy(xpath = "//input[@value='Continue']")
 	WebElement btnContinue;
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement confMsg;
+	@FindBy(xpath="//h1[normalize-space()='Register Account']") WebElement pageHeading;
 
 	//warning locators
 	@FindBy(xpath="//div[contains(text(),'First Name must be between 1 and 32 characters!')]") WebElement firstNameWarning;
@@ -75,7 +78,6 @@ public class AccountRegistrationPage extends BasePage {
 	public void clearEmail() {
 		txtEmail.clear();;
 	}
-
 	
 	public void setTelephone(String phone) {
 		txtTelephone.sendKeys(phone);
@@ -274,8 +276,14 @@ public class AccountRegistrationPage extends BasePage {
 		return UsedEmailWarning;
 	}
 	
+	
+	
 	public WebElement getPuPrivacyPolicyHeading() {
 		return puPrivacyPolicyHeading;
+	}
+	
+	public WebElement getPageHeading() {
+		return pageHeading;
 	}
 
 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_RF_022_PasswordFieldsCoveringTest">
+      <class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest">
         <methods>
           <include name="tearDown"/>
+          <include name="validate_registration_without_filling_passwordConfirm"/>
           <include name="setup"/>
-          <include name="validate_password_fields_is_hidden"/>
         </methods>
-      </class> <!-- testCases.TC_RF_022_PasswordFieldsCoveringTest -->
+      </class> <!-- testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

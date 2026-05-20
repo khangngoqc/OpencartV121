@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="18" passed="13" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T18:05:45 GMT+07:00" name="Master Suite" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="22823">
+  <suite started-at="2026-05-20T18:19:41 GMT+07:00" name="Master Suite" finished-at="2026-05-20T18:21:29 GMT+07:00" duration-ms="108430">
     <groups>
+      <group name="Master">
+        <method signature="TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@5b239d7d]" name="verify_password_complexity_standards" class="testCases.TC_RF_017_PasswordComplexityRegistrationTest"/>
+      </group> <!-- Master -->
+      <group name="registration">
+        <method signature="TC_RF_013_FieldsPlaceholderTest.validate_fields_placeholder()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@59309333]" name="validate_fields_placeholder" class="testCases.TC_RF_013_FieldsPlaceholderTest"/>
+      </group> <!-- registration -->
       <group name="register">
-        <method signature="TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" name="validate_on_page_links" class="testCases.TC_RF_023_AccountRegistrationPageLinksTest"/>
+        <method signature="TC_RF_004_WarningMessageTest.verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@4fb0f2b9]" name="verify_required_field_warning" class="testCases.TC_RF_004_WarningMessageTest"/>
+        <method signature="TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@6379eb]" name="verify_different_ways_of_navigating" class="testCases.TC_RF_007_RegisterAccountPageNavigatingTest"/>
+        <method signature="TC_RF_008_ConfirmPasswordTest.validate_different_confirm_password()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@294425a7]" name="validate_different_confirm_password" class="testCases.TC_RF_008_ConfirmPasswordTest"/>
+        <method signature="TC_RF_009_UsedEmailRegistrationTest.validate_registration_with_used_email()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@67d48005]" name="validate_registration_with_used_email" class="testCases.TC_RF_009_UsedEmailRegistrationTest"/>
+        <method signature="TC_RF_010_InvalidEmailRegistrationTest.validate_registration_with_invalid_email()[pri:0, instance:testCases.TC_RF_010_InvalidEmailRegistrationTest@9f116cc]" name="validate_registration_with_invalid_email" class="testCases.TC_RF_010_InvalidEmailRegistrationTest"/>
+        <method signature="TC_RF_011_InvalidPhoneNumberRegistrationTest.validate_registration_with_invalid_phone_number()[pri:0, instance:testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest@12468a38]" name="validate_registration_with_invalid_phone_number" class="testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest"/>
+        <method signature="TC_RF_012_KeyboardKeysRegistrationTest.validate_registration_with_Keyboard()[pri:0, instance:testCases.TC_RF_012_KeyboardKeysRegistrationTest@1aa7ecca]" name="validate_registration_with_Keyboard" class="testCases.TC_RF_012_KeyboardKeysRegistrationTest"/>
+        <method signature="TC_RF_014_RequiredMarkTest.validate_required_field_asterisk()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@5876a9af]" name="validate_required_field_asterisk" class="testCases.TC_RF_014_RequiredMarkTest"/>
+        <method signature="TC_RF_016_SpaceInputRegistrationTest.validate_registration_with_space_input()[pri:0, instance:testCases.TC_RF_016_SpaceInputRegistrationTest@7ec7ffd3]" name="validate_registration_with_space_input" class="testCases.TC_RF_016_SpaceInputRegistrationTest"/>
+        <method signature="TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@5b239d7d]" name="verify_password_complexity_standards" class="testCases.TC_RF_017_PasswordComplexityRegistrationTest"/>
+        <method signature="TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.verify_account_registration_with_leading_trailing()[pri:0, instance:testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest@6572421]" name="verify_account_registration_with_leading_trailing" class="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"/>
+        <method signature="TC_RF_020_PolicyCheckboxTest.validate_policy_checkbox_status()[pri:0, instance:testCases.TC_RF_020_PolicyCheckboxTest@6b81ce95]" name="validate_policy_checkbox_status" class="testCases.TC_RF_020_PolicyCheckboxTest"/>
+        <method signature="TC_RF_021_UncheckedPrivacyPolicyRegistrationTest.validate_registration_without_checking_privacy_policy_checkbox()[pri:0, instance:testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest@2a798d51]" name="validate_registration_without_checking_privacy_policy_checkbox" class="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"/>
+        <method signature="TC_RF_022_PasswordFieldsCoveringTest.validate_password_fields_is_hidden()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@6d763516]" name="validate_password_fields_is_hidden" class="testCases.TC_RF_022_PasswordFieldsCoveringTest"/>
+        <method signature="TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@52bf72b5]" name="validate_on_page_links" class="testCases.TC_RF_023_AccountRegistrationPageLinksTest"/>
+        <method signature="TC_RF_024_RegistrationWithoutConfirmPasswordTest.validate_registration_without_filling_passwordConfirm()[pri:0, instance:testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest@37afeb11]" name="validate_registration_without_filling_passwordConfirm" class="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"/>
+        <method signature="TC_RF_025_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest@515aebb0]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"/>
       </group> <!-- register -->
       <group name="master">
-        <method signature="TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" name="validate_on_page_links" class="testCases.TC_RF_023_AccountRegistrationPageLinksTest"/>
+        <method signature="TC_RF_004_WarningMessageTest.verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@4fb0f2b9]" name="verify_required_field_warning" class="testCases.TC_RF_004_WarningMessageTest"/>
+        <method signature="TC_RF_007_RegisterAccountPageNavigatingTest.verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@6379eb]" name="verify_different_ways_of_navigating" class="testCases.TC_RF_007_RegisterAccountPageNavigatingTest"/>
+        <method signature="TC_RF_008_ConfirmPasswordTest.validate_different_confirm_password()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@294425a7]" name="validate_different_confirm_password" class="testCases.TC_RF_008_ConfirmPasswordTest"/>
+        <method signature="TC_RF_009_UsedEmailRegistrationTest.validate_registration_with_used_email()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@67d48005]" name="validate_registration_with_used_email" class="testCases.TC_RF_009_UsedEmailRegistrationTest"/>
+        <method signature="TC_RF_010_InvalidEmailRegistrationTest.validate_registration_with_invalid_email()[pri:0, instance:testCases.TC_RF_010_InvalidEmailRegistrationTest@9f116cc]" name="validate_registration_with_invalid_email" class="testCases.TC_RF_010_InvalidEmailRegistrationTest"/>
+        <method signature="TC_RF_011_InvalidPhoneNumberRegistrationTest.validate_registration_with_invalid_phone_number()[pri:0, instance:testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest@12468a38]" name="validate_registration_with_invalid_phone_number" class="testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest"/>
+        <method signature="TC_RF_012_KeyboardKeysRegistrationTest.validate_registration_with_Keyboard()[pri:0, instance:testCases.TC_RF_012_KeyboardKeysRegistrationTest@1aa7ecca]" name="validate_registration_with_Keyboard" class="testCases.TC_RF_012_KeyboardKeysRegistrationTest"/>
+        <method signature="TC_RF_013_FieldsPlaceholderTest.validate_fields_placeholder()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@59309333]" name="validate_fields_placeholder" class="testCases.TC_RF_013_FieldsPlaceholderTest"/>
+        <method signature="TC_RF_014_RequiredMarkTest.validate_required_field_asterisk()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@5876a9af]" name="validate_required_field_asterisk" class="testCases.TC_RF_014_RequiredMarkTest"/>
+        <method signature="TC_RF_016_SpaceInputRegistrationTest.validate_registration_with_space_input()[pri:0, instance:testCases.TC_RF_016_SpaceInputRegistrationTest@7ec7ffd3]" name="validate_registration_with_space_input" class="testCases.TC_RF_016_SpaceInputRegistrationTest"/>
+        <method signature="TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.verify_account_registration_with_leading_trailing()[pri:0, instance:testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest@6572421]" name="verify_account_registration_with_leading_trailing" class="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"/>
+        <method signature="TC_RF_020_PolicyCheckboxTest.validate_policy_checkbox_status()[pri:0, instance:testCases.TC_RF_020_PolicyCheckboxTest@6b81ce95]" name="validate_policy_checkbox_status" class="testCases.TC_RF_020_PolicyCheckboxTest"/>
+        <method signature="TC_RF_021_UncheckedPrivacyPolicyRegistrationTest.validate_registration_without_checking_privacy_policy_checkbox()[pri:0, instance:testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest@2a798d51]" name="validate_registration_without_checking_privacy_policy_checkbox" class="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"/>
+        <method signature="TC_RF_022_PasswordFieldsCoveringTest.validate_password_fields_is_hidden()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@6d763516]" name="validate_password_fields_is_hidden" class="testCases.TC_RF_022_PasswordFieldsCoveringTest"/>
+        <method signature="TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@52bf72b5]" name="validate_on_page_links" class="testCases.TC_RF_023_AccountRegistrationPageLinksTest"/>
+        <method signature="TC_RF_024_RegistrationWithoutConfirmPasswordTest.validate_registration_without_filling_passwordConfirm()[pri:0, instance:testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest@37afeb11]" name="validate_registration_without_filling_passwordConfirm" class="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"/>
+        <method signature="TC_RF_025_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest@515aebb0]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-05-19T18:05:45 GMT+07:00" name="Test" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="22823">
-      <class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" started-at="2026-05-19T18:05:45 GMT+07:00" name="setup" finished-at="2026-05-19T18:05:47 GMT+07:00" duration-ms="1751" status="PASS">
+    <test started-at="2026-05-20T18:19:41 GMT+07:00" name="Test" finished-at="2026-05-20T18:21:29 GMT+07:00" duration-ms="108430">
+      <class name="testCases.TC_RF_004_WarningMessageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@4fb0f2b9]" started-at="2026-05-20T18:19:41 GMT+07:00" name="setup" finished-at="2026-05-20T18:19:43 GMT+07:00" duration-ms="2005" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +67,547 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" started-at="2026-05-19T18:05:47 GMT+07:00" name="validate_on_page_links" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="20720" status="FAIL">
+        <test-method signature="verify_required_field_warning()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@4fb0f2b9]" started-at="2026-05-20T18:19:43 GMT+07:00" name="verify_required_field_warning" finished-at="2026-05-20T18:19:44 GMT+07:00" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_required_field_warning -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004_WarningMessageTest@4fb0f2b9]" started-at="2026-05-20T18:19:44 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:19:44 GMT+07:00" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_004_WarningMessageTest -->
+      <class name="testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest@12468a38]" started-at="2026-05-20T18:20:24 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:25 GMT+07:00" duration-ms="1585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_with_invalid_phone_number()[pri:0, instance:testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest@12468a38]" started-at="2026-05-20T18:20:25 GMT+07:00" name="validate_registration_with_invalid_phone_number" finished-at="2026-05-20T18:20:30 GMT+07:00" duration-ms="4612" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[test failed with one invalid phone number available!]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
+              <![CDATA[java.lang.AssertionError: test failed with one invalid phone number available!
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest.validate_registration_with_invalid_phone_number(TC_RF_011_InvalidPhoneNumberRegistrationTest.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_with_invalid_phone_number -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest@12468a38]" started-at="2026-05-20T18:20:30 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:30 GMT+07:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest -->
+      <class name="testCases.TC_RF_012_KeyboardKeysRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_012_KeyboardKeysRegistrationTest@1aa7ecca]" started-at="2026-05-20T18:20:30 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:31 GMT+07:00" duration-ms="1371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_with_Keyboard()[pri:0, instance:testCases.TC_RF_012_KeyboardKeysRegistrationTest@1aa7ecca]" started-at="2026-05-20T18:20:31 GMT+07:00" name="validate_registration_with_Keyboard" finished-at="2026-05-20T18:20:34 GMT+07:00" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_with_Keyboard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_012_KeyboardKeysRegistrationTest@1aa7ecca]" started-at="2026-05-20T18:20:34 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:35 GMT+07:00" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_012_KeyboardKeysRegistrationTest -->
+      <class name="testCases.TC_RF_008_ConfirmPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@294425a7]" started-at="2026-05-20T18:19:46 GMT+07:00" name="setup" finished-at="2026-05-20T18:19:47 GMT+07:00" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_different_confirm_password()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@294425a7]" started-at="2026-05-20T18:19:47 GMT+07:00" name="validate_different_confirm_password" finished-at="2026-05-20T18:19:49 GMT+07:00" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_different_confirm_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_008_ConfirmPasswordTest@294425a7]" started-at="2026-05-20T18:19:49 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:19:49 GMT+07:00" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_008_ConfirmPasswordTest -->
+      <class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@6379eb]" started-at="2026-05-20T18:19:44 GMT+07:00" name="setup" finished-at="2026-05-20T18:19:45 GMT+07:00" duration-ms="1130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_different_ways_of_navigating()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@6379eb]" started-at="2026-05-20T18:19:45 GMT+07:00" name="verify_different_ways_of_navigating" finished-at="2026-05-20T18:19:46 GMT+07:00" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_different_ways_of_navigating -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_007_RegisterAccountPageNavigatingTest@6379eb]" started-at="2026-05-20T18:19:46 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:19:46 GMT+07:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_007_RegisterAccountPageNavigatingTest -->
+      <class name="testCases.TC_RF_016_SpaceInputRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_016_SpaceInputRegistrationTest@7ec7ffd3]" started-at="2026-05-20T18:20:38 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:39 GMT+07:00" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_with_space_input()[pri:0, instance:testCases.TC_RF_016_SpaceInputRegistrationTest@7ec7ffd3]" started-at="2026-05-20T18:20:39 GMT+07:00" name="validate_registration_with_space_input" finished-at="2026-05-20T18:20:51 GMT+07:00" duration-ms="11825" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[One or more warning was not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: One or more warning was not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.TC_RF_016_SpaceInputRegistrationTest.validate_registration_with_space_input(TC_RF_016_SpaceInputRegistrationTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_with_space_input -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_016_SpaceInputRegistrationTest@7ec7ffd3]" started-at="2026-05-20T18:20:51 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:51 GMT+07:00" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_016_SpaceInputRegistrationTest -->
+      <class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest@515aebb0]" started-at="2026-05-20T18:21:28 GMT+07:00" name="setup" finished-at="2026-05-20T18:21:29 GMT+07:00" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest@515aebb0]" started-at="2026-05-20T18:21:29 GMT+07:00" name="validate_breadcrumbs_heading_url_title" finished-at="2026-05-20T18:21:29 GMT+07:00" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_breadcrumbs_heading_url_title -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest@515aebb0]" started-at="2026-05-20T18:21:29 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:21:29 GMT+07:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest -->
+      <class name="testCases.TC_RF_014_RequiredMarkTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@5876a9af]" started-at="2026-05-20T18:20:36 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:38 GMT+07:00" duration-ms="1221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_required_field_asterisk()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@5876a9af]" started-at="2026-05-20T18:20:38 GMT+07:00" name="validate_required_field_asterisk" finished-at="2026-05-20T18:20:38 GMT+07:00" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_required_field_asterisk -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@5876a9af]" started-at="2026-05-20T18:20:38 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:38 GMT+07:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_014_RequiredMarkTest -->
+      <class name="testCases.TC_RF_020_PolicyCheckboxTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_020_PolicyCheckboxTest@6b81ce95]" started-at="2026-05-20T18:20:57 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:58 GMT+07:00" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_policy_checkbox_status()[pri:0, instance:testCases.TC_RF_020_PolicyCheckboxTest@6b81ce95]" started-at="2026-05-20T18:20:58 GMT+07:00" name="validate_policy_checkbox_status" finished-at="2026-05-20T18:20:59 GMT+07:00" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_policy_checkbox_status -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_020_PolicyCheckboxTest@6b81ce95]" started-at="2026-05-20T18:20:59 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:59 GMT+07:00" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_020_PolicyCheckboxTest -->
+      <class name="testCases.TC_RF_010_InvalidEmailRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_010_InvalidEmailRegistrationTest@9f116cc]" started-at="2026-05-20T18:19:51 GMT+07:00" name="setup" finished-at="2026-05-20T18:19:52 GMT+07:00" duration-ms="1068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_with_invalid_email()[pri:0, instance:testCases.TC_RF_010_InvalidEmailRegistrationTest@9f116cc]" started-at="2026-05-20T18:19:52 GMT+07:00" name="validate_registration_with_invalid_email" finished-at="2026-05-20T18:20:24 GMT+07:00" duration-ms="31306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_with_invalid_email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_010_InvalidEmailRegistrationTest@9f116cc]" started-at="2026-05-20T18:20:24 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:24 GMT+07:00" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_010_InvalidEmailRegistrationTest -->
+      <class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest@6572421]" started-at="2026-05-20T18:20:54 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:56 GMT+07:00" duration-ms="1209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration_with_leading_trailing()[pri:0, instance:testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest@6572421]" started-at="2026-05-20T18:20:56 GMT+07:00" name="verify_account_registration_with_leading_trailing" finished-at="2026-05-20T18:20:57 GMT+07:00" duration-ms="1506" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An info contains untrimmed spaces:    MYOOB    | expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An info contains untrimmed spaces:    MYOOB    | expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.verify_account_registration_with_leading_trailing(TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration_with_leading_trailing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest@6572421]" started-at="2026-05-20T18:20:57 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:57 GMT+07:00" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest -->
+      <class name="testCases.TC_RF_009_UsedEmailRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@67d48005]" started-at="2026-05-20T18:19:49 GMT+07:00" name="setup" finished-at="2026-05-20T18:19:50 GMT+07:00" duration-ms="1120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_with_used_email()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@67d48005]" started-at="2026-05-20T18:19:50 GMT+07:00" name="validate_registration_with_used_email" finished-at="2026-05-20T18:19:51 GMT+07:00" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_with_used_email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_009_UsedEmailRegistrationTest@67d48005]" started-at="2026-05-20T18:19:51 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:19:51 GMT+07:00" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_009_UsedEmailRegistrationTest -->
+      <class name="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest@2a798d51]" started-at="2026-05-20T18:20:59 GMT+07:00" name="setup" finished-at="2026-05-20T18:21:00 GMT+07:00" duration-ms="1133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_without_checking_privacy_policy_checkbox()[pri:0, instance:testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest@2a798d51]" started-at="2026-05-20T18:21:00 GMT+07:00" name="validate_registration_without_checking_privacy_policy_checkbox" finished-at="2026-05-20T18:21:01 GMT+07:00" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_without_checking_privacy_policy_checkbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest@2a798d51]" started-at="2026-05-20T18:21:01 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:21:01 GMT+07:00" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest -->
+      <class name="testCases.TC_RF_013_FieldsPlaceholderTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@59309333]" started-at="2026-05-20T18:20:35 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:36 GMT+07:00" duration-ms="1280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_fields_placeholder()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@59309333]" started-at="2026-05-20T18:20:36 GMT+07:00" name="validate_fields_placeholder" finished-at="2026-05-20T18:20:36 GMT+07:00" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_fields_placeholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_013_FieldsPlaceholderTest@59309333]" started-at="2026-05-20T18:20:36 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:36 GMT+07:00" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_013_FieldsPlaceholderTest -->
+      <class name="testCases.TC_RF_022_PasswordFieldsCoveringTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@6d763516]" started-at="2026-05-20T18:21:01 GMT+07:00" name="setup" finished-at="2026-05-20T18:21:02 GMT+07:00" duration-ms="1089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_password_fields_is_hidden()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@6d763516]" started-at="2026-05-20T18:21:02 GMT+07:00" name="validate_password_fields_is_hidden" finished-at="2026-05-20T18:21:02 GMT+07:00" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_password_fields_is_hidden -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_022_PasswordFieldsCoveringTest@6d763516]" started-at="2026-05-20T18:21:02 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:21:03 GMT+07:00" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_022_PasswordFieldsCoveringTest -->
+      <class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest@37afeb11]" started-at="2026-05-20T18:21:25 GMT+07:00" name="setup" finished-at="2026-05-20T18:21:26 GMT+07:00" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_registration_without_filling_passwordConfirm()[pri:0, instance:testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest@37afeb11]" started-at="2026-05-20T18:21:26 GMT+07:00" name="validate_registration_without_filling_passwordConfirm" finished-at="2026-05-20T18:21:28 GMT+07:00" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registration_without_filling_passwordConfirm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest@37afeb11]" started-at="2026-05-20T18:21:28 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:21:28 GMT+07:00" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest -->
+      <class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@52bf72b5]" started-at="2026-05-20T18:21:03 GMT+07:00" name="setup" finished-at="2026-05-20T18:21:04 GMT+07:00" duration-ms="1122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_on_page_links()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@52bf72b5]" started-at="2026-05-20T18:21:04 GMT+07:00" name="validate_on_page_links" finished-at="2026-05-20T18:21:25 GMT+07:00" duration-ms="21137" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Broken links detected!  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Broken links detected!  expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
 at testCases.TC_RF_023_AccountRegistrationPageLinksTest.validate_on_page_links(TC_RF_023_AccountRegistrationPageLinksTest.java:66)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
@@ -71,11 +641,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_on_page_links -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@7c729a55]" started-at="2026-05-19T18:06:08 GMT+07:00" name="tearDown" finished-at="2026-05-19T18:06:08 GMT+07:00" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_023_AccountRegistrationPageLinksTest@52bf72b5]" started-at="2026-05-20T18:21:25 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:21:25 GMT+07:00" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_RF_023_AccountRegistrationPageLinksTest -->
+      <class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@5b239d7d]" started-at="2026-05-20T18:20:51 GMT+07:00" name="setup" finished-at="2026-05-20T18:20:53 GMT+07:00" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_password_complexity_standards()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@5b239d7d]" started-at="2026-05-20T18:20:53 GMT+07:00" name="verify_password_complexity_standards" finished-at="2026-05-20T18:20:54 GMT+07:00" duration-ms="1578" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Account registration bypassed with invalid password! 12345 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Account registration bypassed with invalid password! 12345 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.TC_RF_017_PasswordComplexityRegistrationTest.verify_password_complexity_standards(TC_RF_017_PasswordComplexityRegistrationTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_password_complexity_standards -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_017_PasswordComplexityRegistrationTest@5b239d7d]" started-at="2026-05-20T18:20:54 GMT+07:00" name="tearDown" finished-at="2026-05-20T18:20:54 GMT+07:00" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_017_PasswordComplexityRegistrationTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

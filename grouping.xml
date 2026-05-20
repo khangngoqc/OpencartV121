@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="Master"></include>
+			<include name="raster"></include>
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
 			<include name="register"></include>
@@ -26,7 +26,7 @@
 
 			<class name="testCases.TC001_AccountRegistrationTest" />
 			<class name="testCases.TC002_LoginTest" />
-<!--			<class name="testCases.TC003_LoginDDT" />-->
+		<!--<class name="testCases.TC003_LoginDDT" />-->
 		</classes>
 	</test> <!--Test -->
 </suite> <!--Suite -->

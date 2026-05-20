@@ -43,7 +43,7 @@ public class TC_RF_017_PasswordComplexityRegistrationTest extends BaseClass {
 			String confmsg = repage.getConfirmMessage();
 
 			if (confmsg.equals("Your Account Has Been Created!")) {
-				Assert.fail();
+				Assert.assertTrue(false,"Account registration bypassed with invalid password! " + password);;
 			} 
 			else if(repage.getPasswordWarning().isDisplayed()) 
 			{
