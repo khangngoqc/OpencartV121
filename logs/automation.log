@@ -2027,3 +2027,17 @@ Driver info: driver.version: RemoteWebDriver
 18:21:29.444 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate Page URL...
 18:21:29.449 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate Page Title...
 18:21:29.454 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - ******* Finished TC_RF_025_BreadscrumbHeadingURLTitleTest *******
+17:48:54.659 [main] INFO  testCases.TC_LF_001_LoginTest - ***Starting TC002_LoginTest ***
+17:48:56.868 [main] INFO  testCases.TC_LF_001_LoginTest - ***Finished TC002_LoginTest ***
+17:48:58.211 [main] INFO  testCases.TC_LF_002_InvalidLoginTest - ***Starting TC_LF_002_InvalidLoginTest ***
+17:49:10.135 [main] INFO  testCases.TC_LF_002_InvalidLoginTest - ***Finished TC_LF_002_InvalidLoginTest ***
+18:07:51.348 [main] INFO  testCases.TC_LF_001_LoginTest - ***Starting TC002_LoginTest ***
+18:07:52.446 [main] INFO  testCases.TC_LF_001_LoginTest - ***Finished TC002_LoginTest ***
+18:07:53.659 [main] INFO  testCases.TC_LF_002_InvalidLoginTest - ***Starting TC_LF_002_InvalidLoginTest ***
+18:08:04.765 [main] INFO  testCases.TC_LF_002_InvalidLoginTest - ***Finished TC_LF_002_InvalidLoginTest ***
+18:08:05.932 [main] INFO  testCases.TC_LF_003_InvalidEmailLoginTest - ***Starting TC_LF_003_InvalidEmailLoginTest ***
+18:08:16.749 [main] INFO  testCases.TC_LF_003_InvalidEmailLoginTest - ***Finished TC_LF_003_InvalidEmailLoginTest ***
+18:08:18.166 [main] INFO  testCases.TC_LF_004_InvalidPasswordLoginTest - ***Starting TC_LF_004_InvalidPasswordLoginTest ***
+18:08:29.669 [main] INFO  testCases.TC_LF_004_InvalidPasswordLoginTest - ***Finished TC_LF_004_InvalidPasswordLoginTest ***
+18:08:30.940 [main] INFO  testCases.TC_LF_005_NoncredentialLoginTest - ***Starting TC_LF_005_NoncredentialLoginTest ***
+18:08:42.610 [main] INFO  testCases.TC_LF_005_NoncredentialLoginTest - ***Finished TC_LF_005_NoncredentialLoginTest ***

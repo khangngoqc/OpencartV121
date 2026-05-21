@@ -15,6 +15,7 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//input[@value='Login']") WebElement btnLogin;
 	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement btnContinue;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Register']") WebElement btnRegister;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement loginWarning;
 	
 	
 	public void setEmail(String email) {
@@ -35,6 +36,10 @@ public class LoginPage extends BasePage {
 	
 	public void clickRegister() {
 		btnRegister.click();
+	}
+	
+	public WebElement getLoginWaring() {
+		return loginWarning;
 	}
 	
 }
