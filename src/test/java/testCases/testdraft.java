@@ -4,16 +4,15 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.interactions.Actions;
 
 public class testdraft {
 
@@ -24,10 +23,24 @@ public class testdraft {
 
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://tutorialsninja.com/demo/index.php?route=account/register");
+		driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
 
+		Actions act = new Actions(driver);
 		
-		driver.quit();
+		// navigate to Email input field
+		for (int i = 0; i < 23; i++) {
+			act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
+		}
+
+		// input email
+		act.sendKeys("email").perform();
+
+		act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
+
+		// input password
+		act.sendKeys("password").perform();
+
+		//driver.quit();
 	}
 
 	void broken_link_check() {

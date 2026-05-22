@@ -73,8 +73,9 @@ public class TC_RF_012_KeyboardKeysRegistrationTest extends BaseClass {
 			
 		} catch (Exception e) {
 			
-			Assert.fail();
 			logger.debug(e.getMessage());
+			Assert.fail();
+			
 		
 		}
 

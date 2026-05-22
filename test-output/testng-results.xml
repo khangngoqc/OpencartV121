@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-21T18:07:49 GMT+07:00" name="Master Suite" finished-at="2026-05-21T18:08:44 GMT+07:00" duration-ms="55019">
+  <suite started-at="2026-05-22T22:19:14 GMT+07:00" name="Master Suite" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="6689">
     <groups>
-      <group name="Master">
-        <method signature="TC_LF_001_LoginTest.verify_login()[pri:0, instance:testCases.TC_LF_001_LoginTest@5ffead27]" name="verify_login" class="testCases.TC_LF_001_LoginTest"/>
-      </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC_LF_001_LoginTest.verify_login()[pri:0, instance:testCases.TC_LF_001_LoginTest@5ffead27]" name="verify_login" class="testCases.TC_LF_001_LoginTest"/>
-      </group> <!-- Sanity -->
-      <group name="functionality">
-        <method signature="TC_LF_002_InvalidLoginTest.verify_login_with_invalid_account_info()[pri:0, instance:testCases.TC_LF_002_InvalidLoginTest@4f6ee6e4]" name="verify_login_with_invalid_account_info" class="testCases.TC_LF_002_InvalidLoginTest"/>
-        <method signature="TC_LF_003_InvalidEmailLoginTest.verify_login_with_invalid_email()[pri:0, instance:testCases.TC_LF_003_InvalidEmailLoginTest@4466af20]" name="verify_login_with_invalid_email" class="testCases.TC_LF_003_InvalidEmailLoginTest"/>
-        <method signature="TC_LF_004_InvalidPasswordLoginTest.verify_login_with_invalid_password()[pri:0, instance:testCases.TC_LF_004_InvalidPasswordLoginTest@a514af7]" name="verify_login_with_invalid_password" class="testCases.TC_LF_004_InvalidPasswordLoginTest"/>
-        <method signature="TC_LF_005_NoncredentialLoginTest.verify_login_without_credentials()[pri:0, instance:testCases.TC_LF_005_NoncredentialLoginTest@6b927fb]" name="verify_login_without_credentials" class="testCases.TC_LF_005_NoncredentialLoginTest"/>
-      </group> <!-- functionality -->
       <group name="login">
-        <method signature="TC_LF_002_InvalidLoginTest.verify_login_with_invalid_account_info()[pri:0, instance:testCases.TC_LF_002_InvalidLoginTest@4f6ee6e4]" name="verify_login_with_invalid_account_info" class="testCases.TC_LF_002_InvalidLoginTest"/>
-        <method signature="TC_LF_003_InvalidEmailLoginTest.verify_login_with_invalid_email()[pri:0, instance:testCases.TC_LF_003_InvalidEmailLoginTest@4466af20]" name="verify_login_with_invalid_email" class="testCases.TC_LF_003_InvalidEmailLoginTest"/>
-        <method signature="TC_LF_004_InvalidPasswordLoginTest.verify_login_with_invalid_password()[pri:0, instance:testCases.TC_LF_004_InvalidPasswordLoginTest@a514af7]" name="verify_login_with_invalid_password" class="testCases.TC_LF_004_InvalidPasswordLoginTest"/>
-        <method signature="TC_LF_005_NoncredentialLoginTest.verify_login_without_credentials()[pri:0, instance:testCases.TC_LF_005_NoncredentialLoginTest@6b927fb]" name="verify_login_without_credentials" class="testCases.TC_LF_005_NoncredentialLoginTest"/>
+        <method signature="TC_LF_006_ForgottenPasswordLinkTest.validate_forgotten_password()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" name="validate_forgotten_password" class="testCases.TC_LF_006_ForgottenPasswordLinkTest"/>
+        <method signature="TC_LF_007_KeyboardKeysLoginTest.verify_login_with_keyboard_keys()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" name="verify_login_with_keyboard_keys" class="testCases.TC_LF_007_KeyboardKeysLoginTest"/>
+        <method signature="TC_LF_008_FieldsPlaceholderTest.validate_fields_placeholders()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" name="validate_fields_placeholders" class="testCases.TC_LF_008_FieldsPlaceholderTest"/>
       </group> <!-- login -->
       <group name="master">
-        <method signature="TC_LF_002_InvalidLoginTest.verify_login_with_invalid_account_info()[pri:0, instance:testCases.TC_LF_002_InvalidLoginTest@4f6ee6e4]" name="verify_login_with_invalid_account_info" class="testCases.TC_LF_002_InvalidLoginTest"/>
-        <method signature="TC_LF_003_InvalidEmailLoginTest.verify_login_with_invalid_email()[pri:0, instance:testCases.TC_LF_003_InvalidEmailLoginTest@4466af20]" name="verify_login_with_invalid_email" class="testCases.TC_LF_003_InvalidEmailLoginTest"/>
-        <method signature="TC_LF_004_InvalidPasswordLoginTest.verify_login_with_invalid_password()[pri:0, instance:testCases.TC_LF_004_InvalidPasswordLoginTest@a514af7]" name="verify_login_with_invalid_password" class="testCases.TC_LF_004_InvalidPasswordLoginTest"/>
-        <method signature="TC_LF_005_NoncredentialLoginTest.verify_login_without_credentials()[pri:0, instance:testCases.TC_LF_005_NoncredentialLoginTest@6b927fb]" name="verify_login_without_credentials" class="testCases.TC_LF_005_NoncredentialLoginTest"/>
+        <method signature="TC_LF_006_ForgottenPasswordLinkTest.validate_forgotten_password()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" name="validate_forgotten_password" class="testCases.TC_LF_006_ForgottenPasswordLinkTest"/>
+        <method signature="TC_LF_007_KeyboardKeysLoginTest.verify_login_with_keyboard_keys()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" name="verify_login_with_keyboard_keys" class="testCases.TC_LF_007_KeyboardKeysLoginTest"/>
+        <method signature="TC_LF_008_FieldsPlaceholderTest.validate_fields_placeholders()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" name="validate_fields_placeholders" class="testCases.TC_LF_008_FieldsPlaceholderTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-05-21T18:07:49 GMT+07:00" name="Test" finished-at="2026-05-21T18:08:44 GMT+07:00" duration-ms="55019">
-      <class name="testCases.TC_LF_001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_001_LoginTest@5ffead27]" started-at="2026-05-21T18:07:49 GMT+07:00" name="setup" finished-at="2026-05-21T18:07:51 GMT+07:00" duration-ms="1887" status="PASS">
+    <test started-at="2026-05-22T22:19:14 GMT+07:00" name="Test" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="6689">
+      <class name="testCases.TC_LF_007_KeyboardKeysLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" started-at="2026-05-22T22:19:17 GMT+07:00" name="setup" finished-at="2026-05-22T22:19:18 GMT+07:00" duration-ms="1106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,17 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC_LF_001_LoginTest@5ffead27]" started-at="2026-05-21T18:07:51 GMT+07:00" name="verify_login" finished-at="2026-05-21T18:07:52 GMT+07:00" duration-ms="1108" status="PASS">
+        <test-method signature="verify_login_with_keyboard_keys()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" started-at="2026-05-22T22:19:18 GMT+07:00" name="verify_login_with_keyboard_keys" finished-at="2026-05-22T22:19:19 GMT+07:00" duration-ms="1292" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_001_LoginTest@5ffead27]" started-at="2026-05-21T18:07:52 GMT+07:00" name="tearDown" finished-at="2026-05-21T18:07:52 GMT+07:00" duration-ms="98" status="PASS">
+        </test-method> <!-- verify_login_with_keyboard_keys -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" started-at="2026-05-22T22:19:19 GMT+07:00" name="tearDown" finished-at="2026-05-22T22:19:19 GMT+07:00" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_001_LoginTest -->
-      <class name="testCases.TC_LF_002_InvalidLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_002_InvalidLoginTest@4f6ee6e4]" started-at="2026-05-21T18:07:52 GMT+07:00" name="setup" finished-at="2026-05-21T18:07:53 GMT+07:00" duration-ms="1102" status="PASS">
+      </class> <!-- testCases.TC_LF_007_KeyboardKeysLoginTest -->
+      <class name="testCases.TC_LF_008_FieldsPlaceholderTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" started-at="2026-05-22T22:19:19 GMT+07:00" name="setup" finished-at="2026-05-22T22:19:20 GMT+07:00" duration-ms="1052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,17 +59,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login_with_invalid_account_info()[pri:0, instance:testCases.TC_LF_002_InvalidLoginTest@4f6ee6e4]" started-at="2026-05-21T18:07:53 GMT+07:00" name="verify_login_with_invalid_account_info" finished-at="2026-05-21T18:08:04 GMT+07:00" duration-ms="11106" status="PASS">
+        <test-method signature="validate_fields_placeholders()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" started-at="2026-05-22T22:19:20 GMT+07:00" name="validate_fields_placeholders" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login_with_invalid_account_info -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_002_InvalidLoginTest@4f6ee6e4]" started-at="2026-05-21T18:08:04 GMT+07:00" name="tearDown" finished-at="2026-05-21T18:08:04 GMT+07:00" duration-ms="115" status="PASS">
+        </test-method> <!-- validate_fields_placeholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" started-at="2026-05-22T22:19:21 GMT+07:00" name="tearDown" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_002_InvalidLoginTest -->
-      <class name="testCases.TC_LF_003_InvalidEmailLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_003_InvalidEmailLoginTest@4466af20]" started-at="2026-05-21T18:08:04 GMT+07:00" name="setup" finished-at="2026-05-21T18:08:05 GMT+07:00" duration-ms="1049" status="PASS">
+      </class> <!-- testCases.TC_LF_008_FieldsPlaceholderTest -->
+      <class name="testCases.TC_LF_006_ForgottenPasswordLinkTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" started-at="2026-05-22T22:19:14 GMT+07:00" name="setup" finished-at="2026-05-22T22:19:16 GMT+07:00" duration-ms="2042" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,67 +85,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login_with_invalid_email()[pri:0, instance:testCases.TC_LF_003_InvalidEmailLoginTest@4466af20]" started-at="2026-05-21T18:08:05 GMT+07:00" name="verify_login_with_invalid_email" finished-at="2026-05-21T18:08:16 GMT+07:00" duration-ms="10819" status="PASS">
+        <test-method signature="validate_forgotten_password()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" started-at="2026-05-22T22:19:16 GMT+07:00" name="validate_forgotten_password" finished-at="2026-05-22T22:19:17 GMT+07:00" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login_with_invalid_email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_003_InvalidEmailLoginTest@4466af20]" started-at="2026-05-21T18:08:16 GMT+07:00" name="tearDown" finished-at="2026-05-21T18:08:16 GMT+07:00" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_003_InvalidEmailLoginTest -->
-      <class name="testCases.TC_LF_005_NoncredentialLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_005_NoncredentialLoginTest@6b927fb]" started-at="2026-05-21T18:08:29 GMT+07:00" name="setup" finished-at="2026-05-21T18:08:30 GMT+07:00" duration-ms="1159" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_login_without_credentials()[pri:0, instance:testCases.TC_LF_005_NoncredentialLoginTest@6b927fb]" started-at="2026-05-21T18:08:30 GMT+07:00" name="verify_login_without_credentials" finished-at="2026-05-21T18:08:42 GMT+07:00" duration-ms="11671" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login_without_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_005_NoncredentialLoginTest@6b927fb]" started-at="2026-05-21T18:08:42 GMT+07:00" name="tearDown" finished-at="2026-05-21T18:08:44 GMT+07:00" duration-ms="1710" status="PASS">
+        </test-method> <!-- validate_forgotten_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" started-at="2026-05-22T22:19:17 GMT+07:00" name="tearDown" finished-at="2026-05-22T22:19:17 GMT+07:00" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_005_NoncredentialLoginTest -->
-      <class name="testCases.TC_LF_004_InvalidPasswordLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_004_InvalidPasswordLoginTest@a514af7]" started-at="2026-05-21T18:08:16 GMT+07:00" name="setup" finished-at="2026-05-21T18:08:18 GMT+07:00" duration-ms="1310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_login_with_invalid_password()[pri:0, instance:testCases.TC_LF_004_InvalidPasswordLoginTest@a514af7]" started-at="2026-05-21T18:08:18 GMT+07:00" name="verify_login_with_invalid_password" finished-at="2026-05-21T18:08:29 GMT+07:00" duration-ms="11504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login_with_invalid_password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_004_InvalidPasswordLoginTest@a514af7]" started-at="2026-05-21T18:08:29 GMT+07:00" name="tearDown" finished-at="2026-05-21T18:08:29 GMT+07:00" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_004_InvalidPasswordLoginTest -->
+      </class> <!-- testCases.TC_LF_006_ForgottenPasswordLinkTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

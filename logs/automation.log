@@ -2041,3 +2041,36 @@ Driver info: driver.version: RemoteWebDriver
 18:08:29.669 [main] INFO  testCases.TC_LF_004_InvalidPasswordLoginTest - ***Finished TC_LF_004_InvalidPasswordLoginTest ***
 18:08:30.940 [main] INFO  testCases.TC_LF_005_NoncredentialLoginTest - ***Starting TC_LF_005_NoncredentialLoginTest ***
 18:08:42.610 [main] INFO  testCases.TC_LF_005_NoncredentialLoginTest - ***Finished TC_LF_005_NoncredentialLoginTest ***
+21:50:47.826 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Starting TC_LF_006_ForgottenPasswordLinkTest ***
+21:50:48.083 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate login page url
+21:50:48.108 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate forgotten password link displayment
+21:50:58.145 [main] DEBUG testCases.TC_LF_006_ForgottenPasswordLinkTest - no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Forgot Your Password?']"}
+  (Session info: chrome=148.0.7778.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [920c81a0216f7fb013c6724a711e6450, findElement {value=//h1[normalize-space()='Forgot Your Password?'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61092}, goog:processID: 7148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61092/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 920c81a0216f7fb013c6724a711e6450
+21:52:55.471 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Starting TC_LF_006_ForgottenPasswordLinkTest ***
+21:52:55.711 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate login page url
+21:52:55.740 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate forgotten password link displayment
+21:52:55.900 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate page heading display on Forgotten Password page
+21:52:55.900 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Finsihed TC_LF_006_ForgottenPasswordLinkTest ***
+22:05:03.477 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Starting TC_LF_006_ForgottenPasswordLinkTest ***
+22:05:03.714 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate login page url
+22:05:03.744 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate forgotten password link displayment
+22:05:03.915 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate page heading display on Forgotten Password page
+22:05:03.915 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Finsihed TC_LF_006_ForgottenPasswordLinkTest ***
+22:05:05.165 [main] INFO  testCases.TC_LF_007_KeyboardKeysLoginTest - ***Starting TC_LF_007_KeyboardKeysLoginTest ***
+22:05:06.709 [main] INFO  testCases.TC_LF_007_KeyboardKeysLoginTest - ***Finished TC_LF_007_KeyboardKeysLoginTest ***
+22:19:16.680 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Starting TC_LF_006_ForgottenPasswordLinkTest ***
+22:19:16.946 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate login page url
+22:19:16.976 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate forgotten password link displayment
+22:19:17.157 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate page heading display on Forgotten Password page
+22:19:17.157 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Finsihed TC_LF_006_ForgottenPasswordLinkTest ***
+22:19:18.387 [main] INFO  testCases.TC_LF_007_KeyboardKeysLoginTest - ***Starting TC_LF_007_KeyboardKeysLoginTest ***
+22:19:19.678 [main] INFO  testCases.TC_LF_007_KeyboardKeysLoginTest - ***Finished TC_LF_007_KeyboardKeysLoginTest ***
+22:19:20.822 [main] INFO  testCases.TC_LF_008_FieldsPlaceholderTest - ******* Starting TC_LF_008_FieldsPlaceholderTest *******
+22:19:21.081 [main] INFO  testCases.TC_LF_008_FieldsPlaceholderTest - ******* Finished TC_LF_008_FieldsPlaceholderTest *******
