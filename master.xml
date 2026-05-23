@@ -39,9 +39,13 @@
 			<class name="testCases.TC_LF_003_InvalidEmailLoginTest"></class>
 			<class name="testCases.TC_LF_004_InvalidPasswordLoginTest"></class>
 			<class name="testCases.TC_LF_005_NoncredentialLoginTest"></class>-->
-			<class name="testCases.TC_LF_006_ForgottenPasswordLinkTest"></class>
+			<!--<class name="testCases.TC_LF_006_ForgottenPasswordLinkTest"></class>
 			<class name="testCases.TC_LF_007_KeyboardKeysLoginTest"></class>
-			<class name="testCases.TC_LF_008_FieldsPlaceholderTest"></class>
+			<class name="testCases.TC_LF_008_FieldsPlaceholderTest"></class>-->
+			<class name="testCases.TC_LF_009_LoginAndBrowserBackingTest"></class>
+			<class name="testCases.TC_LF_010_BackingAfterLoginTest"></class>
+			<class name="testCases.TC_LF_012_InvalidLoginSpamTest"></class>
+			
 			
 
 		</classes>

@@ -2074,3 +2074,52 @@ Session ID: 920c81a0216f7fb013c6724a711e6450
 22:19:19.678 [main] INFO  testCases.TC_LF_007_KeyboardKeysLoginTest - ***Finished TC_LF_007_KeyboardKeysLoginTest ***
 22:19:20.822 [main] INFO  testCases.TC_LF_008_FieldsPlaceholderTest - ******* Starting TC_LF_008_FieldsPlaceholderTest *******
 22:19:21.081 [main] INFO  testCases.TC_LF_008_FieldsPlaceholderTest - ******* Finished TC_LF_008_FieldsPlaceholderTest *******
+20:37:26.884 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Starting TC_LF_009_LoginAndBrowserBackingTest ***
+20:37:28.545 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Finished TC_LF_009_LoginAndBrowserBackingTest ***
+20:39:05.642 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Starting TC_LF_009_LoginAndBrowserBackingTest ***
+20:39:06.999 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Finished TC_LF_009_LoginAndBrowserBackingTest ***
+20:45:31.341 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Starting TC_LF_009_LoginAndBrowserBackingTest ***
+20:45:34.916 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Finished TC_LF_009_LoginAndBrowserBackingTest ***
+20:45:36.154 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Starting TC_LF_010_BackingAfterLoginTest ***
+20:45:47.711 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Finished TC_LF_010_BackingAfterLoginTest ***
+21:04:29.849 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Starting TC_LF_009_LoginAndBrowserBackingTest ***
+21:04:44.629 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Starting TC_LF_010_BackingAfterLoginTest ***
+21:04:55.130 [main] DEBUG testCases.TC_LF_010_BackingAfterLoginTest - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='list-group-item'][normalize-space()='Logout']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92515c4717c5213d964d1fdf4e937a62, findElement {value=//a[@class='list-group-item'][normalize-space()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52439}, goog:processID: 19796, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52439/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92515c4717c5213d964d1fdf4e937a62
+21:04:56.421 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+21:04:57.642 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***
+21:07:49.416 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Starting TC_LF_009_LoginAndBrowserBackingTest ***
+21:07:50.710 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Finished TC_LF_009_LoginAndBrowserBackingTest ***
+21:07:51.936 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Starting TC_LF_010_BackingAfterLoginTest ***
+21:08:04.277 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Finished TC_LF_010_BackingAfterLoginTest ***
+21:08:05.555 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+21:08:06.526 [main] DEBUG testCases.TC_LF_012_InvalidLoginSpamTest - stale element reference: stale element not found
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ce1c1b456311293911a49f50f9ca61c, clickElement {id=f.899BF6C682C466F51C9233E8C203F276.d.966773628C5F987FF559F98088B7E861.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56595}, goog:processID: 21648, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56595/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8ce1c1b456311293911a49f50f9ca61c)] -> xpath: //input[@value='Login']]
+Session ID: 8ce1c1b456311293911a49f50f9ca61c
+21:09:54.901 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+21:09:56.644 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***
+21:10:41.299 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Starting TC_LF_009_LoginAndBrowserBackingTest ***
+21:10:45.344 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Finished TC_LF_009_LoginAndBrowserBackingTest ***
+21:10:46.940 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Starting TC_LF_010_BackingAfterLoginTest ***
+21:11:00.771 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Finished TC_LF_010_BackingAfterLoginTest ***
+21:11:02.127 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+21:11:03.850 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***
+21:18:13.915 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+21:18:14.768 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***
+21:23:13.332 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+21:24:30.093 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+21:24:32.018 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***

@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-22T22:19:14 GMT+07:00" name="Master Suite" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="6689">
+  <suite started-at="2026-05-23T21:24:28 GMT+07:00" name="Master Suite" finished-at="2026-05-23T21:24:32 GMT+07:00" duration-ms="3914">
     <groups>
       <group name="login">
-        <method signature="TC_LF_006_ForgottenPasswordLinkTest.validate_forgotten_password()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" name="validate_forgotten_password" class="testCases.TC_LF_006_ForgottenPasswordLinkTest"/>
-        <method signature="TC_LF_007_KeyboardKeysLoginTest.verify_login_with_keyboard_keys()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" name="verify_login_with_keyboard_keys" class="testCases.TC_LF_007_KeyboardKeysLoginTest"/>
-        <method signature="TC_LF_008_FieldsPlaceholderTest.validate_fields_placeholders()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" name="validate_fields_placeholders" class="testCases.TC_LF_008_FieldsPlaceholderTest"/>
+        <method signature="TC_LF_012_InvalidLoginSpamTest.verify_invalid_login_spam()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@3bb9a3ff]" name="verify_invalid_login_spam" class="testCases.TC_LF_012_InvalidLoginSpamTest"/>
       </group> <!-- login -->
       <group name="master">
-        <method signature="TC_LF_006_ForgottenPasswordLinkTest.validate_forgotten_password()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" name="validate_forgotten_password" class="testCases.TC_LF_006_ForgottenPasswordLinkTest"/>
-        <method signature="TC_LF_007_KeyboardKeysLoginTest.verify_login_with_keyboard_keys()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" name="verify_login_with_keyboard_keys" class="testCases.TC_LF_007_KeyboardKeysLoginTest"/>
-        <method signature="TC_LF_008_FieldsPlaceholderTest.validate_fields_placeholders()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" name="validate_fields_placeholders" class="testCases.TC_LF_008_FieldsPlaceholderTest"/>
+        <method signature="TC_LF_012_InvalidLoginSpamTest.verify_invalid_login_spam()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@3bb9a3ff]" name="verify_invalid_login_spam" class="testCases.TC_LF_012_InvalidLoginSpamTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-05-22T22:19:14 GMT+07:00" name="Test" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="6689">
-      <class name="testCases.TC_LF_007_KeyboardKeysLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" started-at="2026-05-22T22:19:17 GMT+07:00" name="setup" finished-at="2026-05-22T22:19:18 GMT+07:00" duration-ms="1106" status="PASS">
+    <test started-at="2026-05-23T21:24:28 GMT+07:00" name="Test" finished-at="2026-05-23T21:24:32 GMT+07:00" duration-ms="3914">
+      <class name="testCases.TC_LF_012_InvalidLoginSpamTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@3bb9a3ff]" started-at="2026-05-23T21:24:28 GMT+07:00" name="setup" finished-at="2026-05-23T21:24:30 GMT+07:00" duration-ms="1746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,67 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login_with_keyboard_keys()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" started-at="2026-05-22T22:19:18 GMT+07:00" name="verify_login_with_keyboard_keys" finished-at="2026-05-22T22:19:19 GMT+07:00" duration-ms="1292" status="PASS">
+        <test-method signature="verify_invalid_login_spam()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@3bb9a3ff]" started-at="2026-05-23T21:24:30 GMT+07:00" name="verify_invalid_login_spam" finished-at="2026-05-23T21:24:32 GMT+07:00" duration-ms="1932" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login_with_keyboard_keys -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_007_KeyboardKeysLoginTest@5ffead27]" started-at="2026-05-22T22:19:19 GMT+07:00" name="tearDown" finished-at="2026-05-22T22:19:19 GMT+07:00" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_007_KeyboardKeysLoginTest -->
-      <class name="testCases.TC_LF_008_FieldsPlaceholderTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" started-at="2026-05-22T22:19:19 GMT+07:00" name="setup" finished-at="2026-05-22T22:19:20 GMT+07:00" duration-ms="1052" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validate_fields_placeholders()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" started-at="2026-05-22T22:19:20 GMT+07:00" name="validate_fields_placeholders" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_fields_placeholders -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_008_FieldsPlaceholderTest@6356695f]" started-at="2026-05-22T22:19:21 GMT+07:00" name="tearDown" finished-at="2026-05-22T22:19:21 GMT+07:00" duration-ms="93" status="PASS">
+        </test-method> <!-- verify_invalid_login_spam -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@3bb9a3ff]" started-at="2026-05-23T21:24:32 GMT+07:00" name="tearDown" finished-at="2026-05-23T21:24:32 GMT+07:00" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_008_FieldsPlaceholderTest -->
-      <class name="testCases.TC_LF_006_ForgottenPasswordLinkTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" started-at="2026-05-22T22:19:14 GMT+07:00" name="setup" finished-at="2026-05-22T22:19:16 GMT+07:00" duration-ms="2042" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validate_forgotten_password()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" started-at="2026-05-22T22:19:16 GMT+07:00" name="validate_forgotten_password" finished-at="2026-05-22T22:19:17 GMT+07:00" duration-ms="487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_forgotten_password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_006_ForgottenPasswordLinkTest@323b36e0]" started-at="2026-05-22T22:19:17 GMT+07:00" name="tearDown" finished-at="2026-05-22T22:19:17 GMT+07:00" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_006_ForgottenPasswordLinkTest -->
+      </class> <!-- testCases.TC_LF_012_InvalidLoginSpamTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

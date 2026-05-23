@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_LF_006_ForgottenPasswordLinkTest">
+      <class name="testCases.TC_LF_012_InvalidLoginSpamTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="validate_forgotten_password"/>
+          <include name="verify_invalid_login_spam"/>
         </methods>
-      </class> <!-- testCases.TC_LF_006_ForgottenPasswordLinkTest -->
+      </class> <!-- testCases.TC_LF_012_InvalidLoginSpamTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

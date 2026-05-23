@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest">
+      <class name="testCases.TC_LF_012_InvalidLoginSpamTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_registration_without_filling_passwordConfirm"/>
           <include name="setup"/>
+          <include name="verify_invalid_login_spam"/>
         </methods>
-      </class> <!-- testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest -->
+      </class> <!-- testCases.TC_LF_012_InvalidLoginSpamTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
