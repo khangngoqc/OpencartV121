@@ -2123,3 +2123,20 @@ Session ID: 8ce1c1b456311293911a49f50f9ca61c
 21:23:13.332 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
 21:24:30.093 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
 21:24:32.018 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***
+06:42:36.094 [main] INFO  testCases.TC_LF_013_PasswordFieldsCoveringTest - ******* Starting TC_LF_013_PasswordFieldsCoveringTest *******
+06:42:36.432 [main] INFO  testCases.TC_LF_013_PasswordFieldsCoveringTest - ******* Finished TC_LF_013_PasswordFieldsCoveringTest *******
+07:30:30.152 [main] INFO  testCases.TC_LF_014_CopyingPasswordTxtTest - ******* Starting TC_LF_014_CopyingPasswordTxtTest *******
+07:30:31.336 [main] INFO  testCases.TC_LF_014_CopyingPasswordTxtTest - ******* Finished TC_LF_014_CopyingPasswordTxtTest *******
+07:31:18.957 [main] INFO  testCases.TC_LF_014_CopyingPasswordTxtTest - ******* Starting TC_LF_014_CopyingPasswordTxtTest *******
+07:45:12.029 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_014_CopyingPasswordTxtTest *******
+07:45:12.413 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Finished TC_LF_014_CopyingPasswordTxtTest *******
+07:45:38.025 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_014_CopyingPasswordTxtTest *******
+07:45:38.401 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Finished TC_LF_014_CopyingPasswordTxtTest *******
+07:47:23.797 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+07:47:24.112 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Finished TC_LF_015_PasswordPageSourceTest *******
+07:49:40.162 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+07:50:07.473 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+07:50:07.780 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Finished TC_LF_015_PasswordPageSourceTest *******
+07:50:37.815 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+07:50:38.225 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Finished TC_LF_015_PasswordPageSourceTest *******
+07:51:14.981 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******

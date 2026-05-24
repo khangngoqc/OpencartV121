@@ -27,19 +27,21 @@ public class testdraft {
 
 		Actions act = new Actions(driver);
 		
-		// navigate to Email input field
-		for (int i = 0; i < 23; i++) {
-			act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
-		}
+		WebElement f = driver.findElement(By.xpath("//input[@id='input-password']"));
+		f.sendKeys("password");
 
-		// input email
-		act.sendKeys("email").perform();
-
-		act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
-
-		// input password
-		act.sendKeys("password").perform();
-
+		act.keyDown(Keys.CONTROL).sendKeys("A").keyUp(Keys.CONTROL).perform();
+		act.keyDown(Keys.CONTROL).sendKeys("C").keyUp(Keys.CONTROL).perform();
+		
+		WebElement e = driver.findElement(By.xpath("//input[@id='input-email']"));
+		act.moveToElement(e).click();
+		act.keyDown(Keys.CONTROL).sendKeys("V").keyUp(Keys.CONTROL).perform();
+		
+		System.out.println(e.getAttribute("value"));
+		
+		
+		
+		
 		//driver.quit();
 	}
 
