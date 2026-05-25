@@ -2140,3 +2140,80 @@ Session ID: 8ce1c1b456311293911a49f50f9ca61c
 07:50:37.815 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
 07:50:38.225 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Finished TC_LF_015_PasswordPageSourceTest *******
 07:51:14.981 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+18:05:25.927 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:05:36.354 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Change your password']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca18ac03a9c115ef6e72da690be033b7, findElement {using=xpath, value=//a[normalize-space()='Change your password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61233}, goog:processID: 1780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61233/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca18ac03a9c115ef6e72da690be033b7
+18:06:13.694 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:06:24.117 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Change your password']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2f63f9570a91f8b14802625cbe1ce68, findElement {using=xpath, value=//a[normalize-space()='Change your password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64892}, goog:processID: 4144, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64892/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2f63f9570a91f8b14802625cbe1ce68
+18:07:26.955 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:07:41.699 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
+18:09:08.364 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:09:16.220 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c67d0f75a2fe0e0bf52900318a7f945, findElement {value=//a[normalize-space()='Change your password'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49451}, goog:processID: 3296, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49451/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c67d0f75a2fe0e0bf52900318a7f945
+18:10:23.232 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:10:37.364 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
+18:13:58.025 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:14:02.288 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate with old password
+18:14:03.092 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - try login with new password
+18:14:13.452 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
+18:16:46.974 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:16:58.089 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Change your password']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ef6e99d49b04a4cc998017621b129bc, findElement {value=//a[normalize-space()='Change your password'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62529}, goog:processID: 20004, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62529/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ef6e99d49b04a4cc998017621b129bc
+18:17:46.691 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:17:49.910 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate with old password
+18:17:50.557 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - try login with new password
+18:18:00.795 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
+18:19:15.562 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:19:18.614 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate with old password
+18:19:20.275 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - try login with new password
+18:19:21.001 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate MyAccountPage heading after loign with new password
+18:20:53.204 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:20:53.948 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - Unable to find element with locator By.xpath: //a[normalize-space()='Change your password']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: RemoteWebDriver
+18:21:17.143 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:21:28.314 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Change your password']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01c20d40d0a484ab52d1cbf18744a635, findElement {value=//a[normalize-space()='Change your password'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64724}, goog:processID: 24620, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64724/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01c20d40d0a484ab52d1cbf18744a635
+18:21:52.495 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+18:21:56.861 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate with old password
+18:21:56.898 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - try login with new password
+18:21:57.467 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate MyAccountPage heading after loign with new password
+18:22:07.515 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******

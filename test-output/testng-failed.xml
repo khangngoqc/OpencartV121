@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_LF_015_PasswordPageSourceTest">
+      <class name="testCases.TC_LF_016_ChangingPasswordLoginTest">
         <methods>
+          <include name="validate_login_after_changing_password"/>
           <include name="tearDown"/>
-          <include name="validate_password_copy_function_blocked"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_LF_015_PasswordPageSourceTest -->
+      </class> <!-- testCases.TC_LF_016_ChangingPasswordLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
