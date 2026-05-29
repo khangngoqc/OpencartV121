@@ -5,42 +5,53 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class testdraft {
 
 	static WebDriver driver;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
-
-		Actions act = new Actions(driver);
 		
-		WebElement f = driver.findElement(By.xpath("//input[@id='input-password']"));
-		f.sendKeys("password");
-
-		act.keyDown(Keys.CONTROL).sendKeys("A").keyUp(Keys.CONTROL).perform();
-		act.keyDown(Keys.CONTROL).sendKeys("C").keyUp(Keys.CONTROL).perform();
+		driver.findElement(By.xpath("//input[@id='input-email']")).sendKeys("merilovig@mailinator.com");
+		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys("123123Sd@");
 		
-		WebElement e = driver.findElement(By.xpath("//input[@id='input-email']"));
-		act.moveToElement(e).click();
-		act.keyDown(Keys.CONTROL).sendKeys("V").keyUp(Keys.CONTROL).perform();
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		
-		System.out.println(e.getAttribute("value"));
+		Thread.sleep(2000);
 		
+		Set<Cookie> cookies =  driver.manage().getCookies();
 		
+		Thread.sleep(2000);
 		
+		driver.quit();
+		
+		driver = new FirefoxDriver();
+		
+		Thread.sleep(2000);
+		
+		driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
+		
+		for (Cookie cookie : cookies) {
+			driver.manage().addCookie(cookie);
+		}
+		
+        driver.navigate().refresh();
+		
+        
 		
 		//driver.quit();
 	}

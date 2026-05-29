@@ -2217,3 +2217,5 @@ Session ID: 01c20d40d0a484ab52d1cbf18744a635
 18:21:56.898 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - try login with new password
 18:21:57.467 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate MyAccountPage heading after loign with new password
 18:22:07.515 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
+23:27:20.433 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
+23:32:23.435 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
