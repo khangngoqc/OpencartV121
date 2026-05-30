@@ -49,7 +49,8 @@
 			<!--<class name="testCases.TC_LF_014_CopyingPasswordTxtTest"></class>-->
 			<!--<class name="testCases.TC_LF_015_PasswordPageSourceTest"></class>-->
 			<!--<class name="testCases.TC_LF_016_ChangingPasswordLoginTest"></class>-->
-			<class name="testCases.TC_LF_017_LoginSessionTest"></class>
+			<!--<class name="testCases.TC_LF_017_LoginSessionTest"></class>-->
+			<class name="testCases.TC_LF_018_LoginSessionTimeOutTest"></class>
 			
 			
 

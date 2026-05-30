@@ -22,6 +22,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -32,6 +33,7 @@ public class BaseClass {
 	public Logger logger; // ;Log4j
 	public Properties p;
 	public Actions act;
+	public WebDriverWait wait;
 
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" })
@@ -115,6 +117,8 @@ public class BaseClass {
 		//Action class object
 		act = new Actions(driver);
 		
+		//Explicit wait object
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		
 	}
 

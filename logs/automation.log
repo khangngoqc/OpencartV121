@@ -2219,3 +2219,25 @@ Session ID: 01c20d40d0a484ab52d1cbf18744a635
 18:22:07.515 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
 23:27:20.433 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
 23:32:23.435 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
+22:48:56.332 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
+22:49:40.451 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+22:51:21.694 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+22:56:07.454 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+23:02:30.490 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+23:05:58.519 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+23:06:01.850 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - true
+23:07:01.511 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+23:07:04.841 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - true
+23:08:09.376 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+23:08:11.907 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - true
+23:09:31.945 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+23:09:35.523 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - true
+23:09:45.618 [main] DEBUG testCases.TC_LF_018_LoginSessionTimeOutTest - Expected condition failed: waiting for url to contain "route=account/login". Current url: "https://tutorialsninja.com/demo/index.php?route=account/account"
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62933}, goog:processID: 6628, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62933/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab40704d23a036b39f42410f4349d9c1
+23:11:30.702 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+23:11:33.232 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Finished TC_LF_018_LoginSessionTimeOutTest ***

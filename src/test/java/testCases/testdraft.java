@@ -4,16 +4,15 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
-import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class testdraft {
 
@@ -22,40 +21,51 @@ public class testdraft {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
 		
-		driver.findElement(By.xpath("//input[@id='input-email']")).sendKeys("merilovig@mailinator.com");
-		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys("123123Sd@");
-		
-		driver.findElement(By.xpath("//input[@value='Login']")).click();
-		
-		Thread.sleep(2000);
-		
-		Set<Cookie> cookies =  driver.manage().getCookies();
-		
-		Thread.sleep(2000);
-		
-		driver.quit();
-		
-		driver = new FirefoxDriver();
-		
-		Thread.sleep(2000);
-		
-		driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
-		
-		for (Cookie cookie : cookies) {
-			driver.manage().addCookie(cookie);
-		}
-		
-        driver.navigate().refresh();
-		
-        
 		
 		//driver.quit();
+		
+		
 	}
 
+	void handle_cookie_session_timeout() throws InterruptedException {
+		WebDriver driver = new EdgeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		
+		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
+		
+		driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
+		
+		Thread.sleep(2000);
+		
+		Cookie sessionCookie = driver.manage().getCookieNamed("orangehrm");
+		
+		
+		
+		if(sessionCookie != null) {
+			
+			long thirtyOneDaysInMillis = 365L * 24 * 60 * 60 * 1000;
+			Date pastDate = new Date(System.currentTimeMillis() - thirtyOneDaysInMillis);
+			Cookie expiredCookie  = new Cookie("Test", sessionCookie.getValue(), sessionCookie.getDomain(), sessionCookie.getPath(), pastDate, sessionCookie.isSecure(), sessionCookie.isHttpOnly());			
+			
+			driver.manage().deleteCookie(sessionCookie);
+			driver.manage().addCookie(expiredCookie);
+		}
+		
+
+		
+		Thread.sleep(2000);
+		
+		driver.navigate().refresh();
+		
+		
+		String currentURL = driver.getCurrentUrl();
+
+	}
+	
+	
 	void broken_link_check() {
 		// capture all the links from the webpage
 		List<WebElement> links = driver.findElements(By.tagName("a"));

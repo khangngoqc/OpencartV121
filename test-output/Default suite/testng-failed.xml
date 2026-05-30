@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_LF_017_LoginSessionTest">
+      <class name="testCases.TC_LF_018_LoginSessionTimeOutTest">
         <methods>
-          <include name="verify_login_browser_session"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="verify_login_login_session_timeout"/>
         </methods>
-      </class> <!-- testCases.TC_LF_017_LoginSessionTest -->
+      </class> <!-- testCases.TC_LF_018_LoginSessionTimeOutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
