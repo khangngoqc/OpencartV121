@@ -28,7 +28,7 @@ public class TC_RF_007_RegisterAccountPageNavigatingTest extends BaseClass{
 			hp.clickLogin();
 			
 			//click Register from the right column
-			lp.clickRegister();
+			lp.clickRegisterBtnGrp();
 			
 			Assert.assertEquals(driver.getTitle(), "Register Account");
 				

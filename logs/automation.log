@@ -2241,3 +2241,34 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Session ID: ab40704d23a036b39f42410f4349d9c1
 23:11:30.702 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
 23:11:33.232 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Finished TC_LF_018_LoginSessionTimeOutTest ***
+18:56:12.863 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+18:56:13.192 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links: 81
+18:56:38.492 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+18:56:38.492 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
+18:59:20.025 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+18:59:20.387 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links Register Account page: 81
+18:59:45.070 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+18:59:45.070 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
+19:06:45.588 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - ***Starting TC_LF_019_LoginPageLinksTest ***
+19:06:46.268 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Total number of links on Account Login page: 81
+19:07:12.588 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+19:07:12.588 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Number of broken links: 1
+19:12:13.076 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - ***Starting TC_LF_019_LoginPageLinksTest ***
+19:12:13.400 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Total number of links on Account Login page: 81
+19:12:39.292 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+19:12:39.292 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Number of broken links: 1
+19:13:40.583 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - ***Starting TC_LF_019_LoginPageLinksTest ***
+19:13:40.627 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Total number of links on Your Store page: 73
+19:14:02.009 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+19:14:02.010 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Number of broken links: 1
+19:16:28.659 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - ***Starting TC_LF_019_LoginPageLinksTest ***
+19:35:52.665 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Starting TC_LF_020_LoginPageAccessTest ***
+19:35:53.746 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Finished TC_LF_020_LoginPageAccessTest ***
+19:36:46.779 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Starting TC_LF_020_LoginPageAccessTest ***
+19:37:35.301 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Starting TC_LF_020_LoginPageAccessTest ***
+19:41:58.986 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - ***Starting TC_LF_019_LoginPageLinksTest ***
+19:41:59.696 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Total number of links on Account Login page: 81
+19:42:27.576 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+19:42:27.578 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Number of broken links: 1
+19:42:29.211 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Starting TC_LF_020_LoginPageAccessTest ***
+19:42:30.220 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Finished TC_LF_020_LoginPageAccessTest ***

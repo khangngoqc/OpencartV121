@@ -3,19 +3,23 @@ package testBase;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager; //Log4j
 import org.apache.logging.log4j.Logger; //Log4j
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,6 +27,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -37,7 +42,7 @@ public class BaseClass {
 
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" })
-	public void setup( String os,  String br) throws IOException {
+	public void setup(String os, String br) throws IOException {
 
 		// Loading config.properties file
 		FileReader file = new FileReader("./src//test//resources//config.properties");
@@ -76,7 +81,6 @@ public class BaseClass {
 				capabilities.setBrowserName("firefox");
 				break;
 
-
 			default:
 				System.out.println("No matching browser");
 				return;
@@ -113,13 +117,13 @@ public class BaseClass {
 
 		// launch the website
 		driver.get(p.getProperty("appURL")); // reading URL from properties file
-		
-		//Action class object
+
+		// Action class object
 		act = new Actions(driver);
-		
-		//Explicit wait object
+
+		// Explicit wait object
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		
+
 	}
 
 	@AfterClass(groups = { "Sanity", "Regression", "Master" })
@@ -159,4 +163,52 @@ public class BaseClass {
 		return targetFilePath;
 
 	}
+
+	public boolean brokenLinksCheck() {
+		// capture all the links from the webpage
+		List<WebElement> links = driver.findElements(By.tagName("a"));
+		logger.info("Total number of links on " + driver.getTitle() +" page: " + links.size());
+
+		int noOfBrokenLink = 0;
+
+		
+		for (WebElement l : links) {
+
+			String hrefAttrValue = l.getAttribute("href");
+
+			if (hrefAttrValue == null || hrefAttrValue.isEmpty()) {
+				logger.info(l.getText() + "href attribute value is empty => Impossible to check");
+				continue;
+			}
+
+			// hit the URL to the server
+			try {
+
+				URL linkURL = new URL(hrefAttrValue); // converted href value from string to URL format
+				HttpURLConnection conn = (HttpURLConnection) linkURL.openConnection(); // open connection to the
+																						// server
+				conn.connect(); // connect to server and send request to the server
+
+				if (conn.getResponseCode() >= 400) {
+					logger.info(l.getText() + "		" + conn.getResponseCode() + "		" + hrefAttrValue
+							+ "	(Broken link)");
+					noOfBrokenLink++;
+				}
+
+			} catch (Exception e) {
+				logger.info(e.getMessage());
+			}
+
+		}
+
+		if (noOfBrokenLink > 0) {
+
+			logger.info("Number of broken links: " + noOfBrokenLink);
+			return false;
+		} else {
+			return true;
+		}
+
+	}
+
 }

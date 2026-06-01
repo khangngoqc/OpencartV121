@@ -21,6 +21,8 @@ public class BasePage {
 	public String getElementText(WebElement e) {
 		return e.getText();
 	}
+	
+	
 
 
 	
