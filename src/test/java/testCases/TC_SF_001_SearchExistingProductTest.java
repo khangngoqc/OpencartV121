@@ -10,7 +10,7 @@ import testBase.BaseClass;
 public class TC_SF_001_SearchExistingProductTest extends BaseClass {
 
 	
-	@Test(groups = {"master", "sanity"})
+	@Test(groups = {"master", "search"})
 	void validate_search_existing_product() {
 
 		logger.info("******* Starting TC_SF_001_SearchExistingProductTest *******");

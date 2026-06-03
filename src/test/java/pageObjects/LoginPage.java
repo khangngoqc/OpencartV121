@@ -15,6 +15,10 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath = "(//a[normalize-space()='Register'])[1]") WebElement lnkRegister;
 	@FindBy(xpath = "(//a[normalize-space()='Login'])[1]") WebElement lnkLogin;
 	
+	@FindBy(xpath = "//h2[normalize-space()='New Customer']") WebElement headingNewCustomer;
+	@FindBy(xpath = "//h2[normalize-space()='Returning Customer']") WebElement headingReturningCustomer;
+	
+
 	@FindBy(xpath="//input[@id='input-email']") WebElement txtEmail;
 	@FindBy(xpath="//input[@id='input-password']") WebElement txtPassword;
 	@FindBy(xpath="//input[@value='Login']") WebElement btnLogin;
@@ -95,6 +99,14 @@ public class LoginPage extends BasePage {
 
 	public WebElement getTxtPassword() {
 		return txtPassword;
+	}
+	
+	public WebElement getHeadingNewCustomer() {
+		return headingNewCustomer;
+	}
+
+	public WebElement getHeadingReturningCustomer() {
+		return headingReturningCustomer;
 	}
 	
 	

@@ -25,7 +25,7 @@ public class TC_LF_016_ChangingPasswordLoginTest extends BaseClass {
 
 			//login
 			LoginPage lp = new LoginPage(driver);
-			lp.setEmail(p.getProperty("email"));
+			lp.setEmail(p.getProperty("email2"));
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 			

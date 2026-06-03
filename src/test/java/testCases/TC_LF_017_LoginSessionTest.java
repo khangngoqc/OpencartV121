@@ -3,7 +3,7 @@ package testCases;
 import java.util.Set;
 
 import org.openqa.selenium.Cookie;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -38,7 +38,7 @@ public class TC_LF_017_LoginSessionTest extends BaseClass {
 			driver.quit();
 			
 			//Re-initialize the driver variable with a brand new session(use Firefox since Chrome block cookie setting )
-			driver = new FirefoxDriver();
+			driver = new EdgeDriver();
 			driver.get("https://tutorialsninja.com/demo/index.php?route=account/account");
 			
 			Thread.sleep(2000);
@@ -60,6 +60,7 @@ public class TC_LF_017_LoginSessionTest extends BaseClass {
 			// Assert.assertTrue(targetPage);
 
 		} catch (Exception e) {
+			logger.debug(e.getMessage());
 			Assert.fail();
 		}
 

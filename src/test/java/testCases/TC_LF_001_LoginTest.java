@@ -10,7 +10,7 @@ import testBase.BaseClass;
 
 public class TC_LF_001_LoginTest extends BaseClass {
 
-	@Test(groups = {"Sanity", "Master"})
+	@Test(groups = {"login", "master"})
 	public void verify_login() {
 		logger.info("***Starting TC002_LoginTest ***");
 
@@ -35,6 +35,7 @@ public class TC_LF_001_LoginTest extends BaseClass {
 			// Assert.assertTrue(targetPage);
 
 		} catch (Exception e) {
+			logger.debug(e.getMessage());
 			Assert.fail();
 		}
 

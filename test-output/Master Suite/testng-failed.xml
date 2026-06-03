@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="testCases.TC_LF_019_LoginPageLinksTest">
+      <class name="testCases.TC_LF_017_LoginSessionTest">
         <methods>
+          <include name="verify_login_browser_session"/>
           <include name="tearDown"/>
-          <include name="verify_loginpage_links"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_LF_019_LoginPageLinksTest -->
+      </class> <!-- testCases.TC_LF_017_LoginSessionTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
