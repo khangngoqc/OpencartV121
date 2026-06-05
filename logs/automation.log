@@ -2826,3 +2826,27 @@ Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Command: [a99a5f54-5cb5-4c7a-87f4-50bf2a64ae78, addCookie {cookie=OCSESSID=724790b53d111c54a9d4313d9c; path=/; domain=tutorialsninja.com; sameSite=None}]
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.2, moz:accessibilityChecks: false, moz:buildID: 20260525130955, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37408, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
 Session ID: a99a5f54-5cb5-4c7a-87f4-50bf2a64ae78
+19:46:57.478 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+19:47:09.598 [main] DEBUG testCases.TC_LG_001_LogoutByHeaderMenuTest - element not interactable
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57b7494ee1765532db6e24b3db460d76, clickElement {id=f.B3A65B5C4A48182F4453F2FD7596A81C.d.C40F4F5BBC1EB4060FED647C59CE8A5F.e.113}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61207}, goog:processID: 6400, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61207/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (57b7494ee1765532db6e24b3db460d76)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']]
+Session ID: 57b7494ee1765532db6e24b3db460d76
+19:48:08.499 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+19:48:11.282 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+19:50:53.696 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+19:50:56.246 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+20:04:54.561 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+20:04:56.997 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+20:04:58.545 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+20:05:00.398 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+20:09:12.592 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+20:09:16.054 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+20:09:17.580 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+20:09:19.305 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+20:09:20.738 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+20:10:30.328 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***

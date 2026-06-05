@@ -3,10 +3,11 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="login"></include>
+			<!--<include name="login"></include>-->
+			<include name="logout"></include>
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
-			<include name="register"></include>
+			<!--<include name="register"></include>-->
 
 			<exclude name=""></exclude>
 
@@ -68,10 +69,17 @@
 			<class name="testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
 			<!--login cases-->
 		
+			<!--Logout cases-->
+			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
+			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
+			<class name="testCases.TC_LG_003_LoginSessionTest" />
+			<!--Logout cases-->
+			
 			<!--Search cases-->
 			<class name="testCases.TC_SF_001_SearchExistingProductTest" />
 			<!--Search cases-->
 		
 		</classes>
+		
 	</test> <!--Test -->
 </suite> <!--Suite -->

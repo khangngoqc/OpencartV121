@@ -40,7 +40,7 @@ public class BaseClass {
 	public Actions act;
 	public WebDriverWait wait;
 
-	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
+	@BeforeClass(groups = { "Sanity", "Regression", "Master", "logout" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
@@ -126,7 +126,7 @@ public class BaseClass {
 
 	}
 
-	@AfterClass(groups = { "Sanity", "Regression", "Master" })
+	@AfterClass(groups = { "Sanity", "Regression", "Master", "logout" })
 	public void tearDown() {
 		driver.quit();
 	}

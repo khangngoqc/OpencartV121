@@ -10,39 +10,47 @@ public class LogoutPage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//h2[normalize-space()='My Account']")
-	WebElement maHeading;
-	
-	@FindBy(xpath = "//input[@value='Continue']") WebElement btnContinue;
+
+	//header elements
 	@FindBy(xpath = "(//a[@title='My Account'])[1]") WebElement lnkMyAccount;
-	@FindBy(xpath = "(//a[normalize-space()='Login'])[1]") WebElement lnkLogin;
-	@FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Logout']")
-	WebElement lnkLogout;
+	@FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']") WebElement lnkLoginMA;
+	
+	
+	@FindBy(xpath = "//h1[normalize-space()='Account Logout']") WebElement lgHeading;
+	
+	
+	@FindBy(xpath = "//a[normalize-space()='Continue']") WebElement btnContinue;
 	@FindBy(xpath = "//a[normalize-space()='Change your password']") WebElement lnkChangePassword;
 	
 	
+	
 
-	public boolean isMyAccountHeadingExist() {
+	public boolean isAccountLogoutHeadingExist() {
 		try {
-			return maHeading.isDisplayed();
+			return lgHeading.isDisplayed();
 		} catch (Exception e) {
 			return false;
 		}
 	}
-
-	public void clickLogout() {
-		lnkLogout.click();
+	
+	public void clickMyAccount() {
+		lnkMyAccount.click();
+	}
+	
+	public void clickLogin() {
+		lnkLoginMA.click();
 	}
 	
 	public void clickContinue() {
 		btnContinue.click();
 	}
 
-	public void clickMyAccount() {
-		lnkMyAccount.click();
+	public WebElement getLnkLoginMA() {
+		return lnkLoginMA;
 	}
 	
-	public void clickLogin() {
-		lnkLogin.click();
-	}
+	
+	
+
+	
 }

@@ -1,44 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="40" total="41" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-03T19:41:47 GMT+07:00" name="Master Suite" finished-at="2026-06-03T19:42:01 GMT+07:00" duration-ms="14166">
+  <suite started-at="2026-06-05T20:10:27 GMT+07:00" name="Suite" finished-at="2026-06-05T20:10:38 GMT+07:00" duration-ms="10844">
     <groups>
-      <group name="login">
-        <method signature="TC_LF_017_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LF_017_LoginSessionTest@661972b0]" name="verify_login_browser_session" class="testCases.TC_LF_017_LoginSessionTest"/>
-      </group> <!-- login -->
+      <group name="logout">
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@3c19aaa5]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
+      </group> <!-- logout -->
       <group name="master">
-        <method signature="TC_LF_017_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LF_017_LoginSessionTest@661972b0]" name="verify_login_browser_session" class="testCases.TC_LF_017_LoginSessionTest"/>
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@3c19aaa5]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-06-03T19:41:47 GMT+07:00" name="Test" finished-at="2026-06-03T19:42:01 GMT+07:00" duration-ms="14166">
-      <class name="testCases.TC_LF_017_LoginSessionTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_017_LoginSessionTest@661972b0]" started-at="2026-06-03T19:41:47 GMT+07:00" name="setup" finished-at="2026-06-03T19:41:52 GMT+07:00" duration-ms="4658" status="PASS">
+    <test started-at="2026-06-05T20:10:27 GMT+07:00" name="Test" finished-at="2026-06-05T20:10:38 GMT+07:00" duration-ms="10844">
+      <class name="testCases.TC_LG_003_LoginSessionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@3c19aaa5]" started-at="2026-06-05T20:10:28 GMT+07:00" name="setup" finished-at="2026-06-05T20:10:30 GMT+07:00" duration-ms="2200" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login_browser_session()[pri:0, instance:testCases.TC_LF_017_LoginSessionTest@661972b0]" started-at="2026-06-03T19:41:52 GMT+07:00" name="verify_login_browser_session" finished-at="2026-06-03T19:42:01 GMT+07:00" duration-ms="8879" status="FAIL">
+        <test-method signature="verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@3c19aaa5]" started-at="2026-06-05T20:10:30 GMT+07:00" name="verify_login_browser_session" finished-at="2026-06-05T20:10:38 GMT+07:00" duration-ms="8292" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[User session was not saved expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
+              <![CDATA[java.lang.AssertionError: User session was not saved expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC_LF_017_LoginSessionTest.verify_login_browser_session(TC_LF_017_LoginSessionTest.java:64)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:61)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -71,11 +75,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_browser_session -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_017_LoginSessionTest@661972b0]" started-at="2026-06-03T19:42:01 GMT+07:00" name="tearDown" finished-at="2026-06-03T19:42:01 GMT+07:00" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@3c19aaa5]" started-at="2026-06-05T20:10:38 GMT+07:00" name="tearDown" finished-at="2026-06-05T20:10:38 GMT+07:00" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_017_LoginSessionTest -->
+      </class> <!-- testCases.TC_LG_003_LoginSessionTest -->
     </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+  </suite> <!-- Suite -->
 </testng-results>
