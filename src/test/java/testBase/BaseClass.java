@@ -26,6 +26,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ThreadGuard;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -34,13 +35,18 @@ import org.testng.annotations.Parameters;
 
 public class BaseClass {
 
-	public static WebDriver driver;
+	public static final ThreadLocal<WebDriver> driver =  new ThreadLocal<>();
+	
+	public WebDriver getDriver() {
+		return driver.get();
+	}
+	
 	public Logger logger; // ;Log4j
 	public Properties p;
 	public Actions act;
 	public WebDriverWait wait;
 
-	@BeforeClass(groups = { "Sanity", "Regression", "Master", "logout" })
+	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
@@ -86,7 +92,7 @@ public class BaseClass {
 				return;
 			}
 
-			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+			driver.set(ThreadGuard.protect(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities)));
 
 		}
 
@@ -96,13 +102,13 @@ public class BaseClass {
 			// browser setup
 			switch (br.toLowerCase()) {
 			case "chrome":
-				driver = new ChromeDriver();
+				driver.set(ThreadGuard.protect(new ChromeDriver()));
 				break;
 			case "edge":
-				driver = new EdgeDriver();
+				driver.set(ThreadGuard.protect(new EdgeDriver()));
 				break;
 			case "firefox":
-				driver = new FirefoxDriver();
+				driver.set(ThreadGuard.protect(new FirefoxDriver()));
 				break;
 
 			default:
@@ -112,23 +118,24 @@ public class BaseClass {
 		}
 
 		// delete cookies & implicitWait methods
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		getDriver().manage().deleteAllCookies();
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		// launch the website
-		driver.get(p.getProperty("appURL")); // reading URL from properties file
+		getDriver().get(p.getProperty("appURL")); // reading URL from properties file
 
 		// Action class object
-		act = new Actions(driver);
+		act = new Actions(getDriver());
 
 		// Explicit wait object
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
 
 	}
 
-	@AfterClass(groups = { "Sanity", "Regression", "Master", "logout" })
+	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search" })
 	public void tearDown() {
-		driver.quit();
+		getDriver().quit();
+		driver.remove();
 	}
 
 	public String randomString() {
@@ -152,7 +159,7 @@ public class BaseClass {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 
-		TakesScreenshot takesScreenShot = (TakesScreenshot) driver;
+		TakesScreenshot takesScreenShot = (TakesScreenshot) getDriver();
 		File srcFile = takesScreenShot.getScreenshotAs(OutputType.FILE);
 
 		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
@@ -165,9 +172,12 @@ public class BaseClass {
 	}
 
 	public boolean brokenLinksCheck() {
+		
+		WebDriver currentDriver = getDriver();
+		
 		// capture all the links from the webpage
-		List<WebElement> links = driver.findElements(By.tagName("a"));
-		logger.info("Total number of links on " + driver.getTitle() +" page: " + links.size());
+		List<WebElement> links = currentDriver.findElements(By.tagName("a"));
+		logger.info("Total number of links on " + currentDriver.getTitle() +" page: " + links.size());
 
 		int noOfBrokenLink = 0;
 

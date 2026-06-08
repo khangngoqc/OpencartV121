@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class SearchPage extends BasePage{
 
-	public SearchPage(WebDriver driver) 
+	public SearchPage() 
 	{
-		super(driver);
+		super();
 	}
 	
 	@FindBy(xpath="//div[@class='caption']//h4") WebElement productName;

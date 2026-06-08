@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class LogoutPage extends BasePage {
 
-	public LogoutPage(WebDriver driver) {
-		super(driver);
+	public LogoutPage() {
+		super();
 	}
 
 

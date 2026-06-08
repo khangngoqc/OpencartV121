@@ -16,14 +16,14 @@ public class TC_LF_006_ForgottenPasswordLinkTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			logger.info("validate login page url");
-			Assert.assertEquals(driver.getCurrentUrl(), "https://tutorialsninja.com/demo/index.php?route=account/login", "Failed to get to the Login Page!");
+			Assert.assertEquals(getDriver().getCurrentUrl(), "https://tutorialsninja.com/demo/index.php?route=account/login", "Failed to get to the Login Page!");
 			
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			boolean linkDisplay = lp.getLnkForgottenPassword().isDisplayed();
 			logger.info("validate forgotten password link displayment");
 			Assert.assertEquals(linkDisplay, true, "The Forgotten Password link does not display!");
@@ -31,7 +31,7 @@ public class TC_LF_006_ForgottenPasswordLinkTest extends BaseClass {
 			//navigate to Forgotten Password page
 			lp.getLnkForgottenPassword().click(); 
 			
-			ForgottenPasswordPage fpp = new ForgottenPasswordPage(driver);
+			ForgottenPasswordPage fpp = new ForgottenPasswordPage();
 			boolean headingDisplay = fpp.getPageHeading().isDisplayed();
 			logger.info("validate page heading display on Forgotten Password page");
 			Assert.assertEquals(headingDisplay, true, "Failed to get to the Forgotten Password Page!");

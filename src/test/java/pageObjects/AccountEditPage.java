@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class AccountEditPage extends BasePage {
 	
-	public AccountEditPage(WebDriver driver) {
-		super(driver);
+	public AccountEditPage() {
+		super();
 	}
 	
 	//Locators

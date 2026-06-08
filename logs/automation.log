@@ -2850,3 +2850,105 @@ Session ID: 57b7494ee1765532db6e24b3db460d76
 20:09:19.305 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
 20:09:20.738 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
 20:10:30.328 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+22:10:24.787 [main] INFO  testCases.TC_LF_001_LoginTest - ***Starting TC_LF_001_LoginTest ***
+22:10:30.291 [main] INFO  testCases.TC_LF_001_LoginTest - ***Finished TC_LF_001_LoginTest ***
+22:11:10.188 [main] INFO  testCases.TC_LF_001_LoginTest - ***Starting TC_LF_001_LoginTest ***
+22:11:12.705 [main] INFO  testCases.TC_LF_001_LoginTest - ***Finished TC_LF_001_LoginTest ***
+22:12:25.653 [main] INFO  testCases.TC_LF_001_LoginTest - ***Starting TC_LF_001_LoginTest ***
+22:12:27.270 [main] INFO  testCases.TC_LF_001_LoginTest - ***Finished TC_LF_001_LoginTest ***
+22:19:03.100 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Starting TC_LF_006_ForgottenPasswordLinkTest ***
+22:19:03.403 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate login page url
+22:19:03.432 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate forgotten password link displayment
+22:19:03.716 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate page heading display on Forgotten Password page
+22:19:03.716 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Finsihed TC_LF_006_ForgottenPasswordLinkTest ***
+22:32:40.357 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
+22:34:50.557 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
+22:37:59.116 [main] INFO  testCases.TC_LF_001_LoginTest - ***Starting TC_LF_001_LoginTest ***
+22:38:00.554 [main] INFO  testCases.TC_LF_001_LoginTest - ***Finished TC_LF_001_LoginTest ***
+22:38:02.210 [main] INFO  testCases.TC_LF_002_InvalidLoginTest - ***Starting TC_LF_002_InvalidLoginTest ***
+22:38:13.455 [main] INFO  testCases.TC_LF_002_InvalidLoginTest - ***Finished TC_LF_002_InvalidLoginTest ***
+22:38:15.195 [main] INFO  testCases.TC_LF_003_InvalidEmailLoginTest - ***Starting TC_LF_003_InvalidEmailLoginTest ***
+22:38:26.070 [main] INFO  testCases.TC_LF_003_InvalidEmailLoginTest - ***Finished TC_LF_003_InvalidEmailLoginTest ***
+22:38:27.571 [main] INFO  testCases.TC_LF_004_InvalidPasswordLoginTest - ***Starting TC_LF_004_InvalidPasswordLoginTest ***
+22:38:38.701 [main] INFO  testCases.TC_LF_004_InvalidPasswordLoginTest - ***Finished TC_LF_004_InvalidPasswordLoginTest ***
+22:38:40.175 [main] INFO  testCases.TC_LF_005_NoncredentialLoginTest - ***Starting TC_LF_005_NoncredentialLoginTest ***
+22:38:50.733 [main] INFO  testCases.TC_LF_005_NoncredentialLoginTest - ***Finished TC_LF_005_NoncredentialLoginTest ***
+22:38:52.186 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Starting TC_LF_006_ForgottenPasswordLinkTest ***
+22:38:52.438 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate login page url
+22:38:52.460 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate forgotten password link displayment
+22:38:52.648 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - validate page heading display on Forgotten Password page
+22:38:52.649 [main] INFO  testCases.TC_LF_006_ForgottenPasswordLinkTest - ***Finsihed TC_LF_006_ForgottenPasswordLinkTest ***
+22:38:54.057 [main] INFO  testCases.TC_LF_007_KeyboardKeysLoginTest - ***Starting TC_LF_007_KeyboardKeysLoginTest ***
+22:38:54.999 [main] INFO  testCases.TC_LF_007_KeyboardKeysLoginTest - ***Finished TC_LF_007_KeyboardKeysLoginTest ***
+22:38:56.434 [main] INFO  testCases.TC_LF_008_FieldsPlaceholderTest - ******* Starting TC_LF_008_FieldsPlaceholderTest *******
+22:38:56.701 [main] INFO  testCases.TC_LF_008_FieldsPlaceholderTest - ******* Finished TC_LF_008_FieldsPlaceholderTest *******
+22:38:58.158 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Starting TC_LF_009_LoginAndBrowserBackingTest ***
+22:38:59.604 [main] INFO  testCases.TC_LF_009_LoginAndBrowserBackingTest - ***Finished TC_LF_009_LoginAndBrowserBackingTest ***
+22:39:00.954 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Starting TC_LF_010_BackingAfterLoginTest ***
+22:39:12.579 [main] INFO  testCases.TC_LF_010_BackingAfterLoginTest - ***Finished TC_LF_010_BackingAfterLoginTest ***
+22:39:15.445 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+22:39:24.731 [main] INFO  testCases.TC_LF_013_PasswordFieldsCoveringTest - ******* Starting TC_LF_013_PasswordFieldsCoveringTest *******
+22:39:25.061 [main] INFO  testCases.TC_LF_013_PasswordFieldsCoveringTest - ******* Finished TC_LF_013_PasswordFieldsCoveringTest *******
+22:39:26.743 [main] INFO  testCases.TC_LF_014_CopyingPasswordTxtTest - ******* Starting TC_LF_014_CopyingPasswordTxtTest *******
+22:39:27.214 [main] INFO  testCases.TC_LF_014_CopyingPasswordTxtTest - ******* Finished TC_LF_014_CopyingPasswordTxtTest *******
+22:39:28.707 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+22:39:30.613 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+22:39:34.559 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate with old password
+22:39:45.305 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-danger alert-dismissible']"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0526c0817ca56de79ee7b9b5d8cf54d4, findElement {using=xpath, value=//div[@class='alert alert-danger alert-dismissible']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51882}, goog:processID: 23096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51882/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0526c0817ca56de79ee7b9b5d8cf54d4
+22:39:46.959 [main] INFO  testCases.TC_LF_017_LoginSessionTest - ***Starting TC_LF_017_LoginSessionTest ***
+22:39:56.343 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Starting TC_LF_018_LoginSessionTimeOutTest ***
+22:39:59.530 [main] INFO  testCases.TC_LF_018_LoginSessionTimeOutTest - ***Finished TC_LF_018_LoginSessionTimeOutTest ***
+22:40:00.970 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - ***Starting TC_LF_019_LoginPageLinksTest ***
+22:40:01.694 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Total number of links on Account Login page: 81
+22:40:45.648 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+22:40:45.648 [main] INFO  testCases.TC_LF_019_LoginPageLinksTest - Number of broken links: 1
+22:40:47.287 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Starting TC_LF_020_LoginPageAccessTest ***
+22:40:48.310 [main] INFO  testCases.TC_LF_020_LoginPageAccessTest - ***Finished TC_LF_020_LoginPageAccessTest ***
+22:43:22.546 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+22:44:24.575 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+22:44:24.894 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - password
+22:45:44.299 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Starting TC_LF_015_PasswordPageSourceTest *******
+22:45:44.599 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - password
+22:45:44.608 [main] INFO  testCases.TC_LF_015_PasswordPageSourceTest - ******* Finished TC_LF_015_PasswordPageSourceTest *******
+22:47:05.775 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+22:47:17.632 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Change your password']"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65f21afedc8bf122b83b3a2c0792fb44, findElement {using=xpath, value=//a[normalize-space()='Change your password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62892}, goog:processID: 12228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62892/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65f21afedc8bf122b83b3a2c0792fb44
+22:52:26.539 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+22:52:32.941 [main] DEBUG testCases.TC_LF_016_ChangingPasswordLoginTest - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d198baf863cf55e13ddc7fac899bd94e, findElement {value=//a[normalize-space()='Change your password'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62926}, goog:processID: 11044, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62926/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d198baf863cf55e13ddc7fac899bd94e
+22:53:32.573 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+22:53:36.150 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate with old password
+22:53:37.241 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - try login with new password
+22:53:37.976 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate MyAccountPage heading after loign with new password
+22:53:47.992 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - reset default password
+22:53:48.300 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
+23:00:30.005 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* TC_LF_016_ChangingPasswordLoginTest *******
+23:00:53.017 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate with old password
+23:00:53.037 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - try login with new password
+23:00:54.514 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - validate MyAccountPage heading after loign with new password
+23:01:04.579 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - reset default password
+23:01:06.978 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
+23:01:31.538 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
+23:01:33.777 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***

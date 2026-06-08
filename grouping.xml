@@ -3,8 +3,8 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<!--<include name="login"></include>-->
-			<include name="logout"></include>
+			<include name="login"></include>
+			<!--<include name="logout"></include>-->
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
 			<!--<include name="register"></include>-->

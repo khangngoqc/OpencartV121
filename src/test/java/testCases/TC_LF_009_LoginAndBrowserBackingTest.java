@@ -16,21 +16,21 @@ public class TC_LF_009_LoginAndBrowserBackingTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			// LoginPage actions
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail(p.getProperty("email1"));
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 
 			// MyAccountPage actions
-			MyAccountPage map = new MyAccountPage(driver);
+			MyAccountPage map = new MyAccountPage();
 
-			driver.navigate().back(); //backing on browser
-			driver.navigate().refresh(); //refresh page to validate login status
+			getDriver().navigate().back(); //backing on browser
+			getDriver().navigate().refresh(); //refresh page to validate login status
 
 			boolean targetPage = map.isMyAccountHeadingExist();
 

@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class ChangePasswordPage extends BasePage {
 	
-	public ChangePasswordPage(WebDriver driver) {
-		super(driver);
+	public ChangePasswordPage() {
+		super();
 	}
 	
 	//Locators

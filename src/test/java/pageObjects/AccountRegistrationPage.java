@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrationPage extends BasePage {
 
-	public AccountRegistrationPage(WebDriver driver) {
-		super(driver);
+	public AccountRegistrationPage() {
+		super();
 	}
 
 	@FindBy(xpath = "//input[@id='input-firstname']")

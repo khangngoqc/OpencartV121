@@ -17,11 +17,11 @@ public class TC_LF_013_PasswordFieldsCoveringTest extends BaseClass {
 
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 
 			String pwd = p.getProperty("password");
 			lp.setPassword(pwd);

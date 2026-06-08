@@ -17,7 +17,7 @@ public class TC_LF_007_KeyboardKeysLoginTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
@@ -42,7 +42,7 @@ public class TC_LF_007_KeyboardKeysLoginTest extends BaseClass {
 			act.keyDown(Keys.ENTER).keyUp(Keys.ENTER).perform();
 
 			// MyAccountPage actions
-			MyAccountPage map = new MyAccountPage(driver);
+			MyAccountPage map = new MyAccountPage();
 			boolean targetPage = map.isMyAccountHeadingExist();
 
 			// validation
