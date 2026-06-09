@@ -5,6 +5,7 @@ import java.util.Set;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ThreadGuard;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -39,7 +40,7 @@ public class TC_LF_017_LoginSessionTest extends BaseClass {
 			getDriver().quit();
 			
 			//Re-initialize the driver variable with a brand new session(use Firefox since Chrome block cookie setting )
-			WebDriver newDriver = new EdgeDriver();
+			WebDriver newDriver = ThreadGuard.protect(new EdgeDriver());
 			BaseClass.driver.set(newDriver);
 			getDriver().get("https://tutorialsninja.com/demo/index.php?route=account/account");
 			

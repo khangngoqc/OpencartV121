@@ -46,7 +46,7 @@ public class BaseClass {
 	public Actions act;
 	public WebDriverWait wait;
 
-	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search" })
+	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
@@ -132,7 +132,7 @@ public class BaseClass {
 
 	}
 
-	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search" })
+	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" })
 	public void tearDown() {
 		getDriver().quit();
 		driver.remove();

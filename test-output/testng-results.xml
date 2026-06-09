@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="23" total="24" passed="1" failed="0" skipped="0">
+<testng-results ignored="24" total="25" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-08T23:01:29 GMT+07:00" name="Suite" finished-at="2026-06-08T23:01:33 GMT+07:00" duration-ms="4550">
+  <suite started-at="2026-06-09T22:59:07 GMT+07:00" name="Suite" finished-at="2026-06-09T22:59:09 GMT+07:00" duration-ms="2471">
     <groups>
-      <group name="login">
-        <method signature="TC_LF_012_InvalidLoginSpamTest.verify_invalid_login_spam()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@36902638]" name="verify_invalid_login_spam" class="testCases.TC_LF_012_InvalidLoginSpamTest"/>
-      </group> <!-- login -->
       <group name="master">
-        <method signature="TC_LF_012_InvalidLoginSpamTest.verify_invalid_login_spam()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@36902638]" name="verify_invalid_login_spam" class="testCases.TC_LF_012_InvalidLoginSpamTest"/>
+        <method signature="TC_RF_014_RequiredMarkTest.validate_required_field_asterisk()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@2d7275fc]" name="validate_required_field_asterisk" class="testCases.TC_RF_014_RequiredMarkTest"/>
       </group> <!-- master -->
+      <group name="register">
+        <method signature="TC_RF_014_RequiredMarkTest.validate_required_field_asterisk()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@2d7275fc]" name="validate_required_field_asterisk" class="testCases.TC_RF_014_RequiredMarkTest"/>
+      </group> <!-- register -->
     </groups>
-    <test started-at="2026-06-08T23:01:29 GMT+07:00" name="Test" finished-at="2026-06-08T23:01:33 GMT+07:00" duration-ms="4550">
-      <class name="testCases.TC_LF_012_InvalidLoginSpamTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@36902638]" started-at="2026-06-08T23:01:29 GMT+07:00" name="setup" finished-at="2026-06-08T23:01:31 GMT+07:00" duration-ms="2047" status="PASS">
+    <test started-at="2026-06-09T22:59:07 GMT+07:00" name="Test" finished-at="2026-06-09T22:59:09 GMT+07:00" duration-ms="2471">
+      <class name="testCases.TC_RF_014_RequiredMarkTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@2d7275fc]" started-at="2026-06-09T22:59:07 GMT+07:00" name="setup" finished-at="2026-06-09T22:59:09 GMT+07:00" duration-ms="1870" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_invalid_login_spam()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@36902638]" started-at="2026-06-08T23:01:31 GMT+07:00" name="verify_invalid_login_spam" finished-at="2026-06-08T23:01:33 GMT+07:00" duration-ms="2246" status="PASS">
+        <test-method signature="validate_required_field_asterisk()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@2d7275fc]" started-at="2026-06-09T22:59:09 GMT+07:00" name="validate_required_field_asterisk" finished-at="2026-06-09T22:59:09 GMT+07:00" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_invalid_login_spam -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_012_InvalidLoginSpamTest@36902638]" started-at="2026-06-08T23:01:33 GMT+07:00" name="tearDown" finished-at="2026-06-08T23:01:33 GMT+07:00" duration-ms="99" status="PASS">
+        </test-method> <!-- validate_required_field_asterisk -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_014_RequiredMarkTest@2d7275fc]" started-at="2026-06-09T22:59:09 GMT+07:00" name="tearDown" finished-at="2026-06-09T22:59:09 GMT+07:00" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_012_InvalidLoginSpamTest -->
+      </class> <!-- testCases.TC_RF_014_RequiredMarkTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

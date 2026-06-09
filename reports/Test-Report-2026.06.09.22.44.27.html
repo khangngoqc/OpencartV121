@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">opencart Functional Testing</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 3, 2026 07:17:30 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jun 9, 2026 10:44:27 PM</span></a>
 </li>
 </ul>
 </div>
@@ -71,7 +71,6 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -80,7 +79,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">login</a><a class="dropdown-item" href="#">functionality</a><a class="dropdown-item" href="#">master</a><a class="dropdown-item" href="#">register</a><a class="dropdown-item" href="#">Master</a><a class="dropdown-item" href="#">Sanity</a>
+<a class="dropdown-item" href="#">regression</a><a class="dropdown-item" href="#">register</a><a class="dropdown-item" href="#">Master</a><a class="dropdown-item" href="#">master</a>
 </ul>
 </li>
 </ul>
@@ -88,12 +87,12 @@
       <ul class="test-list-item">
         <li class="test-item"  status="fail" test-id="1"
           author=""
-          tag="Sanity Master"
+          tag="master register regression"
           device="">
           <div class="test-detail">
-            <p class="name">testCases.TC_LF_001_LoginTest</p>
+            <p class="name">testCases.TC_RF_001_AccountRegistrationTest</p>
             <p class="text-sm">
-              <span>7:17:43 PM</span> / <span>00:00:00:070</span>
+              <span>10:44:27 PM</span> / <span>00:00:00:007</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -101,42 +100,35 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_001_LoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:17:43 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:17:43 PM</span>
-<span class='badge badge-default'>00:00:00:070</span>
+<h5 class="test-status text-fail">testCases.TC_RF_001_AccountRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:007</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Sanity</span>
-<span class="badge badge-pill badge-default">Master</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_login_20260603071743.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_login_20260603071743.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
+</div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:17:43 PM</td>
+        <td>10:44:27 PM</td>
         <td>
-          verify_login got failed
+          verify_account_registration got failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:17:43 PM</td>
+        <td>10:44:27 PM</td>
         <td>
-          Login Failed expected [true] but found [false]
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
         </td>
       </tr>
   </tbody>
@@ -144,909 +136,26 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
-          author=""
-          tag="master login functionality"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_002_InvalidLoginTest</p>
-            <p class="text-sm">
-              <span>7:17:56 PM</span> / <span>00:00:00:001</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_002_InvalidLoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:17:56 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:17:56 PM</span>
-<span class='badge badge-default'>00:00:00:001</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span>
-<span class="badge badge-pill badge-default">functionality</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:17:56 PM</td>
-        <td>
-          verify_login_with_invalid_account_info  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag="master login functionality"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_003_InvalidEmailLoginTest</p>
-            <p class="text-sm">
-              <span>7:18:08 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_003_InvalidEmailLoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:18:08 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:18:08 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span>
-<span class="badge badge-pill badge-default">functionality</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:18:08 PM</td>
-        <td>
-          verify_login_with_invalid_email  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="4"
-          author=""
-          tag="master login functionality"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_004_InvalidPasswordLoginTest</p>
-            <p class="text-sm">
-              <span>7:18:20 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_004_InvalidPasswordLoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:18:20 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:18:20 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span>
-<span class="badge badge-pill badge-default">functionality</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:18:20 PM</td>
-        <td>
-          verify_login_with_invalid_password  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag="master login functionality"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_005_NoncredentialLoginTest</p>
-            <p class="text-sm">
-              <span>7:18:32 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_005_NoncredentialLoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:18:32 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:18:32 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span>
-<span class="badge badge-pill badge-default">functionality</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:18:32 PM</td>
-        <td>
-          verify_login_without_credentials  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="6"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_006_ForgottenPasswordLinkTest</p>
-            <p class="text-sm">
-              <span>7:18:34 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_006_ForgottenPasswordLinkTest</h5>
-<span class='badge badge-success'>06.03.2026 7:18:34 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:18:34 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:18:34 PM</td>
-        <td>
-          validate_forgotten_password  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="7"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_007_KeyboardKeysLoginTest</p>
-            <p class="text-sm">
-              <span>7:18:47 PM</span> / <span>00:00:00:092</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_007_KeyboardKeysLoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:18:47 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:18:47 PM</span>
-<span class='badge badge-default'>00:00:00:092</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_login_with_keyboard_keys_20260603071847.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_login_with_keyboard_keys_20260603071847.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:18:47 PM</td>
-        <td>
-          verify_login_with_keyboard_keys got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:18:47 PM</td>
-        <td>
-          Login Failed expected [true] but found [false]
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="8"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_008_FieldsPlaceholderTest</p>
-            <p class="text-sm">
-              <span>7:18:49 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_008_FieldsPlaceholderTest</h5>
-<span class='badge badge-success'>06.03.2026 7:18:49 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:18:49 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:18:49 PM</td>
-        <td>
-          validate_fields_placeholders  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="9"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_009_LoginAndBrowserBackingTest</p>
-            <p class="text-sm">
-              <span>7:19:02 PM</span> / <span>00:00:00:078</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_009_LoginAndBrowserBackingTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:02 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:02 PM</span>
-<span class='badge badge-default'>00:00:00:078</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_backing_after_login_20260603071902.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_backing_after_login_20260603071902.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:19:02 PM</td>
-        <td>
-          verify_backing_after_login got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:19:02 PM</td>
-        <td>
-          Got logged out after backing on browser expected [true] but found [false]
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="10"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_010_BackingAfterLoginTest</p>
-            <p class="text-sm">
-              <span>7:19:17 PM</span> / <span>00:00:00:074</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_010_BackingAfterLoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:17 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:17 PM</span>
-<span class='badge badge-default'>00:00:00:074</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_backing_after_logout_20260603071917.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_backing_after_logout_20260603071917.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:19:17 PM</td>
-        <td>
-          verify_backing_after_logout got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:19:17 PM</td>
-        <td>
-          null
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="11"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_012_InvalidLoginSpamTest</p>
-            <p class="text-sm">
-              <span>7:19:22 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_012_InvalidLoginSpamTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:22 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:22 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:19:22 PM</td>
-        <td>
-          verify_invalid_login_spam  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="12"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_013_PasswordFieldsCoveringTest</p>
-            <p class="text-sm">
-              <span>7:19:23 PM</span> / <span>00:00:00:001</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_013_PasswordFieldsCoveringTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:23 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:23 PM</span>
-<span class='badge badge-default'>00:00:00:001</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:19:23 PM</td>
-        <td>
-          validate_password_fields_is_hidden  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="13"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_014_CopyingPasswordTxtTest</p>
-            <p class="text-sm">
-              <span>7:19:25 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_014_CopyingPasswordTxtTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:25 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:25 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:19:25 PM</td>
-        <td>
-          validate_password_copy_function_blocked  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="14"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_015_PasswordPageSourceTest</p>
-            <p class="text-sm">
-              <span>7:19:27 PM</span> / <span>00:00:00:069</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_015_PasswordPageSourceTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:27 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:27 PM</span>
-<span class='badge badge-default'>00:00:00:069</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\validate_password_copy_function_blocked_20260603071927.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\validate_password_copy_function_blocked_20260603071927.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:19:27 PM</td>
-        <td>
-          validate_password_copy_function_blocked got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:19:27 PM</td>
-        <td>
-          Validation Failed: Password field is clear text! expected [true] but found [false]
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="15"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_016_ChangingPasswordLoginTest</p>
-            <p class="text-sm">
-              <span>7:19:40 PM</span> / <span>00:00:00:065</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_016_ChangingPasswordLoginTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:40 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:40 PM</span>
-<span class='badge badge-default'>00:00:00:065</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\validate_login_after_changing_password_20260603071940.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\validate_login_after_changing_password_20260603071940.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:19:40 PM</td>
-        <td>
-          validate_login_after_changing_password got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:19:40 PM</td>
-        <td>
-          null
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="16"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_017_LoginSessionTest</p>
-            <p class="text-sm">
-              <span>7:19:52 PM</span> / <span>00:00:00:074</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_017_LoginSessionTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:52 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:52 PM</span>
-<span class='badge badge-default'>00:00:00:074</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_login_browser_session_20260603071952.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_login_browser_session_20260603071952.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:19:52 PM</td>
-        <td>
-          verify_login_browser_session got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:19:52 PM</td>
-        <td>
-          User session was not saved expected [true] but found [false]
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="17"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_018_LoginSessionTimeOutTest</p>
-            <p class="text-sm">
-              <span>7:19:56 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_018_LoginSessionTimeOutTest</h5>
-<span class='badge badge-success'>06.03.2026 7:19:56 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:19:56 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:19:56 PM</td>
-        <td>
-          verify_login_login_session_timeout  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="18"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_019_LoginPageLinksTest</p>
-            <p class="text-sm">
-              <span>7:20:47 PM</span> / <span>00:00:00:059</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">testCases.TC_LF_019_LoginPageLinksTest</h5>
-<span class='badge badge-success'>06.03.2026 7:20:47 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:20:47 PM</span>
-<span class='badge badge-default'>00:00:00:059</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_loginpage_links_20260603072047.png' src="C:\Users\ADMIN\myworkspace\OpencartV121\screenshots\verify_loginpage_links_20260603072047.png">
-  
-    
-
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:20:47 PM</td>
-        <td>
-          verify_loginpage_links got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:20:47 PM</td>
-        <td>
-          Broken link detected!  expected [true] but found [false]
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="19"
-          author=""
-          tag="master login"
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_LF_020_LoginPageAccessTest</p>
-            <p class="text-sm">
-              <span>7:20:49 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_020_LoginPageAccessTest</h5>
-<span class='badge badge-success'>06.03.2026 7:20:49 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:20:49 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
-<span class="badge badge-pill badge-default">login</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:20:49 PM</td>
-        <td>
-          verify_loginpage_access_links  got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="20"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag="master register"
           device="">
           <div class="test-detail">
-            <p class="name">testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</p>
+            <p class="name">testCases.TC_RF_004_WarningMessageTest</p>
             <p class="text-sm">
-              <span>7:20:51 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>10:44:27 PM</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</h5>
-<span class='badge badge-success'>06.03.2026 7:20:51 PM</span>
-<span class='badge badge-danger'>06.03.2026 7:20:51 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<h5 class="test-status text-fail">testCases.TC_RF_004_WarningMessageTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -1059,10 +168,817 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:20:51 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
         <td>
-          validate_breadcrumbs_heading_url_title  got successfully executed
+          verify_required_field_warning got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_007_RegisterAccountPageNavigatingTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_007_RegisterAccountPageNavigatingTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          verify_different_ways_of_navigating got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_008_ConfirmPasswordTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_008_ConfirmPasswordTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_different_confirm_password got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_009_UsedEmailRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_009_UsedEmailRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_registration_with_used_email got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_010_InvalidEmailRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_010_InvalidEmailRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_registration_with_invalid_email got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_registration_with_invalid_phone_number got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_012_KeyboardKeysRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_012_KeyboardKeysRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_registration_with_Keyboard got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_014_RequiredMarkTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_014_RequiredMarkTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_required_field_asterisk got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_016_SpaceInputRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_016_SpaceInputRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_registration_with_space_input got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag="register Master"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_017_PasswordComplexityRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_017_PasswordComplexityRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">register</span>
+<span class="badge badge-pill badge-default">Master</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          verify_password_complexity_standards got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="12"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          verify_account_registration_with_leading_trailing got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_020_PolicyCheckboxTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_020_PolicyCheckboxTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_policy_checkbox_status got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="14"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_registration_without_checking_privacy_policy_checkbox got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_022_PasswordFieldsCoveringTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_022_PasswordFieldsCoveringTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_password_fields_is_hidden got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_023_AccountRegistrationPageLinksTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_023_AccountRegistrationPageLinksTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_on_page_links got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_registration_without_filling_passwordConfirm got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag="master register"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest</p>
+            <p class="text-sm">
+              <span>10:44:27 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest</h5>
+<span class='badge badge-success'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-danger'>06.09.2026 10:44:27 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">register</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          validate_breadcrumbs_heading_url_title got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:44:27 PM</td>
+        <td>
+          Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.logger" is null
         </td>
       </tr>
   </tbody>
@@ -1083,391 +999,22 @@
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>11</span>
-<span class='badge log badge-danger'>7</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">login</p>
-<p class="duration text-sm">18 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>login</h4>
-<span status="pass" class='badge log pass-bg'>11 passed</span>
-<span status="fail" class='badge log badge-danger'>7 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:17:56 PM</td>
-<td>
-<a href="#" class="linked" test-id='2' id='2'>testCases.TC_LF_002_InvalidLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:08 PM</td>
-<td>
-<a href="#" class="linked" test-id='3' id='3'>testCases.TC_LF_003_InvalidEmailLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='4'>testCases.TC_LF_004_InvalidPasswordLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:32 PM</td>
-<td>
-<a href="#" class="linked" test-id='5' id='5'>testCases.TC_LF_005_NoncredentialLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:34 PM</td>
-<td>
-<a href="#" class="linked" test-id='6' id='6'>testCases.TC_LF_006_ForgottenPasswordLinkTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:18:47 PM</td>
-<td>
-<a href="#" class="linked" test-id='7' id='7'>testCases.TC_LF_007_KeyboardKeysLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:49 PM</td>
-<td>
-<a href="#" class="linked" test-id='8' id='8'>testCases.TC_LF_008_FieldsPlaceholderTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:02 PM</td>
-<td>
-<a href="#" class="linked" test-id='9' id='9'>testCases.TC_LF_009_LoginAndBrowserBackingTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:17 PM</td>
-<td>
-<a href="#" class="linked" test-id='10' id='10'>testCases.TC_LF_010_BackingAfterLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:22 PM</td>
-<td>
-<a href="#" class="linked" test-id='11' id='11'>testCases.TC_LF_012_InvalidLoginSpamTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:23 PM</td>
-<td>
-<a href="#" class="linked" test-id='12' id='12'>testCases.TC_LF_013_PasswordFieldsCoveringTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:25 PM</td>
-<td>
-<a href="#" class="linked" test-id='13' id='13'>testCases.TC_LF_014_CopyingPasswordTxtTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:27 PM</td>
-<td>
-<a href="#" class="linked" test-id='14' id='14'>testCases.TC_LF_015_PasswordPageSourceTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:40 PM</td>
-<td>
-<a href="#" class="linked" test-id='15' id='15'>testCases.TC_LF_016_ChangingPasswordLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:52 PM</td>
-<td>
-<a href="#" class="linked" test-id='16' id='16'>testCases.TC_LF_017_LoginSessionTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:56 PM</td>
-<td>
-<a href="#" class="linked" test-id='17' id='17'>testCases.TC_LF_018_LoginSessionTimeOutTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:20:47 PM</td>
-<td>
-<a href="#" class="linked" test-id='18' id='18'>testCases.TC_LF_019_LoginPageLinksTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:20:49 PM</td>
-<td>
-<a href="#" class="linked" test-id='19' id='19'>testCases.TC_LF_020_LoginPageAccessTest</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>4</span>
-</span>
-<p class="name">functionality</p>
-<p class="duration text-sm">4 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>functionality</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:17:56 PM</td>
-<td>
-<a href="#" class="linked" test-id='2' id='2'>testCases.TC_LF_002_InvalidLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:08 PM</td>
-<td>
-<a href="#" class="linked" test-id='3' id='3'>testCases.TC_LF_003_InvalidEmailLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='4'>testCases.TC_LF_004_InvalidPasswordLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:32 PM</td>
-<td>
-<a href="#" class="linked" test-id='5' id='5'>testCases.TC_LF_005_NoncredentialLoginTest</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>12</span>
-<span class='badge log badge-danger'>7</span>
-</span>
-<p class="name">master</p>
-<p class="duration text-sm">19 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>master</h4>
-<span status="pass" class='badge log pass-bg'>12 passed</span>
-<span status="fail" class='badge log badge-danger'>7 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:17:56 PM</td>
-<td>
-<a href="#" class="linked" test-id='2' id='2'>testCases.TC_LF_002_InvalidLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:08 PM</td>
-<td>
-<a href="#" class="linked" test-id='3' id='3'>testCases.TC_LF_003_InvalidEmailLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='4'>testCases.TC_LF_004_InvalidPasswordLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:32 PM</td>
-<td>
-<a href="#" class="linked" test-id='5' id='5'>testCases.TC_LF_005_NoncredentialLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:34 PM</td>
-<td>
-<a href="#" class="linked" test-id='6' id='6'>testCases.TC_LF_006_ForgottenPasswordLinkTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:18:47 PM</td>
-<td>
-<a href="#" class="linked" test-id='7' id='7'>testCases.TC_LF_007_KeyboardKeysLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:18:49 PM</td>
-<td>
-<a href="#" class="linked" test-id='8' id='8'>testCases.TC_LF_008_FieldsPlaceholderTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:02 PM</td>
-<td>
-<a href="#" class="linked" test-id='9' id='9'>testCases.TC_LF_009_LoginAndBrowserBackingTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:17 PM</td>
-<td>
-<a href="#" class="linked" test-id='10' id='10'>testCases.TC_LF_010_BackingAfterLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:22 PM</td>
-<td>
-<a href="#" class="linked" test-id='11' id='11'>testCases.TC_LF_012_InvalidLoginSpamTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:23 PM</td>
-<td>
-<a href="#" class="linked" test-id='12' id='12'>testCases.TC_LF_013_PasswordFieldsCoveringTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:25 PM</td>
-<td>
-<a href="#" class="linked" test-id='13' id='13'>testCases.TC_LF_014_CopyingPasswordTxtTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:27 PM</td>
-<td>
-<a href="#" class="linked" test-id='14' id='14'>testCases.TC_LF_015_PasswordPageSourceTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:40 PM</td>
-<td>
-<a href="#" class="linked" test-id='15' id='15'>testCases.TC_LF_016_ChangingPasswordLoginTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:19:52 PM</td>
-<td>
-<a href="#" class="linked" test-id='16' id='16'>testCases.TC_LF_017_LoginSessionTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:19:56 PM</td>
-<td>
-<a href="#" class="linked" test-id='17' id='17'>testCases.TC_LF_018_LoginSessionTimeOutTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:20:47 PM</td>
-<td>
-<a href="#" class="linked" test-id='18' id='18'>testCases.TC_LF_019_LoginPageLinksTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:20:49 PM</td>
-<td>
-<a href="#" class="linked" test-id='19' id='19'>testCases.TC_LF_020_LoginPageAccessTest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:20:51 PM</td>
-<td>
-<a href="#" class="linked" test-id='20' id='20'>testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">register</p>
+<p class="name">regression</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>register</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>regression</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1478,11 +1025,163 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:20:51 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
 <td>
-<a href="#" class="linked" test-id='20' id='20'>testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</a>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC_RF_001_AccountRegistrationTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>18</span>
+</span>
+<p class="name">register</p>
+<p class="duration text-sm">18 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>register</h4>
+<span status="fail" class='badge log badge-danger'>18 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC_RF_001_AccountRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC_RF_004_WarningMessageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC_RF_007_RegisterAccountPageNavigatingTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC_RF_008_ConfirmPasswordTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC_RF_009_UsedEmailRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TC_RF_010_InvalidEmailRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TC_RF_012_KeyboardKeysRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TC_RF_014_RequiredMarkTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TC_RF_016_SpaceInputRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TC_RF_017_PasswordComplexityRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TC_RF_020_PolicyCheckboxTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TC_RF_022_PasswordFieldsCoveringTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testCases.TC_RF_023_AccountRegistrationPageLinksTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest</a>
 </td>
 </tr>
 </tbody>
@@ -1513,9 +1212,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>19:17:43 PM</td>
+<td>22:44:27 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>testCases.TC_LF_001_LoginTest</a>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TC_RF_017_PasswordComplexityRegistrationTest</a>
 </td>
 </tr>
 </tbody>
@@ -1525,15 +1224,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>17</span>
 </span>
-<p class="name">Sanity</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">master</p>
+<p class="duration text-sm">17 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>Sanity</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>master</h4>
+<span status="fail" class='badge log badge-danger'>17 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1546,9 +1245,121 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>19:17:43 PM</td>
+<td>22:44:27 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>testCases.TC_LF_001_LoginTest</a>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC_RF_001_AccountRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC_RF_004_WarningMessageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC_RF_007_RegisterAccountPageNavigatingTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC_RF_008_ConfirmPasswordTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC_RF_009_UsedEmailRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TC_RF_010_InvalidEmailRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TC_RF_012_KeyboardKeysRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TC_RF_014_RequiredMarkTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TC_RF_016_SpaceInputRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TC_RF_020_PolicyCheckboxTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TC_RF_022_PasswordFieldsCoveringTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testCases.TC_RF_023_AccountRegistrationPageLinksTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest</a>
 </td>
 </tr>
 </tbody>
@@ -1568,25 +1379,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 3, 2026 07:17:30 PM</h3>
+<h3>Jun 9, 2026 10:44:27 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 3, 2026 07:20:51 PM</h3>
+<h3>Jun 9, 2026 10:44:27 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>12</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>8</h3>
+<h3>18</h3>
 </div></div>
 </div>
 </div>
@@ -1602,12 +1413,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='60%'>
-<b>12</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='40%'><b>8</b> tests failed,
+<small data-tooltip='100%'><b>18</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1625,10 +1436,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='42%'><b>12</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='28%'><b>8</b> events failed,
-<b data-tooltip='%'>8</b> others
+<small data-tooltip='50%'><b>18</b> events failed,
+<b data-tooltip='%'>18</b> others
 </small>
 </div>
 </div>
@@ -1644,7 +1455,7 @@
 </div></div>
 <script>
 var timeline = {
-"testCases.TC_LF_001_LoginTest":0.07,"testCases.TC_LF_002_InvalidLoginTest":0.001,"testCases.TC_LF_003_InvalidEmailLoginTest":0,"testCases.TC_LF_004_InvalidPasswordLoginTest":0,"testCases.TC_LF_005_NoncredentialLoginTest":0,"testCases.TC_LF_006_ForgottenPasswordLinkTest":0,"testCases.TC_LF_007_KeyboardKeysLoginTest":0.092,"testCases.TC_LF_008_FieldsPlaceholderTest":0,"testCases.TC_LF_009_LoginAndBrowserBackingTest":0.078,"testCases.TC_LF_010_BackingAfterLoginTest":0.074,"testCases.TC_LF_012_InvalidLoginSpamTest":0,"testCases.TC_LF_013_PasswordFieldsCoveringTest":0.001,"testCases.TC_LF_014_CopyingPasswordTxtTest":0,"testCases.TC_LF_015_PasswordPageSourceTest":0.069,"testCases.TC_LF_016_ChangingPasswordLoginTest":0.065,"testCases.TC_LF_017_LoginSessionTest":0.074,"testCases.TC_LF_018_LoginSessionTimeOutTest":0,"testCases.TC_LF_019_LoginPageLinksTest":0.059,"testCases.TC_LF_020_LoginPageAccessTest":0,"testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest":0
+"testCases.TC_RF_001_AccountRegistrationTest":0.007,"testCases.TC_RF_004_WarningMessageTest":0.001,"testCases.TC_RF_007_RegisterAccountPageNavigatingTest":0.001,"testCases.TC_RF_008_ConfirmPasswordTest":0.001,"testCases.TC_RF_009_UsedEmailRegistrationTest":0,"testCases.TC_RF_010_InvalidEmailRegistrationTest":0,"testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest":0.001,"testCases.TC_RF_012_KeyboardKeysRegistrationTest":0,"testCases.TC_RF_014_RequiredMarkTest":0,"testCases.TC_RF_016_SpaceInputRegistrationTest":0,"testCases.TC_RF_017_PasswordComplexityRegistrationTest":0,"testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest":0.001,"testCases.TC_RF_020_PolicyCheckboxTest":0,"testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest":0,"testCases.TC_RF_022_PasswordFieldsCoveringTest":0.001,"testCases.TC_RF_023_AccountRegistrationPageLinksTest":0,"testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest":0.001,"testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest":0
 };
 </script>
 <div class="row">
@@ -1654,36 +1465,20 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>login</td>
-<td>11</td>
-<td>7</td>
+<td>regression</td>
 <td>0</td>
-<td>0</td>
-<td>61.111%</td>
-</tr>
-<tr>
-<td>functionality</td>
-<td>4</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>master</td>
-<td>12</td>
-<td>7</td>
-<td>0</td>
-<td>0</td>
-<td>63.158%</td>
-</tr>
-<tr>
-<td>register</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>register</td>
 <td>0</td>
-<td>100%</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>Master</td>
@@ -1694,9 +1489,9 @@ var timeline = {
 <td>0%</td>
 </tr>
 <tr>
-<td>Sanity</td>
+<td>master</td>
 <td>0</td>
-<td>1</td>
+<td>17</td>
 <td>0</td>
 <td>0</td>
 <td>0%</td>
@@ -1733,11 +1528,15 @@ var timeline = {
 </tr>
 <tr>
 <td>Operating System</td>
-<td>Windows</td>
+<td>windows</td>
 </tr>
 <tr>
 <td>Operating System</td>
 <td>chrome</td>
+</tr>
+<tr>
+<td>Groups</td>
+<td>[register]</td>
 </tr>
 </tbody>
 </table></div>
@@ -1748,8 +1547,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 12,
-failParent: 8,
+passParent: 0,
+failParent: 18,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -1765,11 +1564,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 12,
-failEvents: 8,
+passEvents: 0,
+failEvents: 18,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 8
+infoEvents: 18
 };
 </script>        </div>
       </div>

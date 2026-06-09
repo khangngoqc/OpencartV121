@@ -16,14 +16,14 @@ public class TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest extends Bas
 		logger.info("******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******");
 
 		try {
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			logger.info("Click on MyAccount link");
 
 			hp.clickRegister();
 			logger.info("Click on Register link");
 
-			AccountRegistrationPage repage = new AccountRegistrationPage(driver);
+			AccountRegistrationPage repage = new AccountRegistrationPage();
 
 			logger.info("set registration details");
 			repage.setFirstName("   " + randomString().toUpperCase() + "   ");
@@ -41,7 +41,7 @@ public class TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest extends Bas
 			
 			repage.clickEditAccount();
 			
-			AccountEditPage aep = new AccountEditPage(driver);
+			AccountEditPage aep = new AccountEditPage();
 			String[] infoFields = {
 					aep.getValueAttribute(aep.getTxtFirstName()), 
 					aep.getValueAttribute(aep.getTxtLastName()),

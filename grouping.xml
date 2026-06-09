@@ -3,11 +3,11 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="login"></include>
+			<!--<include name="login"></include>-->
 			<!--<include name="logout"></include>-->
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
-			<!--<include name="register"></include>-->
+			<include name="register"></include>
 
 			<exclude name=""></exclude>
 
@@ -18,7 +18,7 @@
 		<listener class-name="utilities.ExtentReportManager"></listener>
 	</listeners>
 
-	<test thread-count="5" name="Test">
+	<test thread-count="3" name="Test" parallel="tests">
 
 		<parameter name="os" value="windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>

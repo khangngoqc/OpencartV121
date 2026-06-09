@@ -20,14 +20,14 @@ public class TC_RF_025_BreadscrumbHeadingURLTitleTest extends BaseClass {
 
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 
 			
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			
-			List<WebElement> breadcrumbsLinks = driver.findElements(By.xpath("//ul[@class='breadcrumb']//a"));
+			List<WebElement> breadcrumbsLinks = getDriver().findElements(By.xpath("//ul[@class='breadcrumb']//a"));
 
 			logger.info("validate breadcrumbs links...");
 			for (WebElement a : breadcrumbsLinks) {
@@ -43,13 +43,13 @@ public class TC_RF_025_BreadscrumbHeadingURLTitleTest extends BaseClass {
 			}
 			
 			logger.info("validate Page URL...");
-			if(driver.getCurrentUrl().equals("https://tutorialsninja.com/demo/index.php?route=account/register")) {
-				Assert.assertTrue(true, "Page URL is not displayed! " + driver.getCurrentUrl());
+			if(getDriver().getCurrentUrl().equals("https://tutorialsninja.com/demo/index.php?route=account/register")) {
+				Assert.assertTrue(true, "Page URL is not displayed! " + getDriver().getCurrentUrl());
 			}
 			
 			logger.info("validate Page Title...");
-			if(driver.getTitle().equals("Register Account")) {
-				Assert.assertTrue(true, "Page Title is not displayed! " + driver.getTitle());
+			if(getDriver().getTitle().equals("Register Account")) {
+				Assert.assertTrue(true, "Page Title is not displayed! " + getDriver().getTitle());
 			}
 			
 			

@@ -2952,3 +2952,72 @@ Session ID: d198baf863cf55e13ddc7fac899bd94e
 23:01:06.978 [main] INFO  testCases.TC_LF_016_ChangingPasswordLoginTest - ******* Finished TC_LF_016_ChangingPasswordLoginTest *******
 23:01:31.538 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Starting TC_LF_012_InvalidLoginSpamTest ***
 23:01:33.777 [main] INFO  testCases.TC_LF_012_InvalidLoginSpamTest - ***Finished TC_LF_012_InvalidLoginSpamTest ***
+18:37:36.820 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+18:37:38.644 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+18:37:40.106 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+18:37:41.770 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+18:37:43.183 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+22:42:48.185 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+22:42:50.698 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+22:42:52.089 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+22:42:53.618 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+22:42:55.098 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+22:45:17.315 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - ******* Starting TC_RF_001_AccountRegistrationTest *******
+22:45:17.390 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Click on MyAccount link
+22:45:18.943 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Click on Register link
+22:45:18.946 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - set registration details
+22:45:23.624 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Validating expected message
+22:45:23.650 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - ******* Finished TC_RF_001_AccountRegistrationTest *******
+22:45:25.137 [main] INFO  testCases.TC_RF_004_WarningMessageTest - ******* Starting TC_RF_004_WarningMessageTest *******
+22:45:26.213 [main] INFO  testCases.TC_RF_004_WarningMessageTest - ******* Finished TC_RF_004_WarningMessageTest *******
+22:45:27.582 [main] INFO  testCases.TC_RF_007_RegisterAccountPageNavigatingTest - ***Starting TC_RF_007_RegisterAccountPageNavigatingTest ***
+22:45:28.701 [main] INFO  testCases.TC_RF_007_RegisterAccountPageNavigatingTest - ***Finished TC_RF_007_RegisterAccountPageNavigatingTest ***
+22:45:30.165 [main] INFO  testCases.TC_RF_008_ConfirmPasswordTest - ***Starting TC_RF_008_ConfirmPasswordTest ***
+22:45:31.242 [main] INFO  testCases.TC_RF_008_ConfirmPasswordTest - ***Finsihed TC_RF_008_ConfirmPasswordTest ***
+22:45:32.726 [main] INFO  testCases.TC_RF_009_UsedEmailRegistrationTest - ***Starting TC_RF_009_UsedEmailRegistrationTest ***
+22:45:33.807 [main] INFO  testCases.TC_RF_009_UsedEmailRegistrationTest - ***Finished TC_RF_009_UsedEmailRegistrationTest ***
+22:45:35.197 [main] INFO  testCases.TC_RF_010_InvalidEmailRegistrationTest - ******* Starting TC_RF_0010_InvalidEmailRegistrationTest *******
+22:46:06.579 [main] INFO  testCases.TC_RF_010_InvalidEmailRegistrationTest - ******* Finished TC_RF_0010_InvalidEmailRegistrationTest *******
+22:46:08.071 [main] INFO  testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest - ******* Starting TC_RF_011_InvalidPhoneNumberRegistrationTest *******
+22:46:11.076 [main] INFO  testCases.TC_RF_012_KeyboardKeysRegistrationTest - ******* Starting TC_RF_012_KeyboardKeysRegistrationTest *******
+22:46:12.406 [main] INFO  testCases.TC_RF_012_KeyboardKeysRegistrationTest - ******* Finished TC_RF_012_KeyboardKeysRegistrationTest *******
+22:46:13.676 [main] INFO  testCases.TC_RF_014_RequiredMarkTest - ******* Starting TC_RF_014_RequiredMarkTest *******
+22:46:13.950 [main] DEBUG testCases.TC_RF_014_RequiredMarkTest - class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.JavascriptExecutor (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.JavascriptExecutor is in unnamed module of loader 'app')
+22:46:15.392 [main] INFO  testCases.TC_RF_016_SpaceInputRegistrationTest - ******* Starting TC_RF_016_SpaceInputRegistrationTest *******
+22:46:26.402 [main] DEBUG testCases.TC_RF_016_SpaceInputRegistrationTest - true
+22:46:26.402 [main] DEBUG testCases.TC_RF_016_SpaceInputRegistrationTest - true
+22:46:26.402 [main] DEBUG testCases.TC_RF_016_SpaceInputRegistrationTest - true
+22:46:26.402 [main] DEBUG testCases.TC_RF_016_SpaceInputRegistrationTest - false
+22:46:27.982 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - ******* Starting TC_RF_017_PasswordComplexityRegistrationTest *******
+22:46:28.036 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - Click on MyAccount link
+22:46:28.295 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - Click on Register link
+22:46:28.296 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - set registration details
+22:46:29.343 [main] INFO  testCases.TC_RF_017_PasswordComplexityRegistrationTest - Validating expected message
+22:46:30.839 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - ******* Starting TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest *******
+22:46:30.885 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on MyAccount link
+22:46:31.119 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - Click on Register link
+22:46:31.120 [main] INFO  testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - set registration details
+22:46:32.368 [main] DEBUG testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest - An info contains untrimmed spaces:    LVHSC   
+22:46:33.884 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Starting TC_RF_020_PolicyCheckboxTest *******
+22:46:33.944 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on MyAccount link
+22:46:34.185 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Click on Register link
+22:46:34.186 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - Get check box status
+22:46:34.201 [main] INFO  testCases.TC_RF_020_PolicyCheckboxTest - ******* Finished TC_RF_020_PolicyCheckboxTest *******
+22:46:35.508 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Starting TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+22:46:36.511 [main] INFO  testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest - ******* Finished TC_RF_021_UncheckedPrivacyPolicyRegistrationTest *******
+22:46:37.942 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Starting TC_RF_022_PasswordFieldsCoveringTest *******
+22:46:38.446 [main] INFO  testCases.TC_RF_022_PasswordFieldsCoveringTest - ******* Finished TC_RF_022_PasswordFieldsCoveringTest *******
+22:46:39.700 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - ******* Starting TC_RF_023_AccountRegistrationPageLinksTest *******
+22:46:40.033 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Total number of links on Register Account page: 81
+22:47:08.192 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - OpenCart		403		http://www.opencart.com/	(Broken link)
+22:47:08.192 [main] INFO  testCases.TC_RF_023_AccountRegistrationPageLinksTest - Number of broken links: 1
+22:47:09.760 [main] INFO  testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest - ******* Starting TC_RF_024_RegistrationWithoutConfirmPasswordTest *******
+22:47:10.797 [main] INFO  testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest - ******* Finished TC_RF_024_RegistrationWithoutConfirmPasswordTest *******
+22:47:12.190 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - ******* Starting TC_RF_025_BreadscrumbHeadingURLTitleTest *******
+22:47:12.489 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+22:47:12.522 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+22:47:12.553 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate Page URL...
+22:47:12.559 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate Page Title...
+22:47:12.564 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - ******* Finished TC_RF_025_BreadscrumbHeadingURLTitleTest *******
+22:59:09.150 [main] INFO  testCases.TC_RF_014_RequiredMarkTest - ******* Starting TC_RF_014_RequiredMarkTest *******
+22:59:09.483 [main] INFO  testCases.TC_RF_014_RequiredMarkTest - ******* Finished TC_RF_014_RequiredMarkTest *******

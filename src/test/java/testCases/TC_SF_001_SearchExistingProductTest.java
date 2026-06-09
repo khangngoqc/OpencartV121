@@ -17,19 +17,19 @@ public class TC_SF_001_SearchExistingProductTest extends BaseClass {
 		
 		try {
 		
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.setSearchInput("iMac");
 			hp.clickSearch();
 			
-			SearchPage sp = new SearchPage(driver);
+			SearchPage sp = new SearchPage();
 			
 			Assert.assertTrue(sp.isSearchProductExist());
 			
 			
 		} catch (Exception e) {
 		
-			Assert.fail();
 			logger.debug(e.getMessage());
+			Assert.fail();
 		
 		}
 		

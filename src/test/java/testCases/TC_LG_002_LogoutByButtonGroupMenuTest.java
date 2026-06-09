@@ -17,22 +17,22 @@ public class TC_LG_002_LogoutByButtonGroupMenuTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			// LoginPage actions
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail(p.getProperty("email"));
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 
 			// MyAccountPage actions
-			MyAccountPage map = new MyAccountPage(driver);
+			MyAccountPage map = new MyAccountPage();
 			map.clickMyAccount();
 			map.clickLogoutBtnGrp();
 			
-			LogoutPage lop = new LogoutPage(driver);
+			LogoutPage lop = new LogoutPage();
 			lop.clickMyAccount();
 			
 			//logout validation
@@ -41,7 +41,7 @@ public class TC_LG_002_LogoutByButtonGroupMenuTest extends BaseClass {
 			lop.clickContinue();
 			
 			//homepage navigate validation
-			if(driver.getCurrentUrl().contains("home")){
+			if(getDriver().getCurrentUrl().contains("home")){
 				Assert.assertTrue(true, "Fail to navigate to Homepage!");
 				
 			}
