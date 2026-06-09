@@ -16,14 +16,14 @@ public class TC_RF_020_PolicyCheckboxTest extends BaseClass {
 		logger.info("******* Starting TC_RF_020_PolicyCheckboxTest *******");
 
 		try {
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			logger.info("Click on MyAccount link");
 
 			hp.clickRegister();
 			logger.info("Click on Register link");
 
-			AccountRegistrationPage repage = new AccountRegistrationPage(driver);
+			AccountRegistrationPage repage = new AccountRegistrationPage();
 
 			logger.info("Get check box status");
 			boolean checkboxStatus =  repage.isPrivacyPolicyChecked();

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_LG_003_LoginSessionTest" class="method navigator-link" hash-for-method="verify_login_browser_session">verify_login_browser_session</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_RF_014_RequiredMarkTest" class="method navigator-link" hash-for-method="validate_required_field_asterisk">validate_required_field_asterisk</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,26 +118,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC_LG_003_LoginSessionTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_RF_014_RequiredMarkTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_login_browser_session">
-                  </a> <!-- verify_login_browser_session -->
-                  <span class="method-name">verify_login_browser_session</span>
-                  <div class="stack-trace">java.lang.AssertionError: User session was not saved expected [true] but found [false]
-	at testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:61)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
+                  <a name="validate_required_field_asterisk">
+                  </a> <!-- validate_required_field_asterisk -->
+                  <span class="method-name">validate_required_field_asterisk</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -150,42 +145,24 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;logout&quot;/&gt;
+      &lt;include name=&quot;register&quot;/&gt;
       &lt;exclude name=&quot;&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;logout&quot;/&gt;
+      &lt;include name=&quot;register&quot;/&gt;
       &lt;exclude name=&quot;&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_RF_001_AccountRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_004_WarningMessageTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_007_RegisterAccountPageNavigatingTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_008_ConfirmPasswordTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_009_UsedEmailRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_010_InvalidEmailRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_012_KeyboardKeysRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_013_FieldsPlaceholderTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_RF_014_RequiredMarkTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_016_SpaceInputRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_017_PasswordComplexityRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_020_PolicyCheckboxTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_022_PasswordFieldsCoveringTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_023_AccountRegistrationPageLinksTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_LF_001_LoginTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_LF_002_InvalidLoginTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_LF_003_InvalidEmailLoginTest&quot;/&gt;
@@ -206,6 +183,8 @@
       &lt;class name=&quot;testCases.TC_LF_019_LoginPageLinksTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_LF_020_LoginPageAccessTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_LG_001_LogoutByHeaderMenuTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_LG_002_LogoutByButtonGroupMenuTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_LG_003_LoginSessionTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_SF_001_SearchExistingProductTest&quot;/&gt;
     &lt;/classes&gt;
@@ -221,7 +200,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (41 classes)</span>
+                <span class="test-name">Test (25 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,18 +211,18 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">logout</span>
+              <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verify_login_browser_session</span>
+                <span class="method-in-group-name">validate_required_field_asterisk</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">master</span>
+              <span class="test-group-name">register</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verify_login_browser_session</span>
+                <span class="method-in-group-name">validate_required_field_asterisk</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -265,14 +244,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_login_browser_session')
-data.setCell(0, 2, 'testCases.TC_LG_003_LoginSessionTest')
-data.setCell(0, 3, 8292);
+data.setCell(0, 1, 'validate_required_field_asterisk')
+data.setCell(0, 2, 'testCases.TC_RF_014_RequiredMarkTest')
+data.setCell(0, 3, 341);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 341 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -287,230 +266,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">40 ignored methods</span>
+            <span class="header-content">24 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</span>
+              <span class="ignored-class-name">testCases.TC_LG_002_LogoutByButtonGroupMenuTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_breadcrumbs_heading_url_title</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_009_LoginAndBrowserBackingTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_backing_after_login</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_008_FieldsPlaceholderTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_fields_placeholders</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_012_KeyboardKeysRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_Keyboard</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_017_LoginSessionTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login_browser_session</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_022_PasswordFieldsCoveringTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_password_fields_is_hidden</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_019_LoginPageLinksTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_loginpage_links</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_001_LoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_020_LoginPageAccessTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_loginpage_access_links</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_account_registration_with_leading_trailing</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_005_NoncredentialLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login_without_credentials</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_013_PasswordFieldsCoveringTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_password_fields_is_hidden</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_023_AccountRegistrationPageLinksTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_on_page_links</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_006_ForgottenPasswordLinkTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_forgotten_password</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_014_CopyingPasswordTxtTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_password_copy_function_blocked</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_008_ConfirmPasswordTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_different_confirm_password</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_001_AccountRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_account_registration</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_016_SpaceInputRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_space_input</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_003_InvalidEmailLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login_with_invalid_email</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_017_PasswordComplexityRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_password_complexity_standards</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_007_KeyboardKeysLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login_with_keyboard_keys</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_004_InvalidPasswordLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login_with_invalid_password</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_without_filling_passwordConfirm</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_013_FieldsPlaceholderTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_fields_placeholder</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_016_ChangingPasswordLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_login_after_changing_password</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_002_InvalidLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login_with_invalid_account_info</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_010_InvalidEmailRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_invalid_email</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_breadcrumbs_heading_url_title</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_009_UsedEmailRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_used_email</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_012_InvalidLoginSpamTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_invalid_login_spam</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_004_WarningMessageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_required_field_warning</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_020_PolicyCheckboxTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_policy_checkbox_status</span>
+                <span class="ignored-method-name">verify_logout</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -522,9 +284,100 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest</span>
+              <span class="ignored-class-name">testCases.TC_LF_007_KeyboardKeysLoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_invalid_phone_number</span>
+                <span class="ignored-method-name">verify_login_with_keyboard_keys</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_016_ChangingPasswordLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_login_after_changing_password</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_008_FieldsPlaceholderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_fields_placeholders</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_020_LoginPageAccessTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_loginpage_access_links</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_breadcrumbs_heading_url_title</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_013_PasswordFieldsCoveringTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_password_fields_is_hidden</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LG_003_LoginSessionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_login_browser_session</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_005_NoncredentialLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_login_without_credentials</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_019_LoginPageLinksTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_loginpage_links</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_004_InvalidPasswordLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_login_with_invalid_password</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_001_LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_014_CopyingPasswordTxtTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_password_copy_function_blocked</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_006_ForgottenPasswordLinkTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_forgotten_password</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_017_LoginSessionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_login_browser_session</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -536,16 +389,9 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</span>
+              <span class="ignored-class-name">testCases.TC_LF_003_InvalidEmailLoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_without_checking_privacy_policy_checkbox</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_015_PasswordPageSourceTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_password_copy_function_blocked</span>
+                <span class="ignored-method-name">verify_login_with_invalid_email</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -557,16 +403,37 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_014_RequiredMarkTest</span>
+              <span class="ignored-class-name">testCases.TC_LG_001_LogoutByHeaderMenuTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_required_field_asterisk</span>
+                <span class="ignored-method-name">verify_logout</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_007_RegisterAccountPageNavigatingTest</span>
+              <span class="ignored-class-name">testCases.TC_LF_015_PasswordPageSourceTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_different_ways_of_navigating</span>
+                <span class="ignored-method-name">validate_password_copy_function_blocked</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_012_InvalidLoginSpamTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_invalid_login_spam</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_002_InvalidLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_login_with_invalid_account_info</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_009_LoginAndBrowserBackingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_backing_after_login</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -578,20 +445,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_LG_003_LoginSessionTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_RF_014_RequiredMarkTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verify_login_browser_session</span>
-                <span class="method-start">2205 ms</span>
+                <span class="method-name">validate_required_field_asterisk</span>
+                <span class="method-start">1876 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10582 ms</span>
+                <span class="method-start">2227 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

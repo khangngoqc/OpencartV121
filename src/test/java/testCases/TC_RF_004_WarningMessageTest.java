@@ -16,11 +16,11 @@ public class TC_RF_004_WarningMessageTest extends BaseClass {
 		
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			rp.clickContinue();
 
 			boolean[] warningsDiplayed = new boolean[] { rp.isWarningDisplayed(rp.getFirstNameWarning()),
@@ -34,8 +34,8 @@ public class TC_RF_004_WarningMessageTest extends BaseClass {
 
 			
 		} catch (Exception e) {
-			Assert.fail();
 			logger.debug(e.getMessage());
+			Assert.fail();
 		
 		}
 	

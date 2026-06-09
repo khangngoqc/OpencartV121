@@ -11,14 +11,15 @@ public class TC_RF_008_ConfirmPasswordTest extends BaseClass {
 
 	@Test(groups= {"master", "register"})
 	void validate_different_confirm_password() {
+		logger.info("***Starting TC_RF_008_ConfirmPasswordTest ***");
 
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			rp.setFirstName(randomString());
 			rp.setLastName(randomString());
 			rp.setEmail(randomString() + "@gmail.com");
@@ -40,6 +41,8 @@ public class TC_RF_008_ConfirmPasswordTest extends BaseClass {
 			Assert.fail();
 			
 		}
+		
+		logger.info("***Finsihed TC_RF_008_ConfirmPasswordTest ***");
 
 	}
 

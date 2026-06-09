@@ -18,7 +18,7 @@ public class TC_RF_012_KeyboardKeysRegistrationTest extends BaseClass {
 		try {
 
 			//go to Register page
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 			
@@ -64,7 +64,7 @@ public class TC_RF_012_KeyboardKeysRegistrationTest extends BaseClass {
 			
 			act.keyDown(Keys.ENTER).keyUp(Keys.ENTER).perform();
 
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			
 			if (rp.getConfirmMessage().equals("Your Account Has Been Created!")) {
 				Assert.assertTrue(true);

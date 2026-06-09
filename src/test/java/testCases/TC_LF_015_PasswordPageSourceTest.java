@@ -16,20 +16,21 @@ public class TC_LF_015_PasswordPageSourceTest extends BaseClass {
 
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 
 			String pwd = p.getProperty("password");
 			lp.setPassword(pwd);
 
 			String inputType = lp.getTxtPassword().getAttribute("type");
+			logger.info(inputType);
 			
-			String pageSource = driver.getPageSource();
+			String pageSource = getDriver().getPageSource();
 			
-			if (inputType.equals("password") && pageSource.contains(pwd)) {
+			if (inputType.equals("password") && !pageSource.contains(pwd)) {
 				Assert.assertTrue(true);
 			}else{
 				Assert.assertTrue(false, "Validation Failed: Password field is clear text!");

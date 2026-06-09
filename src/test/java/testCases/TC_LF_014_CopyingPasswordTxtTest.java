@@ -18,11 +18,11 @@ public class TC_LF_014_CopyingPasswordTxtTest extends BaseClass {
 
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 
 			String pwd = p.getProperty("password");
 			lp.setPassword(pwd);
@@ -30,7 +30,7 @@ public class TC_LF_014_CopyingPasswordTxtTest extends BaseClass {
 			act.keyDown(Keys.CONTROL).sendKeys("A").keyUp(Keys.CONTROL).perform();
 			act.keyDown(Keys.CONTROL).sendKeys("C").keyUp(Keys.CONTROL).perform();
 
-			act.moveToElement(driver.findElement(By.xpath("//input[@id='input-email']"))).click();
+			act.moveToElement(getDriver().findElement(By.xpath("//input[@id='input-email']"))).click();
 
 			act.keyDown(Keys.CONTROL).sendKeys("V").keyUp(Keys.CONTROL).perform();
 

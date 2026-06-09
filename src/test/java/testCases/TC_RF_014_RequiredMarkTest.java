@@ -21,14 +21,14 @@ public class TC_RF_014_RequiredMarkTest extends BaseClass {
 
 		try {
 			
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			
 			//store label elements in to a List collection
-			List<WebElement> requiredFieldLable = driver
+			List<WebElement> requiredFieldLable = getDriver()
 					.findElements(By.xpath("//div[@class='form-group required']//label[@class='col-sm-2 control-label']"));
 
 
@@ -36,7 +36,7 @@ public class TC_RF_014_RequiredMarkTest extends BaseClass {
 				
 				//Execute JavaScript to get the property
 				String script = "return window.getComputedStyle(arguments[0], '::before').getPropertyValue('content');";
-				String requiredMark = (String) ((JavascriptExecutor) driver).executeScript(script, e);
+				String requiredMark = (String) ((JavascriptExecutor) getDriver()).executeScript(script, e);
 
 				//logger.info(e.getText() + requiredMark);
 				
@@ -51,8 +51,8 @@ public class TC_RF_014_RequiredMarkTest extends BaseClass {
 			Assert.assertTrue(true);
 						
 		} catch (Exception e) {
-			Assert.fail();
 			logger.debug(e.getMessage());
+			Assert.fail();
 		
 		}
 		

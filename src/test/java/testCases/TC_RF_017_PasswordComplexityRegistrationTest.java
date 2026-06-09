@@ -15,14 +15,14 @@ public class TC_RF_017_PasswordComplexityRegistrationTest extends BaseClass {
 		logger.info("******* Starting TC_RF_017_PasswordComplexityRegistrationTest *******");
 
 		try {
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			logger.info("Click on MyAccount link");
 
 			hp.clickRegister();
 			logger.info("Click on Register link");
 
-			AccountRegistrationPage repage = new AccountRegistrationPage(driver);
+			AccountRegistrationPage repage = new AccountRegistrationPage();
 
 			logger.info("set registration details");
 			repage.setFirstName(randomString().toUpperCase());

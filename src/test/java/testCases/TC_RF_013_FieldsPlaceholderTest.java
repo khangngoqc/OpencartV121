@@ -19,11 +19,11 @@ public class TC_RF_013_FieldsPlaceholderTest extends BaseClass{
 		try {
 
 			//go to Register page
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 			
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			
 			ArrayList<String> placeholders = new ArrayList<String>();
 		

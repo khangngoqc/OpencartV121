@@ -17,17 +17,17 @@ public class TC_LF_019_LoginPageLinksTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			
 
 			// LoginPage actions
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.clickContine();
 			
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			Assert.assertEquals(rp.getPageTitle(), "Register Account", "Navigated to Account Registration Page Failed! "); //ER-1
 			
 			

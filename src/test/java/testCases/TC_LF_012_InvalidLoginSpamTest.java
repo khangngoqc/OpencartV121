@@ -16,23 +16,24 @@ public class TC_LF_012_InvalidLoginSpamTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			// LoginPage actions
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail(p.getProperty("email1"));
 			lp.setPassword("invalidpassword");
 			lp.clickLogin();
 
-			String warning = lp.getLoginWaring().getText();
 			String expWarning = "Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.";
 
 			for (int i = 0; i <= 4; i++) {
 				lp.clickLogin();
 			}
 
+			String warning = lp.getLoginWaring().getText();
+			
 			// validation
 			Assert.assertEquals(warning, expWarning, "multi falied login attempts did not display!");
 

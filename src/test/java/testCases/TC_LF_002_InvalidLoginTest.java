@@ -16,12 +16,12 @@ public class TC_LF_002_InvalidLoginTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			// LoginPage actions
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail("invalid@gmail.com");
 			lp.setPassword("invalidpassword");
 			lp.clickLogin();
@@ -30,7 +30,7 @@ public class TC_LF_002_InvalidLoginTest extends BaseClass {
 			Assert.assertEquals(warning, true, "Warning does not display!");
 
 			// MyAccountPage actions
-			MyAccountPage map = new MyAccountPage(driver);
+			MyAccountPage map = new MyAccountPage();
 			boolean targetPage = map.isMyAccountHeadingExist();
 
 			// validation

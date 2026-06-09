@@ -23,11 +23,11 @@ public class TC_RF_023_AccountRegistrationPageLinksTest extends BaseClass {
 
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			
 			boolean linksStatus = brokenLinksCheck();
 			

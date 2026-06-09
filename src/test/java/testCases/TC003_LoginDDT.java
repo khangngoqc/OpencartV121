@@ -19,17 +19,17 @@ public class TC003_LoginDDT extends BaseClass{
 		try {
 
 			//HomePage
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 			
 			//login
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail(email);
 			lp.setPassword(pwd);
 			lp.clickLogin();
 		
-			MyAccountPage map = new MyAccountPage(driver);
+			MyAccountPage map = new MyAccountPage();
 			boolean targetPage = map.isMyAccountHeadingExist();
 			
 			if(exp.equalsIgnoreCase("Valid")) {
@@ -59,6 +59,7 @@ public class TC003_LoginDDT extends BaseClass{
 			
 		} catch (Exception e) {
 			
+			logger.debug(e.getMessage());
 			Assert.fail();
 		}
 			

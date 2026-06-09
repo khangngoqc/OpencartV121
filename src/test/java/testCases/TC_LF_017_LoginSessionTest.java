@@ -3,7 +3,9 @@ package testCases;
 import java.util.Set;
 
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ThreadGuard;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,12 +22,12 @@ public class TC_LF_017_LoginSessionTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			// LoginPage actions
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail(p.getProperty("email"));
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
@@ -33,26 +35,27 @@ public class TC_LF_017_LoginSessionTest extends BaseClass {
 			Thread.sleep(2000);
 			
 			//save cookies after login
-			Set<Cookie> savedCookies = driver.manage().getCookies();
+			Set<Cookie> savedCookies = getDriver().manage().getCookies();
 			
-			driver.quit();
+			getDriver().quit();
 			
 			//Re-initialize the driver variable with a brand new session(use Firefox since Chrome block cookie setting )
-			driver = new EdgeDriver();
-			driver.get("https://tutorialsninja.com/demo/index.php?route=account/account");
+			WebDriver newDriver = ThreadGuard.protect(new EdgeDriver());
+			BaseClass.driver.set(newDriver);
+			getDriver().get("https://tutorialsninja.com/demo/index.php?route=account/account");
 			
 			Thread.sleep(2000);
 			
 			//Add savedCookies back to new session	
 			for (Cookie cookie : savedCookies) {
-				driver.manage().addCookie(cookie);
+				getDriver().manage().addCookie(cookie);
 			}
 			
 			//refresh page
-			driver.navigate().refresh();
+			getDriver().navigate().refresh();
 			
 			// MyAccountPage actions
-			MyAccountPage map = new MyAccountPage(driver);
+			MyAccountPage map = new MyAccountPage();
 			boolean targetPage = map.isMyAccountHeadingExist();
 
 			// validation

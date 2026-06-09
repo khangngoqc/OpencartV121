@@ -17,14 +17,14 @@ public class TC_LF_020_LoginPageAccessTest extends BaseClass {
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 			
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			rp.clickLoginPageLink();
 
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			Assert.assertEquals(lp.getPageTitle(), "Account Login", "Navigated to Login Page through Registration Page Failed! ");
 			
 			lp.clickLoginBtnGrp();

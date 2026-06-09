@@ -12,22 +12,22 @@ public class TC_LF_001_LoginTest extends BaseClass {
 
 	@Test(groups = {"login", "master"})
 	public void verify_login() {
-		logger.info("***Starting TC002_LoginTest ***");
+		logger.info("***Starting TC_LF_001_LoginTest ***");
 
 		try {
 			// HomePage actions
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			// LoginPage actions
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail(p.getProperty("email"));
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 
 			// MyAccountPage actions
-			MyAccountPage map = new MyAccountPage(driver);
+			MyAccountPage map = new MyAccountPage();
 			boolean targetPage = map.isMyAccountHeadingExist();
 
 			// validation
@@ -39,7 +39,7 @@ public class TC_LF_001_LoginTest extends BaseClass {
 			Assert.fail();
 		}
 
-		logger.info("***Finished TC002_LoginTest ***");
+		logger.info("***Finished TC_LF_001_LoginTest ***");
 
 	}
 

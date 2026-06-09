@@ -16,11 +16,11 @@ public class TC_RF_010_InvalidEmailRegistrationTest extends BaseClass{
 		
 		try {
 		
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickRegister();
 			
-			AccountRegistrationPage rp = new AccountRegistrationPage(driver);
+			AccountRegistrationPage rp = new AccountRegistrationPage();
 			rp.setFirstName(randomString());
 			rp.setLastName(randomString());
 			

@@ -19,34 +19,34 @@ public class TC_LF_016_ChangingPasswordLoginTest extends BaseClass {
 
 		try {
 
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 
 			//login
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			lp.setEmail(p.getProperty("email2"));
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 			
 			
-			MyAccountPage mac = new MyAccountPage(driver);
+			MyAccountPage mac = new MyAccountPage();
 			mac.clickChangePassword(); //go to Change Password page
 			
 			String newPwd = "newPassword";
-			ChangePasswordPage cpp = new ChangePasswordPage(driver);
+			ChangePasswordPage cpp = new ChangePasswordPage();
 			cpp.setPassword(newPwd);
 			cpp.setPasswordConfirm(newPwd);
 			cpp.clickContinue(); // back to MyAccountPage
 			
 			mac.clickLogout(); // go to LogoutPage (logged out)
 			
-			LogoutPage lop = new LogoutPage(driver);
+			LogoutPage lop = new LogoutPage();
 			lop.clickMyAccount();
 			lop.clickLogin(); // go to LoginPage
 			
 			//try login with old password
-			lp.setEmail(p.getProperty("email"));
+			lp.setEmail(p.getProperty("email2"));
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 			
@@ -70,6 +70,13 @@ public class TC_LF_016_ChangingPasswordLoginTest extends BaseClass {
 				logger.info("validate MyAccountPage heading after loign with new password");
 				Assert.assertTrue(true, "Login failed with new password! " + lp.getLoginWaring());	
 			}
+			
+			
+			logger.info("reset default password");
+			mac.clickChangePassword();
+			cpp.setPassword(p.getProperty("password"));
+			cpp.setPasswordConfirm(p.getProperty("password"));
+			cpp.clickContinue();
 			
 
 			

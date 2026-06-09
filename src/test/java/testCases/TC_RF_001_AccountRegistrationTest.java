@@ -9,20 +9,20 @@ import testBase.BaseClass;
 
 public class TC_RF_001_AccountRegistrationTest extends BaseClass {
 
-	@Test(groups = { "Regression", "Master" })
+	@Test(groups = { "regression", "master", "register" })
 	public void verify_account_registration() {
 
-		logger.info("******* Starting TC001_AccountRegistrationTest *******");
+		logger.info("******* Starting TC_RF_001_AccountRegistrationTest *******");
 
 		try {
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			logger.info("Click on MyAccount link");
 
 			hp.clickRegister();
 			logger.info("Click on Register link");
 
-			AccountRegistrationPage repage = new AccountRegistrationPage(driver);
+			AccountRegistrationPage repage = new AccountRegistrationPage();
 
 			logger.info("set registration details");
 			repage.setFirstName(randomString().toUpperCase());
@@ -59,7 +59,7 @@ public class TC_RF_001_AccountRegistrationTest extends BaseClass {
 
 		}
 
-		logger.info("******* Finished TC001_AccountRegistrationTest *******");
+		logger.info("******* Finished TC_RF_001_AccountRegistrationTest *******");
 
 	}
 

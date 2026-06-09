@@ -17,11 +17,11 @@ public class TC_LF_008_FieldsPlaceholderTest extends BaseClass {
 		try {
 
 			//go to Register page
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage();
 			hp.clickMyAccount();
 			hp.clickLogin();
 			
-			LoginPage lp = new LoginPage(driver);
+			LoginPage lp = new LoginPage();
 			String emailPlaceholder = lp.getTxtEmail().getAttribute("placeholder");
 			String passwordPlaceholder = lp.getTxtEmail().getAttribute("placeholder");
 
@@ -34,7 +34,6 @@ public class TC_LF_008_FieldsPlaceholderTest extends BaseClass {
 			
 			logger.debug(e.getMessage());
 			Assert.fail();
-			
 		
 		}
 
