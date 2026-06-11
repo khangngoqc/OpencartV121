@@ -4,10 +4,10 @@
 	<groups>
 		<run>
 			<!--<include name="login"></include>-->
-			<!--<include name="logout"></include>-->
+			<include name="logout"></include>
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
-			<include name="register"></include>
+			<!--<include name="register"></include>-->
 
 			<exclude name=""></exclude>
 
@@ -70,9 +70,13 @@
 			<!--login cases-->
 		
 			<!--Logout cases-->
-			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
+			<!--<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
 			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
 			<class name="testCases.TC_LG_003_LoginSessionTest" />
+			<class name="testCases.TC_LG_004_LogoutAndBackingTest" />
+			<class name="testCases.TC_LG_005_MALogoutOptionTest" />-->
+			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
+			
 			<!--Logout cases-->
 			
 			<!--Search cases-->

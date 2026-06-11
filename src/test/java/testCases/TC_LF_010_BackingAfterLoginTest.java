@@ -28,7 +28,7 @@ public class TC_LF_010_BackingAfterLoginTest extends BaseClass {
 
 			// MyAccountPage actions
 			MyAccountPage map = new MyAccountPage();
-			map.clickLogout();
+			map.clickLogoutBtnGrp();
 			
 			getDriver().navigate().back(); //backing on browser
 			getDriver().navigate().refresh(); //refresh page to validate login status

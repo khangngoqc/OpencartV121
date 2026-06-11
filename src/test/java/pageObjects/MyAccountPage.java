@@ -19,8 +19,7 @@ public class MyAccountPage extends BasePage {
 	
 	@FindBy(xpath = "//h2[normalize-space()='My Account']")
 	WebElement maHeading;
-	@FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Logout']")
-	WebElement lnkLogout;
+	
 	@FindBy(xpath = "//a[normalize-space()='Change your password']") WebElement lnkChangePassword;
 	
 	//right column buttons
@@ -46,10 +45,6 @@ public class MyAccountPage extends BasePage {
 		} catch (Exception e) {
 			return false;
 		}
-	}
-
-	public void clickLogout() {
-		lnkLogout.click();
 	}
 	
 	public void clickChangePassword() {

@@ -3021,3 +3021,40 @@ Session ID: d198baf863cf55e13ddc7fac899bd94e
 22:47:12.564 [main] INFO  testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest - ******* Finished TC_RF_025_BreadscrumbHeadingURLTitleTest *******
 22:59:09.150 [main] INFO  testCases.TC_RF_014_RequiredMarkTest - ******* Starting TC_RF_014_RequiredMarkTest *******
 22:59:09.483 [main] INFO  testCases.TC_RF_014_RequiredMarkTest - ******* Finished TC_RF_014_RequiredMarkTest *******
+20:24:47.397 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+20:24:49.945 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+20:24:52.341 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+20:24:54.421 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+20:24:56.052 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+20:36:25.098 [main] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+20:36:31.823 [main] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+20:48:50.510 [main] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+20:48:56.503 [main] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+20:48:58.134 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+20:49:08.212 [main] DEBUG testCases.TC_LG_005_MALogoutOptionTest - no such element: Unable to locate element: {"method":"xpath","selector":"(//a[normalize-space()='Logout'])[1]"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97a40b98c896f564483465eb153fc17a, findElement {using=xpath, value=(//a[normalize-space()='Logout'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65462}, goog:processID: 13624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65462/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a40b98c896f564483465eb153fc17a
+20:49:41.311 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+20:49:51.408 [main] DEBUG testCases.TC_LG_005_MALogoutOptionTest - no such element: Unable to locate element: {"method":"xpath","selector":"(//a[normalize-space()='Logout'])[1]"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f143892fcf2f470a6a5e9a1a24996ca, findElement {value=(//a[normalize-space()='Logout'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52980}, goog:processID: 11540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52980/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f143892fcf2f470a6a5e9a1a24996ca
+20:55:35.845 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+20:56:27.952 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+20:56:38.079 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+21:10:40.629 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_005_MALogoutOptionTest ***
+21:10:50.724 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Finished TC_LG_005_MALogoutOptionTest ***
+21:10:52.500 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
+21:10:53.113 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Finished TC_LG_006_BtnGrpLogoutOptionTest ***
+21:11:45.367 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***

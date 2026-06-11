@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_LF_017_LoginSessionTest">
+      <class name="testCases.TC_LG_005_MALogoutOptionTest">
         <methods>
-          <include name="verify_login_browser_session"/>
+          <include name="verify_logout_btn_before_login"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_LF_017_LoginSessionTest -->
+      </class> <!-- testCases.TC_LG_005_MALogoutOptionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

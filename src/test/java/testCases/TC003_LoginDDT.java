@@ -35,7 +35,7 @@ public class TC003_LoginDDT extends BaseClass{
 			if(exp.equalsIgnoreCase("Valid")) {
 				if (targetPage==true) 
 				{
-					map.clickLogout();
+					map.clickLogoutBtnGrp();
 					Assert.assertTrue(true);
 				}
 				else 
@@ -47,7 +47,7 @@ public class TC003_LoginDDT extends BaseClass{
 			if (exp.equalsIgnoreCase("Invalid")) {
 				if (targetPage==true) 
 				{
-					map.clickLogout();
+					map.clickLogoutBtnGrp();
 					Assert.assertTrue(false);
 				}
 				else 

@@ -39,7 +39,7 @@ public class TC_LF_016_ChangingPasswordLoginTest extends BaseClass {
 			cpp.setPasswordConfirm(newPwd);
 			cpp.clickContinue(); // back to MyAccountPage
 			
-			mac.clickLogout(); // go to LogoutPage (logged out)
+			mac.clickLogoutBtnGrp(); // go to LogoutPage (logged out)
 			
 			LogoutPage lop = new LogoutPage();
 			lop.clickMyAccount();

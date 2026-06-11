@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -61,6 +63,9 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Returns']") WebElement btnReturns ;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Transactions']") WebElement btnTransactions ;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Newsletter']") WebElement btnNewsletter;
+	
+	
+	@FindBy(xpath = "//a[@class='list-group-item']") List<WebElement> groupItems;
 	
 	
 	public void setFirstName(String fname) {
@@ -277,7 +282,6 @@ public class AccountRegistrationPage extends BasePage {
 	}
 	
 	
-	
 	public WebElement getPuPrivacyPolicyHeading() {
 		return puPrivacyPolicyHeading;
 	}
@@ -286,6 +290,11 @@ public class AccountRegistrationPage extends BasePage {
 		return pageHeading;
 	}
 
+	public List<WebElement> getGroupItems() {
+		return groupItems;
+	}
+
+	
 
 
 	

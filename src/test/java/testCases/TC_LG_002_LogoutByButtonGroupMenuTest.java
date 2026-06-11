@@ -12,7 +12,7 @@ import testBase.BaseClass;
 public class TC_LG_002_LogoutByButtonGroupMenuTest extends BaseClass {
 
 	@Test(groups = {"logout", "master"})
-	public void verify_logout() {
+	public void verify_logout_through_btn_group() {
 		logger.info("***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***");
 
 		try {
