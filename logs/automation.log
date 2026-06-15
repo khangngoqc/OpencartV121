@@ -3058,3 +3058,99 @@ Session ID: 1f143892fcf2f470a6a5e9a1a24996ca
 21:10:52.500 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
 21:10:53.113 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Finished TC_LG_006_BtnGrpLogoutOptionTest ***
 21:11:45.367 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
+23:17:31.318 [main] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Starting TC_LG_008_LogoutLoginSequencingTest ***
+23:17:34.092 [main] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Finished TC_LG_008_LogoutLoginSequencingTest ***
+23:26:34.026 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Starting TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:26:35.303 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+23:26:35.337 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+23:26:45.348 [main] DEBUG testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Account Logout']"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c2da44294f3cc125540bd82c7ff7f45, findElement {using=xpath, value=//h1[normalize-space()='Account Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53323}, goog:processID: 7720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53323/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2da44294f3cc125540bd82c7ff7f45
+23:27:33.648 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Starting TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:27:35.649 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+23:27:35.691 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+23:27:35.716 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page URL...
+23:27:35.722 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Title...
+23:27:35.729 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Finished TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:29:11.997 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+23:29:14.123 [main] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+23:29:15.814 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:29:17.653 [main] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:29:19.100 [main] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+23:29:30.706 [main] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+23:29:36.563 [main] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+23:29:38.096 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_005_MALogoutOptionTest ***
+23:29:48.172 [main] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Finished TC_LG_005_MALogoutOptionTest ***
+23:29:49.627 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
+23:29:50.548 [main] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Finished TC_LG_006_BtnGrpLogoutOptionTest ***
+23:29:52.056 [main] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Starting TC_LG_008_LogoutLoginSequencingTest ***
+23:29:54.827 [main] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Finished TC_LG_008_LogoutLoginSequencingTest ***
+23:29:56.222 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Starting TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:29:57.670 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+23:29:57.704 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+23:29:57.724 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page URL...
+23:29:57.729 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Title...
+23:29:57.735 [main] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Finished TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:32:26.762 [TestNG-tests-1] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+23:32:26.766 [TestNG-tests-2] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+23:32:29.338 [TestNG-tests-3] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+23:32:29.702 [TestNG-tests-1] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+23:32:29.889 [TestNG-tests-2] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+23:32:31.425 [TestNG-tests-1] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:32:31.589 [TestNG-tests-2] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:32:33.266 [TestNG-tests-3] INFO  testCases.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+23:32:34.688 [TestNG-tests-1] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:32:34.731 [TestNG-tests-2] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:32:36.629 [TestNG-tests-2] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+23:32:36.686 [TestNG-tests-1] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+23:32:37.261 [TestNG-tests-3] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:32:40.119 [TestNG-tests-3] INFO  testCases.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+23:32:44.199 [TestNG-tests-3] INFO  testCases.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+23:32:48.465 [TestNG-tests-1] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+23:32:48.657 [TestNG-tests-2] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+23:32:55.435 [TestNG-tests-2] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+23:32:55.497 [TestNG-tests-1] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+23:32:57.298 [TestNG-tests-2] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_005_MALogoutOptionTest ***
+23:32:57.378 [TestNG-tests-1] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_005_MALogoutOptionTest ***
+23:32:57.933 [TestNG-tests-3] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+23:33:04.135 [TestNG-tests-3] INFO  testCases.TC_LG_004_LogoutAndBackingTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+23:33:07.387 [TestNG-tests-2] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Finished TC_LG_005_MALogoutOptionTest ***
+23:33:07.466 [TestNG-tests-1] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Finished TC_LG_005_MALogoutOptionTest ***
+23:33:07.732 [TestNG-tests-3] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_005_MALogoutOptionTest ***
+23:33:08.993 [TestNG-tests-1] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
+23:33:09.238 [TestNG-tests-2] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
+23:33:09.488 [TestNG-tests-1] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Finished TC_LG_006_BtnGrpLogoutOptionTest ***
+23:33:09.874 [TestNG-tests-2] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Finished TC_LG_006_BtnGrpLogoutOptionTest ***
+23:33:11.071 [TestNG-tests-1] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Starting TC_LG_008_LogoutLoginSequencingTest ***
+23:33:11.576 [TestNG-tests-2] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Starting TC_LG_008_LogoutLoginSequencingTest ***
+23:33:17.664 [TestNG-tests-2] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Finished TC_LG_008_LogoutLoginSequencingTest ***
+23:33:17.710 [TestNG-tests-1] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Finished TC_LG_008_LogoutLoginSequencingTest ***
+23:33:17.861 [TestNG-tests-3] INFO  testCases.TC_LG_005_MALogoutOptionTest - ***Finished TC_LG_005_MALogoutOptionTest ***
+23:33:19.182 [TestNG-tests-2] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Starting TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:33:19.294 [TestNG-tests-1] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Starting TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:33:21.601 [TestNG-tests-3] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
+23:33:21.930 [TestNG-tests-2] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+23:33:21.976 [TestNG-tests-2] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+23:33:22.003 [TestNG-tests-2] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page URL...
+23:33:22.010 [TestNG-tests-1] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+23:33:22.014 [TestNG-tests-2] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Title...
+23:33:22.023 [TestNG-tests-2] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Finished TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:33:22.072 [TestNG-tests-1] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+23:33:22.103 [TestNG-tests-1] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page URL...
+23:33:22.114 [TestNG-tests-1] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Title...
+23:33:22.125 [TestNG-tests-1] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Finished TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:33:22.245 [TestNG-tests-3] INFO  testCases.TC_LG_006_BtnGrpLogoutOptionTest - ***Finished TC_LG_006_BtnGrpLogoutOptionTest ***
+23:33:25.604 [TestNG-tests-3] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Starting TC_LG_008_LogoutLoginSequencingTest ***
+23:33:28.300 [TestNG-tests-3] INFO  testCases.TC_LG_008_LogoutLoginSequencingTest - ***Finished TC_LG_008_LogoutLoginSequencingTest ***
+23:33:31.769 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Starting TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+23:33:33.236 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+23:33:33.269 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+23:33:33.283 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page URL...
+23:33:33.285 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Title...
+23:33:33.287 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Finished TC_LG_009_BreadscrumbHeadingURLTitleTest *******

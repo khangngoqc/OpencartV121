@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Cross Browsers Suite" parallel="tests" thread-count="2" >
+<suite name="Cross Browsers Suite" parallel="tests" thread-count="3" >
+
+	<groups>
+		<run>
+			<!--<include name="login"></include>-->
+			<include name="logout"></include>
+			<!--<include name="Sanity"></include>-->
+			<!--<include name="Regression"></include>-->
+			<!--<include name="register"></include>-->
+
+			<exclude name=""></exclude>
+
+		</run>
+	</groups>
+
+
 
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager"></listener>
@@ -59,6 +74,19 @@
 			<class name="testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
 			<!--login cases-->
 			
+			<!--Logout cases-->
+			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
+			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
+			<class name="testCases.TC_LG_003_LoginSessionTest" />
+			<class name="testCases.TC_LG_004_LogoutAndBackingTest" />
+			<class name="testCases.TC_LG_005_MALogoutOptionTest" />
+			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
+			<class name="testCases.TC_LG_008_LogoutLoginSequencingTest" />
+			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
+
+			<!--Logout cases-->
+			
+			
 			<!--Search cases-->
 			<class name="testCases.TC_SF_001_SearchExistingProductTest" />
 			<!--Search cases-->
@@ -75,10 +103,9 @@
 
 		<classes>
 			
-			<!--<class name="testCases.TC001_AccountRegistrationTest" />-->	
-			<!--<class name="testCases.TC003_LoginDDT" />-->
-			<!--<class name="testCases.TC_SF_001_SearchExistingProductTest" />-->
-			<!--<class name="testCases.TC_RF_004_WarningMessageTest" />
+			<!--Register cases-->
+			<class name="testCases.TC_RF_001_AccountRegistrationTest" />	
+			<class name="testCases.TC_RF_004_WarningMessageTest" />
 			<class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" />
 			<class name="testCases.TC_RF_008_ConfirmPasswordTest" />
 			<class name="testCases.TC_RF_009_UsedEmailRegistrationTest" />
@@ -92,10 +119,11 @@
 			<class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
 			<class name="testCases.TC_RF_020_PolicyCheckboxTest"></class>
 			<class name="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
-			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>-->
-			<!--<class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest"></class>-->
-			<!--<class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
-			<class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>-->
+			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest"></class>
+			<class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
+			<class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
+			<!--Register cases-->
 			
 			<!--login cases-->
 			<class name="testCases.TC_LF_001_LoginTest" />
@@ -119,6 +147,19 @@
 			<class name="testCases.TC_LF_020_LoginPageAccessTest"></class>
 			<class name="testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
 			<!--login cases-->
+			
+			<!--Logout cases-->
+			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
+			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
+			<class name="testCases.TC_LG_003_LoginSessionTest" />
+			<class name="testCases.TC_LG_004_LogoutAndBackingTest" />
+			<class name="testCases.TC_LG_005_MALogoutOptionTest" />
+			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
+			<class name="testCases.TC_LG_008_LogoutLoginSequencingTest" />
+			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
+
+			<!--Logout cases-->
+			
 			
 		</classes>
 	</test> <!--Test -->	
@@ -130,10 +171,9 @@
 
 
 		<classes>
-			<!--<class name="testCases.TC001_AccountRegistrationTest" />-->	
-			<!--<class name="testCases.TC003_LoginDDT" />-->
-			<!--<class name="testCases.TC_SF_001_SearchExistingProductTest" />-->
-			<!--<class name="testCases.TC_RF_004_WarningMessageTest" />
+			<!--Register cases-->
+			<class name="testCases.TC_RF_001_AccountRegistrationTest" />	
+			<class name="testCases.TC_RF_004_WarningMessageTest" />
 			<class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" />
 			<class name="testCases.TC_RF_008_ConfirmPasswordTest" />
 			<class name="testCases.TC_RF_009_UsedEmailRegistrationTest" />
@@ -147,10 +187,11 @@
 			<class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
 			<class name="testCases.TC_RF_020_PolicyCheckboxTest"></class>
 			<class name="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
-			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>-->
-			<!--<class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest"></class>-->
-			<!--<class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
-			<class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>-->
+			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest"></class>
+			<class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
+			<class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
+			<!--Register cases-->
 			
 			<!--login cases-->
 			<class name="testCases.TC_LF_001_LoginTest" />
@@ -175,10 +216,22 @@
 			<class name="testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
 			<!--login cases-->
 			
+			<!--Logout cases-->
+			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
+			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
+			<class name="testCases.TC_LG_003_LoginSessionTest" />
+			<class name="testCases.TC_LG_004_LogoutAndBackingTest" />
+			<class name="testCases.TC_LG_005_MALogoutOptionTest" />
+			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
+			<class name="testCases.TC_LG_008_LogoutLoginSequencingTest" />
+			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
+
+			<!--Logout cases-->
+			
+			
+			
 		</classes>
-	</test> <!--
-	Test -->
+	</test> <!--Test -->
 
 
-</suite> <!--
-Suite -->
+</suite> <!--Suite -->

@@ -1,45 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="40" total="41" passed="0" failed="1" skipped="0">
+<testng-results ignored="80" total="104" passed="21" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-11T21:11:43 GMT+07:00" name="Suite" finished-at="2026-06-11T21:11:45 GMT+07:00" duration-ms="2510">
+  <suite started-at="2026-06-15T23:32:24 GMT+07:00" name="Cross Browsers Suite" finished-at="2026-06-15T23:33:33 GMT+07:00" duration-ms="69233">
     <groups>
       <group name="logout">
-        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@409bf450]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_001_LogoutByHeaderMenuTest.verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@145f66e3]" name="verify_logout" class="testCases.TC_LG_001_LogoutByHeaderMenuTest"/>
+        <method signature="TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@3023df74]" name="verify_logout_through_btn_group" class="testCases.TC_LG_002_LogoutByButtonGroupMenuTest"/>
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@313ac989]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
+        <method signature="TC_LG_004_LogoutAndBackingTest.verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4562e04d]" name="verify_logout_backing" class="testCases.TC_LG_004_LogoutAndBackingTest"/>
+        <method signature="TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@2a65fe7c]" name="verify_logout_btn_before_login" class="testCases.TC_LG_005_MALogoutOptionTest"/>
+        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@4135c3b]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_008_LogoutLoginSequencingTest.verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6302bbb1]" name="verify_login" class="testCases.TC_LG_008_LogoutLoginSequencingTest"/>
+        <method signature="TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@31304f14]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest"/>
+        <method signature="TC_LG_001_LogoutByHeaderMenuTest.verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@6a78afa0]" name="verify_logout" class="testCases.TC_LG_001_LogoutByHeaderMenuTest"/>
+        <method signature="TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@2f4948e4]" name="verify_logout_through_btn_group" class="testCases.TC_LG_002_LogoutByButtonGroupMenuTest"/>
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@1f2586d6]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
+        <method signature="TC_LG_004_LogoutAndBackingTest.verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@10683d9d]" name="verify_logout_backing" class="testCases.TC_LG_004_LogoutAndBackingTest"/>
+        <method signature="TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@3fc2959f]" name="verify_logout_btn_before_login" class="testCases.TC_LG_005_MALogoutOptionTest"/>
+        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@5aa9e4eb]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_008_LogoutLoginSequencingTest.verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6989da5e]" name="verify_login" class="testCases.TC_LG_008_LogoutLoginSequencingTest"/>
+        <method signature="TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@385c9627]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest"/>
+        <method signature="TC_LG_001_LogoutByHeaderMenuTest.verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@3cd3e762]" name="verify_logout" class="testCases.TC_LG_001_LogoutByHeaderMenuTest"/>
+        <method signature="TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@1fa121e2]" name="verify_logout_through_btn_group" class="testCases.TC_LG_002_LogoutByButtonGroupMenuTest"/>
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@7eac9008]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
+        <method signature="TC_LG_004_LogoutAndBackingTest.verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4116aac9]" name="verify_logout_backing" class="testCases.TC_LG_004_LogoutAndBackingTest"/>
+        <method signature="TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@62ddbd7e]" name="verify_logout_btn_before_login" class="testCases.TC_LG_005_MALogoutOptionTest"/>
+        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@74e52ef6]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_008_LogoutLoginSequencingTest.verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6ed3ccb2]" name="verify_login" class="testCases.TC_LG_008_LogoutLoginSequencingTest"/>
+        <method signature="TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@1a677343]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest"/>
       </group> <!-- logout -->
       <group name="master">
-        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@409bf450]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_001_LogoutByHeaderMenuTest.verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@145f66e3]" name="verify_logout" class="testCases.TC_LG_001_LogoutByHeaderMenuTest"/>
+        <method signature="TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@3023df74]" name="verify_logout_through_btn_group" class="testCases.TC_LG_002_LogoutByButtonGroupMenuTest"/>
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@313ac989]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
+        <method signature="TC_LG_004_LogoutAndBackingTest.verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4562e04d]" name="verify_logout_backing" class="testCases.TC_LG_004_LogoutAndBackingTest"/>
+        <method signature="TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@2a65fe7c]" name="verify_logout_btn_before_login" class="testCases.TC_LG_005_MALogoutOptionTest"/>
+        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@4135c3b]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_008_LogoutLoginSequencingTest.verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6302bbb1]" name="verify_login" class="testCases.TC_LG_008_LogoutLoginSequencingTest"/>
+        <method signature="TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@31304f14]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest"/>
+        <method signature="TC_LG_001_LogoutByHeaderMenuTest.verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@6a78afa0]" name="verify_logout" class="testCases.TC_LG_001_LogoutByHeaderMenuTest"/>
+        <method signature="TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@2f4948e4]" name="verify_logout_through_btn_group" class="testCases.TC_LG_002_LogoutByButtonGroupMenuTest"/>
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@1f2586d6]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
+        <method signature="TC_LG_004_LogoutAndBackingTest.verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@10683d9d]" name="verify_logout_backing" class="testCases.TC_LG_004_LogoutAndBackingTest"/>
+        <method signature="TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@3fc2959f]" name="verify_logout_btn_before_login" class="testCases.TC_LG_005_MALogoutOptionTest"/>
+        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@5aa9e4eb]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_008_LogoutLoginSequencingTest.verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6989da5e]" name="verify_login" class="testCases.TC_LG_008_LogoutLoginSequencingTest"/>
+        <method signature="TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@385c9627]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest"/>
+        <method signature="TC_LG_001_LogoutByHeaderMenuTest.verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@3cd3e762]" name="verify_logout" class="testCases.TC_LG_001_LogoutByHeaderMenuTest"/>
+        <method signature="TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@1fa121e2]" name="verify_logout_through_btn_group" class="testCases.TC_LG_002_LogoutByButtonGroupMenuTest"/>
+        <method signature="TC_LG_003_LoginSessionTest.verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@7eac9008]" name="verify_login_browser_session" class="testCases.TC_LG_003_LoginSessionTest"/>
+        <method signature="TC_LG_004_LogoutAndBackingTest.verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4116aac9]" name="verify_logout_backing" class="testCases.TC_LG_004_LogoutAndBackingTest"/>
+        <method signature="TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@62ddbd7e]" name="verify_logout_btn_before_login" class="testCases.TC_LG_005_MALogoutOptionTest"/>
+        <method signature="TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@74e52ef6]" name="verify_logout_btn_grp_before_login" class="testCases.TC_LG_006_BtnGrpLogoutOptionTest"/>
+        <method signature="TC_LG_008_LogoutLoginSequencingTest.verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6ed3ccb2]" name="verify_login" class="testCases.TC_LG_008_LogoutLoginSequencingTest"/>
+        <method signature="TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@1a677343]" name="validate_breadcrumbs_heading_url_title" class="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-06-11T21:11:43 GMT+07:00" name="Test" finished-at="2026-06-11T21:11:45 GMT+07:00" duration-ms="2510">
-      <class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@409bf450]" started-at="2026-06-11T21:11:43 GMT+07:00" name="setup" finished-at="2026-06-11T21:11:45 GMT+07:00" duration-ms="1813" status="PASS">
+    <test started-at="2026-06-15T23:32:24 GMT+07:00" name="EdgeTest" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="57549">
+      <class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@385c9627]" started-at="2026-06-15T23:33:17 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:19 GMT+07:00" duration-ms="1387" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@409bf450]" started-at="2026-06-11T21:11:45 GMT+07:00" name="verify_logout_btn_grp_before_login" finished-at="2026-06-11T21:11:45 GMT+07:00" duration-ms="401" status="FAIL">
+        <test-method signature="validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@385c9627]" started-at="2026-06-15T23:33:19 GMT+07:00" name="validate_breadcrumbs_heading_url_title" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="2842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_breadcrumbs_heading_url_title -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@385c9627]" started-at="2026-06-15T23:33:22 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest -->
+      <class name="testCases.TC_LG_005_MALogoutOptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@3fc2959f]" started-at="2026-06-15T23:32:55 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:57 GMT+07:00" duration-ms="1469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@3fc2959f]" started-at="2026-06-15T23:32:57 GMT+07:00" name="verify_logout_btn_before_login" finished-at="2026-06-15T23:33:07 GMT+07:00" duration-ms="10091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_btn_before_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@3fc2959f]" started-at="2026-06-15T23:33:07 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:07 GMT+07:00" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_005_MALogoutOptionTest -->
+      <class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@2f4948e4]" started-at="2026-06-15T23:32:30 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:31 GMT+07:00" duration-ms="1534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@2f4948e4]" started-at="2026-06-15T23:32:31 GMT+07:00" name="verify_logout_through_btn_group" finished-at="2026-06-15T23:32:34 GMT+07:00" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_through_btn_group -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@2f4948e4]" started-at="2026-06-15T23:32:34 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:35 GMT+07:00" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_002_LogoutByButtonGroupMenuTest -->
+      <class name="testCases.TC_LG_001_LogoutByHeaderMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@6a78afa0]" started-at="2026-06-15T23:32:24 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:26 GMT+07:00" duration-ms="2013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@6a78afa0]" started-at="2026-06-15T23:32:26 GMT+07:00" name="verify_logout" finished-at="2026-06-15T23:32:29 GMT+07:00" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@6a78afa0]" started-at="2026-06-15T23:32:29 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:30 GMT+07:00" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_001_LogoutByHeaderMenuTest -->
+      <class name="testCases.TC_LG_008_LogoutLoginSequencingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6989da5e]" started-at="2026-06-15T23:33:10 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:11 GMT+07:00" duration-ms="1536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6989da5e]" started-at="2026-06-15T23:33:11 GMT+07:00" name="verify_login" finished-at="2026-06-15T23:33:17 GMT+07:00" duration-ms="6089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6989da5e]" started-at="2026-06-15T23:33:17 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:17 GMT+07:00" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_008_LogoutLoginSequencingTest -->
+      <class name="testCases.TC_LG_004_LogoutAndBackingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@10683d9d]" started-at="2026-06-15T23:32:47 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:48 GMT+07:00" duration-ms="1483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@10683d9d]" started-at="2026-06-15T23:32:48 GMT+07:00" name="verify_logout_backing" finished-at="2026-06-15T23:32:55 GMT+07:00" duration-ms="6779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_backing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@10683d9d]" started-at="2026-06-15T23:32:55 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:55 GMT+07:00" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_004_LogoutAndBackingTest -->
+      <class name="testCases.TC_LG_003_LoginSessionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@1f2586d6]" started-at="2026-06-15T23:32:35 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:36 GMT+07:00" duration-ms="1469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@1f2586d6]" started-at="2026-06-15T23:32:36 GMT+07:00" name="verify_login_browser_session" finished-at="2026-06-15T23:32:46 GMT+07:00" duration-ms="10217" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Logout option should not be displayed in the 'Right Column'. expected [true] but found [false]]]>
+              <![CDATA[User session was not saved expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Logout option should not be displayed in the 'Right Column'. expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: User session was not saved expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at testCases.TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login(TC_LG_006_BtnGrpLogoutOptionTest.java:34)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:64)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -54,29 +259,541 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- verify_login_browser_session -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@1f2586d6]" started-at="2026-06-15T23:32:46 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:47 GMT+07:00" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_003_LoginSessionTest -->
+      <class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@5aa9e4eb]" started-at="2026-06-15T23:33:07 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:09 GMT+07:00" duration-ms="1578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@5aa9e4eb]" started-at="2026-06-15T23:33:09 GMT+07:00" name="verify_logout_btn_grp_before_login" finished-at="2026-06-15T23:33:09 GMT+07:00" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- verify_logout_btn_grp_before_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@409bf450]" started-at="2026-06-11T21:11:45 GMT+07:00" name="tearDown" finished-at="2026-06-11T21:11:45 GMT+07:00" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@5aa9e4eb]" started-at="2026-06-15T23:33:09 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:10 GMT+07:00" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_LG_006_BtnGrpLogoutOptionTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-06-15T23:32:24 GMT+07:00" name="ChromeTest" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="57648">
+      <class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@31304f14]" started-at="2026-06-15T23:33:17 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:19 GMT+07:00" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@31304f14]" started-at="2026-06-15T23:33:19 GMT+07:00" name="validate_breadcrumbs_heading_url_title" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_breadcrumbs_heading_url_title -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@31304f14]" started-at="2026-06-15T23:33:22 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest -->
+      <class name="testCases.TC_LG_005_MALogoutOptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@2a65fe7c]" started-at="2026-06-15T23:32:55 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:57 GMT+07:00" duration-ms="1476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@2a65fe7c]" started-at="2026-06-15T23:32:57 GMT+07:00" name="verify_logout_btn_before_login" finished-at="2026-06-15T23:33:07 GMT+07:00" duration-ms="10089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_btn_before_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@2a65fe7c]" started-at="2026-06-15T23:33:07 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:07 GMT+07:00" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_005_MALogoutOptionTest -->
+      <class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@3023df74]" started-at="2026-06-15T23:32:29 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:31 GMT+07:00" duration-ms="1557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@3023df74]" started-at="2026-06-15T23:32:31 GMT+07:00" name="verify_logout_through_btn_group" finished-at="2026-06-15T23:32:34 GMT+07:00" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_through_btn_group -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@3023df74]" started-at="2026-06-15T23:32:34 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:35 GMT+07:00" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_002_LogoutByButtonGroupMenuTest -->
+      <class name="testCases.TC_LG_001_LogoutByHeaderMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@145f66e3]" started-at="2026-06-15T23:32:24 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:26 GMT+07:00" duration-ms="2046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@145f66e3]" started-at="2026-06-15T23:32:26 GMT+07:00" name="verify_logout" finished-at="2026-06-15T23:32:29 GMT+07:00" duration-ms="2950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@145f66e3]" started-at="2026-06-15T23:32:29 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:29 GMT+07:00" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_001_LogoutByHeaderMenuTest -->
+      <class name="testCases.TC_LG_008_LogoutLoginSequencingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6302bbb1]" started-at="2026-06-15T23:33:09 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:11 GMT+07:00" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6302bbb1]" started-at="2026-06-15T23:33:11 GMT+07:00" name="verify_login" finished-at="2026-06-15T23:33:17 GMT+07:00" duration-ms="6639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6302bbb1]" started-at="2026-06-15T23:33:17 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:17 GMT+07:00" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_008_LogoutLoginSequencingTest -->
+      <class name="testCases.TC_LG_004_LogoutAndBackingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4562e04d]" started-at="2026-06-15T23:32:47 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:48 GMT+07:00" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4562e04d]" started-at="2026-06-15T23:32:48 GMT+07:00" name="verify_logout_backing" finished-at="2026-06-15T23:32:55 GMT+07:00" duration-ms="7033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_backing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4562e04d]" started-at="2026-06-15T23:32:55 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:55 GMT+07:00" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_004_LogoutAndBackingTest -->
+      <class name="testCases.TC_LG_003_LoginSessionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@313ac989]" started-at="2026-06-15T23:32:35 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:36 GMT+07:00" duration-ms="1547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@313ac989]" started-at="2026-06-15T23:32:36 GMT+07:00" name="verify_login_browser_session" finished-at="2026-06-15T23:32:46 GMT+07:00" duration-ms="10053" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User session was not saved expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User session was not saved expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:64)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_browser_session -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@313ac989]" started-at="2026-06-15T23:32:46 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:47 GMT+07:00" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_003_LoginSessionTest -->
+      <class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@4135c3b]" started-at="2026-06-15T23:33:07 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:08 GMT+07:00" duration-ms="1401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@4135c3b]" started-at="2026-06-15T23:33:08 GMT+07:00" name="verify_logout_btn_grp_before_login" finished-at="2026-06-15T23:33:09 GMT+07:00" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_btn_grp_before_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@4135c3b]" started-at="2026-06-15T23:33:09 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:09 GMT+07:00" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_006_BtnGrpLogoutOptionTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-06-15T23:32:24 GMT+07:00" name="FirefoxTest" finished-at="2026-06-15T23:33:33 GMT+07:00" duration-ms="69233">
+      <class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@1a677343]" started-at="2026-06-15T23:33:28 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:31 GMT+07:00" duration-ms="2911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_breadcrumbs_heading_url_title()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@1a677343]" started-at="2026-06-15T23:33:31 GMT+07:00" name="validate_breadcrumbs_heading_url_title" finished-at="2026-06-15T23:33:33 GMT+07:00" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_breadcrumbs_heading_url_title -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@1a677343]" started-at="2026-06-15T23:33:33 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:33 GMT+07:00" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest -->
+      <class name="testCases.TC_LG_005_MALogoutOptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@62ddbd7e]" started-at="2026-06-15T23:33:04 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:07 GMT+07:00" duration-ms="3070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_btn_before_login()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@62ddbd7e]" started-at="2026-06-15T23:33:07 GMT+07:00" name="verify_logout_btn_before_login" finished-at="2026-06-15T23:33:17 GMT+07:00" duration-ms="10129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_btn_before_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_005_MALogoutOptionTest@62ddbd7e]" started-at="2026-06-15T23:33:17 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:18 GMT+07:00" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_005_MALogoutOptionTest -->
+      <class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@1fa121e2]" started-at="2026-06-15T23:32:33 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:37 GMT+07:00" duration-ms="3450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_through_btn_group()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@1fa121e2]" started-at="2026-06-15T23:32:37 GMT+07:00" name="verify_logout_through_btn_group" finished-at="2026-06-15T23:32:40 GMT+07:00" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_through_btn_group -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_002_LogoutByButtonGroupMenuTest@1fa121e2]" started-at="2026-06-15T23:32:40 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:40 GMT+07:00" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_002_LogoutByButtonGroupMenuTest -->
+      <class name="testCases.TC_LG_001_LogoutByHeaderMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@3cd3e762]" started-at="2026-06-15T23:32:24 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:29 GMT+07:00" duration-ms="4584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@3cd3e762]" started-at="2026-06-15T23:32:29 GMT+07:00" name="verify_logout" finished-at="2026-06-15T23:32:33 GMT+07:00" duration-ms="3931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_001_LogoutByHeaderMenuTest@3cd3e762]" started-at="2026-06-15T23:32:33 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:33 GMT+07:00" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_001_LogoutByHeaderMenuTest -->
+      <class name="testCases.TC_LG_008_LogoutLoginSequencingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6ed3ccb2]" started-at="2026-06-15T23:33:22 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:25 GMT+07:00" duration-ms="2780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6ed3ccb2]" started-at="2026-06-15T23:33:25 GMT+07:00" name="verify_login" finished-at="2026-06-15T23:33:28 GMT+07:00" duration-ms="2696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_008_LogoutLoginSequencingTest@6ed3ccb2]" started-at="2026-06-15T23:33:28 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:28 GMT+07:00" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_008_LogoutLoginSequencingTest -->
+      <class name="testCases.TC_LG_004_LogoutAndBackingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4116aac9]" started-at="2026-06-15T23:32:54 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:57 GMT+07:00" duration-ms="3234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_backing()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4116aac9]" started-at="2026-06-15T23:32:57 GMT+07:00" name="verify_logout_backing" finished-at="2026-06-15T23:33:04 GMT+07:00" duration-ms="6203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_backing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_004_LogoutAndBackingTest@4116aac9]" started-at="2026-06-15T23:33:04 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:04 GMT+07:00" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_004_LogoutAndBackingTest -->
+      <class name="testCases.TC_LG_003_LoginSessionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@7eac9008]" started-at="2026-06-15T23:32:40 GMT+07:00" name="setup" finished-at="2026-06-15T23:32:44 GMT+07:00" duration-ms="3524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login_browser_session()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@7eac9008]" started-at="2026-06-15T23:32:44 GMT+07:00" name="verify_login_browser_session" finished-at="2026-06-15T23:32:54 GMT+07:00" duration-ms="10211" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User session was not saved expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User session was not saved expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:64)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_browser_session -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_003_LoginSessionTest@7eac9008]" started-at="2026-06-15T23:32:54 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:32:54 GMT+07:00" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_003_LoginSessionTest -->
+      <class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@74e52ef6]" started-at="2026-06-15T23:33:18 GMT+07:00" name="setup" finished-at="2026-06-15T23:33:21 GMT+07:00" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logout_btn_grp_before_login()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@74e52ef6]" started-at="2026-06-15T23:33:21 GMT+07:00" name="verify_logout_btn_grp_before_login" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logout_btn_grp_before_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_006_BtnGrpLogoutOptionTest@74e52ef6]" started-at="2026-06-15T23:33:22 GMT+07:00" name="tearDown" finished-at="2026-06-15T23:33:22 GMT+07:00" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_006_BtnGrpLogoutOptionTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Cross Browsers Suite -->
 </testng-results>

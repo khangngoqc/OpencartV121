@@ -18,7 +18,7 @@ public class LogoutPage extends BasePage {
 	
 	@FindBy(xpath = "//h1[normalize-space()='Account Logout']") WebElement lgHeading;
 	
-	
+
 	@FindBy(xpath = "//a[normalize-space()='Continue']") WebElement btnContinue;
 	@FindBy(xpath = "//a[normalize-space()='Change your password']") WebElement lnkChangePassword;
 	
@@ -49,6 +49,11 @@ public class LogoutPage extends BasePage {
 		return lnkLoginMA;
 	}
 	
+	
+	//getters
+	public WebElement getLgHeading() {
+		return lgHeading;
+	}
 	
 	
 
