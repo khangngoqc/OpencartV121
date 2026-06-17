@@ -3154,3 +3154,10 @@ Session ID: 3c2da44294f3cc125540bd82c7ff7f45
 23:33:33.283 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page URL...
 23:33:33.285 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Title...
 23:33:33.287 [TestNG-tests-3] INFO  testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Finished TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+20:48:09.578 [TestNG-test-Test-1] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+20:48:12.940 [TestNG-test-Test-1] INFO  testCases.TC_FP_001_ResetPasswordTest - Must provide a valid Server ID.
+20:50:15.786 [TestNG-test-Test-1] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+20:50:27.116 [TestNG-test-Test-1] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+20:54:49.798 [TestNG-test-Test-1] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+20:54:50.397 [TestNG-test-Test-1] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+20:54:59.889 [TestNG-test-Test-1] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).

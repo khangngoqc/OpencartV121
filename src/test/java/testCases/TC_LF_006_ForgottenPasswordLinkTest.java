@@ -3,7 +3,7 @@ package testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pageObjects.ForgottenPasswordPage;
+import pageObjects.ForgotPasswordPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
@@ -31,7 +31,7 @@ public class TC_LF_006_ForgottenPasswordLinkTest extends BaseClass {
 			//navigate to Forgotten Password page
 			lp.getLnkForgottenPassword().click(); 
 			
-			ForgottenPasswordPage fpp = new ForgottenPasswordPage();
+			ForgotPasswordPage fpp = new ForgotPasswordPage();
 			boolean headingDisplay = fpp.getPageHeading().isDisplayed();
 			logger.info("validate page heading display on Forgotten Password page");
 			Assert.assertEquals(headingDisplay, true, "Failed to get to the Forgotten Password Page!");

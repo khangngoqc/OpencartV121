@@ -28,10 +28,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
+import com.mailosaur.MailosaurClient;
 
 public class BaseClass {
 
@@ -45,8 +46,9 @@ public class BaseClass {
 	public Properties p;
 	public Actions act;
 	public WebDriverWait wait;
+	public MailosaurClient mailosaur;
 
-	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" })
+	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register", "forgot password" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
@@ -129,10 +131,14 @@ public class BaseClass {
 
 		// Explicit wait object
 		wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
+		
+		//Mailosaur setup
+		mailosaur = new MailosaurClient(p.getProperty("mailosaurAPI"));
+		
 
 	}
 
-	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" })
+	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" , "forgot password"})
 	public void tearDown() {
 		getDriver().quit();
 		driver.remove();

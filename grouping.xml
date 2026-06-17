@@ -4,13 +4,13 @@
 	<groups>
 		<run>
 			<!--<include name="login"></include>-->
-			<include name="logout"></include>
+			<!--<include name="logout"></include>-->
+			<include name="forgot password"></include>
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
 			<!--<include name="register"></include>-->
 
 			<exclude name=""></exclude>
-
 		</run>
 	</groups>
 
@@ -80,6 +80,10 @@
 			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
 
 			<!--Logout cases-->
+			
+			<!--ForgotPassword cases-->
+			<class name="testCases.TC_FP_001_ResetPasswordTest" />
+			<!--ForgotPassword cases-->
 			
 			<!--Search cases-->
 			<class name="testCases.TC_SF_001_SearchExistingProductTest" />

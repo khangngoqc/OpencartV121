@@ -4,23 +4,23 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Test(failed)">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="logout"/>
+        <include name="forgot password"/>
         <exclude name=""/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_LG_003_LoginSessionTest">
+      <class name="testCases.TC_FP_001_ResetPasswordTest">
         <methods>
           <include name="tearDown"/>
+          <include name="reset_password_function"/>
           <include name="setup"/>
-          <include name="verify_login_browser_session"/>
         </methods>
-      </class> <!-- testCases.TC_LG_003_LoginSessionTest -->
+      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
