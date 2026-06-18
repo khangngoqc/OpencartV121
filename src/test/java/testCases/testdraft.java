@@ -1,5 +1,6 @@
 package testCases;
 
+import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
@@ -12,18 +13,76 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.mailosaur.MailosaurClient;
+import com.mailosaur.MailosaurException;
+import com.mailosaur.models.Message;
+import com.mailosaur.models.MessageSearchParams;
+import com.mailosaur.models.SearchCriteria;
 
 public class testdraft {
 
 	static WebDriver driver;
+	public static MailosaurClient mailosaur;
 
-	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-
+	
+	public static void main(String[] args) throws InterruptedException, IOException, MailosaurException {
 		
 		
-		//driver.quit();
+		driver = new ChromeDriver();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		
+		//Mailosaur setup
+		mailosaur = new MailosaurClient("eAAT0o0VRMH1oehzUMWGKYxmCMFbtSKk");
+		
+		//String uniqueUser = "testuser_" + System.currentTimeMillis();
+		String testEmail = "anything3@khnqlfjj.mailosaur.net";
+		String serverID = "khnqlfjj";
+		
+		
+		driver.get("https://supplier.valovietnam.com/vi/reset-password");
+		
+		driver.findElement(By.xpath("//input[@id='email']")).sendKeys(testEmail);
+		driver.findElement(By.xpath("//button[contains(text(),'Xác thực email của bạn')]")).click();
+		
+		Thread.sleep(5000);
+		
+		MessageSearchParams params = new MessageSearchParams();
+		params.withServer(serverID);
+
+		SearchCriteria criteria = new SearchCriteria();
+		criteria.withSentTo(testEmail);
+		
+		Message email = mailosaur.messages().get(params, criteria);
+		Assert.assertNotNull(email, "Reset password email was not received.");
+		Assert.assertEquals(email.subject(), "Your Password Reset Code");
+		
+		System.out.println(email.subject());
+		
+		String otpCode = email.text().codes().get(0).value();
+		
+		System.out.println("Extracted OTP Code: " + otpCode);
+		
+		
+		for (int i =0; i<=3; i++) {
+			int input = i + 1;
+			driver.findElement(By.xpath("//input["+ input +"]")).sendKeys(String.valueOf(otpCode.charAt(i)));
+		}
+		
+		driver.findElement(By.xpath("//button[contains(text(),'Xác thực mã số')]")).click();
+		
+		String newPassword = "123123Qt@";
+		
+		driver.findElement(By.xpath("//input[@placeholder='Mật khẩu của bạn']")).sendKeys(newPassword);
+		driver.findElement(By.xpath("//input[@placeholder='Nhập lại mật khẩu']")).sendKeys(newPassword);
+		driver.findElement(By.xpath("//button[contains(text(),'Đổi mật khẩu')]")).click();
+		
+		driver.quit();
 		
 		
 	}
