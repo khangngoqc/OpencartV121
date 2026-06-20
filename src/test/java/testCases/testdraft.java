@@ -16,7 +16,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import com.mailosaur.MailosaurClient;
 import com.mailosaur.MailosaurException;
@@ -29,102 +28,95 @@ public class testdraft {
 	static WebDriver driver;
 	public static MailosaurClient mailosaur;
 
-	
 	public static void main(String[] args) throws InterruptedException, IOException, MailosaurException {
-		
-		
+
+		driver.quit();
+
+	}
+
+	
+	void mailosaurEmailTest() throws InterruptedException, IOException, MailosaurException {
 		driver = new ChromeDriver();
-		
+
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		
-		//Mailosaur setup
+
+		// Mailosaur setup
 		mailosaur = new MailosaurClient("eAAT0o0VRMH1oehzUMWGKYxmCMFbtSKk");
-		
-		//String uniqueUser = "testuser_" + System.currentTimeMillis();
+
+		// String uniqueUser = "testuser_" + System.currentTimeMillis();
 		String testEmail = "anything3@khnqlfjj.mailosaur.net";
 		String serverID = "khnqlfjj";
-		
-		
+
 		driver.get("https://supplier.valovietnam.com/vi/reset-password");
-		
+
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys(testEmail);
 		driver.findElement(By.xpath("//button[contains(text(),'Xác thực email của bạn')]")).click();
-		
+
 		Thread.sleep(5000);
-		
+
 		MessageSearchParams params = new MessageSearchParams();
 		params.withServer(serverID);
 
 		SearchCriteria criteria = new SearchCriteria();
 		criteria.withSentTo(testEmail);
-		
+
 		Message email = mailosaur.messages().get(params, criteria);
 		Assert.assertNotNull(email, "Reset password email was not received.");
 		Assert.assertEquals(email.subject(), "Your Password Reset Code");
-		
+
 		System.out.println(email.subject());
-		
+
 		String otpCode = email.text().codes().get(0).value();
-		
+
 		System.out.println("Extracted OTP Code: " + otpCode);
-		
-		
-		for (int i =0; i<=3; i++) {
+
+		for (int i = 0; i <= 3; i++) {
 			int input = i + 1;
-			driver.findElement(By.xpath("//input["+ input +"]")).sendKeys(String.valueOf(otpCode.charAt(i)));
+			driver.findElement(By.xpath("//input[" + input + "]")).sendKeys(String.valueOf(otpCode.charAt(i)));
 		}
-		
+
 		driver.findElement(By.xpath("//button[contains(text(),'Xác thực mã số')]")).click();
-		
+
 		String newPassword = "123123Qt@";
-		
+
 		driver.findElement(By.xpath("//input[@placeholder='Mật khẩu của bạn']")).sendKeys(newPassword);
 		driver.findElement(By.xpath("//input[@placeholder='Nhập lại mật khẩu']")).sendKeys(newPassword);
 		driver.findElement(By.xpath("//button[contains(text(),'Đổi mật khẩu')]")).click();
-		
-		driver.quit();
-		
-		
 	}
 
 	void handle_cookie_session_timeout() throws InterruptedException {
 		WebDriver driver = new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		
+
 		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
-		
+
 		driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
-		
+
 		Thread.sleep(2000);
-		
+
 		Cookie sessionCookie = driver.manage().getCookieNamed("orangehrm");
-		
-		
-		
-		if(sessionCookie != null) {
-			
+
+		if (sessionCookie != null) {
+
 			long thirtyOneDaysInMillis = 365L * 24 * 60 * 60 * 1000;
 			Date pastDate = new Date(System.currentTimeMillis() - thirtyOneDaysInMillis);
-			Cookie expiredCookie  = new Cookie("Test", sessionCookie.getValue(), sessionCookie.getDomain(), sessionCookie.getPath(), pastDate, sessionCookie.isSecure(), sessionCookie.isHttpOnly());			
-			
+			Cookie expiredCookie = new Cookie("Test", sessionCookie.getValue(), sessionCookie.getDomain(),
+					sessionCookie.getPath(), pastDate, sessionCookie.isSecure(), sessionCookie.isHttpOnly());
+
 			driver.manage().deleteCookie(sessionCookie);
 			driver.manage().addCookie(expiredCookie);
 		}
-		
 
-		
 		Thread.sleep(2000);
-		
+
 		driver.navigate().refresh();
-		
-		
+
 		String currentURL = driver.getCurrentUrl();
 
 	}
-	
-	
+
 	void broken_link_check() {
 		// capture all the links from the webpage
 		List<WebElement> links = driver.findElements(By.tagName("a"));

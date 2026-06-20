@@ -4,16 +4,29 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="classes" name="Test(failed)">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="forgot password"/>
-        <exclude name=""/>
       </run>
     </groups>
     <classes>
+      <class name="testCases.TC_FP_004_LoginWithOldPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_login_with_old_password"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_004_LoginWithOldPasswordTest -->
+      <class name="testCases.TC_FP_002_ResetPasswordEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_reset_password_email"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_002_ResetPasswordEmailTest -->
       <class name="testCases.TC_FP_001_ResetPasswordTest">
         <methods>
           <include name="tearDown"/>
@@ -21,6 +34,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
+      <class name="testCases.TC_FP_003_LoginWithResetedPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_login_with_new_password"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_003_LoginWithResetedPasswordTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

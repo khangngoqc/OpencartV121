@@ -1,11 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="48" total="52" passed="0" failed="1" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-18T22:18:46 GMT+07:00" name="Default suite" finished-at="2026-06-18T22:18:46 GMT+07:00" duration-ms="6">
+  <suite started-at="2026-06-20T23:41:18 GMT+07:00" name="Suite" finished-at="2026-06-20T23:41:42 GMT+07:00" duration-ms="23675">
     <groups>
+      <group name="forgot password">
+        <method signature="TC_FP_001_ResetPasswordTest.reset_password_function()[pri:0, instance:testCases.TC_FP_001_ResetPasswordTest@3590fc5b]" name="reset_password_function" class="testCases.TC_FP_001_ResetPasswordTest"/>
+        <method signature="TC_FP_002_ResetPasswordEmailTest.validate_reset_password_email()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@397fbdb]" name="validate_reset_password_email" class="testCases.TC_FP_002_ResetPasswordEmailTest"/>
+        <method signature="TC_FP_003_LoginWithResetedPasswordTest.validate_login_with_new_password()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@33d512c1]" name="validate_login_with_new_password" class="testCases.TC_FP_003_LoginWithResetedPasswordTest"/>
+        <method signature="TC_FP_004_LoginWithOldPasswordTest.validate_login_with_old_password()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@515c6049]" name="validate_login_with_old_password" class="testCases.TC_FP_004_LoginWithOldPasswordTest"/>
+      </group> <!-- forgot password -->
+      <group name="init_password">
+        <method signature="TC_FP_001_ResetPasswordTest.reset_password_function()[pri:0, instance:testCases.TC_FP_001_ResetPasswordTest@3590fc5b]" name="reset_password_function" class="testCases.TC_FP_001_ResetPasswordTest"/>
+      </group> <!-- init_password -->
+      <group name="master">
+        <method signature="TC_FP_001_ResetPasswordTest.reset_password_function()[pri:0, instance:testCases.TC_FP_001_ResetPasswordTest@3590fc5b]" name="reset_password_function" class="testCases.TC_FP_001_ResetPasswordTest"/>
+        <method signature="TC_FP_002_ResetPasswordEmailTest.validate_reset_password_email()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@397fbdb]" name="validate_reset_password_email" class="testCases.TC_FP_002_ResetPasswordEmailTest"/>
+        <method signature="TC_FP_003_LoginWithResetedPasswordTest.validate_login_with_new_password()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@33d512c1]" name="validate_login_with_new_password" class="testCases.TC_FP_003_LoginWithResetedPasswordTest"/>
+        <method signature="TC_FP_004_LoginWithOldPasswordTest.validate_login_with_old_password()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@515c6049]" name="validate_login_with_old_password" class="testCases.TC_FP_004_LoginWithOldPasswordTest"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2026-06-18T22:18:46 GMT+07:00" name="Default test" finished-at="2026-06-18T22:18:46 GMT+07:00" duration-ms="6">
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test started-at="2026-06-20T23:41:18 GMT+07:00" name="Test" finished-at="2026-06-20T23:41:42 GMT+07:00" duration-ms="23675">
+      <class name="testCases.TC_FP_003_LoginWithResetedPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@33d512c1]" started-at="2026-06-20T23:41:38 GMT+07:00" name="setup" finished-at="2026-06-20T23:41:40 GMT+07:00" duration-ms="1643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_login_with_new_password()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@33d512c1]" started-at="2026-06-20T23:41:40 GMT+07:00" name="validate_login_with_new_password" depends-on-groups="init_password" finished-at="2026-06-20T23:41:40 GMT+07:00" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_FP_003_LoginWithResetedPasswordTest.validate_login_with_new_password()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@33d512c1] depends on not successfully finished methods in group "init_password"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_FP_003_LoginWithResetedPasswordTest.validate_login_with_new_password()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@33d512c1] depends on not successfully finished methods in group "init_password"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_login_with_new_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@33d512c1]" started-at="2026-06-20T23:41:40 GMT+07:00" name="tearDown" finished-at="2026-06-20T23:41:40 GMT+07:00" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_FP_003_LoginWithResetedPasswordTest -->
+      <class name="testCases.TC_FP_001_ResetPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_FP_001_ResetPasswordTest@3590fc5b]" started-at="2026-06-20T23:41:18 GMT+07:00" name="setup" finished-at="2026-06-20T23:41:21 GMT+07:00" duration-ms="3168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reset_password_function()[pri:0, instance:testCases.TC_FP_001_ResetPasswordTest@3590fc5b]" started-at="2026-06-20T23:41:22 GMT+07:00" name="reset_password_function" finished-at="2026-06-20T23:41:35 GMT+07:00" duration-ms="13667" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC_FP_001_ResetPasswordTest.reset_password_function(TC_FP_001_ResetPasswordTest.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset_password_function -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_FP_001_ResetPasswordTest@3590fc5b]" started-at="2026-06-20T23:41:35 GMT+07:00" name="tearDown" finished-at="2026-06-20T23:41:36 GMT+07:00" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
+      <class name="testCases.TC_FP_004_LoginWithOldPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@515c6049]" started-at="2026-06-20T23:41:40 GMT+07:00" name="setup" finished-at="2026-06-20T23:41:42 GMT+07:00" duration-ms="1722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_login_with_old_password()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@515c6049]" started-at="2026-06-20T23:41:42 GMT+07:00" name="validate_login_with_old_password" depends-on-groups="init_password" finished-at="2026-06-20T23:41:42 GMT+07:00" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_FP_004_LoginWithOldPasswordTest.validate_login_with_old_password()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@515c6049] depends on not successfully finished methods in group "init_password"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_FP_004_LoginWithOldPasswordTest.validate_login_with_old_password()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@515c6049] depends on not successfully finished methods in group "init_password"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_login_with_old_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@515c6049]" started-at="2026-06-20T23:41:42 GMT+07:00" name="tearDown" finished-at="2026-06-20T23:41:42 GMT+07:00" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_FP_004_LoginWithOldPasswordTest -->
+      <class name="testCases.TC_FP_002_ResetPasswordEmailTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@397fbdb]" started-at="2026-06-20T23:41:36 GMT+07:00" name="setup" finished-at="2026-06-20T23:41:38 GMT+07:00" duration-ms="1805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_reset_password_email()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@397fbdb]" started-at="2026-06-20T23:41:38 GMT+07:00" name="validate_reset_password_email" depends-on-groups="init_password" finished-at="2026-06-20T23:41:38 GMT+07:00" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_FP_002_ResetPasswordEmailTest.validate_reset_password_email()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@397fbdb] depends on not successfully finished methods in group "init_password"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_FP_002_ResetPasswordEmailTest.validate_reset_password_email()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@397fbdb] depends on not successfully finished methods in group "init_password"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_reset_password_email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@397fbdb]" started-at="2026-06-20T23:41:38 GMT+07:00" name="tearDown" finished-at="2026-06-20T23:41:38 GMT+07:00" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_FP_002_ResetPasswordEmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

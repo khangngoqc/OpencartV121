@@ -1,7 +1,5 @@
 package testCases;
 
-import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.mailosaur.MailosaurException;
 import com.mailosaur.models.Message;
 import com.mailosaur.models.MessageSearchParams;
 import com.mailosaur.models.SearchCriteria;
@@ -21,12 +18,12 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC_FP_001_ResetPasswordTest extends BaseClass {
+public class TC_FP_003_LoginWithResetedPasswordTest extends BaseClass {
 
-	@Test(groups = { "master", "init_password" , "forgot password" })
-	public void reset_password_function() throws IOException, MailosaurException {
+	@Test(alwaysRun = false, dependsOnGroups = {"init_password"}, groups = { "master", "forgot password" })
+	void validate_login_with_new_password() {
 
-		logger.info("******* Starting TC_FP_001_ResetPasswordTest *******");
+		logger.info("******* Starting TC_FP_003_LoginWithResetedPasswordTest *******");
 
 		try {
 
@@ -102,8 +99,7 @@ public class TC_FP_001_ResetPasswordTest extends BaseClass {
 
 		}
 
-		logger.info("******* Finished TC_FP_001_ResetPasswordTest *******");
-
+		logger.info("******* Finished TC_FP_003_LoginWithResetedPasswordTest *******");
 	}
 
 }
