@@ -12,6 +12,7 @@ public class ForgotPasswordPage extends BasePage{
 	@FindBy(xpath = "//h1[normalize-space()='Forgot Your Password?']") WebElement pageHeading;
 	@FindBy(xpath = "//input[@id='input-email']") WebElement txtEmailAddress;
 	@FindBy(xpath = "//input[@value='Continue']") WebElement btnContinue;
+	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']") WebElement alertBanner;
 
 	
 	public WebElement getPageHeading() {
@@ -25,5 +26,12 @@ public class ForgotPasswordPage extends BasePage{
 	public void clickContinue() {
 		btnContinue.click();
 	}
+
+
+	//getter
+	public WebElement getAlertBanner() {
+		return alertBanner;
+	}
+
 	
 }
