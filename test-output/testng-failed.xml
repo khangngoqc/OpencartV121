@@ -13,34 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_FP_004_LoginWithOldPasswordTest">
+      <class name="testCases.TC_FP_005_NonregisteredPasswordResetTest">
         <methods>
+          <include name="non_registration_account_reset_password"/>
           <include name="tearDown"/>
-          <include name="validate_login_with_old_password"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_FP_004_LoginWithOldPasswordTest -->
-      <class name="testCases.TC_FP_002_ResetPasswordEmailTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_reset_password_email"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_002_ResetPasswordEmailTest -->
-      <class name="testCases.TC_FP_001_ResetPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_function"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
-      <class name="testCases.TC_FP_003_LoginWithResetedPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_login_with_new_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_003_LoginWithResetedPasswordTest -->
+      </class> <!-- testCases.TC_FP_005_NonregisteredPasswordResetTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
