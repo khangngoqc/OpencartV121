@@ -3209,3 +3209,11 @@ Session ID: 3c2da44294f3cc125540bd82c7ff7f45
 23:41:26.000 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
 23:41:35.666 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
 23:13:50.740 [main] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+21:19:54.528 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+21:19:58.169 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+21:20:07.828 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+21:20:09.396 [main] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+21:28:23.273 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+21:28:25.713 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+21:28:35.382 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+21:28:36.989 [main] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
