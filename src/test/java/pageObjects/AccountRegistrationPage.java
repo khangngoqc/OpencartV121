@@ -149,10 +149,7 @@ public class AccountRegistrationPage extends BasePage {
 
 	}
 	
-	//get element's placeholder value
-	public String getPlaceHolderValue(WebElement e) {
-		return e.getAttribute("placeholder");
-	}
+	
 	
 	//Check if warning is Display with WebElement as parameter
 	public boolean isWarningDisplayed(WebElement e) {
