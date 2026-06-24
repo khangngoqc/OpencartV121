@@ -21,12 +21,12 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC_FP_008_ResetPasswordFieldsPlaceholderTest extends BaseClass {
+public class TC_FP_009_ResetPasswordFieldsEmptyInputTest extends BaseClass {
 
 	@Test(alwaysRun = false, dependsOnGroups = {"init_password"}, groups = { "master", "forgot password" })
-	public void reset_password_passwordfields_placeholder_validation() throws IOException, MailosaurException {
+	public void reset_password_empty_inputvalidation() throws IOException, MailosaurException {
 
-		logger.info("******* Starting TC_FP_008_ResetPasswordFieldsPlaceholderTest *******");
+		logger.info("******* Starting TC_FP_009_ResetPasswordFieldsEmptyInputTest *******");
 
 		try {
 
@@ -80,10 +80,15 @@ public class TC_FP_008_ResetPasswordFieldsPlaceholderTest extends BaseClass {
 			WebElement confirmPasswordInput = getDriver().findElement(By.id("confirm-password"));
 
 			//valdate fields placeholders
-			Assert.assertTrue(newPasswordInput.getAttribute("placeholder").equals("New password"));
-			Assert.assertTrue(confirmPasswordInput.getAttribute("placeholder").equals("Confirm new password"));
+			newPasswordInput.sendKeys(newPassword);
+			confirmPasswordInput.sendKeys(newPassword);
+
+			WebElement saveButton = getDriver().findElement(By.id("save-btn"));
+			saveButton.click();
 			
-			
+			WebElement errorMessage = wait
+					.until(ExpectedConditions.visibilityOfElementLocated(By.className("alert-success")));
+			Assert.assertTrue(errorMessage.getText().contains("Password must be between 4 and 20 characters!"));
 
 		} catch (Exception e) {
 
@@ -92,7 +97,7 @@ public class TC_FP_008_ResetPasswordFieldsPlaceholderTest extends BaseClass {
 
 		}
 
-		logger.info("******* Finished TC_FP_008_ResetPasswordFieldsPlaceholderTest *******");
+		logger.info("******* Finished TC_FP_009_ResetPasswordFieldsEmptyInputTest *******");
 
 	}
 

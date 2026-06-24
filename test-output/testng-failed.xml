@@ -30,7 +30,7 @@
       <class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest">
         <methods>
           <include name="tearDown"/>
-          <include name="reset_password_passwordfields_validation"/>
+          <include name="reset_password_passwordfields_placeholder_validation"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest -->
@@ -55,6 +55,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_006_ResetPasswordLinkReuseTest -->
+      <class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="reset_password_empty_inputvalidation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest -->
       <class name="testCases.TC_FP_005_NonregisteredPasswordResetTest">
         <methods>
           <include name="non_registration_account_reset_password"/>
