@@ -21,12 +21,12 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC_FP_009_ResetPasswordFieldsEmptyInputTest extends BaseClass {
+public class TC_FP_010_ResetPasswordLinkBacking extends BaseClass {
 
 	@Test(alwaysRun = false, dependsOnGroups = {"init_password"}, groups = { "master", "forgot password" })
-	public void reset_password_empty_input_validation() throws IOException, MailosaurException {
+	public void reset_password_link_backing() throws IOException, MailosaurException {
 
-		logger.info("******* Starting TC_FP_009_ResetPasswordFieldsEmptyInputTest *******");
+		logger.info("******* Starting TC_FP_010_ResetPasswordLinkBacking *******");
 
 		try {
 
@@ -69,26 +69,14 @@ public class TC_FP_009_ResetPasswordFieldsEmptyInputTest extends BaseClass {
 			BaseClass.driver.set(newDriver);
 			getDriver().get(resetLink);
 
-			// Input New Password
-			String newPassword = "SecureNewPass123!";
+			// Backing on browser
+			getDriver().navigate().back();
 			
-					
-			// ResetPasswordPage rsp = new ResetPassswordPage();
-			WebElement newPasswordInput = wait
-					.until(ExpectedConditions.visibilityOfElementLocated(By.id("new-password")));
-
-			WebElement confirmPasswordInput = getDriver().findElement(By.id("confirm-password"));
-
-			//valdate fields placeholders
-			newPasswordInput.sendKeys(newPassword);
-			confirmPasswordInput.sendKeys(newPassword);
-
-			WebElement saveButton = getDriver().findElement(By.id("save-btn"));
-			saveButton.click();
+			//verify if user got directed back to Login Page
+			Assert.assertTrue(getDriver().getTitle().equals("Account Login"), "Failed to navigate back to Login Page! ");
 			
-			WebElement errorMessage = wait
-					.until(ExpectedConditions.visibilityOfElementLocated(By.className("alert-success")));
-			Assert.assertTrue(errorMessage.getText().contains("Password must be between 4 and 20 characters!"));
+			
+			
 
 		} catch (Exception e) {
 
@@ -97,7 +85,7 @@ public class TC_FP_009_ResetPasswordFieldsEmptyInputTest extends BaseClass {
 
 		}
 
-		logger.info("******* Finished TC_FP_009_ResetPasswordFieldsEmptyInputTest *******");
+		logger.info("******* Finished TC_FP_010_ResetPasswordLinkBacking *******");
 
 	}
 

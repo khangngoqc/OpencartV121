@@ -55,10 +55,17 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_006_ResetPasswordLinkReuseTest -->
+      <class name="testCases.TC_FP_010_ResetPasswordLinkBacking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="reset_password_link_backing"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_010_ResetPasswordLinkBacking -->
       <class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest">
         <methods>
           <include name="tearDown"/>
-          <include name="reset_password_empty_inputvalidation"/>
+          <include name="reset_password_empty_input_validation"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest -->
