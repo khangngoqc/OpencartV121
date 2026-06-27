@@ -34,6 +34,20 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest -->
+      <class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest">
+        <methods>
+          <include name="reset_password_heading_url_title_validate"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest -->
+      <class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest">
+        <methods>
+          <include name="reset_password_Breadscrumb_validate"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_012_ResetPasswordBreadscrumbTest -->
       <class name="testCases.TC_FP_002_ResetPasswordEmailTest">
         <methods>
           <include name="tearDown"/>
@@ -41,13 +55,20 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_002_ResetPasswordEmailTest -->
-      <class name="testCases.TC_FP_001_ResetPasswordTest">
+      <class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest">
         <methods>
           <include name="tearDown"/>
-          <include name="reset_password_function"/>
+          <include name="non_email_input_reset_password"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
+      </class> <!-- testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest -->
+      <class name="testCases.TC_FP_011_ResetPasswordRightColumnTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="reset_password_rightColumnOptions_validate"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_011_ResetPasswordRightColumnTest -->
       <class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest">
         <methods>
           <include name="tearDown"/>
@@ -65,17 +86,10 @@
       <class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest">
         <methods>
           <include name="tearDown"/>
-          <include name="reset_password_empty_input_validation"/>
           <include name="setup"/>
+          <include name="reset_password_empty_input_validation"/>
         </methods>
       </class> <!-- testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest -->
-      <class name="testCases.TC_FP_005_NonregisteredPasswordResetTest">
-        <methods>
-          <include name="non_registration_account_reset_password"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_005_NonregisteredPasswordResetTest -->
       <class name="testCases.TC_FP_003_LoginWithResetedPasswordTest">
         <methods>
           <include name="tearDown"/>
@@ -83,6 +97,20 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_FP_003_LoginWithResetedPasswordTest -->
+      <class name="testCases.TC_FP_001_ResetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="reset_password_function"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
+      <class name="testCases.TC_FP_005_NonregisteredPasswordResetTest">
+        <methods>
+          <include name="non_registration_account_reset_password"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_FP_005_NonregisteredPasswordResetTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -90,6 +90,10 @@
 			<class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
 			<class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
 			<class name="testCases.TC_FP_010_ResetPasswordLinkBacking" />
+			<class name="testCases.TC_FP_011_ResetPasswordRightColumnTest" />
+			<class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest" />
+			<class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
+			<class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
 			
 			<!--ForgotPassword cases-->
 			
