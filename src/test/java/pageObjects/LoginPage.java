@@ -67,6 +67,10 @@ public class LoginPage extends BasePage {
 		btnGrpRegister.click();
 	}
 	
+	public void clickBtnGrpForgottenPassword() {
+		btnGrpForgottenPassword.click();
+	}
+	
 	public void clickForgottenPassword() {
 		lnkForgottenPassword.click();
 	}

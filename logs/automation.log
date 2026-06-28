@@ -3243,3 +3243,40 @@ Session ID: 3c2da44294f3cc125540bd82c7ff7f45
 13:39:30.425 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
 13:39:31.921 [main] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
 13:39:34.541 [main] INFO  testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest - ******* Starting TC_FP_015_ResetPasswordWithoutEmailInputTest *******
+14:12:42.771 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+14:12:45.331 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+14:12:54.439 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+14:12:55.730 [main] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+14:12:58.227 [main] INFO  testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest - ******* Starting TC_FP_015_ResetPasswordWithoutEmailInputTest *******
+14:13:00.673 [main] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - ******* Starting TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+14:13:01.055 [main] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - *******Finished TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+14:29:10.367 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+14:29:13.434 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+14:29:22.570 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+14:29:24.039 [main] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+14:29:26.696 [main] INFO  testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest - ******* Starting TC_FP_015_ResetPasswordWithoutEmailInputTest *******
+14:29:29.209 [main] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - ******* Starting TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+14:29:29.649 [main] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - *******Finished TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+14:29:30.809 [main] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - ******* Starting TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+14:29:31.243 [main] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - *******Finished TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+14:29:54.171 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+14:29:57.228 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+14:30:06.252 [main] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+14:30:08.058 [main] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+14:30:12.087 [main] INFO  testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest - ******* Starting TC_FP_015_ResetPasswordWithoutEmailInputTest *******
+14:30:14.652 [main] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - ******* Starting TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+14:30:15.081 [main] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - *******Finished TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+14:30:16.324 [main] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - ******* Starting TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+14:30:16.787 [main] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - *******Finished TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+14:31:06.177 [main] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - ******* Starting TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+14:40:34.337 [main] INFO  testCases.TC_FP_018_ResetPasswordInvalidEmailInputTest - ******* Starting TC_FP_018_ResetPasswordInvalidEmailInputTest *******
+14:42:07.074 [main] INFO  testCases.TC_FP_018_ResetPasswordInvalidEmailInputTest - ******* Starting TC_FP_018_ResetPasswordInvalidEmailInputTest *******
+14:42:16.073 [main] INFO  testCases.TC_FP_018_ResetPasswordInvalidEmailInputTest - *******Finished TC_FP_018_ResetPasswordInvalidEmailInputTest *******
+14:46:42.368 [main] INFO  testCases.TC_FP_018_ResetPasswordInvalidEmailInputTest - ******* Starting TC_FP_018_ResetPasswordInvalidEmailInputTest *******
+14:54:51.891 [main] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - ******* Starting TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+14:54:52.307 [main] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - *******Finished TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+14:55:17.653 [main] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - ******* Starting TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+15:01:44.360 [main] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - ******* Starting TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+15:01:45.780 [main] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - *******Finished TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+15:01:46.949 [main] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - ******* Starting TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******
+15:01:48.351 [main] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - *******Finished TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******

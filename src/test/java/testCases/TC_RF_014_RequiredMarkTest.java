@@ -28,31 +28,13 @@ public class TC_RF_014_RequiredMarkTest extends BaseClass {
 			AccountRegistrationPage rp = new AccountRegistrationPage();
 			
 			//store label elements in to a List collection
-			List<WebElement> requiredFieldLable = getDriver()
-					.findElements(By.xpath("//div[@class='form-group required']//label[@class='col-sm-2 control-label']"));
-
-
-			for(WebElement e : requiredFieldLable) {
-				
-				//Execute JavaScript to get the property
-				String script = "return window.getComputedStyle(arguments[0], '::before').getPropertyValue('content');";
-				String requiredMark = (String) ((JavascriptExecutor) getDriver()).executeScript(script, e);
-
-				//logger.info(e.getText() + requiredMark);
-				
-				//check if the pseudo element of the label contains "*"
-				if(!requiredMark.contains("*")) {
-					Assert.fail();
-					break;
-				}
-				
-			}
+			boolean isMarked = rp.mandatoryFieldsMarked();
 			
-			Assert.assertTrue(true);
+			Assert.assertTrue(isMarked, "Mandatory field is not marked!");
 						
 		} catch (Exception e) {
 			logger.debug(e.getMessage());
-			Assert.fail();
+			Assert.fail(e.getMessage());
 		
 		}
 		

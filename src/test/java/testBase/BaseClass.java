@@ -15,6 +15,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager; //Log4j
 import org.apache.logging.log4j.Logger; //Log4j
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
@@ -226,5 +227,31 @@ public class BaseClass {
 		}
 
 	}
+	
+	
+	public boolean mandatoryFieldsMarked() {
+		//store label elements in to a List collection
+		List<WebElement> requiredFieldLable = getDriver()
+				.findElements(By.xpath("//div[@class='form-group required']//label[@class='col-sm-2 control-label']"));
+
+
+		for(WebElement e : requiredFieldLable) {
+			
+			//Execute JavaScript to get the property
+			String script = "return window.getComputedStyle(arguments[0], '::before').getPropertyValue('content');";
+			String requiredMark = (String) ((JavascriptExecutor) getDriver()).executeScript(script, e);
+
+			//logger.info(e.getText() + requiredMark);
+			
+			//check if the pseudo element of the label contains "*"
+			if(!requiredMark.contains("*")) {
+				return false;
+			}
+		}
+		
+		return true;
+
+	}
+	
 
 }

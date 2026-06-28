@@ -27,12 +27,12 @@ public class TC_RF_013_FieldsPlaceholderTest extends BaseClass{
 			
 			ArrayList<String> placeholders = new ArrayList<String>();
 		
-			placeholders.add(rp.getPlaceHolderValue(rp.getTxtFirstName()));
-			placeholders.add(rp.getPlaceHolderValue(rp.getTxtLastName()));
-			placeholders.add(rp.getPlaceHolderValue(rp.getTxtEmail()));
-			placeholders.add(rp.getPlaceHolderValue(rp.getTxtTelephone()));
-			placeholders.add(rp.getPlaceHolderValue(rp.getTxtPassword()));
-			placeholders.add(rp.getPlaceHolderValue(rp.getTxtPasswordConfirm()));
+			placeholders.add(rp.getPlaceholderValue(rp.getTxtFirstName()));
+			placeholders.add(rp.getPlaceholderValue(rp.getTxtLastName()));
+			placeholders.add(rp.getPlaceholderValue(rp.getTxtEmail()));
+			placeholders.add(rp.getPlaceholderValue(rp.getTxtTelephone()));
+			placeholders.add(rp.getPlaceholderValue(rp.getTxtPassword()));
+			placeholders.add(rp.getPlaceholderValue(rp.getTxtPasswordConfirm()));
 
 			
 			for(String p : placeholders) {

@@ -20,7 +20,7 @@ public class BasePage extends BaseClass{
 		return e.getText();
 	}
 	
-	public String getPlaceHolderValue(WebElement e) {
+	public String getPlaceholderValue(WebElement e) {
 		return e.getAttribute("placeholder");
 	}
 
