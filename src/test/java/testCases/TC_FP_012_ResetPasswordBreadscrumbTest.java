@@ -70,7 +70,7 @@ public class TC_FP_012_ResetPasswordBreadscrumbTest extends BaseClass {
 			BaseClass.driver.set(newDriver);
 			getDriver().get(resetLink);
 
-			//Locate right column options validation
+			//Breadcrumb validation
 			List<WebElement> breadcrumbsLinks = getDriver().findElements(By.xpath("//ul[@class='breadcrumb']//a"));
 
 			logger.info("validate breadcrumbs links...");

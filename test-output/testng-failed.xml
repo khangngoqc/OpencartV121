@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest">
+      <class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest">
         <methods>
+          <include name="forgotten_password_loign_input_carry_over_validation"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="forgotten_password_backing_navigation_validation"/>
         </methods>
-      </class> <!-- testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest -->
+      </class> <!-- testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
