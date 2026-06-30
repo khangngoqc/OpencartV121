@@ -55,13 +55,13 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/5/12</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 15 23:32:24 GMT+07:00 2026</td>
+<td>Started on:</td><td>Tue Jun 30 21:03:00 GMT+07:00 2026</td>
 </tr>
-<tr><td>Total time:</td><td>57 seconds (57648 ms)</td>
+<tr><td>Total time:</td><td>57 seconds (57636 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>logout </td>
+<td>Included groups:</td><td>forgot password </td>
 </tr><tr>
 <td>Excluded groups:</td><td> </td>
 </tr>
@@ -76,23 +76,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session()'><b>verify_login_browser_session</b><br>Test class: testCases.TC_LG_003_LoginSessionTest</td>
-<td><div><pre>java.lang.AssertionError: User session was not saved expected [true] but found [false]
-	at testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:64)
+<td title='testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest.non_email_input_reset_password()'><b>non_email_input_reset_password</b><br>Test class: testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest</td>
+<td><div><pre>java.lang.AssertionError: Incorrect process visual cue display! expected [E-Mail must be between 4 and 20 characters!] but found [Warning: The E-Mail Address was not found in our records, please try again!]
+	at testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest.non_email_input_reset_password(TC_FP_015_ResetPasswordWithoutEmailInputTest.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace107002077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace107002077'><pre>java.lang.AssertionError: User session was not saved expected [true] but found [false]
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace133809240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace133809240'><pre>java.lang.AssertionError: Incorrect process visual cue display! expected [E-Mail must be between 4 and 20 characters!] but found [Warning: The E-Mail Address was not found in our records, please try again!]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1079)
-	at org.testng.Assert.assertEquals(Assert.java:1043)
-	at testCases.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:64)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest.non_email_input_reset_password(TC_FP_015_ResetPasswordWithoutEmailInputTest.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -114,8 +113,164 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 </pre></div></td>
-<td>10</td>
-<td>testCases.TC_LG_003_LoginSessionTest@313ac989</td></tr>
+<td>1</td>
+<td>testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest@45752059</td></tr>
+<tr>
+<td title='testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest.forgotten_password_invalid_email_input_validation()'><b>forgotten_password_invalid_email_input_validation</b><br>Test class: testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest</td>
+<td><div><pre>java.lang.AssertionError: Field level warning message informing the User to provide a valid formatted email address should be displayed expected [E-Mail Address does not appear to be valid!] but found [Warning: The E-Mail Address was not found in our records, please try again!]
+	at testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest.forgotten_password_invalid_email_input_validation(TC_FP_018_ForgottenPasswordInvalidEmailInputTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace109901563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace109901563'><pre>java.lang.AssertionError: Field level warning message informing the User to provide a valid formatted email address should be displayed expected [E-Mail Address does not appear to be valid!] but found [Warning: The E-Mail Address was not found in our records, please try again!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest.forgotten_password_invalid_email_input_validation(TC_FP_018_ForgottenPasswordInvalidEmailInputTest.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>1</td>
+<td>testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest@54d9d12d</td></tr>
+<tr>
+<td title='testCases.TC_FP_001_ResetPasswordTest.reset_password_function()'><b>reset_password_function</b><br>Test class: testCases.TC_FP_001_ResetPasswordTest</td>
+<td><div><pre>java.lang.AssertionError: No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+	at testCases.TC_FP_001_ResetPasswordTest.reset_password_function(TC_FP_001_ResetPasswordTest.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1857872548", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1857872548'><pre>java.lang.AssertionError: No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC_FP_001_ResetPasswordTest.reset_password_function(TC_FP_001_ResetPasswordTest.java:101)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>12</td>
+<td>testCases.TC_FP_001_ResetPasswordTest@776aec5c</td></tr>
+<tr>
+<td title='testCases.TC_FP_005_NonregisteredPasswordResetTest.non_registration_account_reset_password()'><b>non_registration_account_reset_password</b><br>Test class: testCases.TC_FP_005_NonregisteredPasswordResetTest</td>
+<td><div><pre>java.lang.AssertionError: Incorrect process visual cue display! expected [An email with a confirmation link has been sent your email address.] but found [Warning: The E-Mail Address was not found in our records, please try again!]
+	at testCases.TC_FP_005_NonregisteredPasswordResetTest.non_registration_account_reset_password(TC_FP_005_NonregisteredPasswordResetTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340587276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1340587276'><pre>java.lang.AssertionError: Incorrect process visual cue display! expected [An email with a confirmation link has been sent your email address.] but found [Warning: The E-Mail Address was not found in our records, please try again!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC_FP_005_NonregisteredPasswordResetTest.non_registration_account_reset_password(TC_FP_005_NonregisteredPasswordResetTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>1</td>
+<td>testCases.TC_FP_005_NonregisteredPasswordResetTest@557caf28</td></tr>
+<tr>
+<td title='testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest.forgotten_password_loign_input_carry_over_validation()'><b>forgotten_password_loign_input_carry_over_validation</b><br>Test class: testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest</td>
+<td><div><pre>java.lang.AssertionError: Login page input did not get carry over! expected [myemail@gmail.com] but found []
+	at testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest.forgotten_password_loign_input_carry_over_validation(TC_FP_022_ForgottenPasswordLoginInputCarryOverTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace618776797", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace618776797'><pre>java.lang.AssertionError: Login page input did not get carry over! expected [myemail@gmail.com] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest.forgotten_password_loign_input_carry_over_validation(TC_FP_022_ForgottenPasswordLoginInputCarryOverTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>1</td>
+<td>testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest@6a6cb05c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,40 +281,351 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_LG_004_LogoutAndBackingTest.verify_logout_backing()'><b>verify_logout_backing</b><br>Test class: testCases.TC_LG_004_LogoutAndBackingTest</td>
-<td></td>
-<td>7</td>
-<td>testCases.TC_LG_004_LogoutAndBackingTest@4562e04d</td></tr>
-<tr>
-<td title='testCases.TC_LG_008_LogoutLoginSequencingTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC_LG_008_LogoutLoginSequencingTest</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC_LG_008_LogoutLoginSequencingTest@6302bbb1</td></tr>
-<tr>
-<td title='testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()'><b>validate_breadcrumbs_heading_url_title</b><br>Test class: testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest@31304f14</td></tr>
-<tr>
-<td title='testCases.TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()'><b>verify_logout_btn_grp_before_login</b><br>Test class: testCases.TC_LG_006_BtnGrpLogoutOptionTest</td>
+<td title='testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest.email_field_placeholder_validation()'><b>email_field_placeholder_validation</b><br>Test class: testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC_LG_006_BtnGrpLogoutOptionTest@4135c3b</td></tr>
+<td>testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest@34e9fd99</td></tr>
 <tr>
-<td title='testCases.TC_LG_001_LogoutByHeaderMenuTest.verify_logout()'><b>verify_logout</b><br>Test class: testCases.TC_LG_001_LogoutByHeaderMenuTest</td>
+<td title='testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest.forgotten_password_rightColumnOption_navigation_validation()'><b>forgotten_password_rightColumnOption_navigation_validation</b><br>Test class: testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest</td>
 <td></td>
-<td>2</td>
-<td>testCases.TC_LG_001_LogoutByHeaderMenuTest@145f66e3</td></tr>
+<td>1</td>
+<td>testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest@43bc63a3</td></tr>
 <tr>
-<td title='testCases.TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()'><b>verify_logout_through_btn_group</b><br>Test class: testCases.TC_LG_002_LogoutByButtonGroupMenuTest</td>
+<td title='testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest.email_field_mandatory_marked_validation()'><b>email_field_mandatory_marked_validation</b><br>Test class: testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest</td>
 <td></td>
-<td>3</td>
-<td>testCases.TC_LG_002_LogoutByButtonGroupMenuTest@3023df74</td></tr>
+<td>0</td>
+<td>testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest@3c41ed1d</td></tr>
 <tr>
-<td title='testCases.TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()'><b>verify_logout_btn_before_login</b><br>Test class: testCases.TC_LG_005_MALogoutOptionTest</td>
+<td title='testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest.forgotten_password_backing_navigation_validation()'><b>forgotten_password_backing_navigation_validation</b><br>Test class: testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest</td>
 <td></td>
-<td>10</td>
-<td>testCases.TC_LG_005_MALogoutOptionTest@2a65fe7c</td></tr>
+<td>1</td>
+<td>testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest@38425407</td></tr>
+<tr>
+<td title='testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest.forgotten_password_breadcrumb_validation()'><b>forgotten_password_breadcrumb_validation</b><br>Test class: testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest@702657cc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_FP_006_ResetPasswordLinkReuseTest.reset_password_link_resuse()'><b>reset_password_link_resuse</b><br>Test class: testCases.TC_FP_006_ResetPasswordLinkReuseTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_006_ResetPasswordLinkReuseTest.reset_password_link_resuse()[pri:0, instance:testCases.TC_FP_006_ResetPasswordLinkReuseTest@408d971b] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace995917791", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace995917791'><pre>java.lang.Throwable: Method TC_FP_006_ResetPasswordLinkReuseTest.reset_password_link_resuse()[pri:0, instance:testCases.TC_FP_006_ResetPasswordLinkReuseTest@408d971b] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_006_ResetPasswordLinkReuseTest@408d971b</td></tr>
+<tr>
+<td title='testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest.reset_password_passwordfields_placeholder_validation()'><b>reset_password_passwordfields_placeholder_validation</b><br>Test class: testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_008_ResetPasswordFieldsPlaceholderTest.reset_password_passwordfields_placeholder_validation()[pri:0, instance:testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest@3c46e67a] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1023476996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1023476996'><pre>java.lang.Throwable: Method TC_FP_008_ResetPasswordFieldsPlaceholderTest.reset_password_passwordfields_placeholder_validation()[pri:0, instance:testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest@3c46e67a] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest@3c46e67a</td></tr>
+<tr>
+<td title='testCases.TC_FP_010_ResetPasswordLinkBacking.reset_password_link_backing()'><b>reset_password_link_backing</b><br>Test class: testCases.TC_FP_010_ResetPasswordLinkBacking</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_010_ResetPasswordLinkBacking.reset_password_link_backing()[pri:0, instance:testCases.TC_FP_010_ResetPasswordLinkBacking@206a70ef] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1491655680", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1491655680'><pre>java.lang.Throwable: Method TC_FP_010_ResetPasswordLinkBacking.reset_password_link_backing()[pri:0, instance:testCases.TC_FP_010_ResetPasswordLinkBacking@206a70ef] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_010_ResetPasswordLinkBacking@206a70ef</td></tr>
+<tr>
+<td title='testCases.TC_FP_012_ResetPasswordBreadscrumbTest.reset_password_Breadscrumb_validate()'><b>reset_password_Breadscrumb_validate</b><br>Test class: testCases.TC_FP_012_ResetPasswordBreadscrumbTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_012_ResetPasswordBreadscrumbTest.reset_password_Breadscrumb_validate()[pri:0, instance:testCases.TC_FP_012_ResetPasswordBreadscrumbTest@22555ebf] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1882279576", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1882279576'><pre>java.lang.Throwable: Method TC_FP_012_ResetPasswordBreadscrumbTest.reset_password_Breadscrumb_validate()[pri:0, instance:testCases.TC_FP_012_ResetPasswordBreadscrumbTest@22555ebf] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_012_ResetPasswordBreadscrumbTest@22555ebf</td></tr>
+<tr>
+<td title='testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest.reset_password_heading_url_title_validate()'><b>reset_password_heading_url_title_validate</b><br>Test class: testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_013_ResetPasswordHeadingTitleURLTest.reset_password_heading_url_title_validate()[pri:0, instance:testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest@36ebc363] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1870484788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1870484788'><pre>java.lang.Throwable: Method TC_FP_013_ResetPasswordHeadingTitleURLTest.reset_password_heading_url_title_validate()[pri:0, instance:testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest@36ebc363] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest@36ebc363</td></tr>
+<tr>
+<td title='testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest.reset_password_empty_input_validation()'><b>reset_password_empty_input_validation</b><br>Test class: testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_009_ResetPasswordFieldsEmptyInputTest.reset_password_empty_input_validation()[pri:0, instance:testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest@c730b35] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1647637791", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1647637791'><pre>java.lang.Throwable: Method TC_FP_009_ResetPasswordFieldsEmptyInputTest.reset_password_empty_input_validation()[pri:0, instance:testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest@c730b35] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest@c730b35</td></tr>
+<tr>
+<td title='testCases.TC_FP_003_LoginWithResetedPasswordTest.validate_login_with_new_password()'><b>validate_login_with_new_password</b><br>Test class: testCases.TC_FP_003_LoginWithResetedPasswordTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_003_LoginWithResetedPasswordTest.validate_login_with_new_password()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@7c7a06ec] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1662734294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1662734294'><pre>java.lang.Throwable: Method TC_FP_003_LoginWithResetedPasswordTest.validate_login_with_new_password()[pri:0, instance:testCases.TC_FP_003_LoginWithResetedPasswordTest@7c7a06ec] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_003_LoginWithResetedPasswordTest@7c7a06ec</td></tr>
+<tr>
+<td title='testCases.TC_FP_002_ResetPasswordEmailTest.validate_reset_password_email()'><b>validate_reset_password_email</b><br>Test class: testCases.TC_FP_002_ResetPasswordEmailTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_002_ResetPasswordEmailTest.validate_reset_password_email()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@1d296da] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1379983375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1379983375'><pre>java.lang.Throwable: Method TC_FP_002_ResetPasswordEmailTest.validate_reset_password_email()[pri:0, instance:testCases.TC_FP_002_ResetPasswordEmailTest@1d296da] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_002_ResetPasswordEmailTest@1d296da</td></tr>
+<tr>
+<td title='testCases.TC_FP_011_ResetPasswordRightColumnTest.reset_password_rightColumnOptions_validate()'><b>reset_password_rightColumnOptions_validate</b><br>Test class: testCases.TC_FP_011_ResetPasswordRightColumnTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_011_ResetPasswordRightColumnTest.reset_password_rightColumnOptions_validate()[pri:0, instance:testCases.TC_FP_011_ResetPasswordRightColumnTest@292b08d6] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace917408382", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace917408382'><pre>java.lang.Throwable: Method TC_FP_011_ResetPasswordRightColumnTest.reset_password_rightColumnOptions_validate()[pri:0, instance:testCases.TC_FP_011_ResetPasswordRightColumnTest@292b08d6] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_011_ResetPasswordRightColumnTest@292b08d6</td></tr>
+<tr>
+<td title='testCases.TC_FP_007_ResetPasswordFieldsTest.reset_password_passwordfields_validation()'><b>reset_password_passwordfields_validation</b><br>Test class: testCases.TC_FP_007_ResetPasswordFieldsTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_007_ResetPasswordFieldsTest.reset_password_passwordfields_validation()[pri:0, instance:testCases.TC_FP_007_ResetPasswordFieldsTest@6c6cb480] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1518120109", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1518120109'><pre>java.lang.Throwable: Method TC_FP_007_ResetPasswordFieldsTest.reset_password_passwordfields_validation()[pri:0, instance:testCases.TC_FP_007_ResetPasswordFieldsTest@6c6cb480] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_007_ResetPasswordFieldsTest@6c6cb480</td></tr>
+<tr>
+<td title='testCases.TC_FP_024_ResetPasswordHideVisibility.reset_password_visibility_validation()'><b>reset_password_visibility_validation</b><br>Test class: testCases.TC_FP_024_ResetPasswordHideVisibility</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_024_ResetPasswordHideVisibility.reset_password_visibility_validation()[pri:0, instance:testCases.TC_FP_024_ResetPasswordHideVisibility@40a4337a] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1397787207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1397787207'><pre>java.lang.Throwable: Method TC_FP_024_ResetPasswordHideVisibility.reset_password_visibility_validation()[pri:0, instance:testCases.TC_FP_024_ResetPasswordHideVisibility@40a4337a] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_024_ResetPasswordHideVisibility@40a4337a</td></tr>
+<tr>
+<td title='testCases.TC_FP_004_LoginWithOldPasswordTest.validate_login_with_old_password()'><b>validate_login_with_old_password</b><br>Test class: testCases.TC_FP_004_LoginWithOldPasswordTest</td>
+<td><div><pre>java.lang.Throwable: Method TC_FP_004_LoginWithOldPasswordTest.validate_login_with_old_password()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@75d4a5c2] depends on not successfully finished methods in group &quot;init_password&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace860654163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace860654163'><pre>java.lang.Throwable: Method TC_FP_004_LoginWithOldPasswordTest.validate_login_with_old_password()[pri:0, instance:testCases.TC_FP_004_LoginWithOldPasswordTest@75d4a5c2] depends on not successfully finished methods in group &quot;init_password&quot;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_FP_004_LoginWithOldPasswordTest@75d4a5c2</td></tr>
 </table><p>
 </body>
 </html>

@@ -3287,3 +3287,66 @@ Session ID: 3c2da44294f3cc125540bd82c7ff7f45
 20:17:30.311 [main] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Forgotten Password
 20:17:30.324 [main] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - *******Finished TC_FP_021_ForgottenPasswordBreadcrumbTest *******
 20:28:27.764 [main] INFO  testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest - ******* Starting TC_FP_022_ForgottenPasswordLoginInputCarryOverTest *******
+21:03:02.833 [TestNG-tests-1] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+21:03:03.738 [TestNG-tests-2] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+21:03:05.495 [TestNG-tests-3] INFO  testCases.TC_FP_001_ResetPasswordTest - ******* Starting TC_FP_001_ResetPasswordTest *******
+21:03:06.232 [TestNG-tests-1] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+21:03:07.680 [TestNG-tests-2] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+21:03:09.382 [TestNG-tests-3] INFO  testCases.TC_FP_001_ResetPasswordTest - Step 3: Wait for and Fetch the Sent Email
+21:03:15.549 [TestNG-tests-1] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+21:03:16.940 [TestNG-tests-1] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+21:03:18.060 [TestNG-tests-2] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+21:03:18.415 [TestNG-tests-3] INFO  testCases.TC_FP_001_ResetPasswordTest - No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+21:03:19.397 [TestNG-tests-1] INFO  testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest - ******* Starting TC_FP_015_ResetPasswordWithoutEmailInputTest *******
+21:03:19.852 [TestNG-tests-2] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+21:03:22.161 [TestNG-tests-1] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - ******* Starting TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+21:03:22.379 [TestNG-tests-2] INFO  testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest - ******* Starting TC_FP_015_ResetPasswordWithoutEmailInputTest *******
+21:03:22.649 [TestNG-tests-3] INFO  testCases.TC_FP_005_NonregisteredPasswordResetTest - ******* Starting TC_FP_005_PreloginLogoutOptionTest *******
+21:03:22.760 [TestNG-tests-1] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - *******Finished TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+21:03:24.469 [TestNG-tests-1] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - ******* Starting TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+21:03:24.887 [TestNG-tests-2] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - ******* Starting TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+21:03:24.936 [TestNG-tests-1] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - *******Finished TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+21:03:25.477 [TestNG-tests-2] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - *******Finished TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+21:03:26.379 [TestNG-tests-1] INFO  testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest - ******* Starting TC_FP_018_ResetPasswordInvalidEmailInputTest *******
+21:03:26.923 [TestNG-tests-2] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - ******* Starting TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+21:03:27.919 [TestNG-tests-2] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - *******Finished TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+21:03:28.052 [TestNG-tests-3] INFO  testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest - ******* Starting TC_FP_015_ResetPasswordWithoutEmailInputTest *******
+21:03:28.724 [TestNG-tests-1] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - ******* Starting TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+21:03:29.439 [TestNG-tests-2] INFO  testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest - ******* Starting TC_FP_018_ResetPasswordInvalidEmailInputTest *******
+21:03:30.531 [TestNG-tests-1] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - *******Finished TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+21:03:31.876 [TestNG-tests-1] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - ******* Starting TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******
+21:03:32.251 [TestNG-tests-2] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - ******* Starting TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+21:03:33.042 [TestNG-tests-3] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - ******* Starting TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+21:03:33.444 [TestNG-tests-1] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - *******Finished TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******
+21:03:33.488 [TestNG-tests-3] INFO  testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest - *******Finished TC_FP_016_ForgottenPasswordEmailPlaceholderTest *******
+21:03:33.908 [TestNG-tests-2] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - *******Finished TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+21:03:34.699 [TestNG-tests-1] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - ******* Starting TC_FP_021_ForgottenPasswordBreadcrumbTest *******
+21:03:35.305 [TestNG-tests-2] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - ******* Starting TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******
+21:03:36.272 [TestNG-tests-1] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - validate breadcrumbs links...
+21:03:36.289 [TestNG-tests-1] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - 
+21:03:36.310 [TestNG-tests-1] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Account
+21:03:36.331 [TestNG-tests-1] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Forgotten Password
+21:03:36.346 [TestNG-tests-1] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - *******Finished TC_FP_021_ForgottenPasswordBreadcrumbTest *******
+21:03:36.721 [TestNG-tests-2] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - *******Finished TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******
+21:03:37.293 [TestNG-tests-3] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - ******* Starting TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+21:03:37.811 [TestNG-tests-1] INFO  testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest - ******* Starting TC_FP_022_ForgottenPasswordLoginInputCarryOverTest *******
+21:03:37.978 [TestNG-tests-3] INFO  testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest - *******Finished TC_FP_017_ForgottenPasswordEmailMandatoryTest *******
+21:03:38.133 [TestNG-tests-2] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - ******* Starting TC_FP_021_ForgottenPasswordBreadcrumbTest *******
+21:03:39.663 [TestNG-tests-2] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - validate breadcrumbs links...
+21:03:39.671 [TestNG-tests-2] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - 
+21:03:39.688 [TestNG-tests-2] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Account
+21:03:39.705 [TestNG-tests-2] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Forgotten Password
+21:03:39.714 [TestNG-tests-2] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - *******Finished TC_FP_021_ForgottenPasswordBreadcrumbTest *******
+21:03:41.090 [TestNG-tests-2] INFO  testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest - ******* Starting TC_FP_022_ForgottenPasswordLoginInputCarryOverTest *******
+21:03:42.243 [TestNG-tests-3] INFO  testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest - ******* Starting TC_FP_018_ResetPasswordInvalidEmailInputTest *******
+21:03:48.003 [TestNG-tests-3] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - ******* Starting TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+21:03:49.506 [TestNG-tests-3] INFO  testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest - *******Finished TC_FP_019_ForgottenPasswordBackingNavigationTest *******
+21:03:54.171 [TestNG-tests-3] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - ******* Starting TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******
+21:03:55.682 [TestNG-tests-3] INFO  testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest - *******Finished TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest *******
+21:04:04.278 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - ******* Starting TC_FP_021_ForgottenPasswordBreadcrumbTest *******
+21:04:05.671 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - validate breadcrumbs links...
+21:04:05.678 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - 
+21:04:05.688 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Account
+21:04:05.698 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Forgotten Password
+21:04:05.703 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - *******Finished TC_FP_021_ForgottenPasswordBreadcrumbTest *******
+21:04:08.844 [TestNG-tests-3] INFO  testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest - ******* Starting TC_FP_022_ForgottenPasswordLoginInputCarryOverTest *******

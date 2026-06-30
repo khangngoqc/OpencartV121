@@ -5,7 +5,8 @@
 	<groups>
 		<run>
 			<!--<include name="login"></include>-->
-			<include name="logout"></include>
+			<!--<include name="logout"></include>-->						
+			<include name="forgot password"></include>
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
 			<!--<include name="register"></include>-->
@@ -86,6 +87,32 @@
 
 			<!--Logout cases-->
 			
+			<!--ForgotPassword cases-->
+			<class name="testCases.TC_FP_001_ResetPasswordTest" />
+			<class name="testCases.TC_FP_002_ResetPasswordEmailTest" />
+			<class name="testCases.TC_FP_003_LoginWithResetedPasswordTest" />
+			<class name="testCases.TC_FP_004_LoginWithOldPasswordTest" />
+			<class name="testCases.TC_FP_005_NonregisteredPasswordResetTest" />
+			<class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest" />
+			<class name="testCases.TC_FP_007_ResetPasswordFieldsTest" />
+			<class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
+			<class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
+			<class name="testCases.TC_FP_010_ResetPasswordLinkBacking" />
+			<class name="testCases.TC_FP_011_ResetPasswordRightColumnTest" />
+			<class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest" />
+			<class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
+			<class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
+			<class name="testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
+			<class name="testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
+			<class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
+			<class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
+			<class name="testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
+			<class name="testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
+			<class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
+			<class name="testCases.TC_FP_024_ResetPasswordHideVisibility" />
+			
+			<!--ForgotPassword cases-->
+			
 			
 			<!--Search cases-->
 			<class name="testCases.TC_SF_001_SearchExistingProductTest" />
@@ -157,8 +184,34 @@
 			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
 			<class name="testCases.TC_LG_008_LogoutLoginSequencingTest" />
 			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
-
 			<!--Logout cases-->
+			
+			
+			<!--ForgotPassword cases-->
+			<class name="testCases.TC_FP_001_ResetPasswordTest" />
+			<class name="testCases.TC_FP_002_ResetPasswordEmailTest" />
+			<class name="testCases.TC_FP_003_LoginWithResetedPasswordTest" />
+			<class name="testCases.TC_FP_004_LoginWithOldPasswordTest" />
+			<class name="testCases.TC_FP_005_NonregisteredPasswordResetTest" />
+			<class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest" />
+			<class name="testCases.TC_FP_007_ResetPasswordFieldsTest" />
+			<class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
+			<class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
+			<class name="testCases.TC_FP_010_ResetPasswordLinkBacking" />
+			<class name="testCases.TC_FP_011_ResetPasswordRightColumnTest" />
+			<class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest" />
+			<class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
+			<class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
+			<class name="testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
+			<class name="testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
+			<class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
+			<class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
+			<class name="testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
+			<class name="testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
+			<class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
+			<class name="testCases.TC_FP_024_ResetPasswordHideVisibility" />
+			
+			<!--ForgotPassword cases-->
 			
 			
 		</classes>
@@ -227,6 +280,32 @@
 			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
 
 			<!--Logout cases-->
+			
+			<!--ForgotPassword cases-->
+			<class name="testCases.TC_FP_001_ResetPasswordTest" />
+			<class name="testCases.TC_FP_002_ResetPasswordEmailTest" />
+			<class name="testCases.TC_FP_003_LoginWithResetedPasswordTest" />
+			<class name="testCases.TC_FP_004_LoginWithOldPasswordTest" />
+			<class name="testCases.TC_FP_005_NonregisteredPasswordResetTest" />
+			<class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest" />
+			<class name="testCases.TC_FP_007_ResetPasswordFieldsTest" />
+			<class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
+			<class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
+			<class name="testCases.TC_FP_010_ResetPasswordLinkBacking" />
+			<class name="testCases.TC_FP_011_ResetPasswordRightColumnTest" />
+			<class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest" />
+			<class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
+			<class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
+			<class name="testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
+			<class name="testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
+			<class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
+			<class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
+			<class name="testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
+			<class name="testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
+			<class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
+			<class name="testCases.TC_FP_024_ResetPasswordHideVisibility" />
+			
+			<!--ForgotPassword cases-->
 			
 			
 			
