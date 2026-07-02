@@ -24,6 +24,10 @@ public class BasePage extends BaseClass{
 		return e.getAttribute("placeholder");
 	}
 
+	public boolean isDisplay(WebElement element) {
+
+		return element.isDisplayed();
+	}
 
 	
 }

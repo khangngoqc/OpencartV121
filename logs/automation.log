@@ -3350,3 +3350,51 @@ Session ID: 3c2da44294f3cc125540bd82c7ff7f45
 21:04:05.698 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - Forgotten Password
 21:04:05.703 [TestNG-tests-3] INFO  testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest - *******Finished TC_FP_021_ForgottenPasswordBreadcrumbTest *******
 21:04:08.844 [TestNG-tests-3] INFO  testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest - ******* Starting TC_FP_022_ForgottenPasswordLoginInputCarryOverTest *******
+20:41:40.783 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+20:41:41.103 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+20:41:42.440 [main] INFO  testCases.TC_SF_002_SearchNonExistingProductTest - ******* Starting TC_SF_002_SearchNonExistingProductTest *******
+20:41:52.714 [main] INFO  testCases.TC_SF_002_SearchNonExistingProductTest - ******* Finished TC_SF_002_SearchNonExistingProductTest *******
+20:46:56.536 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+20:46:56.770 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+20:47:27.575 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:05:05.850 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:05:06.497 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+21:07:57.671 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+21:07:58.021 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+21:07:59.368 [main] INFO  testCases.TC_SF_002_SearchNonExistingProductTest - ******* Starting TC_SF_002_SearchNonExistingProductTest *******
+21:08:09.691 [main] DEBUG testCases.TC_SF_002_SearchNonExistingProductTest - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='caption']//h4"}
+  (Session info: chrome=149.0.7827.197)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428f953edd93b47f6e366cd5a536f426, findElement {value=//div[@class='caption']//h4, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.197, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, goog:processID: 17080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55436/devtoo..., se:cdpVersion: 149.0.7827.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428f953edd93b47f6e366cd5a536f426
+21:08:11.029 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:08:12.597 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:08:13.297 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+21:10:42.468 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+21:10:42.793 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+21:10:44.350 [main] INFO  testCases.TC_SF_002_SearchNonExistingProductTest - ******* Starting TC_SF_002_SearchNonExistingProductTest *******
+21:10:54.717 [main] DEBUG testCases.TC_SF_002_SearchNonExistingProductTest - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='caption']//h4"}
+  (Session info: chrome=149.0.7827.197)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [55fec9c1a827d2046e1a78d9794c8120, findElement {using=xpath, value=//div[@class='caption']//h4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.197, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57600}, goog:processID: 9224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57600/devtoo..., se:cdpVersion: 149.0.7827.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55fec9c1a827d2046e1a78d9794c8120
+21:10:56.167 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:10:56.376 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+21:10:57.695 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:10:58.466 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+21:14:20.084 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+21:14:20.476 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+21:14:21.809 [main] INFO  testCases.TC_SF_002_SearchNonExistingProductTest - ******* Starting TC_SF_002_SearchNonExistingProductTest *******
+21:14:32.102 [main] INFO  testCases.TC_SF_002_SearchNonExistingProductTest - ******* Finished TC_SF_002_SearchNonExistingProductTest *******
+21:14:33.417 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:14:33.633 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+21:14:35.128 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+21:14:35.738 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Finished TC_SF_003_SearchEmptyTest *******

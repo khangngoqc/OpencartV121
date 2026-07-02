@@ -7,25 +7,21 @@ import pageObjects.HomePage;
 import pageObjects.SearchPage;
 import testBase.BaseClass;
 
-public class TC_SF_001_SearchExistingProductTest extends BaseClass {
+public class TC_SF_003_SearchEmptyTest extends BaseClass {
 
 	
 	@Test(groups = {"master", "search"})
-	void validate_search_existing_product() {
+	void empty_search() {
 
-		logger.info("******* Starting TC_SF_001_SearchExistingProductTest *******");
+		logger.info("******* Starting TC_SF_003_SearchEmptyTest *******");
 		
 		try {
 		
-			String searchKeyword = "iMac";
-			
 			HomePage hp = new HomePage();
-			hp.setSearchInput(searchKeyword);
 			hp.clickSearch();
 			
 			SearchPage sp = new SearchPage();
-			
-			Assert.assertTrue(sp.isSearchProductExist(searchKeyword));
+			Assert.assertEquals(sp.isResultMessageDiplayed(), true);
 			
 			
 		} catch (Exception e) {
@@ -35,7 +31,7 @@ public class TC_SF_001_SearchExistingProductTest extends BaseClass {
 		
 		}
 		
-		logger.info("******* Finished TC_SF_001_SearchExistingProductTest *******");
+		logger.info("******* Finished TC_SF_003_SearchEmptyTest *******");
 		
 		
 	}

@@ -9,17 +9,17 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="forgot password"/>
+        <include name="search"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest">
+      <class name="testCases.TC_SF_002_SearchNonExistingProductTest">
         <methods>
-          <include name="forgotten_password_loign_input_carry_over_validation"/>
+          <include name="validate_search_non_existing_product"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest -->
+      </class> <!-- testCases.TC_SF_002_SearchNonExistingProductTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

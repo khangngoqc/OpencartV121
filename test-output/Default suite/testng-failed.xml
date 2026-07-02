@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest">
+      <class name="testCases.TC_SF_003_SearchEmptyTest">
         <methods>
+          <include name="validate_search_non_existing_product"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="forgotten_password_backing_navigation_validation"/>
         </methods>
-      </class> <!-- testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest -->
+      </class> <!-- testCases.TC_SF_003_SearchEmptyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
