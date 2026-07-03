@@ -3398,3 +3398,9 @@ Session ID: 55fec9c1a827d2046e1a78d9794c8120
 21:14:33.633 [main] INFO  testCases.TC_SF_003_SearchEmptyTest - ******* Finished TC_SF_003_SearchEmptyTest *******
 21:14:35.128 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Starting TC_SF_003_SearchEmptyTest *******
 21:14:35.738 [main] INFO  testCases.TC_SF_004_SearchAfterLoginTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+23:01:22.366 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+23:01:22.700 [main] INFO  testCases.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+23:08:40.379 [main] INFO  testCases.TC_SF_005_SearchMultipleExistingProductTest - ******* Starting TC_SF_005_SearchMultipleExistingProductTest *******
+23:08:40.686 [main] INFO  testCases.TC_SF_005_SearchMultipleExistingProductTest - ******* Finished TC_SF_005_SearchMultipleExistingProductTest *******
+23:09:23.518 [main] INFO  testCases.TC_SF_005_SearchMultipleExistingProductTest - ******* Starting TC_SF_005_SearchMultipleExistingProductTest *******
+23:09:23.952 [main] INFO  testCases.TC_SF_005_SearchMultipleExistingProductTest - ******* Finished TC_SF_005_SearchMultipleExistingProductTest *******

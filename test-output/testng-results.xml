@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="69" total="73" passed="4" failed="0" skipped="0">
+<testng-results ignored="69" total="70" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-02T21:14:18 GMT+07:00" name="Suite" finished-at="2026-07-02T21:14:35 GMT+07:00" duration-ms="17728">
+  <suite started-at="2026-07-03T23:09:21 GMT+07:00" name="Suite" finished-at="2026-07-03T23:09:24 GMT+07:00" duration-ms="2649">
     <groups>
       <group name="search">
-        <method signature="TC_SF_001_SearchExistingProductTest.validate_search_existing_product()[pri:0, instance:testCases.TC_SF_001_SearchExistingProductTest@4c402120]" name="validate_search_existing_product" class="testCases.TC_SF_001_SearchExistingProductTest"/>
-        <method signature="TC_SF_002_SearchNonExistingProductTest.validate_search_non_existing_product()[pri:0, instance:testCases.TC_SF_002_SearchNonExistingProductTest@327514f]" name="validate_search_non_existing_product" class="testCases.TC_SF_002_SearchNonExistingProductTest"/>
-        <method signature="TC_SF_003_SearchEmptyTest.empty_search()[pri:0, instance:testCases.TC_SF_003_SearchEmptyTest@5b12b668]" name="empty_search" class="testCases.TC_SF_003_SearchEmptyTest"/>
-        <method signature="TC_SF_004_SearchAfterLoginTest.search_after_login()[pri:0, instance:testCases.TC_SF_004_SearchAfterLoginTest@1165b38]" name="search_after_login" class="testCases.TC_SF_004_SearchAfterLoginTest"/>
+        <method signature="TC_SF_005_SearchMultipleExistingProductTest.validate_search_multiple_existing_product()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" name="validate_search_multiple_existing_product" class="testCases.TC_SF_005_SearchMultipleExistingProductTest"/>
       </group> <!-- search -->
       <group name="master">
-        <method signature="TC_SF_001_SearchExistingProductTest.validate_search_existing_product()[pri:0, instance:testCases.TC_SF_001_SearchExistingProductTest@4c402120]" name="validate_search_existing_product" class="testCases.TC_SF_001_SearchExistingProductTest"/>
-        <method signature="TC_SF_002_SearchNonExistingProductTest.validate_search_non_existing_product()[pri:0, instance:testCases.TC_SF_002_SearchNonExistingProductTest@327514f]" name="validate_search_non_existing_product" class="testCases.TC_SF_002_SearchNonExistingProductTest"/>
-        <method signature="TC_SF_003_SearchEmptyTest.empty_search()[pri:0, instance:testCases.TC_SF_003_SearchEmptyTest@5b12b668]" name="empty_search" class="testCases.TC_SF_003_SearchEmptyTest"/>
-        <method signature="TC_SF_004_SearchAfterLoginTest.search_after_login()[pri:0, instance:testCases.TC_SF_004_SearchAfterLoginTest@1165b38]" name="search_after_login" class="testCases.TC_SF_004_SearchAfterLoginTest"/>
+        <method signature="TC_SF_005_SearchMultipleExistingProductTest.validate_search_multiple_existing_product()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" name="validate_search_multiple_existing_product" class="testCases.TC_SF_005_SearchMultipleExistingProductTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-07-02T21:14:18 GMT+07:00" name="Test" finished-at="2026-07-02T21:14:35 GMT+07:00" duration-ms="17728">
-      <class name="testCases.TC_SF_001_SearchExistingProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_001_SearchExistingProductTest@4c402120]" started-at="2026-07-02T21:14:18 GMT+07:00" name="setup" finished-at="2026-07-02T21:14:20 GMT+07:00" duration-ms="1832" status="PASS">
+    <test started-at="2026-07-03T23:09:21 GMT+07:00" name="Test" finished-at="2026-07-03T23:09:24 GMT+07:00" duration-ms="2649">
+      <class name="testCases.TC_SF_005_SearchMultipleExistingProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" started-at="2026-07-03T23:09:21 GMT+07:00" name="setup" finished-at="2026-07-03T23:09:23 GMT+07:00" duration-ms="1973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,93 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_search_existing_product()[pri:0, instance:testCases.TC_SF_001_SearchExistingProductTest@4c402120]" started-at="2026-07-02T21:14:20 GMT+07:00" name="validate_search_existing_product" finished-at="2026-07-02T21:14:20 GMT+07:00" duration-ms="401" status="PASS">
+        <test-method signature="validate_search_multiple_existing_product()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" started-at="2026-07-03T23:09:23 GMT+07:00" name="validate_search_multiple_existing_product" finished-at="2026-07-03T23:09:23 GMT+07:00" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_search_existing_product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_001_SearchExistingProductTest@4c402120]" started-at="2026-07-02T21:14:20 GMT+07:00" name="tearDown" finished-at="2026-07-02T21:14:20 GMT+07:00" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_001_SearchExistingProductTest -->
-      <class name="testCases.TC_SF_003_SearchEmptyTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_003_SearchEmptyTest@5b12b668]" started-at="2026-07-02T21:14:32 GMT+07:00" name="setup" finished-at="2026-07-02T21:14:33 GMT+07:00" duration-ms="1217" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="empty_search()[pri:0, instance:testCases.TC_SF_003_SearchEmptyTest@5b12b668]" started-at="2026-07-02T21:14:33 GMT+07:00" name="empty_search" finished-at="2026-07-02T21:14:33 GMT+07:00" duration-ms="217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- empty_search -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_003_SearchEmptyTest@5b12b668]" started-at="2026-07-02T21:14:33 GMT+07:00" name="tearDown" finished-at="2026-07-02T21:14:33 GMT+07:00" duration-ms="85" status="PASS">
+        </test-method> <!-- validate_search_multiple_existing_product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" started-at="2026-07-03T23:09:23 GMT+07:00" name="tearDown" finished-at="2026-07-03T23:09:24 GMT+07:00" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_003_SearchEmptyTest -->
-      <class name="testCases.TC_SF_004_SearchAfterLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_004_SearchAfterLoginTest@1165b38]" started-at="2026-07-02T21:14:33 GMT+07:00" name="setup" finished-at="2026-07-02T21:14:35 GMT+07:00" duration-ms="1407" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="search_after_login()[pri:0, instance:testCases.TC_SF_004_SearchAfterLoginTest@1165b38]" started-at="2026-07-02T21:14:35 GMT+07:00" name="search_after_login" finished-at="2026-07-02T21:14:35 GMT+07:00" duration-ms="611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search_after_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_004_SearchAfterLoginTest@1165b38]" started-at="2026-07-02T21:14:35 GMT+07:00" name="tearDown" finished-at="2026-07-02T21:14:35 GMT+07:00" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_004_SearchAfterLoginTest -->
-      <class name="testCases.TC_SF_002_SearchNonExistingProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_002_SearchNonExistingProductTest@327514f]" started-at="2026-07-02T21:14:20 GMT+07:00" name="setup" finished-at="2026-07-02T21:14:21 GMT+07:00" duration-ms="1219" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validate_search_non_existing_product()[pri:0, instance:testCases.TC_SF_002_SearchNonExistingProductTest@327514f]" started-at="2026-07-02T21:14:21 GMT+07:00" name="validate_search_non_existing_product" finished-at="2026-07-02T21:14:32 GMT+07:00" duration-ms="10293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_search_non_existing_product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_002_SearchNonExistingProductTest@327514f]" started-at="2026-07-02T21:14:32 GMT+07:00" name="tearDown" finished-at="2026-07-02T21:14:32 GMT+07:00" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_002_SearchNonExistingProductTest -->
+      </class> <!-- testCases.TC_SF_005_SearchMultipleExistingProductTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

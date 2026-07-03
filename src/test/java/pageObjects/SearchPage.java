@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -10,14 +12,20 @@ public class SearchPage extends BasePage {
 	}
 
 	@FindBy(xpath = "//div[@class='caption']//h4")
-	WebElement productTitle;
+	List <WebElement> searchProductTitles;
 	@FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]")
 	WebElement resultMessage;
 
 	public boolean isSearchProductExist(String productName) {
 
 		try {
-				return (productTitle.isDisplayed() && productTitle.getText().contains(productName));
+			
+			for (WebElement element : searchProductTitles) {
+				if(element.getText().contains(productName)) {
+					return true;
+				}
+			}
+			return false;
 				
 		} catch (Exception e) {
 			// TODO: handle exception
@@ -28,6 +36,10 @@ public class SearchPage extends BasePage {
 
 	public boolean isResultMessageDiplayed() {
 		return isDisplay(resultMessage);
+	}
+	
+	public int searchProductCount() {
+		return searchProductTitles.size();
 	}
 
 }
