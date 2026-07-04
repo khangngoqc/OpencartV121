@@ -15,6 +15,10 @@ public class SearchPage extends BasePage {
 	List <WebElement> searchProductTitles;
 	@FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]")
 	WebElement resultMessage;
+	@FindBy(xpath ="//input[@placeholder='Search']") WebElement SearchTxtbox;
+	@FindBy(xpath ="//input[@id='input-search']") WebElement SearchCriteriaTxtbox;
+	@FindBy(xpath="//input[@id='button-search']") WebElement SearchBtn;
+
 
 	public boolean isSearchProductExist(String productName) {
 
@@ -40,6 +44,21 @@ public class SearchPage extends BasePage {
 	
 	public int searchProductCount() {
 		return searchProductTitles.size();
+	}
+	
+	public String searchTxtBoxPlaceholder() {
+		return getPlaceholderValue(SearchTxtbox);
+	}
+	public String searchCriteriaPlaceholder() {
+		return getPlaceholderValue(SearchCriteriaTxtbox);
+	}
+	
+	public void inputSearchCriteria(String keyword) {
+		SearchCriteriaTxtbox.sendKeys(keyword);
+	}
+	
+	public void clickSearchBtn() {
+		SearchBtn.click();
 	}
 
 }

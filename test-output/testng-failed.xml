@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_SF_002_SearchNonExistingProductTest">
+      <class name="testCases.TC_SF_008_SearchExistingProductDescriptionTest">
         <methods>
-          <include name="validate_search_non_existing_product"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="validate_search_product_with_description_functionality"/>
         </methods>
-      </class> <!-- testCases.TC_SF_002_SearchNonExistingProductTest -->
+      </class> <!-- testCases.TC_SF_008_SearchExistingProductDescriptionTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

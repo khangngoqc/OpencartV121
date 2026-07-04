@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="69" total="70" passed="1" failed="0" skipped="0">
+<testng-results ignored="69" total="72" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-03T23:09:21 GMT+07:00" name="Suite" finished-at="2026-07-03T23:09:24 GMT+07:00" duration-ms="2649">
+  <suite started-at="2026-07-04T16:43:25 GMT+07:00" name="Suite" finished-at="2026-07-04T16:43:41 GMT+07:00" duration-ms="16031">
     <groups>
       <group name="search">
-        <method signature="TC_SF_005_SearchMultipleExistingProductTest.validate_search_multiple_existing_product()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" name="validate_search_multiple_existing_product" class="testCases.TC_SF_005_SearchMultipleExistingProductTest"/>
+        <method signature="TC_SF_006_SearchInputPlaceholderTest.validate_search_input_placeholder()[pri:0, instance:testCases.TC_SF_006_SearchInputPlaceholderTest@2d1ef81a]" name="validate_search_input_placeholder" class="testCases.TC_SF_006_SearchInputPlaceholderTest"/>
+        <method signature="TC_SF_007_SearchExistingProductCriteriaInputTest.validate_search_criteria_functionality()[pri:0, instance:testCases.TC_SF_007_SearchExistingProductCriteriaInputTest@4c402120]" name="validate_search_criteria_functionality" class="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest"/>
+        <method signature="TC_SF_008_SearchExistingProductDescriptionTest.validate_search_product_with_description_functionality()[pri:0, instance:testCases.TC_SF_008_SearchExistingProductDescriptionTest@327514f]" name="validate_search_product_with_description_functionality" class="testCases.TC_SF_008_SearchExistingProductDescriptionTest"/>
       </group> <!-- search -->
       <group name="master">
-        <method signature="TC_SF_005_SearchMultipleExistingProductTest.validate_search_multiple_existing_product()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" name="validate_search_multiple_existing_product" class="testCases.TC_SF_005_SearchMultipleExistingProductTest"/>
+        <method signature="TC_SF_006_SearchInputPlaceholderTest.validate_search_input_placeholder()[pri:0, instance:testCases.TC_SF_006_SearchInputPlaceholderTest@2d1ef81a]" name="validate_search_input_placeholder" class="testCases.TC_SF_006_SearchInputPlaceholderTest"/>
+        <method signature="TC_SF_007_SearchExistingProductCriteriaInputTest.validate_search_criteria_functionality()[pri:0, instance:testCases.TC_SF_007_SearchExistingProductCriteriaInputTest@4c402120]" name="validate_search_criteria_functionality" class="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest"/>
+        <method signature="TC_SF_008_SearchExistingProductDescriptionTest.validate_search_product_with_description_functionality()[pri:0, instance:testCases.TC_SF_008_SearchExistingProductDescriptionTest@327514f]" name="validate_search_product_with_description_functionality" class="testCases.TC_SF_008_SearchExistingProductDescriptionTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-07-03T23:09:21 GMT+07:00" name="Test" finished-at="2026-07-03T23:09:24 GMT+07:00" duration-ms="2649">
-      <class name="testCases.TC_SF_005_SearchMultipleExistingProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" started-at="2026-07-03T23:09:21 GMT+07:00" name="setup" finished-at="2026-07-03T23:09:23 GMT+07:00" duration-ms="1973" status="PASS">
+    <test started-at="2026-07-04T16:43:25 GMT+07:00" name="Test" finished-at="2026-07-04T16:43:41 GMT+07:00" duration-ms="16031">
+      <class name="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_007_SearchExistingProductCriteriaInputTest@4c402120]" started-at="2026-07-04T16:43:28 GMT+07:00" name="setup" finished-at="2026-07-04T16:43:29 GMT+07:00" duration-ms="1228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +33,106 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_search_multiple_existing_product()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" started-at="2026-07-03T23:09:23 GMT+07:00" name="validate_search_multiple_existing_product" finished-at="2026-07-03T23:09:23 GMT+07:00" duration-ms="441" status="PASS">
+        <test-method signature="validate_search_criteria_functionality()[pri:0, instance:testCases.TC_SF_007_SearchExistingProductCriteriaInputTest@4c402120]" started-at="2026-07-04T16:43:29 GMT+07:00" name="validate_search_criteria_functionality" finished-at="2026-07-04T16:43:30 GMT+07:00" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_search_multiple_existing_product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_005_SearchMultipleExistingProductTest@6025e1b6]" started-at="2026-07-03T23:09:23 GMT+07:00" name="tearDown" finished-at="2026-07-03T23:09:24 GMT+07:00" duration-ms="83" status="PASS">
+        </test-method> <!-- validate_search_criteria_functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_007_SearchExistingProductCriteriaInputTest@4c402120]" started-at="2026-07-04T16:43:30 GMT+07:00" name="tearDown" finished-at="2026-07-04T16:43:30 GMT+07:00" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_005_SearchMultipleExistingProductTest -->
+      </class> <!-- testCases.TC_SF_007_SearchExistingProductCriteriaInputTest -->
+      <class name="testCases.TC_SF_006_SearchInputPlaceholderTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_006_SearchInputPlaceholderTest@2d1ef81a]" started-at="2026-07-04T16:43:25 GMT+07:00" name="setup" finished-at="2026-07-04T16:43:27 GMT+07:00" duration-ms="1893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_search_input_placeholder()[pri:0, instance:testCases.TC_SF_006_SearchInputPlaceholderTest@2d1ef81a]" started-at="2026-07-04T16:43:27 GMT+07:00" name="validate_search_input_placeholder" finished-at="2026-07-04T16:43:28 GMT+07:00" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_search_input_placeholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_006_SearchInputPlaceholderTest@2d1ef81a]" started-at="2026-07-04T16:43:28 GMT+07:00" name="tearDown" finished-at="2026-07-04T16:43:28 GMT+07:00" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SF_006_SearchInputPlaceholderTest -->
+      <class name="testCases.TC_SF_008_SearchExistingProductDescriptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_008_SearchExistingProductDescriptionTest@327514f]" started-at="2026-07-04T16:43:30 GMT+07:00" name="setup" finished-at="2026-07-04T16:43:31 GMT+07:00" duration-ms="1192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_search_product_with_description_functionality()[pri:0, instance:testCases.TC_SF_008_SearchExistingProductDescriptionTest@327514f]" started-at="2026-07-04T16:43:31 GMT+07:00" name="validate_search_product_with_description_functionality" finished-at="2026-07-04T16:43:41 GMT+07:00" duration-ms="10267" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Product having the given text in its description should be displayed in the search results expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Product having the given text in its description should be displayed in the search results expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.TC_SF_008_SearchExistingProductDescriptionTest.validate_search_product_with_description_functionality(TC_SF_008_SearchExistingProductDescriptionTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_search_product_with_description_functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_008_SearchExistingProductDescriptionTest@327514f]" started-at="2026-07-04T16:43:41 GMT+07:00" name="tearDown" finished-at="2026-07-04T16:43:41 GMT+07:00" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SF_008_SearchExistingProductDescriptionTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
