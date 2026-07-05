@@ -3413,3 +3413,10 @@ Session ID: 55fec9c1a827d2046e1a78d9794c8120
 16:43:29.631 [main] INFO  testCases.TC_SF_007_SearchExistingProductCriteriaInputTest - ******* Starting TC_SF_007_SearchExistingProductCriteriaInputTest *******
 16:43:30.156 [main] INFO  testCases.TC_SF_007_SearchExistingProductCriteriaInputTest - ******* Finished TC_SF_007_SearchExistingProductCriteriaInputTest *******
 16:43:31.431 [main] INFO  testCases.TC_SF_008_SearchExistingProductDescriptionTest - ******* Starting TC_SF_008_SearchExistingProductDescriptionTest *******
+20:54:17.099 [main] INFO  testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Starting TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+20:55:34.016 [main] INFO  testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Starting TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+20:55:55.213 [main] INFO  testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Finished TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+20:56:21.079 [main] INFO  testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Starting TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+21:07:56.165 [main] INFO  testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Starting TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
+21:08:07.062 [main] INFO  testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Finished TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
+21:08:42.403 [main] INFO  testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Starting TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******

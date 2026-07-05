@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class SearchPage extends BasePage {
 
@@ -15,9 +16,11 @@ public class SearchPage extends BasePage {
 	List <WebElement> searchProductTitles;
 	@FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]")
 	WebElement resultMessage;
-	@FindBy(xpath ="//input[@placeholder='Search']") WebElement SearchTxtbox;
-	@FindBy(xpath ="//input[@id='input-search']") WebElement SearchCriteriaTxtbox;
-	@FindBy(xpath="//input[@id='button-search']") WebElement SearchBtn;
+	@FindBy(xpath = "//input[@placeholder='Search']") WebElement searchTxtbox;
+	@FindBy(xpath = "//input[@id='input-search']") WebElement searchCriteriaTxtbox;
+	@FindBy(xpath = "//input[@id='button-search']") WebElement searchBtn;
+	@FindBy(xpath = "//select[@name='category_id']") WebElement categoryDropdown;
+	@FindBy(xpath = "//input[@name='sub_category']") WebElement subCategoryCheckbox;
 
 
 	public boolean isSearchProductExist(String productName) {
@@ -47,18 +50,31 @@ public class SearchPage extends BasePage {
 	}
 	
 	public String searchTxtBoxPlaceholder() {
-		return getPlaceholderValue(SearchTxtbox);
+		return getPlaceholderValue(searchTxtbox);
 	}
 	public String searchCriteriaPlaceholder() {
-		return getPlaceholderValue(SearchCriteriaTxtbox);
+		return getPlaceholderValue(searchCriteriaTxtbox);
 	}
 	
 	public void inputSearchCriteria(String keyword) {
-		SearchCriteriaTxtbox.sendKeys(keyword);
+		searchCriteriaTxtbox.sendKeys(keyword);
 	}
 	
 	public void clickSearchBtn() {
-		SearchBtn.click();
+		searchBtn.click();
+	}
+	
+	public void selectCategory(String category) {
+		Select dropdown = new Select(categoryDropdown);
+		dropdown.selectByContainsVisibleText(category);
 	}
 
+	public void checkSubCategoryCheckBox() {
+		if(subCategoryCheckbox.isSelected()) {
+			return;
+		}else {
+			subCategoryCheckbox.click();			
+		}
+	}
+	
 }

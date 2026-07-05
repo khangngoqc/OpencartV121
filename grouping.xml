@@ -111,10 +111,12 @@
 			<class name="testCases.TC_SF_002_SearchNonExistingProductTest" />
 			<class name="testCases.TC_SF_003_SearchEmptyTest" />
 			<class name="testCases.TC_SF_004_SearchAfterLoginTest" />
-			<class name="testCases.TC_SF_005_SearchMultipleExistingProductTest" />-->
+			<class name="testCases.TC_SF_005_SearchMultipleExistingProductTest" />
 			<class name="testCases.TC_SF_006_SearchInputPlaceholderTest" />
 			<class name="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest" />
 			<class name="testCases.TC_SF_008_SearchExistingProductDescriptionTest" />
+			<class name="testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest" />-->
+			<class name="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />
 			
 			<!--Search cases-->
 		

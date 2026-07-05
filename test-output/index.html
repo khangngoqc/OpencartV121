@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,29 +103,10 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_SF_008_SearchExistingProductDescriptionTest" class="method navigator-link" hash-for-method="validate_search_product_with_description_functionality">validate_search_product_with_description_functionality</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest" class="method navigator-link" hash-for-method="validate_search_product_with_selecting_subcategory">validate_search_product_with_selecting_subcategory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest" class="method navigator-link" hash-for-method="validate_search_criteria_functionality">validate_search_criteria_functionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_SF_006_SearchInputPlaceholderTest" class="method navigator-link" hash-for-method="validate_search_input_placeholder">validate_search_input_placeholder</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,16 +121,16 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC_SF_008_SearchExistingProductDescriptionTest</span>
+              <span class="class-name">testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validate_search_product_with_description_functionality">
-                  </a> <!-- validate_search_product_with_description_functionality -->
-                  <span class="method-name">validate_search_product_with_description_functionality</span>
-                  <div class="stack-trace">java.lang.AssertionError: Product having the given text in its description should be displayed in the search results expected [true] but found [false]
-	at testCases.TC_SF_008_SearchExistingProductDescriptionTest.validate_search_product_with_description_functionality(TC_SF_008_SearchExistingProductDescriptionTest.java:29)
+                  <a name="validate_search_product_with_selecting_subcategory">
+                  </a> <!-- validate_search_product_with_selecting_subcategory -->
+                  <span class="method-name">validate_search_product_with_selecting_subcategory</span>
+                  <div class="stack-trace">java.lang.AssertionError: Searched product should be successfully displayed in the search results expected [true] but found [false]
+	at testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest.validate_search_product_with_selecting_subcategory(TC_SF_010_SearchExistingProductSubcategoryCheckTest.java:37)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
@@ -157,36 +138,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_SF_007_SearchExistingProductCriteriaInputTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validate_search_criteria_functionality">
-                  </a> <!-- validate_search_criteria_functionality -->
-                  <span class="method-name">validate_search_criteria_functionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_SF_006_SearchInputPlaceholderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validate_search_input_placeholder">
-                  </a> <!-- validate_search_input_placeholder -->
-                  <span class="method-name">validate_search_input_placeholder</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -283,9 +234,7 @@
       &lt;class name=&quot;testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC_FP_024_ResetPasswordHideVisibility&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_SF_006_SearchInputPlaceholderTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_SF_007_SearchExistingProductCriteriaInputTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_SF_008_SearchExistingProductDescriptionTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -299,7 +248,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (72 classes)</span>
+                <span class="test-name">Test (70 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -313,15 +262,7 @@
               <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_search_criteria_functionality</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">validate_search_input_placeholder</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">validate_search_product_with_description_functionality</span>
+                <span class="method-in-group-name">validate_search_product_with_selecting_subcategory</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -329,15 +270,7 @@
               <span class="test-group-name">search</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_search_criteria_functionality</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">validate_search_input_placeholder</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">validate_search_product_with_description_functionality</span>
+                <span class="method-in-group-name">validate_search_product_with_selecting_subcategory</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -357,24 +290,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validate_search_product_with_description_functionality')
-data.setCell(0, 2, 'testCases.TC_SF_008_SearchExistingProductDescriptionTest')
-data.setCell(0, 3, 10267);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validate_search_criteria_functionality')
-data.setCell(1, 2, 'testCases.TC_SF_007_SearchExistingProductCriteriaInputTest')
-data.setCell(1, 3, 527);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validate_search_input_placeholder')
-data.setCell(2, 2, 'testCases.TC_SF_006_SearchInputPlaceholderTest')
-data.setCell(2, 3, 403);
+data.setCell(0, 1, 'validate_search_product_with_selecting_subcategory')
+data.setCell(0, 2, 'testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest')
+data.setCell(0, 3, 10917);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -400,16 +325,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</span>
+              <span class="ignored-class-name">testCases.TC_RF_008_ConfirmPasswordTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_without_checking_privacy_policy_checkbox</span>
+                <span class="ignored-method-name">validate_different_confirm_password</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_008_ConfirmPasswordTest</span>
+              <span class="ignored-class-name">testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_different_confirm_password</span>
+                <span class="ignored-method-name">validate_registration_without_checking_privacy_policy_checkbox</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -449,13 +374,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">non_email_input_reset_password</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.TC_FP_006_ResetPasswordLinkReuseTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">reset_password_link_resuse</span>
@@ -466,6 +384,13 @@ return data;
               <span class="ignored-class-name">testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">validate_registration_with_invalid_phone_number</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">non_email_input_reset_password</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -568,16 +493,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_017_PasswordComplexityRegistrationTest</span>
+              <span class="ignored-class-name">testCases.TC_LF_014_CopyingPasswordTxtTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_password_complexity_standards</span>
+                <span class="ignored-method-name">validate_password_copy_function_blocked</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_014_CopyingPasswordTxtTest</span>
+              <span class="ignored-class-name">testCases.TC_RF_017_PasswordComplexityRegistrationTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_password_copy_function_blocked</span>
+                <span class="ignored-method-name">verify_password_complexity_standards</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -589,20 +514,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_RF_013_FieldsPlaceholderTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_fields_placeholder</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_003_InvalidEmailLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_login_with_invalid_email</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.TC_LF_015_PasswordPageSourceTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">validate_password_copy_function_blocked</span>
@@ -610,9 +521,23 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_RF_013_FieldsPlaceholderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_fields_placeholder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.TC_LF_010_BackingAfterLoginTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verify_backing_after_logout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_003_InvalidEmailLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_login_with_invalid_email</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -680,6 +605,13 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_breadcrumbs_heading_url_title</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">reset_password_passwordfields_placeholder_validation</span>
@@ -690,13 +622,6 @@ return data;
               <span class="ignored-class-name">testCases.TC_LF_016_ChangingPasswordLoginTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">validate_login_after_changing_password</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_breadcrumbs_heading_url_title</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -813,16 +738,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest</span>
+              <span class="ignored-class-name">testCases.TC_FP_003_LoginWithResetedPasswordTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">forgotten_password_rightColumnOption_navigation_validation</span>
+                <span class="ignored-method-name">validate_login_with_new_password</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_FP_003_LoginWithResetedPasswordTest</span>
+              <span class="ignored-class-name">testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_login_with_new_password</span>
+                <span class="ignored-method-name">forgotten_password_rightColumnOption_navigation_validation</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -883,50 +808,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_SF_006_SearchInputPlaceholderTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">validate_search_input_placeholder</span>
-                <span class="method-start">1903 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">2316 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_SF_007_SearchExistingProductCriteriaInputTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">2426 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">validate_search_criteria_functionality</span>
-                <span class="method-start">3654 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">4182 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_SF_008_SearchExistingProductDescriptionTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">4263 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">validate_search_product_with_description_functionality</span>
-                <span class="method-start">5455 ms</span>
+                <span class="method-name">validate_search_product_with_selecting_subcategory</span>
+                <span class="method-start">1708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15782 ms</span>
+                <span class="method-start">12782 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
