@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest">
+      <class name="testCases.TC_SF_011_SearchSingleProductListAndGridViewTest">
         <methods>
-          <include name="validate_search_product_with_selecting_subcategory"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="validate_single_search_result_grid_view"/>
         </methods>
-      </class> <!-- testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest -->
+      </class> <!-- testCases.TC_SF_011_SearchSingleProductListAndGridViewTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

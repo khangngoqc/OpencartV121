@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="69" total="70" passed="0" failed="1" skipped="0">
+<testng-results ignored="69" total="71" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-05T21:08:40 GMT+07:00" name="Suite" finished-at="2026-07-05T21:08:53 GMT+07:00" duration-ms="13011">
+  <suite started-at="2026-07-07T22:53:34 GMT+07:00" name="Suite" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="6207">
     <groups>
       <group name="search">
-        <method signature="TC_SF_010_SearchExistingProductSubcategoryCheckTest.validate_search_product_with_selecting_subcategory()[pri:0, instance:testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest@6025e1b6]" name="validate_search_product_with_selecting_subcategory" class="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest"/>
+        <method signature="TC_SF_011_A_SearchSingleProductListViewTest.validate_single_search_result_list_view()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" name="validate_single_search_result_list_view" class="testCases.TC_SF_011_A_SearchSingleProductListViewTest"/>
+        <method signature="TC_SF_011_B_SearchSingleProductGridViewTest.validate_single_search_result_grid_view()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" name="validate_single_search_result_grid_view" class="testCases.TC_SF_011_B_SearchSingleProductGridViewTest"/>
       </group> <!-- search -->
       <group name="master">
-        <method signature="TC_SF_010_SearchExistingProductSubcategoryCheckTest.validate_search_product_with_selecting_subcategory()[pri:0, instance:testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest@6025e1b6]" name="validate_search_product_with_selecting_subcategory" class="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest"/>
+        <method signature="TC_SF_011_A_SearchSingleProductListViewTest.validate_single_search_result_list_view()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" name="validate_single_search_result_list_view" class="testCases.TC_SF_011_A_SearchSingleProductListViewTest"/>
+        <method signature="TC_SF_011_B_SearchSingleProductGridViewTest.validate_single_search_result_grid_view()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" name="validate_single_search_result_grid_view" class="testCases.TC_SF_011_B_SearchSingleProductGridViewTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-07-05T21:08:40 GMT+07:00" name="Test" finished-at="2026-07-05T21:08:53 GMT+07:00" duration-ms="13011">
-      <class name="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest@6025e1b6]" started-at="2026-07-05T21:08:40 GMT+07:00" name="setup" finished-at="2026-07-05T21:08:42 GMT+07:00" duration-ms="1703" status="PASS">
+    <test started-at="2026-07-07T22:53:34 GMT+07:00" name="Test" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="6207">
+      <class name="testCases.TC_SF_011_A_SearchSingleProductListViewTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" started-at="2026-07-07T22:53:34 GMT+07:00" name="setup" finished-at="2026-07-07T22:53:35 GMT+07:00" duration-ms="1745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,54 +31,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_search_product_with_selecting_subcategory()[pri:0, instance:testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest@6025e1b6]" started-at="2026-07-05T21:08:42 GMT+07:00" name="validate_search_product_with_selecting_subcategory" finished-at="2026-07-05T21:08:53 GMT+07:00" duration-ms="10917" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Searched product should be successfully displayed in the search results expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Searched product should be successfully displayed in the search results expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest.validate_search_product_with_selecting_subcategory(TC_SF_010_SearchExistingProductSubcategoryCheckTest.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="validate_single_search_result_list_view()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" started-at="2026-07-07T22:53:35 GMT+07:00" name="validate_single_search_result_list_view" finished-at="2026-07-07T22:53:37 GMT+07:00" duration-ms="1503" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_search_product_with_selecting_subcategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest@6025e1b6]" started-at="2026-07-05T21:08:53 GMT+07:00" name="tearDown" finished-at="2026-07-05T21:08:53 GMT+07:00" duration-ms="110" status="PASS">
+        </test-method> <!-- validate_single_search_result_list_view -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" started-at="2026-07-07T22:53:37 GMT+07:00" name="tearDown" finished-at="2026-07-07T22:53:37 GMT+07:00" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest -->
+      </class> <!-- testCases.TC_SF_011_A_SearchSingleProductListViewTest -->
+      <class name="testCases.TC_SF_011_B_SearchSingleProductGridViewTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" started-at="2026-07-07T22:53:37 GMT+07:00" name="setup" finished-at="2026-07-07T22:53:38 GMT+07:00" duration-ms="1200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_single_search_result_grid_view()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" started-at="2026-07-07T22:53:38 GMT+07:00" name="validate_single_search_result_grid_view" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_single_search_result_grid_view -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" started-at="2026-07-07T22:53:40 GMT+07:00" name="tearDown" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SF_011_B_SearchSingleProductGridViewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -28,6 +28,10 @@ public class BasePage extends BaseClass{
 
 		return element.isDisplayed();
 	}
+	
+	public void refreshPage() {
+		getDriver().navigate().refresh();
+	}
 
 	
 }

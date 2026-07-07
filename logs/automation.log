@@ -3420,3 +3420,48 @@ Session ID: 55fec9c1a827d2046e1a78d9794c8120
 21:07:56.165 [main] INFO  testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Starting TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
 21:08:07.062 [main] INFO  testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Finished TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
 21:08:42.403 [main] INFO  testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Starting TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
+22:32:51.360 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Starting TC_SF_011_SearchSingleProductListAndGridViewTest *******
+22:33:02.783 [main] DEBUG testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-original-title='Compare this product']"}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc23cd905822111d302996cffc4f01a4, findElement {using=xpath, value=//button[@data-original-title='Compare this product']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50975}, goog:processID: 20068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50975/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc23cd905822111d302996cffc4f01a4
+22:33:35.078 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Starting TC_SF_011_SearchSingleProductListAndGridViewTest *******
+22:33:46.335 [main] DEBUG testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-original-title='Compare this product']"}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97dc1883f1679ce71575893f21a3188c, findElement {value=//button[@data-original-title='Compare this product'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62164}, goog:processID: 11188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62164/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97dc1883f1679ce71575893f21a3188c
+22:35:26.764 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Starting TC_SF_011_SearchSingleProductListAndGridViewTest *******
+22:45:12.882 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Starting TC_SF_011_SearchSingleProductListAndGridViewTest_Grid *******
+22:45:23.161 [main] DEBUG testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='grid-view']"}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [496e2a9468aada8f77d5560b5184b3ee, findElement {using=xpath, value=//button[@id='grid-view']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57987}, goog:processID: 16788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57987/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 496e2a9468aada8f77d5560b5184b3ee
+22:45:23.278 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Starting TC_SF_011_SearchSingleProductListAndGridViewTest_List *******
+22:45:28.502 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Finished TC_SF_011_SearchSingleProductListAndGridViewTest_List *******
+22:48:37.302 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Starting TC_SF_011_SearchSingleProductListAndGridViewTest_Grid *******
+22:48:37.303 [main] DEBUG testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - Cannot invoke "String.toLowerCase()" because "br" is null
+22:48:37.598 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Starting TC_SF_011_SearchSingleProductListAndGridViewTest_List *******
+22:48:39.929 [main] INFO  testCases.TC_SF_011_SearchSingleProductListAndGridViewTest - ******* Finished TC_SF_011_SearchSingleProductListAndGridViewTest_List *******
+22:52:53.373 [main] INFO  testCases.TC_SF_011_A_SearchSingleProductListViewTest - ******* Starting TC_SF_011_A_SearchSingleProductListViewTest *******
+22:52:55.670 [main] INFO  testCases.TC_SF_011_A_SearchSingleProductListViewTest - ******* Finished TC_SF_011_A_SearchSingleProductListViewTest *******
+22:52:56.978 [main] INFO  testCases.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Starting TC_SF_011_B_SearchSingleProductGridViewTest *******
+22:52:58.405 [main] INFO  testCases.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Finished TC_SF_011_B_SearchSingleProductGridViewTest *******
+22:53:36.003 [main] INFO  testCases.TC_SF_011_A_SearchSingleProductListViewTest - ******* Starting TC_SF_011_A_SearchSingleProductListViewTest *******
+22:53:37.498 [main] INFO  testCases.TC_SF_011_A_SearchSingleProductListViewTest - ******* Finished TC_SF_011_A_SearchSingleProductListViewTest *******
+22:53:38.805 [main] INFO  testCases.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Starting TC_SF_011_B_SearchSingleProductGridViewTest *******
+22:53:40.210 [main] INFO  testCases.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Finished TC_SF_011_B_SearchSingleProductGridViewTest *******
