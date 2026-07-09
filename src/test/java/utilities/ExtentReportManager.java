@@ -35,7 +35,8 @@ public class ExtentReportManager implements ITestListener {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); //time stamp
 		
 		repName = "Test-Report-" + timeStamp + ".html" ;
-		sparkReporter = new ExtentSparkReporter(".\\reports\\"+ repName); //specify location of the report
+		String reportPath = System.getProperty("user.dir") + "/reports/" + repName;
+		sparkReporter = new ExtentSparkReporter(reportPath); //specify location of the report
 		
 		sparkReporter.config().setDocumentTitle("opencart Automation Report"); //Title of the report
 		sparkReporter.config().setReportName("opencart Functional Testing"); //name of the report
@@ -101,15 +102,33 @@ public class ExtentReportManager implements ITestListener {
 	
 	public void onFinish(ITestContext testContext) {
 		extent.flush();
-		
-		//open the report immediately
-		String pathOfExtentReport = System.getProperty("user.dir") +"\\reports\\" + repName;
+
+		// open the report immediately
+		String pathOfExtentReport = System.getProperty("user.dir") + "/reports/" + repName;
 		File extentReport = new File(pathOfExtentReport);
-		
+
+		if (!extentReport.exists()) {
+			System.err.println("Extent report not found at: " + extentReport.getAbsolutePath());
+			return;
+		}
+
 		try {
-			Desktop.getDesktop().browse(extentReport.toURI());
+			String os = System.getProperty("os.name").toLowerCase();
+			if (os.contains("mac")) {
+				new ProcessBuilder("open", extentReport.getAbsolutePath()).start();
+			} else if (os.contains("win")) {
+				new ProcessBuilder("rundll32", "url.dll,FileProtocolHandler", extentReport.getAbsolutePath()).start();
+			} else {
+				// Linux fallback
+				new ProcessBuilder("xdg-open", extentReport.getAbsolutePath()).start();
+			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.err.println("Falling back to Desktop.browse() due to: " + e.getMessage());
+			try {
+				Desktop.getDesktop().browse(extentReport.toURI());
+			} catch (Exception ex) {
+				ex.printStackTrace();
+			}
 		}
 		
 	

@@ -116,8 +116,8 @@
 			<class name="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest" />
 			<class name="testCases.TC_SF_008_SearchExistingProductDescriptionTest" />
 			<class name="testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest" />
-			<class name="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />-->
-			<class name="testCases.TC_SF_011_A_SearchSingleProductListViewTest" />
+			<class name="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />
+			<class name="testCases.TC_SF_011_A_SearchSingleProductListViewTest" />-->
 			<class name="testCases.TC_SF_011_B_SearchSingleProductGridViewTest" />
 			
 			<!--Search cases-->
