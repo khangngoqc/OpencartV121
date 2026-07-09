@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_SF_003_SearchEmptyTest">
+      <class name="testCases.TC_SF_012_A_SearchMultipleProductListViewTest">
         <methods>
-          <include name="validate_search_non_existing_product"/>
           <include name="tearDown"/>
+          <include name="validate_multiple_search_results_list_view"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_SF_003_SearchEmptyTest -->
+      </class> <!-- testCases.TC_SF_012_A_SearchMultipleProductListViewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

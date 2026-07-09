@@ -22,9 +22,9 @@ public class SearchPage extends BasePage {
 	
 	@FindBy(xpath = "//button[@id='list-view']") WebElement listViewBtn;
 	@FindBy(xpath = "//button[@id='grid-view']") WebElement gridViewBtn;
-	@FindBy(xpath = "//button//span[normalize-space()='Add to Cart']") WebElement addToCartBtn;
-	@FindBy(xpath = "//button[@data-original-title='Add to Wish List']") WebElement addToWishListBtn;
-	@FindBy(xpath = "//button[@data-original-title='Compare this Product']") WebElement compareThisProductBtn;
+	@FindBy(xpath = "//button//span[normalize-space()='Add to Cart'][1]") WebElement addToCartBtn;
+	@FindBy(xpath = "//button[@data-original-title='Add to Wish List'][1]") WebElement addToWishListBtn;
+	@FindBy(xpath = "//button[@data-original-title='Compare this Product'][1]") WebElement compareThisProductBtn;
 	
 	@FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]")
 	WebElement resultMessage;
@@ -35,6 +35,10 @@ public class SearchPage extends BasePage {
 	@FindBy(xpath = "//input[@name='sub_category']") WebElement subCategoryCheckbox;
 	
 	@FindBy(xpath="//div/a[contains(text(),'Product Compare')]") WebElement compareProductLink;
+	
+	@FindBy(xpath="//div[@class='product-thumb']") List<WebElement> searchResultItems;
+	@FindBy(xpath="(//div[@class='product-thumb']//div[@class='image'])[1]") WebElement firstSearchProductImage;
+	@FindBy(xpath = "(//div[@class='caption']//h4//a)[1]") WebElement firstSearchProductTitle;
 	
 
 
@@ -129,6 +133,24 @@ public class SearchPage extends BasePage {
 	
 	public boolean isCompareProductLinkDisplayed() {
 		return isDisplay(compareProductLink);
+	}
+
+	public int getSearchResultCount() {
+		return searchResultItems.size();
+	}
+	
+	public ProductDisplayPage clickFirstProductImage() {
+		firstSearchProductImage.click();
+		return new ProductDisplayPage();
+	}
+	
+	public ProductDisplayPage clickFirstProductTitle() {
+		firstSearchProductTitle.click();
+		return new ProductDisplayPage();
+	}
+	
+	public String getFirstSearchProductTitle() {
+		return firstSearchProductTitle.getText();
 	}
 	
 }

@@ -32,6 +32,10 @@ public class BasePage extends BaseClass{
 	public void refreshPage() {
 		getDriver().navigate().refresh();
 	}
+	
+	public void backToPreviousPage() {
+		getDriver().navigate().back();
+	}
 
 	
 }

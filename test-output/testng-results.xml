@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="69" total="71" passed="2" failed="0" skipped="0">
+<testng-results ignored="69" total="70" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-07T22:53:34 GMT+07:00" name="Suite" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="6207">
+  <suite started-at="2026-07-09T22:26:34 GMT+07:00" name="Suite" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="4236">
     <groups>
       <group name="search">
-        <method signature="TC_SF_011_A_SearchSingleProductListViewTest.validate_single_search_result_list_view()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" name="validate_single_search_result_list_view" class="testCases.TC_SF_011_A_SearchSingleProductListViewTest"/>
-        <method signature="TC_SF_011_B_SearchSingleProductGridViewTest.validate_single_search_result_grid_view()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" name="validate_single_search_result_grid_view" class="testCases.TC_SF_011_B_SearchSingleProductGridViewTest"/>
+        <method signature="TC_SF_012_A_SearchMultipleProductListViewTest.validate_multiple_search_results_list_view()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" name="validate_multiple_search_results_list_view" class="testCases.TC_SF_012_A_SearchMultipleProductListViewTest"/>
       </group> <!-- search -->
       <group name="master">
-        <method signature="TC_SF_011_A_SearchSingleProductListViewTest.validate_single_search_result_list_view()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" name="validate_single_search_result_list_view" class="testCases.TC_SF_011_A_SearchSingleProductListViewTest"/>
-        <method signature="TC_SF_011_B_SearchSingleProductGridViewTest.validate_single_search_result_grid_view()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" name="validate_single_search_result_grid_view" class="testCases.TC_SF_011_B_SearchSingleProductGridViewTest"/>
+        <method signature="TC_SF_012_A_SearchMultipleProductListViewTest.validate_multiple_search_results_list_view()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" name="validate_multiple_search_results_list_view" class="testCases.TC_SF_012_A_SearchMultipleProductListViewTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-07-07T22:53:34 GMT+07:00" name="Test" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="6207">
-      <class name="testCases.TC_SF_011_A_SearchSingleProductListViewTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" started-at="2026-07-07T22:53:34 GMT+07:00" name="setup" finished-at="2026-07-07T22:53:35 GMT+07:00" duration-ms="1745" status="PASS">
+    <test started-at="2026-07-09T22:26:34 GMT+07:00" name="Test" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="4236">
+      <class name="testCases.TC_SF_012_A_SearchMultipleProductListViewTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" started-at="2026-07-09T22:26:34 GMT+07:00" name="setup" finished-at="2026-07-09T22:26:36 GMT+07:00" duration-ms="1775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,41 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_single_search_result_list_view()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" started-at="2026-07-07T22:53:35 GMT+07:00" name="validate_single_search_result_list_view" finished-at="2026-07-07T22:53:37 GMT+07:00" duration-ms="1503" status="PASS">
+        <test-method signature="validate_multiple_search_results_list_view()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" started-at="2026-07-09T22:26:36 GMT+07:00" name="validate_multiple_search_results_list_view" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="2205" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_single_search_result_list_view -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_011_A_SearchSingleProductListViewTest@22ff4249]" started-at="2026-07-07T22:53:37 GMT+07:00" name="tearDown" finished-at="2026-07-07T22:53:37 GMT+07:00" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_011_A_SearchSingleProductListViewTest -->
-      <class name="testCases.TC_SF_011_B_SearchSingleProductGridViewTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" started-at="2026-07-07T22:53:37 GMT+07:00" name="setup" finished-at="2026-07-07T22:53:38 GMT+07:00" duration-ms="1200" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validate_single_search_result_grid_view()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" started-at="2026-07-07T22:53:38 GMT+07:00" name="validate_single_search_result_grid_view" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="1406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_single_search_result_grid_view -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_011_B_SearchSingleProductGridViewTest@2d1ef81a]" started-at="2026-07-07T22:53:40 GMT+07:00" name="tearDown" finished-at="2026-07-07T22:53:40 GMT+07:00" duration-ms="97" status="PASS">
+        </test-method> <!-- validate_multiple_search_results_list_view -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" started-at="2026-07-09T22:26:38 GMT+07:00" name="tearDown" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_011_B_SearchSingleProductGridViewTest -->
+      </class> <!-- testCases.TC_SF_012_A_SearchMultipleProductListViewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
