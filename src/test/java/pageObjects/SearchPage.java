@@ -115,6 +115,12 @@ public class SearchPage extends BasePage {
 	public void clickCompareToThisProduct() {
 		compareThisProductBtn.click();
 	}
+	
+	public ProductComparePage clickProductCompareLink() {
+		compareProductLink.click();
+		return new ProductComparePage();
+	}
+	
 	public boolean isAlertBannerDisplayed() {
 		return alertBanner.isDisplayed();
 	}
@@ -127,7 +133,7 @@ public class SearchPage extends BasePage {
 		return getDriver().findElement(By.xpath("//div[@class='row']//div[contains(@class,'product-layout product-list')]")).isDisplayed();
 	}
 	
-	public boolean isListGridEnable() {
+	public boolean isGridViewEnable() {
 		return getDriver().findElement(By.xpath("//div[@class='row']//div[contains(@class,'product-layout product-grid')]")).isDisplayed();
 	}
 	

@@ -27,7 +27,7 @@ public class TC_SF_011_B_SearchSingleProductGridViewTest extends BaseClass {
 			
 			//validate grid view
 			sp.clickGridViewBtn();
-			Assert.assertTrue(sp.isListGridEnable(), "Product should be displayed in Grid view successfully.");
+			Assert.assertTrue(sp.isGridViewEnable(), "Product should be displayed in Grid view successfully.");
 			
 			sp.clickAddToCart();
 			Assert.assertTrue(sp.isAlertBannerDisplayed(), "Add to Cart button should work normally in List view.");

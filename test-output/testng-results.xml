@@ -2,18 +2,18 @@
 <testng-results ignored="69" total="70" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-09T22:26:34 GMT+07:00" name="Suite" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="4236">
+  <suite started-at="2026-07-10T17:44:38 GMT+07:00" name="Suite" finished-at="2026-07-10T17:44:42 GMT+07:00" duration-ms="3626">
     <groups>
       <group name="search">
-        <method signature="TC_SF_012_A_SearchMultipleProductListViewTest.validate_multiple_search_results_list_view()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" name="validate_multiple_search_results_list_view" class="testCases.TC_SF_012_A_SearchMultipleProductListViewTest"/>
+        <method signature="TC_SF_013_ProductComparePageTest.product_comparison_navigate()[pri:0, instance:testCases.TC_SF_013_ProductComparePageTest@6025e1b6]" name="product_comparison_navigate" class="testCases.TC_SF_013_ProductComparePageTest"/>
       </group> <!-- search -->
       <group name="master">
-        <method signature="TC_SF_012_A_SearchMultipleProductListViewTest.validate_multiple_search_results_list_view()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" name="validate_multiple_search_results_list_view" class="testCases.TC_SF_012_A_SearchMultipleProductListViewTest"/>
+        <method signature="TC_SF_013_ProductComparePageTest.product_comparison_navigate()[pri:0, instance:testCases.TC_SF_013_ProductComparePageTest@6025e1b6]" name="product_comparison_navigate" class="testCases.TC_SF_013_ProductComparePageTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-07-09T22:26:34 GMT+07:00" name="Test" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="4236">
-      <class name="testCases.TC_SF_012_A_SearchMultipleProductListViewTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" started-at="2026-07-09T22:26:34 GMT+07:00" name="setup" finished-at="2026-07-09T22:26:36 GMT+07:00" duration-ms="1775" status="PASS">
+    <test started-at="2026-07-10T17:44:38 GMT+07:00" name="Test" finished-at="2026-07-10T17:44:42 GMT+07:00" duration-ms="3626">
+      <class name="testCases.TC_SF_013_ProductComparePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_013_ProductComparePageTest@6025e1b6]" started-at="2026-07-10T17:44:38 GMT+07:00" name="setup" finished-at="2026-07-10T17:44:41 GMT+07:00" duration-ms="2687" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_multiple_search_results_list_view()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" started-at="2026-07-09T22:26:36 GMT+07:00" name="validate_multiple_search_results_list_view" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="2205" status="PASS">
+        <test-method signature="product_comparison_navigate()[pri:0, instance:testCases.TC_SF_013_ProductComparePageTest@6025e1b6]" started-at="2026-07-10T17:44:41 GMT+07:00" name="product_comparison_navigate" finished-at="2026-07-10T17:44:41 GMT+07:00" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_multiple_search_results_list_view -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_012_A_SearchMultipleProductListViewTest@6025e1b6]" started-at="2026-07-09T22:26:38 GMT+07:00" name="tearDown" finished-at="2026-07-09T22:26:38 GMT+07:00" duration-ms="105" status="PASS">
+        </test-method> <!-- product_comparison_navigate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_013_ProductComparePageTest@6025e1b6]" started-at="2026-07-10T17:44:41 GMT+07:00" name="tearDown" finished-at="2026-07-10T17:44:42 GMT+07:00" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_012_A_SearchMultipleProductListViewTest -->
+      </class> <!-- testCases.TC_SF_013_ProductComparePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

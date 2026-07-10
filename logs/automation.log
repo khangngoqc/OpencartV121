@@ -3497,3 +3497,7 @@ Session ID: 496e2a9468aada8f77d5560b5184b3ee
 22:24:22.400 [main] INFO  testCases.TC_SF_012_A_SearchMultipleProductListViewTest - ******* Starting TC_SF_012_A_SearchMultipleProductListViewTest *******
 22:26:36.086 [main] INFO  testCases.TC_SF_012_A_SearchMultipleProductListViewTest - ******* Starting TC_SF_012_A_SearchMultipleProductListViewTest *******
 22:26:38.284 [main] INFO  testCases.TC_SF_012_A_SearchMultipleProductListViewTest - ******* Finished TC_SF_012_A_SearchMultipleProductListViewTest *******
+17:24:41.918 [main] INFO  testCases.TC_SF_012_B_SearchMultipleProductGridViewTest - ******* Starting TC_SF_012_B_SearchMultipleProductGridViewTest *******
+17:25:28.631 [main] INFO  testCases.TC_SF_012_B_SearchMultipleProductGridViewTest - ******* Finished TC_SF_012_B_SearchMultipleProductGridViewTest *******
+17:44:41.343 [main] INFO  testCases.TC_SF_013_ProductComparePageTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+17:44:41.968 [main] INFO  testCases.TC_SF_013_ProductComparePageTest - ******* Finished TC_SF_013_ProductComparePageTest *******
