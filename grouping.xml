@@ -120,8 +120,9 @@
 			<class name="testCases.TC_SF_011_A_SearchSingleProductListViewTest" />
 			<class name="testCases.TC_SF_011_B_SearchSingleProductGridViewTest" />
 			<class name="testCases.TC_SF_012_A_SearchMultipleProductListViewTest" />
-			<class name="testCases.TC_SF_012_B_SearchMultipleProductGridViewTest" />-->
-			<class name="testCases.TC_SF_013_ProductComparePageTest" />
+			<class name="testCases.TC_SF_012_B_SearchMultipleProductGridViewTest" />
+			<class name="testCases.TC_SF_013_ProductComparePageTest" />-->
+			<class name="testCases.TC_SF_014_A_SearchProductSortTest" />
 			
 			<!--Search cases-->
 		

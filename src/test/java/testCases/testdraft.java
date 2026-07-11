@@ -6,6 +6,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -29,11 +30,64 @@ public class testdraft {
 	public static MailosaurClient mailosaur;
 
 	public static void main(String[] args) throws InterruptedException, IOException, MailosaurException {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://tutorialsninja.com/demo/index.php?route=product/search&sort=p.sort_order&order=ASC&search=mac");
+		
+		List<WebElement> list = driver.findElements(By.xpath("//div[@class='caption']//h4"));
+		List<WebElement> priceList = driver.findElements(By.xpath("//p[@class='price']"));
+		
+		
+		System.out.println(priceList.size());
+		
+		for (WebElement webElement : priceList) {
+			String priceText = webElement.getText().split("\n")[0].trim();
+			System.out.println(priceText);
+		}
+		
+		boolean isSorted = isSortedAtoZ(priceList);
 
+		System.out.println(isSorted);
+		
 		driver.quit();
 
 	}
 
+	public static boolean isSortedAtoZ(List<WebElement> list) {
+		if (list == null | list.size() <= 1) {
+			return false;
+		}
+
+		for (int i = 0; i < list.size() - 1; i++) {
+			// Case-sensitive comparison (A-Z)
+			String a = list.get(i).getText();
+			String b = list.get(i + 1).getText();
+			int result = a.compareToIgnoreCase(b);
+			System.out.println(result);
+			if (result > 0) {
+				return false;
+			}
+		}
+
+		return true;
+	}
+	
+	private boolean isSortedLowtoHigh(List<WebElement> list) {
+		if (list == null) {
+			return false;
+		}
+
+		for (int i = 0; i < list.size() - 1; i++) {
+			// Case-sensitive comparison (Low-High)
+			if (Integer.parseInt(list.get(i).getText()) - Integer.parseInt(list.get(i + 1).getText()) > 0) {
+				return false;
+			}
+		}
+
+		return true;
+	}
+	
+	
 	
 	void mailosaurEmailTest() throws InterruptedException, IOException, MailosaurException {
 		driver = new ChromeDriver();
