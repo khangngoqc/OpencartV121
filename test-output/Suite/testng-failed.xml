@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_SF_014_SearchProductSortTest">
+      <class name="testCases.TC_SF_014_A_SearchProductSortTest">
         <methods>
           <include name="tearDown"/>
           <include name="product_comparison_navigate"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_SF_014_SearchProductSortTest -->
+      </class> <!-- testCases.TC_SF_014_A_SearchProductSortTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

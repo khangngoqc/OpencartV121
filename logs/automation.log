@@ -3550,3 +3550,23 @@ Session ID: 400ecbfd6d0f7e2b08d46aa38353cb79
 22:35:03.604 [main] DEBUG testCases.TC_SF_014_SearchProductSortTest - For input string: "$122.00"
 22:37:12.962 [main] INFO  testCases.TC_SF_014_SearchProductSortTest - ******* Starting TC_SF_013_ProductComparePageTest *******
 22:37:14.997 [main] INFO  testCases.TC_SF_014_SearchProductSortTest - ******* Finished TC_SF_013_ProductComparePageTest *******
+22:35:19.802 [main] INFO  testCases.TC_SF_014_A_SearchProductSortTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+22:35:23.758 [main] DEBUG testCases.TC_SF_014_A_SearchProductSortTest - For input string: "MacBook Pro"
+22:37:26.412 [main] INFO  testCases.TC_SF_014_A_SearchProductSortTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+22:37:28.617 [main] DEBUG testCases.TC_SF_014_A_SearchProductSortTest - For input string: "$2,000.00
+Ex Tax:$2,000.00"
+22:38:37.651 [main] INFO  testCases.TC_SF_014_A_SearchProductSortTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+22:38:40.884 [main] DEBUG testCases.TC_SF_014_A_SearchProductSortTest - stale element reference: stale element not found
+  (Session info: chrome=150.0.7871.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93814c95bdefff3118d6d4d42eb9231a, clickElement {id=f.EE539826E13F6CF758EA3D05FA9D1554.d.BE54A2DBEC2EC67B0CFDA3D1364756BB.e.322}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.114, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64845}, goog:processID: 6904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64845/devtoo..., se:cdpVersion: 150.0.7871.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (93814c95bdefff3118d6d4d42eb9231a)] -> xpath: //div[@class='caption']//h4//a]
+Session ID: 93814c95bdefff3118d6d4d42eb9231a
+22:40:12.190 [main] INFO  testCases.TC_SF_014_A_SearchProductSortTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+22:40:17.452 [main] INFO  testCases.TC_SF_014_A_SearchProductSortTest - ******* Finished TC_SF_013_ProductComparePageTest *******
+22:44:39.732 [main] INFO  testCases.TC_SF_014_A_SearchProductSortTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+22:44:47.081 [main] INFO  testCases.TC_SF_014_A_SearchProductSortTest - ******* Finished TC_SF_013_ProductComparePageTest *******

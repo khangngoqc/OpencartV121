@@ -36,8 +36,14 @@ public class TC_SF_014_A_SearchProductSortTest extends BaseClass {
 			sp.selectSortByDropdown("Price (Low > High)");
 			Assert.assertTrue(sp.isProductPriceSortedLowtoHigh(), "Search product should be sort by Price (Low > High)");
 			
-			//sp.selectSortByDropdown("Price (High > Low)");
-			//Assert.assertTrue(sp.isProductPriceSortedHightoLow(), "Search product should be sort by Price (High > Low)");
+			sp.selectSortByDropdown("Price (High > Low)");
+			Assert.assertTrue(sp.isProductPriceSortedHightoLow(), "Search product should be sort by Price (High > Low)");
+			
+			sp.selectSortByDropdown("Model (A - Z)");
+			Assert.assertTrue(sp.isProductModelSortedAtoZ(), "Search product should be sort by Model (A - Z)");
+			
+			sp.selectSortByDropdown("Model (Z - A)");
+			Assert.assertTrue(sp.isProductModelSortedZtoA(), "Search product should be sort by Model (Z - A)");
 			
 			
 			
