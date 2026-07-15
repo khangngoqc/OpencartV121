@@ -14,7 +14,7 @@ public class TC_SF_014_A_SearchProductSortTest extends BaseClass {
 	@Test(groups = {"master", "search"})
 	void product_comparison_navigate() {
 
-		logger.info("******* Starting TC_SF_013_ProductComparePageTest *******");
+		logger.info("******* Starting TC_SF_014_A_SearchProductSortTest *******");
 		
 		try {
 		
@@ -26,10 +26,10 @@ public class TC_SF_014_A_SearchProductSortTest extends BaseClass {
 			
 			SearchPage sp = new SearchPage();
 			Assert.assertTrue(sp.getSearchResultCount()>1, "More than on products should be displayed in the search result page.");
-			
+
 			sp.selectSortByDropdown("Name (A - Z)");
 			Assert.assertTrue(sp.isProductTitlesSortedAtoZ(), "Search product should be sort by Name A - Z");
-			
+
 			sp.selectSortByDropdown("Name (Z - A)");
 			Assert.assertTrue(sp.isProductTitlesSortedZtoA(), "Search product should be sort by Name Z - A");
 			
@@ -44,8 +44,7 @@ public class TC_SF_014_A_SearchProductSortTest extends BaseClass {
 			
 			sp.selectSortByDropdown("Model (Z - A)");
 			Assert.assertTrue(sp.isProductModelSortedZtoA(), "Search product should be sort by Model (Z - A)");
-			
-			
+
 			
 		} catch (Exception e) {
 		
@@ -54,7 +53,7 @@ public class TC_SF_014_A_SearchProductSortTest extends BaseClass {
 		
 		}
 		
-		logger.info("******* Finished TC_SF_013_ProductComparePageTest *******");
+		logger.info("******* Finished TC_SF_014_A_SearchProductSortTest *******");
 		
 		
 	}

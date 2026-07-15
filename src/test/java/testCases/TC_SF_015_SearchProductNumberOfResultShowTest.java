@@ -14,7 +14,7 @@ public class TC_SF_015_SearchProductNumberOfResultShowTest extends BaseClass {
 	@Test(groups = {"master", "search"})
 	void number_of_search_result_show() {
 
-		logger.info("******* Starting TC_SF_013_ProductComparePageTest *******");
+		logger.info("******* Starting TC_SF_015_SearchProductNumberOfResultShowTest *******");
 		
 		try {
 		
@@ -39,7 +39,7 @@ public class TC_SF_015_SearchProductNumberOfResultShowTest extends BaseClass {
 		
 		}
 		
-		logger.info("******* Finished TC_SF_013_ProductComparePageTest *******");
+		logger.info("******* Finished TC_SF_015_SearchProductNumberOfResultShowTest *******");
 		
 		
 	}
