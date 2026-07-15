@@ -3598,3 +3598,5 @@ Session ID: 93814c95bdefff3118d6d4d42eb9231a
 11:02:17.222 [main] INFO  testCases.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Finished TC_SF_013_ProductComparePageTest *******
 11:05:46.813 [main] INFO  testCases.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Starting TC_SF_013_ProductComparePageTest *******
 11:05:49.987 [main] INFO  testCases.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Finished TC_SF_013_ProductComparePageTest *******
+14:16:55.396 [main] INFO  testCases.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+14:16:55.960 [main] INFO  testCases.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
