@@ -9,17 +9,45 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="search"/>
+        <include name="register"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_SF_014_A_SearchProductSortTest">
+      <class name="testCases.Register.TC_RF_011_InvalidPhoneNumberRegistrationTest">
         <methods>
           <include name="tearDown"/>
-          <include name="product_comparison_navigate"/>
+          <include name="validate_registration_with_invalid_phone_number"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_SF_014_A_SearchProductSortTest -->
+      </class> <!-- testCases.Register.TC_RF_011_InvalidPhoneNumberRegistrationTest -->
+      <class name="testCases.Register.TC_RF_016_SpaceInputRegistrationTest">
+        <methods>
+          <include name="validate_registration_with_space_input"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Register.TC_RF_016_SpaceInputRegistrationTest -->
+      <class name="testCases.Register.TC_RF_017_PasswordComplexityRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_password_complexity_standards"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Register.TC_RF_017_PasswordComplexityRegistrationTest -->
+      <class name="testCases.Register.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_account_registration_with_leading_trailing"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Register.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest -->
+      <class name="testCases.Register.TC_RF_023_AccountRegistrationPageLinksTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_on_page_links"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Register.TC_RF_023_AccountRegistrationPageLinksTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
