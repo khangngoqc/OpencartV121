@@ -2,11 +2,15 @@ package pageObjects;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+
+import static java.awt.SystemColor.text;
 
 public class SearchPage extends BasePage {
 
@@ -52,6 +56,7 @@ public class SearchPage extends BasePage {
 	WebElement compareProductLink;
 	@FindBy(xpath = "//select[@id='input-sort']")
 	WebElement sortByDropdown;
+	@FindBy(xpath = "//select[@id='input-limit']") WebElement NumberOfResultShowDropdown;
 
 	@FindBy(xpath = "//div[@class='product-thumb']")
 	List<WebElement> searchResultItems;
@@ -343,6 +348,36 @@ public class SearchPage extends BasePage {
 		return productCodeList;
 		
 	}
-	
+
+	public boolean isNumberOfResultsShowWork(int NumberOfResult)
+	{
+		Select dropdown = new Select(NumberOfResultShowDropdown);
+		dropdown.selectByContainsVisibleText(Integer.toString(NumberOfResult));
+
+		String showingText = getDriver().findElement(By.xpath("//div[@class='row']/div[@class='col-sm-6 text-right']")).getText();
+		//System.out.println(showingText);
+
+		Pattern pattern = Pattern.compile("(\\d+)\\s+Pages\\)");
+		Matcher matcher = pattern.matcher(showingText);
+
+		if (matcher.find()) {
+			int totalPage = Integer.parseInt(matcher.group(1));
+			//System.out.println("Total pages: " + totalPage);
+
+			for(int i = 1; i <= totalPage; i++){
+				if(i > 1){
+					WebElement activePage = getDriver().findElement(By.xpath("//ul[@class='pagination']//a[contains(text(),'"+ i +"')]"));
+					activePage.click();
+				}
+
+				if(i < totalPage && searchResultItems.size() < NumberOfResult){
+					return false;
+				}
+			}
+
+		}
+
+		return true;
+    }
 
 }

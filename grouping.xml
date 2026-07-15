@@ -107,23 +107,24 @@
 			<!--ForgotPassword cases-->
 			
 			<!--Search cases-->
-			<!--<class name="testCases.TC_SF_001_SearchExistingProductTest" />
-			<class name="testCases.TC_SF_002_SearchNonExistingProductTest" />
-			<class name="testCases.TC_SF_003_SearchEmptyTest" />
-			<class name="testCases.TC_SF_004_SearchAfterLoginTest" />
-			<class name="testCases.TC_SF_005_SearchMultipleExistingProductTest" />
-			<class name="testCases.TC_SF_006_SearchInputPlaceholderTest" />
-			<class name="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest" />
-			<class name="testCases.TC_SF_008_SearchExistingProductDescriptionTest" />
-			<class name="testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest" />
-			<class name="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />
-			<class name="testCases.TC_SF_011_A_SearchSingleProductListViewTest" />
-			<class name="testCases.TC_SF_011_B_SearchSingleProductGridViewTest" />
-			<class name="testCases.TC_SF_012_A_SearchMultipleProductListViewTest" />
-			<class name="testCases.TC_SF_012_B_SearchMultipleProductGridViewTest" />
-			<class name="testCases.TC_SF_013_ProductComparePageTest" />-->
-			<class name="testCases.TC_SF_014_A_SearchProductSortTest" />
-			
+<!--			&lt;!&ndash;<class name="testCases.TC_SF_001_SearchExistingProductTest" />-->
+<!--			<class name="testCases.TC_SF_002_SearchNonExistingProductTest" />-->
+<!--			<class name="testCases.TC_SF_003_SearchEmptyTest" />-->
+<!--			<class name="testCases.TC_SF_004_SearchAfterLoginTest" />-->
+<!--			<class name="testCases.TC_SF_005_SearchMultipleExistingProductTest" />-->
+<!--			<class name="testCases.TC_SF_006_SearchInputPlaceholderTest" />-->
+<!--			<class name="testCases.TC_SF_007_SearchExistingProductCriteriaInputTest" />-->
+<!--			<class name="testCases.TC_SF_008_SearchExistingProductDescriptionTest" />-->
+<!--			<class name="testCases.TC_SF_009_SearchExistingProductSelectingCategoryTest" />-->
+<!--			<class name="testCases.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />-->
+<!--			<class name="testCases.TC_SF_011_A_SearchSingleProductListViewTest" />-->
+<!--			<class name="testCases.TC_SF_011_B_SearchSingleProductGridViewTest" />-->
+<!--			<class name="testCases.TC_SF_012_A_SearchMultipleProductListViewTest" />-->
+<!--			<class name="testCases.TC_SF_012_B_SearchMultipleProductGridViewTest" />-->
+<!--			<class name="testCases.TC_SF_013_ProductComparePageTest" />&ndash;&gt;-->
+<!--			<class name="testCases.TC_SF_014_A_SearchProductSortTest" />-->
+			<class name="testCases.TC_SF_015_SearchProductNumberOfResultShowTest" />
+
 			<!--Search cases-->
 		
 		</classes>
