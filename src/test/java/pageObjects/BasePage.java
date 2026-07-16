@@ -14,6 +14,18 @@ public class BasePage extends BaseClass{
 	}
 
 	@FindBy(xpath ="//div[@id='search']") WebElement searchComponent;
+	@FindBy(xpath = "//div[@class='row']//ul//a[contains(.,'Site Map')]") WebElement SiteMapLink;
+
+	public SiteMapPage clickSiteMapLink(){
+		SiteMapLink.click();
+		return new SiteMapPage();
+	}
+
+	public void click(WebElement ele){
+		ele.click();
+	}
+
+
 
 	public String getPageTitle() {
 		return getDriver().getTitle();
@@ -41,6 +53,7 @@ public class BasePage extends BaseClass{
 	}
 
 	public boolean isSearchComponentDisplay(){
+
 		return isDisplay(searchComponent);
 	}
 

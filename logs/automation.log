@@ -3663,3 +3663,65 @@ Session ID: 93814c95bdefff3118d6d4d42eb9231a
 21:44:11.596 [main] INFO  testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate Page URL...
 21:44:11.606 [main] INFO  testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest - validate Page Title...
 21:44:11.613 [main] INFO  testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest - ******* Finished TC_RF_025_BreadscrumbHeadingURLTitleTest *******
+09:26:25.825 [main] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - ******* Starting TC_RF_001_AccountRegistrationTest *******
+09:26:25.866 [main] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - Click on MyAccount link
+09:26:26.110 [main] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - Click on Register link
+09:26:26.115 [main] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - set registration details
+09:26:26.350 [main] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - Validating expected message
+09:26:27.640 [main] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - ******* Finished TC_RF_001_AccountRegistrationTest *******
+09:26:29.146 [main] INFO  testCases.Register.TC_RF_004_WarningMessageTest - ******* Starting TC_RF_004_WarningMessageTest *******
+09:26:29.788 [main] INFO  testCases.Register.TC_RF_004_WarningMessageTest - ******* Finished TC_RF_004_WarningMessageTest *******
+09:26:31.395 [main] INFO  testCases.Register.TC_RF_007_RegisterAccountPageNavigatingTest - ***Starting TC_RF_007_RegisterAccountPageNavigatingTest ***
+09:26:32.261 [main] INFO  testCases.Register.TC_RF_007_RegisterAccountPageNavigatingTest - ***Finished TC_RF_007_RegisterAccountPageNavigatingTest ***
+09:26:33.664 [main] INFO  testCases.Register.TC_RF_008_ConfirmPasswordTest - ***Starting TC_RF_008_ConfirmPasswordTest ***
+09:26:34.458 [main] INFO  testCases.Register.TC_RF_008_ConfirmPasswordTest - ***Finsihed TC_RF_008_ConfirmPasswordTest ***
+09:26:35.917 [main] INFO  testCases.Register.TC_RF_009_UsedEmailRegistrationTest - ***Starting TC_RF_009_UsedEmailRegistrationTest ***
+09:26:36.688 [main] INFO  testCases.Register.TC_RF_009_UsedEmailRegistrationTest - ***Finished TC_RF_009_UsedEmailRegistrationTest ***
+09:26:38.251 [main] INFO  testCases.Register.TC_RF_010_InvalidEmailRegistrationTest - ******* Starting TC_RF_0010_InvalidEmailRegistrationTest *******
+09:27:02.326 [main] INFO  testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Starting TC_SF_015_SearchProductNumberOfResultShowTest *******
+09:27:05.475 [main] INFO  testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Finished TC_SF_015_SearchProductNumberOfResultShowTest *******
+09:27:06.984 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+09:27:07.445 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+09:51:13.355 [main] INFO  testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest - ******* Starting TC_SF_017_SearchPageSiteMapNavigationTest *******
+09:51:13.824 [main] INFO  testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+09:51:41.244 [main] INFO  testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest - ******* Starting TC_SF_017_SearchPageSiteMapNavigationTest *******
+10:11:28.265 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+10:11:38.035 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+11:08:35.619 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:08:36.174 [main] DEBUG testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - stale element reference: stale element not found
+  (Session info: chrome=150.0.7871.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.1', java.version: '25.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b0b3550ef3e389ba48aa3ab499d15d1d, getElementText {id=f.3DF02219A4AD2DCD47F4A3C1999640C1.d.47A11786EB7090387037E7C74556002C.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.115, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: /var/folders/nh/gklpxtbd03x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61903}, goog:processID: 14241, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61903/devtoo..., se:cdpVersion: 150.0.7871.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b0b3550ef3e389ba48aa3ab499d15d1d)] -> xpath: //ul[@class='breadcrumb']//li//a]
+Session ID: b0b3550ef3e389ba48aa3ab499d15d1d
+11:14:58.641 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:15:09.104 [main] DEBUG testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - Index 0 out of bounds for length 0
+11:15:37.956 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:17:10.139 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:24:19.505 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:24:29.167 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:25:21.732 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:25:32.704 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:27:04.292 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:27:21.226 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:29:06.074 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:29:22.727 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:29:41.276 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:30:00.955 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:32:43.176 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:32:57.860 [main] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:48:55.307 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:48:55.317 [main] DEBUG testCases.Search.TC_SF_019_SearchWithKeyboardTest - Cannot invoke "org.openqa.selenium.interactions.Actions.keyDown(java.lang.CharSequence)" because "this.act" is null
+11:51:28.454 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:51:28.462 [main] DEBUG testCases.Search.TC_SF_019_SearchWithKeyboardTest - Cannot invoke "org.openqa.selenium.interactions.Actions.keyDown(java.lang.CharSequence)" because "this.act" is null
+11:53:33.415 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:53:54.136 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:53:54.461 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:54:40.851 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:54:40.857 [main] DEBUG testCases.Search.TC_SF_019_SearchWithKeyboardTest - Cannot invoke "org.openqa.selenium.interactions.Actions.keyDown(java.lang.CharSequence)" because "this.act" is null
+11:59:23.534 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+11:59:23.851 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
