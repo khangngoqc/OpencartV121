@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import testBase.BaseClass;
 
+import java.util.Objects;
+
 public class BasePage extends BaseClass{
 
 	public BasePage() {
@@ -15,6 +17,7 @@ public class BasePage extends BaseClass{
 
 	@FindBy(xpath ="//div[@id='search']") WebElement searchComponent;
 	@FindBy(xpath = "//div[@class='row']//ul//a[contains(.,'Site Map')]") WebElement SiteMapLink;
+	@FindBy(xpath = "//div[@id='content']//h1") WebElement pageHeading;
 
 	public SiteMapPage clickSiteMapLink(){
 		SiteMapLink.click();
@@ -57,6 +60,19 @@ public class BasePage extends BaseClass{
 		return isDisplay(searchComponent);
 	}
 
+	public boolean isPageHeadingDisplayed(){
+		//System.out.println(pageHeading.getText());
+		return isDisplay(pageHeading) && pageHeading.getText().contains(getDriver().getTitle());
+	}
+
+	public boolean isPageTitleDisplayed(String pageName){
+		return getDriver().getTitle().toLowerCase().contains(pageName.toLowerCase());
+	}
+
+	public boolean isPageURLDisplayed(String urlKeyword){
+		//System.out.println(getDriver().getCurrentUrl());
+		return getDriver().getCurrentUrl().contains(urlKeyword.toLowerCase());
+	}
 
 
 }

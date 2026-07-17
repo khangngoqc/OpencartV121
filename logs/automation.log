@@ -3725,3 +3725,15 @@ Session ID: b0b3550ef3e389ba48aa3ab499d15d1d
 11:54:40.857 [main] DEBUG testCases.Search.TC_SF_019_SearchWithKeyboardTest - Cannot invoke "org.openqa.selenium.interactions.Actions.keyDown(java.lang.CharSequence)" because "this.act" is null
 11:59:23.534 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
 11:59:23.851 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:09:21.698 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:10:48.444 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:12:10.071 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:16:13.051 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:16:13.383 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Finished TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:19:37.944 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:20:30.814 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:21:15.109 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:22:03.948 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:22:35.913 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:23:38.583 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:23:40.925 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Finished TC_SF_020_SearchPageHeadingURLTitleTest *******
