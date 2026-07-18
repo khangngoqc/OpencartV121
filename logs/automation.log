@@ -3725,3 +3725,257 @@ Session ID: b0b3550ef3e389ba48aa3ab499d15d1d
 11:54:40.857 [main] DEBUG testCases.Search.TC_SF_019_SearchWithKeyboardTest - Cannot invoke "org.openqa.selenium.interactions.Actions.keyDown(java.lang.CharSequence)" because "this.act" is null
 11:59:23.534 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
 11:59:23.851 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+11:09:21.698 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:10:48.444 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:12:10.071 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:16:13.051 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:16:13.383 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Finished TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:19:37.944 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:20:30.814 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:21:15.109 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:22:03.948 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:22:35.913 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:23:38.583 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:23:40.925 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Finished TC_SF_020_SearchPageHeadingURLTitleTest *******
+11:58:43.666 [TestNG-tests-1] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+11:58:44.022 [TestNG-tests-1] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+11:58:45.478 [TestNG-tests-3] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+11:58:45.772 [TestNG-tests-1] INFO  testCases.Search.TC_SF_002_SearchNonExistingProductTest - ******* Starting TC_SF_002_SearchNonExistingProductTest *******
+11:58:45.779 [TestNG-tests-3] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+11:58:49.503 [TestNG-tests-3] INFO  testCases.Search.TC_SF_002_SearchNonExistingProductTest - ******* Starting TC_SF_002_SearchNonExistingProductTest *******
+11:58:56.106 [TestNG-tests-1] INFO  testCases.Search.TC_SF_002_SearchNonExistingProductTest - ******* Finished TC_SF_002_SearchNonExistingProductTest *******
+11:58:57.585 [TestNG-tests-1] INFO  testCases.Search.TC_SF_003_SearchEmptyTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+11:58:57.785 [TestNG-tests-1] INFO  testCases.Search.TC_SF_003_SearchEmptyTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+11:58:59.330 [TestNG-tests-1] INFO  testCases.Search.TC_SF_004_SearchAfterLoginTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+11:58:59.759 [TestNG-tests-3] INFO  testCases.Search.TC_SF_002_SearchNonExistingProductTest - ******* Finished TC_SF_002_SearchNonExistingProductTest *******
+11:58:59.993 [TestNG-tests-1] INFO  testCases.Search.TC_SF_004_SearchAfterLoginTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+11:59:01.588 [TestNG-tests-1] INFO  testCases.Search.TC_SF_005_SearchMultipleExistingProductTest - ******* Starting TC_SF_005_SearchMultipleExistingProductTest *******
+11:59:01.959 [TestNG-tests-1] INFO  testCases.Search.TC_SF_005_SearchMultipleExistingProductTest - ******* Finished TC_SF_005_SearchMultipleExistingProductTest *******
+11:59:03.288 [TestNG-tests-3] INFO  testCases.Search.TC_SF_003_SearchEmptyTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+11:59:03.562 [TestNG-tests-3] INFO  testCases.Search.TC_SF_003_SearchEmptyTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+11:59:03.756 [TestNG-tests-1] INFO  testCases.Search.TC_SF_006_SearchInputPlaceholderTest - ******* Starting TC_SF_006_SearchInputPlaceholderTest *******
+11:59:04.111 [TestNG-tests-1] INFO  testCases.Search.TC_SF_006_SearchInputPlaceholderTest - ******* Finished TC_SF_006_SearchInputPlaceholderTest *******
+11:59:05.628 [TestNG-tests-1] INFO  testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest - ******* Starting TC_SF_007_SearchExistingProductCriteriaInputTest *******
+11:59:06.166 [TestNG-tests-1] INFO  testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest - ******* Finished TC_SF_007_SearchExistingProductCriteriaInputTest *******
+11:59:07.259 [TestNG-tests-3] INFO  testCases.Search.TC_SF_004_SearchAfterLoginTest - ******* Starting TC_SF_003_SearchEmptyTest *******
+11:59:07.770 [TestNG-tests-1] INFO  testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest - ******* Starting TC_SF_008_SearchExistingProductDescriptionTest *******
+11:59:07.848 [TestNG-tests-3] INFO  testCases.Search.TC_SF_004_SearchAfterLoginTest - ******* Finished TC_SF_003_SearchEmptyTest *******
+11:59:11.530 [TestNG-tests-3] INFO  testCases.Search.TC_SF_005_SearchMultipleExistingProductTest - ******* Starting TC_SF_005_SearchMultipleExistingProductTest *******
+11:59:11.813 [TestNG-tests-3] INFO  testCases.Search.TC_SF_005_SearchMultipleExistingProductTest - ******* Finished TC_SF_005_SearchMultipleExistingProductTest *******
+11:59:15.179 [TestNG-tests-3] INFO  testCases.Search.TC_SF_006_SearchInputPlaceholderTest - ******* Starting TC_SF_006_SearchInputPlaceholderTest *******
+11:59:15.440 [TestNG-tests-3] INFO  testCases.Search.TC_SF_006_SearchInputPlaceholderTest - ******* Finished TC_SF_006_SearchInputPlaceholderTest *******
+11:59:18.755 [TestNG-tests-3] INFO  testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest - ******* Starting TC_SF_007_SearchExistingProductCriteriaInputTest *******
+11:59:19.306 [TestNG-tests-3] INFO  testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest - ******* Finished TC_SF_007_SearchExistingProductCriteriaInputTest *******
+11:59:20.046 [TestNG-tests-1] INFO  testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Starting TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+11:59:22.924 [TestNG-tests-3] INFO  testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest - ******* Starting TC_SF_008_SearchExistingProductDescriptionTest *******
+11:59:36.382 [TestNG-tests-3] INFO  testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Starting TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+11:59:41.046 [TestNG-tests-1] INFO  testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Finished TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+11:59:42.490 [TestNG-tests-1] INFO  testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Starting TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
+11:59:43.328 [TestNG-tests-1] INFO  testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Finished TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
+11:59:44.959 [TestNG-tests-1] INFO  testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest - ******* Starting TC_SF_011_A_SearchSingleProductListViewTest *******
+11:59:46.570 [TestNG-tests-1] INFO  testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest - ******* Finished TC_SF_011_A_SearchSingleProductListViewTest *******
+11:59:48.055 [TestNG-tests-1] INFO  testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Starting TC_SF_011_B_SearchSingleProductGridViewTest *******
+11:59:49.463 [TestNG-tests-1] INFO  testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Finished TC_SF_011_B_SearchSingleProductGridViewTest *******
+11:59:51.002 [TestNG-tests-1] INFO  testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest - ******* Starting TC_SF_012_A_SearchMultipleProductListViewTest *******
+11:59:53.201 [TestNG-tests-1] INFO  testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest - ******* Finished TC_SF_012_A_SearchMultipleProductListViewTest *******
+11:59:54.631 [TestNG-tests-1] INFO  testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest - ******* Starting TC_SF_012_B_SearchMultipleProductGridViewTest *******
+11:59:56.645 [TestNG-tests-1] INFO  testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest - ******* Finished TC_SF_012_B_SearchMultipleProductGridViewTest *******
+11:59:57.664 [TestNG-tests-3] INFO  testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest - ******* Finished TC_SF_009_SearchExistingProductSelectingCategoryTest *******
+11:59:58.415 [TestNG-tests-1] INFO  testCases.Search.TC_SF_013_ProductComparePageTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+11:59:58.949 [TestNG-tests-1] INFO  testCases.Search.TC_SF_013_ProductComparePageTest - ******* Finished TC_SF_013_ProductComparePageTest *******
+12:00:00.785 [TestNG-tests-1] INFO  testCases.Search.TC_SF_014_A_SearchProductSortTest - ******* Starting TC_SF_014_A_SearchProductSortTest *******
+12:00:02.617 [TestNG-tests-3] INFO  testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Starting TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
+12:00:07.133 [TestNG-tests-3] INFO  testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest - ******* Finished TC_SF_010_SearchExistingProductSelectingSubcategoryTest *******
+12:00:11.681 [TestNG-tests-3] INFO  testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest - ******* Starting TC_SF_011_A_SearchSingleProductListViewTest *******
+12:00:11.840 [TestNG-tests-1] INFO  testCases.Search.TC_SF_014_A_SearchProductSortTest - ******* Finished TC_SF_014_A_SearchProductSortTest *******
+12:00:13.587 [TestNG-tests-1] INFO  testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Starting TC_SF_015_SearchProductNumberOfResultShowTest *******
+12:00:14.017 [TestNG-tests-3] INFO  testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest - ******* Finished TC_SF_011_A_SearchSingleProductListViewTest *******
+12:00:17.813 [TestNG-tests-1] INFO  testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Finished TC_SF_015_SearchProductNumberOfResultShowTest *******
+12:00:18.610 [TestNG-tests-3] INFO  testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Starting TC_SF_011_B_SearchSingleProductGridViewTest *******
+12:00:19.684 [TestNG-tests-1] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:00:20.906 [TestNG-tests-3] INFO  testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest - ******* Finished TC_SF_011_B_SearchSingleProductGridViewTest *******
+12:00:25.241 [TestNG-tests-3] INFO  testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest - ******* Starting TC_SF_012_A_SearchMultipleProductListViewTest *******
+12:00:28.100 [TestNG-tests-3] INFO  testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest - ******* Finished TC_SF_012_A_SearchMultipleProductListViewTest *******
+12:00:32.700 [TestNG-tests-3] INFO  testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest - ******* Starting TC_SF_012_B_SearchMultipleProductGridViewTest *******
+12:00:36.268 [TestNG-tests-1] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+12:00:36.442 [TestNG-tests-3] INFO  testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest - ******* Finished TC_SF_012_B_SearchMultipleProductGridViewTest *******
+12:00:38.112 [TestNG-tests-1] INFO  testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest - ******* Starting TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:00:38.646 [TestNG-tests-1] INFO  testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:00:39.949 [TestNG-tests-1] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:00:41.197 [TestNG-tests-3] INFO  testCases.Search.TC_SF_013_ProductComparePageTest - ******* Starting TC_SF_013_ProductComparePageTest *******
+12:00:41.683 [TestNG-tests-3] INFO  testCases.Search.TC_SF_013_ProductComparePageTest - ******* Finished TC_SF_013_ProductComparePageTest *******
+12:00:45.311 [TestNG-tests-3] INFO  testCases.Search.TC_SF_014_A_SearchProductSortTest - ******* Starting TC_SF_014_A_SearchProductSortTest *******
+12:00:47.582 [TestNG-tests-3] DEBUG testCases.Search.TC_SF_014_A_SearchProductSortTest - The element with the reference 16f5451e-593d-4fe5-a79c-e27743bd4eb3 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [89923dc4-6b50-424b-9ade-0e69c05f2361, clickElement {id=16f5451e-593d-4fe5-a79c-e27743bd4eb3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13460, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (89923dc4-6b50-424b-9ade-0e69c05f2361)] -> xpath: //div[@class='caption']//h4//a]
+Session ID: 89923dc4-6b50-424b-9ade-0e69c05f2361
+12:00:51.107 [TestNG-tests-3] INFO  testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Starting TC_SF_015_SearchProductNumberOfResultShowTest *******
+12:00:54.418 [TestNG-tests-3] INFO  testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest - ******* Finished TC_SF_015_SearchProductNumberOfResultShowTest *******
+12:00:55.441 [TestNG-tests-1] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:00:57.126 [TestNG-tests-1] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:00:57.406 [TestNG-tests-1] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:00:57.966 [TestNG-tests-3] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:00:58.699 [TestNG-tests-3] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference b24ce87c-d836-4bed-83e1-75cac9b221b4 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ec3c4653-51ea-45c7-87b4-8ea0e419c190, clickElement {id=b24ce87c-d836-4bed-83e1-75cac9b221b4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6924, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ec3c4653-51ea-45c7-87b4-8ea0e419c190)] -> xpath: //div[@id='content']//ul//a]
+Session ID: ec3c4653-51ea-45c7-87b4-8ea0e419c190
+12:00:59.113 [TestNG-tests-1] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+12:01:01.418 [TestNG-tests-1] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Finished TC_SF_020_SearchPageHeadingURLTitleTest *******
+12:01:02.110 [TestNG-tests-3] INFO  testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest - ******* Starting TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:01:02.511 [TestNG-tests-3] INFO  testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:01:06.185 [TestNG-tests-3] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:01:20.979 [TestNG-tests-3] INFO  testCases.Search.TC_SF_018_SearchPageBreadcrumbTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:01:24.282 [TestNG-tests-3] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:01:27.644 [TestNG-tests-3] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+12:01:29.758 [TestNG-tests-3] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Finished TC_SF_020_SearchPageHeadingURLTitleTest *******
+12:07:23.137 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:07:23.831 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 14c4534f-94a6-4576-930e-de788a8dce8e is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [caab1467-b08c-4d6e-9607-3053d2bc7a2d, clickElement {id=14c4534f-94a6-4576-930e-de788a8dce8e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14580, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (caab1467-b08c-4d6e-9607-3053d2bc7a2d)] -> xpath: //div[@id='content']//ul//a]
+Session ID: caab1467-b08c-4d6e-9607-3053d2bc7a2d
+12:07:27.279 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:11:38.677 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:12:48.814 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:13:18.765 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:13:49.593 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:14:32.848 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:15:13.916 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:15:17.060 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:16:28.762 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:16:29.414 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 9faa7da3-796f-4bf5-a191-e8ef4b05ae36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c48ed500-ba04-4299-bc89-1d3780d1b3e8, clickElement {id=9faa7da3-796f-4bf5-a191-e8ef4b05ae36}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7192, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (c48ed500-ba04-4299-bc89-1d3780d1b3e8)] -> xpath: //div[@id='content']//ul//a]
+Session ID: c48ed500-ba04-4299-bc89-1d3780d1b3e8
+12:17:27.812 [TestNG-tests-1] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+12:17:28.220 [TestNG-tests-1] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+12:17:29.569 [TestNG-tests-3] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Starting TC_SF_001_SearchExistingProductTest *******
+12:17:29.988 [TestNG-tests-3] INFO  testCases.Search.TC_SF_001_SearchExistingProductTest - ******* Finished TC_SF_001_SearchExistingProductTest *******
+12:17:30.238 [TestNG-tests-1] INFO  testCases.Search.TC_SF_002_SearchNonExistingProductTest - ******* Starting TC_SF_002_SearchNonExistingProductTest *******
+12:17:44.275 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:17:45.904 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference b80dc28a-f605-439d-a3fe-b4d6cf89994c is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac5c2ec4-7760-4ff1-928f-f915cb209c7d, clickElement {id=b80dc28a-f605-439d-a3fe-b4d6cf89994c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11628, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ac5c2ec4-7760-4ff1-928f-f915cb209c7d)] -> xpath: //div[@id='content']//ul//a]
+Session ID: ac5c2ec4-7760-4ff1-928f-f915cb209c7d
+12:21:05.857 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:21:08.585 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 013c201c-1585-4634-835a-5869b9693e55 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [81dfda57-8c9a-4977-834f-9c416e59f7fb, clickElement {id=013c201c-1585-4634-835a-5869b9693e55}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26156, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (81dfda57-8c9a-4977-834f-9c416e59f7fb)] -> xpath: //div[@id='content']//ul//a]
+Session ID: 81dfda57-8c9a-4977-834f-9c416e59f7fb
+12:23:08.559 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:23:11.281 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 9dbe40c6-7afc-4d90-a126-f28c6fb126a2 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1653b0e-bded-4474-85ea-aeea7e27bae3, getElementText {id=9dbe40c6-7afc-4d90-a126-f28c6fb126a2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7052, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (d1653b0e-bded-4474-85ea-aeea7e27bae3)] -> xpath: //div[@id='content']//ul//a]
+Session ID: d1653b0e-bded-4474-85ea-aeea7e27bae3
+12:23:56.217 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:23:58.956 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference ecabf0cb-c7de-4a25-931e-52ff1b14daa7 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2ec61db5-bba8-40f8-a652-90aecc2aaeab, getElementText {id=ecabf0cb-c7de-4a25-931e-52ff1b14daa7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24800, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (2ec61db5-bba8-40f8-a652-90aecc2aaeab)] -> xpath: //div[@id='content']//ul//a]
+Session ID: 2ec61db5-bba8-40f8-a652-90aecc2aaeab
+12:25:18.488 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:25:21.535 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 77933a43-a1de-4b36-8ef4-812867514951 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1f97986d-bec1-4e75-b9da-5a1d1089154b, getElementText {id=77933a43-a1de-4b36-8ef4-812867514951}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28632, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (1f97986d-bec1-4e75-b9da-5a1d1089154b)] -> xpath: //div[@id='content']//ul//a]
+Session ID: 1f97986d-bec1-4e75-b9da-5a1d1089154b
+12:26:36.864 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:26:47.676 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 0b7b2b41-f719-4c24-bc9b-38238a5b2b18 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [800290d1-a9c0-408c-aa05-1d58207e9d52, getElementText {id=0b7b2b41-f719-4c24-bc9b-38238a5b2b18}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27316, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (800290d1-a9c0-408c-aa05-1d58207e9d52)] -> xpath: //div[@id='content']//ul//a]
+Session ID: 800290d1-a9c0-408c-aa05-1d58207e9d52
+12:27:27.774 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:27:28.459 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+12:28:13.974 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:28:14.622 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+12:29:31.222 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:29:32.401 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference ac15901c-8c7b-4259-b28f-dbf4039044fe is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [64bf1092-cfe0-4684-9c86-6471bf1ed742, getElementAttribute {id=ac15901c-8c7b-4259-b28f-dbf4039044fe, name=href}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26632, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (64bf1092-cfe0-4684-9c86-6471bf1ed742)] -> xpath: //div[@id='content']//ul//a]
+Session ID: 64bf1092-cfe0-4684-9c86-6471bf1ed742
+12:33:54.153 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:33:55.275 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 287a61bb-668c-40a1-95c9-cf9ef6cbe19c is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2ccf4994-530a-463f-acb7-9048f8f3b06c, getElementAttribute {id=287a61bb-668c-40a1-95c9-cf9ef6cbe19c, name=href}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10740, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (2ccf4994-530a-463f-acb7-9048f8f3b06c)] -> xpath: //div[@id='content']//ul//a]
+Session ID: 2ccf4994-530a-463f-acb7-9048f8f3b06c
+12:34:33.641 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:34:35.280 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+12:38:07.286 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:38:08.372 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - The element with the reference 3e5f49b2-5a6f-41ed-938c-8e65829e6bd8 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab1747df-c662-458b-bb73-b98a7e08e5ca, getElementAttribute {id=3e5f49b2-5a6f-41ed-938c-8e65829e6bd8, name=href}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25432, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ab1747df-c662-458b-bb73-b98a7e08e5ca)] -> xpath: //div[@id='content']//ul//a]
+Session ID: ab1747df-c662-458b-bb73-b98a7e08e5ca
+12:43:20.453 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:44:02.921 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+12:45:49.622 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:46:02.736 [main] DEBUG testCases.Search.TC_SF_016_SearchComponentVisibilityTest - Browsing context has been discarded
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ca5d4b8d-9b67-4b63-a667-58ec80d767e5, findElement {value=//div[@id='search'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7736, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
+12:46:43.483 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:47:35.307 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******

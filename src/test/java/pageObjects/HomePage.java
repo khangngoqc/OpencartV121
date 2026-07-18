@@ -56,13 +56,16 @@ public class HomePage extends BasePage {
 		lnkLogout.click();
 	}
 
-	public SearchPage searchWithKeyboard(String keyword) {
+	public SearchPage searchWithKeyboard(String keyword) throws InterruptedException {
 		for(int i = 1; i <= 8; i++) {
 			getActions().keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
 		}
 
 		getActions().sendKeys(keyword).perform();
-		getActions().sendKeys(Keys.ENTER).perform();
+		getActions().keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
+		getActions().keyDown(Keys.ENTER).keyUp(Keys.ENTER).perform();
+		
+		Thread.sleep(2000);
 
 		return new SearchPage();
 	}

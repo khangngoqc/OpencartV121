@@ -6,10 +6,12 @@
 		<run>
 			<!--<include name="login"></include>-->
 			<!--<include name="logout"></include>-->						
-			<include name="forgot password"></include>
+			<!--<include name="forgot password"></include>-->
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
 			<!--<include name="register"></include>-->
+			<include name="search"></include>
+
 
 			<exclude name=""></exclude>
 
@@ -29,93 +31,115 @@
 
 
 		<classes>
-			
+
 			<!--Register cases-->
-			<class name="testCases.TC_RF_001_AccountRegistrationTest" />	
-			<class name="testCases.TC_RF_004_WarningMessageTest" />
-			<class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" />
-			<class name="testCases.TC_RF_008_ConfirmPasswordTest" />
-			<class name="testCases.TC_RF_009_UsedEmailRegistrationTest" />
-			<class name="testCases.TC_RF_010_InvalidEmailRegistrationTest" />
-			<class name="testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest"></class>
-			<class name="testCases.TC_RF_012_KeyboardKeysRegistrationTest"></class>
-			<class name="testCases.TC_RF_013_FieldsPlaceholderTest"></class>
-			<class name="testCases.TC_RF_014_RequiredMarkTest"></class>
-			<class name="testCases.TC_RF_016_SpaceInputRegistrationTest"></class>
-			<class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest"></class>
-			<class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
-			<class name="testCases.TC_RF_020_PolicyCheckboxTest"></class>
-			<class name="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
-			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>
-			<class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest"></class>
-			<class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
-			<class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
+			<class name="testCases.Register.TC_RF_001_AccountRegistrationTest" />
+			<class name="testCases.Register.TC_RF_004_WarningMessageTest" />
+			<class name="testCases.Register.TC_RF_007_RegisterAccountPageNavigatingTest" />
+			<class name="testCases.Register.TC_RF_008_ConfirmPasswordTest" />
+			<class name="testCases.Register.TC_RF_009_UsedEmailRegistrationTest" />
+			<class name="testCases.Register.TC_RF_010_InvalidEmailRegistrationTest" />
+			<class name="testCases.Register.TC_RF_011_InvalidPhoneNumberRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_012_KeyboardKeysRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_013_FieldsPlaceholderTest"></class>
+			<class name="testCases.Register.TC_RF_014_RequiredMarkTest"></class>
+			<class name="testCases.Register.TC_RF_016_SpaceInputRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_017_PasswordComplexityRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_020_PolicyCheckboxTest"></class>
+			<class name="testCases.Register.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_022_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.Register.TC_RF_023_AccountRegistrationPageLinksTest"></class>
+			<class name="testCases.Register.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
+			<class name="testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
 			<!--Register cases-->
 			
 			<!--login cases-->
-			<class name="testCases.TC_LF_001_LoginTest" />
-			<class name="testCases.TC_LF_002_InvalidLoginTest"></class>
-			<class name="testCases.TC_LF_003_InvalidEmailLoginTest"></class>
-			<class name="testCases.TC_LF_004_InvalidPasswordLoginTest"></class>
-			<class name="testCases.TC_LF_005_NoncredentialLoginTest"></class>
-			<class name="testCases.TC_LF_006_ForgottenPasswordLinkTest"></class>
-			<class name="testCases.TC_LF_007_KeyboardKeysLoginTest"></class>
-			<class name="testCases.TC_LF_008_FieldsPlaceholderTest"></class>
-			<class name="testCases.TC_LF_009_LoginAndBrowserBackingTest"></class>
-			<class name="testCases.TC_LF_010_BackingAfterLoginTest"></class>
-			<class name="testCases.TC_LF_012_InvalidLoginSpamTest"></class>
-			<class name="testCases.TC_LF_013_PasswordFieldsCoveringTest"></class>
-			<class name="testCases.TC_LF_014_CopyingPasswordTxtTest"></class>
-			<class name="testCases.TC_LF_015_PasswordPageSourceTest"></class>
-			<class name="testCases.TC_LF_016_ChangingPasswordLoginTest"></class>
-			<class name="testCases.TC_LF_017_LoginSessionTest"></class>
-			<class name="testCases.TC_LF_018_LoginSessionTimeOutTest"></class>
-			<class name="testCases.TC_LF_019_LoginPageLinksTest"></class>
-			<class name="testCases.TC_LF_020_LoginPageAccessTest"></class>
-			<class name="testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
+			<class name="testCases.Login.TC_LF_001_LoginTest" />
+			<class name="testCases.Login.TC_LF_002_InvalidLoginTest"></class>
+			<class name="testCases.Login.TC_LF_003_InvalidEmailLoginTest"></class>
+			<class name="testCases.Login.TC_LF_004_InvalidPasswordLoginTest"></class>
+			<class name="testCases.Login.TC_LF_005_NoncredentialLoginTest"></class>
+			<class name="testCases.Login.TC_LF_006_ForgottenPasswordLinkTest"></class>
+			<class name="testCases.Login.TC_LF_007_KeyboardKeysLoginTest"></class>
+			<class name="testCases.Login.TC_LF_008_FieldsPlaceholderTest"></class>
+			<class name="testCases.Login.TC_LF_009_LoginAndBrowserBackingTest"></class>
+			<class name="testCases.Login.TC_LF_010_BackingAfterLoginTest"></class>
+			<class name="testCases.Login.TC_LF_012_InvalidLoginSpamTest"></class>
+			<class name="testCases.Login.TC_LF_013_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.Login.TC_LF_014_CopyingPasswordTxtTest"></class>
+			<class name="testCases.Login.TC_LF_015_PasswordPageSourceTest"></class>
+			<class name="testCases.Login.TC_LF_016_ChangingPasswordLoginTest"></class>
+			<class name="testCases.Login.TC_LF_017_LoginSessionTest"></class>
+			<class name="testCases.Login.TC_LF_018_LoginSessionTimeOutTest"></class>
+			<class name="testCases.Login.TC_LF_019_LoginPageLinksTest"></class>
+			<class name="testCases.Login.TC_LF_020_LoginPageAccessTest"></class>
+			<class name="testCases.Login.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
 			<!--login cases-->
 			
 			<!--Logout cases-->
-			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
-			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
-			<class name="testCases.TC_LG_003_LoginSessionTest" />
-			<class name="testCases.TC_LG_004_LogoutAndBackingTest" />
-			<class name="testCases.TC_LG_005_MALogoutOptionTest" />
-			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
-			<class name="testCases.TC_LG_008_LogoutLoginSequencingTest" />
-			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
+			<class name="testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest" />
+			<class name="testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest" />
+			<class name="testCases.Logout.TC_LG_003_LoginSessionTest" />
+			<class name="testCases.Logout.TC_LG_004_LogoutAndBackingTest" />
+			<class name="testCases.Logout.TC_LG_005_MALogoutOptionTest" />
+			<class name="testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest" />
+			<class name="testCases.Logout.TC_LG_008_LogoutLoginSequencingTest" />
+			<class name="testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
 
 			<!--Logout cases-->
 			
 			<!--ForgotPassword cases-->
-			<class name="testCases.TC_FP_001_ResetPasswordTest" />
-			<class name="testCases.TC_FP_002_ResetPasswordEmailTest" />
-			<class name="testCases.TC_FP_003_LoginWithResetedPasswordTest" />
-			<class name="testCases.TC_FP_004_LoginWithOldPasswordTest" />
-			<class name="testCases.TC_FP_005_NonregisteredPasswordResetTest" />
-			<class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest" />
-			<class name="testCases.TC_FP_007_ResetPasswordFieldsTest" />
-			<class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
-			<class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
-			<class name="testCases.TC_FP_010_ResetPasswordLinkBacking" />
-			<class name="testCases.TC_FP_011_ResetPasswordRightColumnTest" />
-			<class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest" />
-			<class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
-			<class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
-			<class name="testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
-			<class name="testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
-			<class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
-			<class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
-			<class name="testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
-			<class name="testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
-			<class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
-			<class name="testCases.TC_FP_024_ResetPasswordHideVisibility" />
+			<class name="testCases.ForgotPassword.TC_FP_001_ResetPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_002_ResetPasswordEmailTest" />
+			<class name="testCases.ForgotPassword.TC_FP_003_LoginWithResetedPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_004_LoginWithOldPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_005_NonregisteredPasswordResetTest" />
+			<class name="testCases.ForgotPassword.TC_FP_006_ResetPasswordLinkReuseTest" />
+			<class name="testCases.ForgotPassword.TC_FP_007_ResetPasswordFieldsTest" />
+			<class name="testCases.ForgotPassword.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
+			<class name="testCases.ForgotPassword.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_010_ResetPasswordLinkBacking" />
+			<class name="testCases.ForgotPassword.TC_FP_011_ResetPasswordRightColumnTest" />
+			<class name="testCases.ForgotPassword.TC_FP_012_ResetPasswordBreadscrumbTest" />
+			<class name="testCases.ForgotPassword.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
+			<class name="testCases.ForgotPassword.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
+			<class name="testCases.ForgotPassword.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
+			<class name="testCases.ForgotPassword.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
+			<class name="testCases.ForgotPassword.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
+			<class name="testCases.ForgotPassword.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
+			<class name="testCases.ForgotPassword.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
+			<class name="testCases.ForgotPassword.TC_FP_024_ResetPasswordHideVisibility" />
 			
 			<!--ForgotPassword cases-->
 			
 			
 			<!--Search cases-->
-			<class name="testCases.TC_SF_001_SearchExistingProductTest" />
+			<class name="testCases.Search.TC_SF_001_SearchExistingProductTest" />
+			<class name="testCases.Search.TC_SF_002_SearchNonExistingProductTest" />
+			<class name="testCases.Search.TC_SF_003_SearchEmptyTest" />
+			<class name="testCases.Search.TC_SF_004_SearchAfterLoginTest" />
+			<class name="testCases.Search.TC_SF_005_SearchMultipleExistingProductTest" />
+			<class name="testCases.Search.TC_SF_006_SearchInputPlaceholderTest" />
+			<class name="testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest" />
+			<class name="testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest" />
+			<class name="testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest" />
+			<class name="testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />
+			<class name="testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest" />
+			<class name="testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest" />
+			<class name="testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest" />
+			<class name="testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest" />
+			<class name="testCases.Search.TC_SF_013_ProductComparePageTest" />
+			<class name="testCases.Search.TC_SF_014_A_SearchProductSortTest" />
+			<class name="testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest" />
+			<class name="testCases.Search.TC_SF_016_SearchComponentVisibilityTest" />
+			<class name="testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest" />
+			<class name="testCases.Search.TC_SF_018_SearchPageBreadcrumbTest" />
+			<class name="testCases.Search.TC_SF_019_SearchWithKeyboardTest" />
+			<class name="testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest" />
+
 			<!--Search cases-->
 			
 			
@@ -131,86 +155,87 @@
 		<classes>
 			
 			<!--Register cases-->
-			<class name="testCases.TC_RF_001_AccountRegistrationTest" />	
-			<class name="testCases.TC_RF_004_WarningMessageTest" />
-			<class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" />
-			<class name="testCases.TC_RF_008_ConfirmPasswordTest" />
-			<class name="testCases.TC_RF_009_UsedEmailRegistrationTest" />
-			<class name="testCases.TC_RF_010_InvalidEmailRegistrationTest" />
-			<class name="testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest"></class>
-			<class name="testCases.TC_RF_012_KeyboardKeysRegistrationTest"></class>
-			<class name="testCases.TC_RF_013_FieldsPlaceholderTest"></class>
-			<class name="testCases.TC_RF_014_RequiredMarkTest"></class>
-			<class name="testCases.TC_RF_016_SpaceInputRegistrationTest"></class>
-			<class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest"></class>
-			<class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
-			<class name="testCases.TC_RF_020_PolicyCheckboxTest"></class>
-			<class name="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
-			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>
-			<class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest"></class>
-			<class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
-			<class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
+			<class name="testCases.Register.TC_RF_001_AccountRegistrationTest" />
+			<class name="testCases.Register.TC_RF_004_WarningMessageTest" />
+			<class name="testCases.Register.TC_RF_007_RegisterAccountPageNavigatingTest" />
+			<class name="testCases.Register.TC_RF_008_ConfirmPasswordTest" />
+			<class name="testCases.Register.TC_RF_009_UsedEmailRegistrationTest" />
+			<class name="testCases.Register.TC_RF_010_InvalidEmailRegistrationTest" />
+			<class name="testCases.Register.TC_RF_011_InvalidPhoneNumberRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_012_KeyboardKeysRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_013_FieldsPlaceholderTest"></class>
+			<class name="testCases.Register.TC_RF_014_RequiredMarkTest"></class>
+			<class name="testCases.Register.TC_RF_016_SpaceInputRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_017_PasswordComplexityRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_020_PolicyCheckboxTest"></class>
+			<class name="testCases.Register.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_022_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.Register.TC_RF_023_AccountRegistrationPageLinksTest"></class>
+			<class name="testCases.Register.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
+			<class name="testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
 			<!--Register cases-->
-			
+
 			<!--login cases-->
-			<class name="testCases.TC_LF_001_LoginTest" />
-			<class name="testCases.TC_LF_002_InvalidLoginTest"></class>
-			<class name="testCases.TC_LF_003_InvalidEmailLoginTest"></class>
-			<class name="testCases.TC_LF_004_InvalidPasswordLoginTest"></class>
-			<class name="testCases.TC_LF_005_NoncredentialLoginTest"></class>
-			<class name="testCases.TC_LF_006_ForgottenPasswordLinkTest"></class>
-			<class name="testCases.TC_LF_007_KeyboardKeysLoginTest"></class>
-			<class name="testCases.TC_LF_008_FieldsPlaceholderTest"></class>
-			<class name="testCases.TC_LF_009_LoginAndBrowserBackingTest"></class>
-			<class name="testCases.TC_LF_010_BackingAfterLoginTest"></class>
-			<class name="testCases.TC_LF_012_InvalidLoginSpamTest"></class>
-			<class name="testCases.TC_LF_013_PasswordFieldsCoveringTest"></class>
-			<class name="testCases.TC_LF_014_CopyingPasswordTxtTest"></class>
-			<class name="testCases.TC_LF_015_PasswordPageSourceTest"></class>
-			<class name="testCases.TC_LF_016_ChangingPasswordLoginTest"></class>
-			<class name="testCases.TC_LF_017_LoginSessionTest"></class>
-			<class name="testCases.TC_LF_018_LoginSessionTimeOutTest"></class>
-			<class name="testCases.TC_LF_019_LoginPageLinksTest"></class>
-			<class name="testCases.TC_LF_020_LoginPageAccessTest"></class>
-			<class name="testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
+			<class name="testCases.Login.TC_LF_001_LoginTest" />
+			<class name="testCases.Login.TC_LF_002_InvalidLoginTest"></class>
+			<class name="testCases.Login.TC_LF_003_InvalidEmailLoginTest"></class>
+			<class name="testCases.Login.TC_LF_004_InvalidPasswordLoginTest"></class>
+			<class name="testCases.Login.TC_LF_005_NoncredentialLoginTest"></class>
+			<class name="testCases.Login.TC_LF_006_ForgottenPasswordLinkTest"></class>
+			<class name="testCases.Login.TC_LF_007_KeyboardKeysLoginTest"></class>
+			<class name="testCases.Login.TC_LF_008_FieldsPlaceholderTest"></class>
+			<class name="testCases.Login.TC_LF_009_LoginAndBrowserBackingTest"></class>
+			<class name="testCases.Login.TC_LF_010_BackingAfterLoginTest"></class>
+			<class name="testCases.Login.TC_LF_012_InvalidLoginSpamTest"></class>
+			<class name="testCases.Login.TC_LF_013_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.Login.TC_LF_014_CopyingPasswordTxtTest"></class>
+			<class name="testCases.Login.TC_LF_015_PasswordPageSourceTest"></class>
+			<class name="testCases.Login.TC_LF_016_ChangingPasswordLoginTest"></class>
+			<class name="testCases.Login.TC_LF_017_LoginSessionTest"></class>
+			<class name="testCases.Login.TC_LF_018_LoginSessionTimeOutTest"></class>
+			<class name="testCases.Login.TC_LF_019_LoginPageLinksTest"></class>
+			<class name="testCases.Login.TC_LF_020_LoginPageAccessTest"></class>
+			<class name="testCases.Login.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
 			<!--login cases-->
-			
+
 			<!--Logout cases-->
-			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
-			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
-			<class name="testCases.TC_LG_003_LoginSessionTest" />
-			<class name="testCases.TC_LG_004_LogoutAndBackingTest" />
-			<class name="testCases.TC_LG_005_MALogoutOptionTest" />
-			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
-			<class name="testCases.TC_LG_008_LogoutLoginSequencingTest" />
-			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
+			<class name="testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest" />
+			<class name="testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest" />
+			<class name="testCases.Logout.TC_LG_003_LoginSessionTest" />
+			<class name="testCases.Logout.TC_LG_004_LogoutAndBackingTest" />
+			<class name="testCases.Logout.TC_LG_005_MALogoutOptionTest" />
+			<class name="testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest" />
+			<class name="testCases.Logout.TC_LG_008_LogoutLoginSequencingTest" />
+			<class name="testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
+
 			<!--Logout cases-->
-			
-			
+
+
 			<!--ForgotPassword cases-->
-			<class name="testCases.TC_FP_001_ResetPasswordTest" />
-			<class name="testCases.TC_FP_002_ResetPasswordEmailTest" />
-			<class name="testCases.TC_FP_003_LoginWithResetedPasswordTest" />
-			<class name="testCases.TC_FP_004_LoginWithOldPasswordTest" />
-			<class name="testCases.TC_FP_005_NonregisteredPasswordResetTest" />
-			<class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest" />
-			<class name="testCases.TC_FP_007_ResetPasswordFieldsTest" />
-			<class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
-			<class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
-			<class name="testCases.TC_FP_010_ResetPasswordLinkBacking" />
-			<class name="testCases.TC_FP_011_ResetPasswordRightColumnTest" />
-			<class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest" />
-			<class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
-			<class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
-			<class name="testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
-			<class name="testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
-			<class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
-			<class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
-			<class name="testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
-			<class name="testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
-			<class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
-			<class name="testCases.TC_FP_024_ResetPasswordHideVisibility" />
-			
+			<class name="testCases.ForgotPassword.TC_FP_001_ResetPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_002_ResetPasswordEmailTest" />
+			<class name="testCases.ForgotPassword.TC_FP_003_LoginWithResetedPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_004_LoginWithOldPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_005_NonregisteredPasswordResetTest" />
+			<class name="testCases.ForgotPassword.TC_FP_006_ResetPasswordLinkReuseTest" />
+			<class name="testCases.ForgotPassword.TC_FP_007_ResetPasswordFieldsTest" />
+			<class name="testCases.ForgotPassword.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
+			<class name="testCases.ForgotPassword.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_010_ResetPasswordLinkBacking" />
+			<class name="testCases.ForgotPassword.TC_FP_011_ResetPasswordRightColumnTest" />
+			<class name="testCases.ForgotPassword.TC_FP_012_ResetPasswordBreadscrumbTest" />
+			<class name="testCases.ForgotPassword.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
+			<class name="testCases.ForgotPassword.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
+			<class name="testCases.ForgotPassword.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
+			<class name="testCases.ForgotPassword.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
+			<class name="testCases.ForgotPassword.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
+			<class name="testCases.ForgotPassword.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
+			<class name="testCases.ForgotPassword.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
+			<class name="testCases.ForgotPassword.TC_FP_024_ResetPasswordHideVisibility" />
+
 			<!--ForgotPassword cases-->
 			
 			
@@ -225,88 +250,113 @@
 
 		<classes>
 			<!--Register cases-->
-			<class name="testCases.TC_RF_001_AccountRegistrationTest" />	
-			<class name="testCases.TC_RF_004_WarningMessageTest" />
-			<class name="testCases.TC_RF_007_RegisterAccountPageNavigatingTest" />
-			<class name="testCases.TC_RF_008_ConfirmPasswordTest" />
-			<class name="testCases.TC_RF_009_UsedEmailRegistrationTest" />
-			<class name="testCases.TC_RF_010_InvalidEmailRegistrationTest" />
-			<class name="testCases.TC_RF_011_InvalidPhoneNumberRegistrationTest"></class>
-			<class name="testCases.TC_RF_012_KeyboardKeysRegistrationTest"></class>
-			<class name="testCases.TC_RF_013_FieldsPlaceholderTest"></class>
-			<class name="testCases.TC_RF_014_RequiredMarkTest"></class>
-			<class name="testCases.TC_RF_016_SpaceInputRegistrationTest"></class>
-			<class name="testCases.TC_RF_017_PasswordComplexityRegistrationTest"></class>
-			<class name="testCases.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
-			<class name="testCases.TC_RF_020_PolicyCheckboxTest"></class>
-			<class name="testCases.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
-			<class name="testCases.TC_RF_022_PasswordFieldsCoveringTest"></class>
-			<class name="testCases.TC_RF_023_AccountRegistrationPageLinksTest"></class>
-			<class name="testCases.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
-			<class name="testCases.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
+			<class name="testCases.Register.TC_RF_001_AccountRegistrationTest" />
+			<class name="testCases.Register.TC_RF_004_WarningMessageTest" />
+			<class name="testCases.Register.TC_RF_007_RegisterAccountPageNavigatingTest" />
+			<class name="testCases.Register.TC_RF_008_ConfirmPasswordTest" />
+			<class name="testCases.Register.TC_RF_009_UsedEmailRegistrationTest" />
+			<class name="testCases.Register.TC_RF_010_InvalidEmailRegistrationTest" />
+			<class name="testCases.Register.TC_RF_011_InvalidPhoneNumberRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_012_KeyboardKeysRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_013_FieldsPlaceholderTest"></class>
+			<class name="testCases.Register.TC_RF_014_RequiredMarkTest"></class>
+			<class name="testCases.Register.TC_RF_016_SpaceInputRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_017_PasswordComplexityRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_020_PolicyCheckboxTest"></class>
+			<class name="testCases.Register.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest"></class>
+			<class name="testCases.Register.TC_RF_022_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.Register.TC_RF_023_AccountRegistrationPageLinksTest"></class>
+			<class name="testCases.Register.TC_RF_024_RegistrationWithoutConfirmPasswordTest"></class>
+			<class name="testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest"></class>
 			<!--Register cases-->
-			
+
 			<!--login cases-->
-			<class name="testCases.TC_LF_001_LoginTest" />
-			<class name="testCases.TC_LF_002_InvalidLoginTest"></class>
-			<class name="testCases.TC_LF_003_InvalidEmailLoginTest"></class>
-			<class name="testCases.TC_LF_004_InvalidPasswordLoginTest"></class>
-			<class name="testCases.TC_LF_005_NoncredentialLoginTest"></class>
-			<class name="testCases.TC_LF_006_ForgottenPasswordLinkTest"></class>
-			<class name="testCases.TC_LF_007_KeyboardKeysLoginTest"></class>
-			<class name="testCases.TC_LF_008_FieldsPlaceholderTest"></class>
-			<class name="testCases.TC_LF_009_LoginAndBrowserBackingTest"></class>
-			<class name="testCases.TC_LF_010_BackingAfterLoginTest"></class>
-			<class name="testCases.TC_LF_012_InvalidLoginSpamTest"></class>
-			<class name="testCases.TC_LF_013_PasswordFieldsCoveringTest"></class>
-			<class name="testCases.TC_LF_014_CopyingPasswordTxtTest"></class>
-			<class name="testCases.TC_LF_015_PasswordPageSourceTest"></class>
-			<class name="testCases.TC_LF_016_ChangingPasswordLoginTest"></class>
-			<class name="testCases.TC_LF_017_LoginSessionTest"></class>
-			<class name="testCases.TC_LF_018_LoginSessionTimeOutTest"></class>
-			<class name="testCases.TC_LF_019_LoginPageLinksTest"></class>
-			<class name="testCases.TC_LF_020_LoginPageAccessTest"></class>
-			<class name="testCases.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
+			<class name="testCases.Login.TC_LF_001_LoginTest" />
+			<class name="testCases.Login.TC_LF_002_InvalidLoginTest"></class>
+			<class name="testCases.Login.TC_LF_003_InvalidEmailLoginTest"></class>
+			<class name="testCases.Login.TC_LF_004_InvalidPasswordLoginTest"></class>
+			<class name="testCases.Login.TC_LF_005_NoncredentialLoginTest"></class>
+			<class name="testCases.Login.TC_LF_006_ForgottenPasswordLinkTest"></class>
+			<class name="testCases.Login.TC_LF_007_KeyboardKeysLoginTest"></class>
+			<class name="testCases.Login.TC_LF_008_FieldsPlaceholderTest"></class>
+			<class name="testCases.Login.TC_LF_009_LoginAndBrowserBackingTest"></class>
+			<class name="testCases.Login.TC_LF_010_BackingAfterLoginTest"></class>
+			<class name="testCases.Login.TC_LF_012_InvalidLoginSpamTest"></class>
+			<class name="testCases.Login.TC_LF_013_PasswordFieldsCoveringTest"></class>
+			<class name="testCases.Login.TC_LF_014_CopyingPasswordTxtTest"></class>
+			<class name="testCases.Login.TC_LF_015_PasswordPageSourceTest"></class>
+			<class name="testCases.Login.TC_LF_016_ChangingPasswordLoginTest"></class>
+			<class name="testCases.Login.TC_LF_017_LoginSessionTest"></class>
+			<class name="testCases.Login.TC_LF_018_LoginSessionTimeOutTest"></class>
+			<class name="testCases.Login.TC_LF_019_LoginPageLinksTest"></class>
+			<class name="testCases.Login.TC_LF_020_LoginPageAccessTest"></class>
+			<class name="testCases.Login.TC_LF_021_BreadscrumbHeadingURLTitleTest"></class>
 			<!--login cases-->
-			
-			<!--Logout cases-->
-			<class name="testCases.TC_LG_001_LogoutByHeaderMenuTest" />
-			<class name="testCases.TC_LG_002_LogoutByButtonGroupMenuTest" />
-			<class name="testCases.TC_LG_003_LoginSessionTest" />
-			<class name="testCases.TC_LG_004_LogoutAndBackingTest" />
-			<class name="testCases.TC_LG_005_MALogoutOptionTest" />
-			<class name="testCases.TC_LG_006_BtnGrpLogoutOptionTest" />
-			<class name="testCases.TC_LG_008_LogoutLoginSequencingTest" />
-			<class name="testCases.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
 
 			<!--Logout cases-->
-			
+			<class name="testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest" />
+			<class name="testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest" />
+			<class name="testCases.Logout.TC_LG_003_LoginSessionTest" />
+			<class name="testCases.Logout.TC_LG_004_LogoutAndBackingTest" />
+			<class name="testCases.Logout.TC_LG_005_MALogoutOptionTest" />
+			<class name="testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest" />
+			<class name="testCases.Logout.TC_LG_008_LogoutLoginSequencingTest" />
+			<class name="testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest" />
+
+			<!--Logout cases-->
+
 			<!--ForgotPassword cases-->
-			<class name="testCases.TC_FP_001_ResetPasswordTest" />
-			<class name="testCases.TC_FP_002_ResetPasswordEmailTest" />
-			<class name="testCases.TC_FP_003_LoginWithResetedPasswordTest" />
-			<class name="testCases.TC_FP_004_LoginWithOldPasswordTest" />
-			<class name="testCases.TC_FP_005_NonregisteredPasswordResetTest" />
-			<class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest" />
-			<class name="testCases.TC_FP_007_ResetPasswordFieldsTest" />
-			<class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
-			<class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
-			<class name="testCases.TC_FP_010_ResetPasswordLinkBacking" />
-			<class name="testCases.TC_FP_011_ResetPasswordRightColumnTest" />
-			<class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest" />
-			<class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
-			<class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
-			<class name="testCases.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
-			<class name="testCases.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
-			<class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
-			<class name="testCases.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
-			<class name="testCases.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
-			<class name="testCases.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
-			<class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
-			<class name="testCases.TC_FP_024_ResetPasswordHideVisibility" />
-			
+			<class name="testCases.ForgotPassword.TC_FP_001_ResetPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_002_ResetPasswordEmailTest" />
+			<class name="testCases.ForgotPassword.TC_FP_003_LoginWithResetedPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_004_LoginWithOldPasswordTest" />
+			<class name="testCases.ForgotPassword.TC_FP_005_NonregisteredPasswordResetTest" />
+			<class name="testCases.ForgotPassword.TC_FP_006_ResetPasswordLinkReuseTest" />
+			<class name="testCases.ForgotPassword.TC_FP_007_ResetPasswordFieldsTest" />
+			<class name="testCases.ForgotPassword.TC_FP_008_ResetPasswordFieldsPlaceholderTest" />
+			<class name="testCases.ForgotPassword.TC_FP_009_ResetPasswordFieldsEmptyInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_010_ResetPasswordLinkBacking" />
+			<class name="testCases.ForgotPassword.TC_FP_011_ResetPasswordRightColumnTest" />
+			<class name="testCases.ForgotPassword.TC_FP_012_ResetPasswordBreadscrumbTest" />
+			<class name="testCases.ForgotPassword.TC_FP_013_ResetPasswordHeadingTitleURLTest" />
+			<class name="testCases.ForgotPassword.TC_FP_015_ResetPasswordWithoutEmailInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_016_ForgottenPasswordEmailPlaceholderTest" />
+			<class name="testCases.ForgotPassword.TC_FP_017_ForgottenPasswordEmailMandatoryTest" />
+			<class name="testCases.ForgotPassword.TC_FP_018_ForgottenPasswordInvalidEmailInputTest" />
+			<class name="testCases.ForgotPassword.TC_FP_019_ForgottenPasswordBackingNavigationTest" />
+			<class name="testCases.ForgotPassword.TC_FP_020_ForgottenPasswordRightColumnOptionNavigationTest" />
+			<class name="testCases.ForgotPassword.TC_FP_021_ForgottenPasswordBreadcrumbTest" />
+			<class name="testCases.ForgotPassword.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest" />
+			<class name="testCases.ForgotPassword.TC_FP_024_ResetPasswordHideVisibility" />
+
 			<!--ForgotPassword cases-->
-			
+
+			<!--Search cases-->
+			<class name="testCases.Search.TC_SF_001_SearchExistingProductTest" />
+			<class name="testCases.Search.TC_SF_002_SearchNonExistingProductTest" />
+			<class name="testCases.Search.TC_SF_003_SearchEmptyTest" />
+			<class name="testCases.Search.TC_SF_004_SearchAfterLoginTest" />
+			<class name="testCases.Search.TC_SF_005_SearchMultipleExistingProductTest" />
+			<class name="testCases.Search.TC_SF_006_SearchInputPlaceholderTest" />
+			<class name="testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest" />
+			<class name="testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest" />
+			<class name="testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest" />
+			<class name="testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />
+			<class name="testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest" />
+			<class name="testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest" />
+			<class name="testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest" />
+			<class name="testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest" />
+			<class name="testCases.Search.TC_SF_013_ProductComparePageTest" />
+			<class name="testCases.Search.TC_SF_014_A_SearchProductSortTest" />
+			<class name="testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest" />
+			<class name="testCases.Search.TC_SF_016_SearchComponentVisibilityTest" />
+			<class name="testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest" />
+			<class name="testCases.Search.TC_SF_018_SearchPageBreadcrumbTest" />
+			<class name="testCases.Search.TC_SF_019_SearchWithKeyboardTest" />
+			<class name="testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest" />
+
+			<!--Search cases-->
 			
 			
 		</classes>

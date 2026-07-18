@@ -9,392 +9,58 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="forgot password"/>
+        <include name="search"/>
         <exclude name=""/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_FP_007_ResetPasswordFieldsTest">
-        <methods>
-          <include name="reset_password_passwordfields_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_007_ResetPasswordFieldsTest -->
-      <class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest">
+      <class name="testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="forgotten_password_invalid_email_input_validation"/>
+          <include name="validate_search_product_with_description_functionality"/>
         </methods>
-      </class> <!-- testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest -->
-      <class name="testCases.TC_FP_004_LoginWithOldPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_login_with_old_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_004_LoginWithOldPasswordTest -->
-      <class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_passwordfields_placeholder_validation"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest -->
-      <class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest">
-        <methods>
-          <include name="reset_password_heading_url_title_validate"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest -->
-      <class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest">
-        <methods>
-          <include name="reset_password_Breadscrumb_validate"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_012_ResetPasswordBreadscrumbTest -->
-      <class name="testCases.TC_FP_002_ResetPasswordEmailTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_reset_password_email"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_002_ResetPasswordEmailTest -->
-      <class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest">
-        <methods>
-          <include name="forgotten_password_loign_input_carry_over_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest -->
-      <class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="non_email_input_reset_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest -->
-      <class name="testCases.TC_FP_011_ResetPasswordRightColumnTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="reset_password_rightColumnOptions_validate"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_011_ResetPasswordRightColumnTest -->
-      <class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_link_resuse"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_006_ResetPasswordLinkReuseTest -->
-      <class name="testCases.TC_FP_010_ResetPasswordLinkBacking">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="reset_password_link_backing"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_010_ResetPasswordLinkBacking -->
-      <class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_empty_input_validation"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest -->
-      <class name="testCases.TC_FP_003_LoginWithResetedPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_login_with_new_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_003_LoginWithResetedPasswordTest -->
-      <class name="testCases.TC_FP_024_ResetPasswordHideVisibility">
-        <methods>
-          <include name="reset_password_visibility_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_024_ResetPasswordHideVisibility -->
-      <class name="testCases.TC_FP_001_ResetPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_function"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
-      <class name="testCases.TC_FP_005_NonregisteredPasswordResetTest">
-        <methods>
-          <include name="non_registration_account_reset_password"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_005_NonregisteredPasswordResetTest -->
+      </class> <!-- testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="3" parallel="tests" name="EdgeTest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
-    <groups>
-      <run>
-        <include name="forgot password"/>
-        <exclude name=""/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCases.TC_FP_007_ResetPasswordFieldsTest">
-        <methods>
-          <include name="reset_password_passwordfields_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_007_ResetPasswordFieldsTest -->
-      <class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="forgotten_password_invalid_email_input_validation"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest -->
-      <class name="testCases.TC_FP_004_LoginWithOldPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_login_with_old_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_004_LoginWithOldPasswordTest -->
-      <class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_passwordfields_placeholder_validation"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest -->
-      <class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest">
-        <methods>
-          <include name="reset_password_heading_url_title_validate"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest -->
-      <class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest">
-        <methods>
-          <include name="reset_password_Breadscrumb_validate"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_012_ResetPasswordBreadscrumbTest -->
-      <class name="testCases.TC_FP_002_ResetPasswordEmailTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_reset_password_email"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_002_ResetPasswordEmailTest -->
-      <class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest">
-        <methods>
-          <include name="forgotten_password_loign_input_carry_over_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest -->
-      <class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="non_email_input_reset_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest -->
-      <class name="testCases.TC_FP_011_ResetPasswordRightColumnTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="reset_password_rightColumnOptions_validate"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_011_ResetPasswordRightColumnTest -->
-      <class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_link_resuse"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_006_ResetPasswordLinkReuseTest -->
-      <class name="testCases.TC_FP_010_ResetPasswordLinkBacking">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="reset_password_link_backing"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_010_ResetPasswordLinkBacking -->
-      <class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_empty_input_validation"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest -->
-      <class name="testCases.TC_FP_003_LoginWithResetedPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_login_with_new_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_003_LoginWithResetedPasswordTest -->
-      <class name="testCases.TC_FP_024_ResetPasswordHideVisibility">
-        <methods>
-          <include name="reset_password_visibility_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_024_ResetPasswordHideVisibility -->
-      <class name="testCases.TC_FP_001_ResetPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_function"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
-      <class name="testCases.TC_FP_005_NonregisteredPasswordResetTest">
-        <methods>
-          <include name="non_registration_account_reset_password"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_005_NonregisteredPasswordResetTest -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
   <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="firefox"/>
     <groups>
       <run>
-        <include name="forgot password"/>
+        <include name="search"/>
         <exclude name=""/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_FP_007_ResetPasswordFieldsTest">
-        <methods>
-          <include name="reset_password_passwordfields_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_007_ResetPasswordFieldsTest -->
-      <class name="testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest">
+      <class name="testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="forgotten_password_invalid_email_input_validation"/>
+          <include name="validate_search_product_with_description_functionality"/>
         </methods>
-      </class> <!-- testCases.TC_FP_018_ForgottenPasswordInvalidEmailInputTest -->
-      <class name="testCases.TC_FP_004_LoginWithOldPasswordTest">
+      </class> <!-- testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest -->
+      <class name="testCases.Search.TC_SF_019_SearchWithKeyboardTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_login_with_old_password"/>
+          <include name="search_keyboard_actions"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_FP_004_LoginWithOldPasswordTest -->
-      <class name="testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest">
+      </class> <!-- testCases.Search.TC_SF_019_SearchWithKeyboardTest -->
+      <class name="testCases.Search.TC_SF_016_SearchComponentVisibilityTest">
         <methods>
           <include name="tearDown"/>
-          <include name="reset_password_passwordfields_placeholder_validation"/>
+          <include name="search_component_visibility"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_FP_008_ResetPasswordFieldsPlaceholderTest -->
-      <class name="testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest">
+      </class> <!-- testCases.Search.TC_SF_016_SearchComponentVisibilityTest -->
+      <class name="testCases.Search.TC_SF_014_A_SearchProductSortTest">
         <methods>
-          <include name="reset_password_heading_url_title_validate"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_013_ResetPasswordHeadingTitleURLTest -->
-      <class name="testCases.TC_FP_012_ResetPasswordBreadscrumbTest">
-        <methods>
-          <include name="reset_password_Breadscrumb_validate"/>
+          <include name="product_comparison_navigate"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_FP_012_ResetPasswordBreadscrumbTest -->
-      <class name="testCases.TC_FP_002_ResetPasswordEmailTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_reset_password_email"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_002_ResetPasswordEmailTest -->
-      <class name="testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest">
-        <methods>
-          <include name="forgotten_password_loign_input_carry_over_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_022_ForgottenPasswordLoginInputCarryOverTest -->
-      <class name="testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="non_email_input_reset_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_015_ResetPasswordWithoutEmailInputTest -->
-      <class name="testCases.TC_FP_011_ResetPasswordRightColumnTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="reset_password_rightColumnOptions_validate"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_011_ResetPasswordRightColumnTest -->
-      <class name="testCases.TC_FP_006_ResetPasswordLinkReuseTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_link_resuse"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_006_ResetPasswordLinkReuseTest -->
-      <class name="testCases.TC_FP_010_ResetPasswordLinkBacking">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="reset_password_link_backing"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_010_ResetPasswordLinkBacking -->
-      <class name="testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_empty_input_validation"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_009_ResetPasswordFieldsEmptyInputTest -->
-      <class name="testCases.TC_FP_003_LoginWithResetedPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_login_with_new_password"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_003_LoginWithResetedPasswordTest -->
-      <class name="testCases.TC_FP_024_ResetPasswordHideVisibility">
-        <methods>
-          <include name="reset_password_visibility_validation"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_024_ResetPasswordHideVisibility -->
-      <class name="testCases.TC_FP_001_ResetPasswordTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="reset_password_function"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_001_ResetPasswordTest -->
-      <class name="testCases.TC_FP_005_NonregisteredPasswordResetTest">
-        <methods>
-          <include name="non_registration_account_reset_password"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_FP_005_NonregisteredPasswordResetTest -->
+      </class> <!-- testCases.Search.TC_SF_014_A_SearchProductSortTest -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Cross Browsers Suite] -->
