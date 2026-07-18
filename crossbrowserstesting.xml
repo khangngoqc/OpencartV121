@@ -6,10 +6,12 @@
 		<run>
 			<!--<include name="login"></include>-->
 			<!--<include name="logout"></include>-->						
-			<include name="forgot password"></include>
+			<!--<include name="forgot password"></include>-->
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
 			<!--<include name="register"></include>-->
+			<include name="search"></include>
+
 
 			<exclude name=""></exclude>
 
