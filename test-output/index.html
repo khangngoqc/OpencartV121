@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-skipped">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-777248673\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\ADMIN\myworkspace\OpencartV121\grouping.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCases.Search.TC_SF_016_SearchComponentVisibilityTest" class="method navigator-link" hash-for-method="search_component_visibility">search_component_visibility</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" class="method navigator-link" hash-for-method="adding_product_to_compare">adding_product_to_compare</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,113 +117,141 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-skipped">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testCases.Search.TC_SF_016_SearchComponentVisibilityTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="search_component_visibility">
-                  </a> <!-- search_component_visibility -->
-                  <span class="method-name">search_component_visibility</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-777248673\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
+                  <a name="adding_product_to_compare">
+                  </a> <!-- adding_product_to_compare -->
+                  <span class="method-name">adding_product_to_compare</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-skipped -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-777248673\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ADMIN\myworkspace\OpencartV121\grouping.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;product compare&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;product compare&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_001_AccountRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_004_WarningMessageTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_007_RegisterAccountPageNavigatingTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_008_ConfirmPasswordTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_009_UsedEmailRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_010_InvalidEmailRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_011_InvalidPhoneNumberRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_012_KeyboardKeysRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_013_FieldsPlaceholderTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_014_RequiredMarkTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_016_SpaceInputRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_017_PasswordComplexityRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_020_PolicyCheckboxTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_022_PasswordFieldsCoveringTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_023_AccountRegistrationPageLinksTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_024_RegistrationWithoutConfirmPasswordTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_001_SearchExistingProductTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_002_SearchNonExistingProductTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_003_SearchEmptyTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_004_SearchAfterLoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_005_SearchMultipleExistingProductTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_006_SearchInputPlaceholderTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_013_ProductComparePageTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_014_A_SearchProductSortTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest&quot;/&gt;
       &lt;class name=&quot;testCases.Search.TC_SF_016_SearchComponentVisibilityTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_018_SearchPageBreadcrumbTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_019_SearchWithKeyboardTest&quot;/&gt;
+      &lt;class name=&quot;testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (42 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
               <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">search_component_visibility</span>
+                <span class="method-in-group-name">adding_product_to_compare</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">search</span>
+              <span class="test-group-name">product compare</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">search_component_visibility</span>
+                <span class="method-in-group-name">adding_product_to_compare</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -231,38 +259,339 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'search_component_visibility')
-data.setCell(0, 2, 'testCases.Search.TC_SF_016_SearchComponentVisibilityTest')
-data.setCell(0, 3, 0);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'adding_product_to_compare')
+data.setCell(0, 2, 'testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest')
+data.setCell(0, 3, 675);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 675 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">41 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_016_SearchComponentVisibilityTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">search_component_visibility</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_021_UncheckedPrivacyPolicyRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_registration_without_checking_privacy_policy_checkbox</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_008_ConfirmPasswordTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_different_confirm_password</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_001_SearchExistingProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_existing_product</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">access_search_page_from_sitemap</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_007_RegisterAccountPageNavigatingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_different_ways_of_navigating</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_016_SpaceInputRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_registration_with_space_input</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_019_LeadingTrailingSpacesTrimmingRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_account_registration_with_leading_trailing</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_024_RegistrationWithoutConfirmPasswordTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_registration_without_filling_passwordConfirm</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_020_PolicyCheckboxTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_policy_checkbox_status</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_005_SearchMultipleExistingProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_multiple_existing_product</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_product_with_description_functionality</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_013_ProductComparePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">product_comparison_navigate</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_018_SearchPageBreadcrumbTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">search_page_breadcrumb</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_011_InvalidPhoneNumberRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_registration_with_invalid_phone_number</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_single_search_result_grid_view</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">number_of_search_result_show</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_004_SearchAfterLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">search_after_login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">search_page_heading_title_url</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_022_PasswordFieldsCoveringTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_password_fields_is_hidden</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_001_AccountRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_account_registration</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_012_KeyboardKeysRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_registration_with_Keyboard</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_product_with_selecting_category</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_004_WarningMessageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_required_field_warning</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_014_RequiredMarkTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_required_field_asterisk</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_010_InvalidEmailRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_registration_with_invalid_email</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_025_BreadscrumbHeadingURLTitleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_breadcrumbs_heading_url_title</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_single_search_result_list_view</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_002_SearchNonExistingProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_non_existing_product</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_multiple_search_results_list_view</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_017_PasswordComplexityRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_password_complexity_standards</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_023_AccountRegistrationPageLinksTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_on_page_links</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_criteria_functionality</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_013_FieldsPlaceholderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_fields_placeholder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_multiple_search_results_Grid_view</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_product_with_selecting_subcategory</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_003_SearchEmptyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">empty_search</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_014_A_SearchProductSortTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">product_comparison_navigate</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_019_SearchWithKeyboardTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">search_keyboard_actions</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Register.TC_RF_009_UsedEmailRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_registration_with_used_email</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_006_SearchInputPlaceholderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_input_placeholder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">adding_product_to_compare</span>
+                <span class="method-start">3494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4186 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

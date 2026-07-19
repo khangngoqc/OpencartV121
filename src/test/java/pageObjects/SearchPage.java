@@ -283,8 +283,9 @@ public class SearchPage extends BasePage {
         addToWishListBtn.click();
     }
 
-    public void clickCompareToThisProduct() {
+    public ProductComparePage clickCompareToThisProduct() {
         compareThisProductBtn.click();
+        return new ProductComparePage();
     }
 
     public ProductComparePage clickProductCompareLink() {
@@ -415,6 +416,20 @@ public class SearchPage extends BasePage {
         }
 
         return true;
+    }
+    
+    public boolean isProductCompareBtnHoveringWork() {
+    	boolean display = compareThisProductBtn.isDisplayed();
+    	boolean tooltip = compareThisProductBtn.getAttribute("data-toggle").equals("tooltip");
+    	
+    	return display && tooltip;
+    }
+    
+    public boolean isProductCompareAlertBannerWork(String productName) {
+    	click(compareThisProductBtn);
+    	//System.out.println(getAlertBannerText());
+    	boolean isCorrectBannerDisplayed = getAlertBannerText().contains("Success: You have added "+ productName +" to your product comparison!");
+    	return isCorrectBannerDisplayed;
     }
 
 }

@@ -3979,3 +3979,14 @@ Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 1
 Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 12:46:43.483 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
 12:47:35.307 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:57:56.698 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Starting TC_SF_016_SearchComponentVisibilityTest *******
+12:58:39.163 [main] INFO  testCases.Search.TC_SF_016_SearchComponentVisibilityTest - ******* Finished TC_SF_016_SearchComponentVisibilityTest *******
+12:58:42.581 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Starting TC_SF_018_SearchPageBreadcrumbTest *******
+12:58:44.897 [main] INFO  testCases.Search.TC_SF_019_SearchWithKeyboardTest - ******* Finished TC_SF_017_SearchPageSiteMapNavigationTest *******
+12:58:48.328 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Starting TC_SF_020_SearchPageHeadingURLTitleTest *******
+12:58:52.635 [main] INFO  testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest - ******* Finished TC_SF_020_SearchPageHeadingURLTitleTest *******
+20:55:40.548 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+20:57:10.473 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:00:32.422 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:01:15.519 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:01:16.186 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***

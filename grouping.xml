@@ -6,10 +6,12 @@
 			<!--<include name="login"></include>-->
 			<!--<include name="logout"></include>-->
 			<!--<include name="forgot password"></include>-->
-			<include name="search"></include>
+			<!--<include name="search"></include>-->
 			<!--<include name="Sanity"></include>-->
 			<!--<include name="Regression"></include>-->
 			<!--<include name="register"></include>-->
+			<include name="product compare"></include>
+
 
 		</run>
 	</groups>
@@ -107,7 +109,7 @@
 			<!--ForgotPassword cases-->
 			
 			<!--Search cases-->
-			<!--<class name="testCases.Search.TC_SF_001_SearchExistingProductTest" />
+			<class name="testCases.Search.TC_SF_001_SearchExistingProductTest" />
 			<class name="testCases.Search.TC_SF_002_SearchNonExistingProductTest" />
 			<class name="testCases.Search.TC_SF_003_SearchEmptyTest" />
 			<class name="testCases.Search.TC_SF_004_SearchAfterLoginTest" />
@@ -123,13 +125,21 @@
 			<class name="testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest" />
 			<class name="testCases.Search.TC_SF_013_ProductComparePageTest" />
 			<class name="testCases.Search.TC_SF_014_A_SearchProductSortTest" />
-			<class name="testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest" />-->
+			<class name="testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest" />
 			<class name="testCases.Search.TC_SF_016_SearchComponentVisibilityTest" />
-			<!--<class name="testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest" />
-			<class name="testCases.Search.TC_SF_018_SearchPageBreadcrumbTest" />-->
-			<!--<class name="testCases.Search.TC_SF_019_SearchWithKeyboardTest" />
-			<class name="testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest" />-->
+			<class name="testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest" />
+			<class name="testCases.Search.TC_SF_018_SearchPageBreadcrumbTest" />
+			<class name="testCases.Search.TC_SF_019_SearchWithKeyboardTest" />
+			<class name="testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest" />
 			<!--Search cases-->
+			
+			<!--ProductComapare cases-->
+			<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
+
+			<!--ProductComapare cases-->
+			
+			
+			
 		
 		</classes>
 		
