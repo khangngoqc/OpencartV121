@@ -3990,3 +3990,7 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 21:00:32.422 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
 21:01:15.519 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
 21:01:16.186 [main] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+16:47:47.494 [main] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+16:47:48.098 [main] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+16:47:50.529 [main] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+16:47:51.085 [main] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
