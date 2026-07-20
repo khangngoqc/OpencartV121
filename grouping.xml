@@ -134,7 +134,9 @@
 			<!--Search cases-->
 			
 			<!--ProductComapare cases-->
-			<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
+			<!--<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest" />
+			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />
 
 			<!--ProductComapare cases-->
 			
