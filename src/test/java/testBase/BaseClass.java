@@ -126,6 +126,7 @@ public class BaseClass {
 
 		// launch the website
 		getDriver().get(p.getProperty("appURL")); // reading URL from properties file
+		getDriver().manage().window().maximize();
 
 		// Action class object
 		act = new Actions(getDriver());
@@ -169,7 +170,7 @@ public class BaseClass {
 		TakesScreenshot takesScreenShot = (TakesScreenshot) getDriver();
 		File srcFile = takesScreenShot.getScreenshotAs(OutputType.FILE);
 
-		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		String targetFilePath = System.getProperty("user.dir") + "/screenshots/" + tname + "_" + timeStamp + ".png";
 		File targetFile = new File(targetFilePath);
 
 		srcFile.renameTo(targetFile);
