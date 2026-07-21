@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,6 +12,8 @@ import java.util.Objects;
 
 public class BasePage extends BaseClass{
 
+	Actions act = new Actions(getDriver());
+
 	public BasePage() {
 		PageFactory.initElements(getDriver(), this);
 	}
@@ -18,6 +21,8 @@ public class BasePage extends BaseClass{
 	@FindBy(xpath ="//div[@id='search']") WebElement searchComponent;
 	@FindBy(xpath = "//div[@class='row']//ul//a[contains(.,'Site Map')]") WebElement SiteMapLink;
 	@FindBy(xpath = "//div[@id='content']//h1") WebElement pageHeading;
+	@FindBy(xpath = "//a[normalize-space()='Desktops']") WebElement navBarDesktopMenu;
+	@FindBy(xpath = "//a[normalize-space()='Show AllDesktops']") WebElement showAllDesktopsMenuItem;
 
 	public SiteMapPage clickSiteMapLink(){
 		SiteMapLink.click();
@@ -73,6 +78,16 @@ public class BasePage extends BaseClass{
 		//System.out.println(getDriver().getCurrentUrl());
 		return getDriver().getCurrentUrl().contains(urlKeyword.toLowerCase());
 	}
+
+	public void hoverNavBarDesktop(){
+		act.moveToElement(navBarDesktopMenu).perform();
+	}
+
+	public DesktopsPage clickShowAllDesktopFromNavBarDesktopMenu(){
+		click(showAllDesktopsMenuItem);
+		return new DesktopsPage();
+	}
+
 
 
 }
