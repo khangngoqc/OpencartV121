@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest">
+      <class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest">
         <methods>
+          <include name="adding_product_to_compare_product_display_page_related_product"/>
           <include name="tearDown"/>
-          <include name="adding_product_to_compare"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest -->
+      </class> <!-- testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

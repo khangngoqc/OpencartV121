@@ -69,36 +69,35 @@ public class SearchPage extends BasePage {
     @FindBy(xpath = "(//div[@class='caption']//h4//a)[1]")
     WebElement firstSearchProductTitle;
 
-    public boolean isSearchProductExist(String productName) {
 
-        try {
-
-            for (WebElement element : searchProductTitles) {
-                if (element.getText().contains(productName)) {
-                    return true;
-                }
-            }
-            return false;
-
-        } catch (Exception e) {
-            // TODO: handle exception
-            return false;
-        }
-
-    }
-
+    //actions
+    
     public void clickListViewBtn() {
-        listViewBtn.click();
+    	click(listViewBtn);
     }
 
     public void clickGridViewBtn() {
-        gridViewBtn.click();
+    	click(gridViewBtn);
+    }
+    
+    public void clickAddToCart() {
+        addToCartBtn.click();
     }
 
-    public boolean isResultMessageDiplayed() {
-        return isDisplay(resultMessage);
+    public void clickAddToWishList() {
+        addToWishListBtn.click();
     }
 
+    public ProductComparePage clickCompareToThisProduct() {
+        compareThisProductBtn.click();
+        return new ProductComparePage();
+    }
+
+    public ProductComparePage clickProductCompareLink() {
+        compareProductLink.click();
+        return new ProductComparePage();
+    }
+    
     public int searchProductCount() {
         return searchProductTitles.size();
     }
@@ -135,6 +134,30 @@ public class SearchPage extends BasePage {
     public void selectSortByDropdown(String option) {
         Select dropdown = new Select(sortByDropdown);
         dropdown.selectByContainsVisibleText(option);
+    }
+    
+    
+    //validations
+    public boolean isResultMessageDiplayed() {
+        return isDisplay(resultMessage);
+    }
+    
+    public boolean isSearchProductExist(String productName) {
+
+        try {
+
+            for (WebElement element : searchProductTitles) {
+                if (element.getText().contains(productName)) {
+                    return true;
+                }
+            }
+            return false;
+
+        } catch (Exception e) {
+            // TODO: handle exception
+            return false;
+        }
+
     }
 
     public boolean isProductTitlesSortedAtoZ() {
@@ -275,23 +298,6 @@ public class SearchPage extends BasePage {
         return true;
     }
 
-    public void clickAddToCart() {
-        addToCartBtn.click();
-    }
-
-    public void clickAddToWishList() {
-        addToWishListBtn.click();
-    }
-
-    public ProductComparePage clickCompareToThisProduct() {
-        compareThisProductBtn.click();
-        return new ProductComparePage();
-    }
-
-    public ProductComparePage clickProductCompareLink() {
-        compareProductLink.click();
-        return new ProductComparePage();
-    }
 
     public boolean isAlertBannerDisplayed() {
         return alertBanner.isDisplayed();

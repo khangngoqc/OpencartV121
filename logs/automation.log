@@ -4048,3 +4048,11 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 15:27:15.439 [main] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
 15:27:19.517 [main] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
 15:27:23.372 [main] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+22:19:26.544 [main] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+22:19:30.586 [main] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+22:19:34.133 [main] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+22:19:38.215 [main] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+20:59:35.106 [main] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:05:17.833 [main] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:07:58.752 [main] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:08:03.342 [main] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***

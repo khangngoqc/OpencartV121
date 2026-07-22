@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest">
+      <class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="adding_product_to_compare"/>
+          <include name="adding_product_to_compare_grid_view_category"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest -->
+      </class> <!-- testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

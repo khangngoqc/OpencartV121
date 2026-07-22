@@ -13,7 +13,7 @@ public class DesktopsPage extends BasePage {
 
     @FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
     WebElement alertBanner;
-
+    
     @FindBy(xpath = "//a[@id='compare-total']")
     WebElement productComapreLink;
 
