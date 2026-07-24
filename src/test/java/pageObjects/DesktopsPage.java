@@ -15,7 +15,7 @@ public class DesktopsPage extends BasePage {
     WebElement alertBanner;
     
     @FindBy(xpath = "//a[@id='compare-total']")
-    WebElement productComapreLink;
+    WebElement productCompareLink;
 
     @FindBy(xpath = "//button[@id='list-view']")
     WebElement listViewBtn;
@@ -43,8 +43,8 @@ public class DesktopsPage extends BasePage {
         click(compareThisProductBtn);
     }
 
-    public ProductComparePage clickCompareProductLink() {
-        click(compareThisProductBtn);
+    public ProductComparePage clickProductCompareLink() {
+        click(productCompareLink);
         return new ProductComparePage();
     }
 

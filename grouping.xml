@@ -136,11 +136,14 @@
 			<!--ProductComapare cases-->
 			<!--<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
 			<class name="testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />
+			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />-->
 			<class name="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest" />-->
-			<class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest" />
-
+			<class name="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest" />
+			<!--<class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest" />
+			<class name="testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest" />
+			<class name="testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest" />
+			
 			<!--ProductComapare cases-->
 			
 			

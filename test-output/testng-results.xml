@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="41" total="42" passed="1" failed="0" skipped="0">
+<testng-results ignored="41" total="44" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-22T21:07:53 GMT+07:00" name="Suite" finished-at="2026-07-22T21:08:03 GMT+07:00" duration-ms="10125">
+  <suite started-at="2026-07-24T22:11:14 GMT+07:00" name="Suite" finished-at="2026-07-24T22:11:35 GMT+07:00" duration-ms="20843">
     <groups>
       <group name="product compare">
-        <method signature="TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest.adding_product_to_compare_product_display_page_related_product()[pri:0, instance:testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest@313ac989]" name="adding_product_to_compare_product_display_page_related_product" class="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest"/>
+        <method signature="TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest.adding_product_to_compare_list_view_category()[pri:0, instance:testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest@2a65fe7c]" name="adding_product_to_compare_list_view_category" class="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest"/>
+        <method signature="TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest.adding_product_to_compare_grid_view_category()[pri:0, instance:testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest@4135c3b]" name="adding_product_to_compare_grid_view_category" class="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest"/>
+        <method signature="TC_PC_009_ProductComparePageProductCategoryPageNavigationTest.adding_product_to_compare_homepage_featured_section()[pri:0, instance:testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest@6302bbb1]" name="adding_product_to_compare_homepage_featured_section" class="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest"/>
       </group> <!-- product compare -->
       <group name="master">
-        <method signature="TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest.adding_product_to_compare_product_display_page_related_product()[pri:0, instance:testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest@313ac989]" name="adding_product_to_compare_product_display_page_related_product" class="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest"/>
+        <method signature="TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest.adding_product_to_compare_list_view_category()[pri:0, instance:testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest@2a65fe7c]" name="adding_product_to_compare_list_view_category" class="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest"/>
+        <method signature="TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest.adding_product_to_compare_grid_view_category()[pri:0, instance:testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest@4135c3b]" name="adding_product_to_compare_grid_view_category" class="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest"/>
+        <method signature="TC_PC_009_ProductComparePageProductCategoryPageNavigationTest.adding_product_to_compare_homepage_featured_section()[pri:0, instance:testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest@6302bbb1]" name="adding_product_to_compare_homepage_featured_section" class="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-07-22T21:07:53 GMT+07:00" name="Test" finished-at="2026-07-22T21:08:03 GMT+07:00" duration-ms="10125">
-      <class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest@313ac989]" started-at="2026-07-22T21:07:53 GMT+07:00" name="setup" finished-at="2026-07-22T21:07:58 GMT+07:00" duration-ms="4763" status="PASS">
+    <test started-at="2026-07-24T22:11:14 GMT+07:00" name="Test" finished-at="2026-07-24T22:11:35 GMT+07:00" duration-ms="20843">
+      <class name="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest@6302bbb1]" started-at="2026-07-24T22:11:30 GMT+07:00" name="setup" finished-at="2026-07-24T22:11:33 GMT+07:00" duration-ms="2888" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +33,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="adding_product_to_compare_product_display_page_related_product()[pri:0, instance:testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest@313ac989]" started-at="2026-07-22T21:07:58 GMT+07:00" name="adding_product_to_compare_product_display_page_related_product" finished-at="2026-07-22T21:08:03 GMT+07:00" duration-ms="4607" status="PASS">
+        <test-method signature="adding_product_to_compare_homepage_featured_section()[pri:0, instance:testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest@6302bbb1]" started-at="2026-07-24T22:11:33 GMT+07:00" name="adding_product_to_compare_homepage_featured_section" finished-at="2026-07-24T22:11:34 GMT+07:00" duration-ms="1157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- adding_product_to_compare_product_display_page_related_product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest@313ac989]" started-at="2026-07-22T21:08:03 GMT+07:00" name="tearDown" finished-at="2026-07-22T21:08:03 GMT+07:00" duration-ms="576" status="PASS">
+        </test-method> <!-- adding_product_to_compare_homepage_featured_section -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest@6302bbb1]" started-at="2026-07-24T22:11:34 GMT+07:00" name="tearDown" finished-at="2026-07-24T22:11:35 GMT+07:00" duration-ms="549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest -->
+      </class> <!-- testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest -->
+      <class name="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest@2a65fe7c]" started-at="2026-07-24T22:11:14 GMT+07:00" name="setup" finished-at="2026-07-24T22:11:18 GMT+07:00" duration-ms="3764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="adding_product_to_compare_list_view_category()[pri:0, instance:testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest@2a65fe7c]" started-at="2026-07-24T22:11:18 GMT+07:00" name="adding_product_to_compare_list_view_category" finished-at="2026-07-24T22:11:22 GMT+07:00" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_product_to_compare_list_view_category -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest@2a65fe7c]" started-at="2026-07-24T22:11:22 GMT+07:00" name="tearDown" finished-at="2026-07-24T22:11:22 GMT+07:00" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest -->
+      <class name="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest@4135c3b]" started-at="2026-07-24T22:11:22 GMT+07:00" name="setup" finished-at="2026-07-24T22:11:25 GMT+07:00" duration-ms="2845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="adding_product_to_compare_grid_view_category()[pri:0, instance:testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest@4135c3b]" started-at="2026-07-24T22:11:25 GMT+07:00" name="adding_product_to_compare_grid_view_category" finished-at="2026-07-24T22:11:29 GMT+07:00" duration-ms="4126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_product_to_compare_grid_view_category -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest@4135c3b]" started-at="2026-07-24T22:11:29 GMT+07:00" name="tearDown" finished-at="2026-07-24T22:11:30 GMT+07:00" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

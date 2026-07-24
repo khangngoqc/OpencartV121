@@ -29,10 +29,12 @@ public class TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest e
 			dp.clickCompareThisProductBtn();
 			Assert.assertTrue(dp.isCompareThisProductAlertDisplayed_FirstProduct(), "Failed to dislpay alert banner!");
 			
-			ProductComparePage pc = dp.clickCompareProductLink();
+			String firstProductTitle = dp.getFirstProductTitle();
 			
-			Assert.assertTrue(dp.getDriver().getPageSource().contains(dp.getFirstProductTitle()), "Failed to navigate to Product Compare page!");
+			ProductComparePage pc = dp.clickProductCompareLink();
 			
+			Assert.assertTrue(dp.getDriver().getPageSource().contains(firstProductTitle), "Failed to navigate to Product Compare page!");
+						
 			
 		} catch (Exception e) {
 			
