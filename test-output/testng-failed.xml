@@ -13,20 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest">
+      <class name="testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="adding_product_to_compare_list_view_category"/>
+          <include name="validate_product_comparison_breadcrumb"/>
         </methods>
-      </class> <!-- testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest -->
-      <class name="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest">
-        <methods>
-          <include name="adding_product_to_compare_grid_view_category"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest -->
+      </class> <!-- testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

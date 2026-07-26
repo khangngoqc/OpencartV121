@@ -10,14 +10,12 @@ import pageObjects.ProductDisplayPage;
 import pageObjects.SearchPage;
 import testBase.BaseClass;
 
-public class TC_PC_009_ProductComparePageProductCategoryPageNavigationTest extends BaseClass{
+public class TC_PC_012_ProductCompareBreadcrumbTest extends BaseClass{
 	
 	@Test(groups = {"product compare", "master"})
-	void product_compare_page_navigation_product_category_page() {
+	void validate_product_comparison_breadcrumb() {
 		
-		logger.info("***Starting TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***");
-
-		String searchInput = "iMac";
+		logger.info("***Starting TC_PC_012_ProductCompareBreadcrumbTest ***");
  
 		try {
 			
@@ -27,9 +25,10 @@ public class TC_PC_009_ProductComparePageProductCategoryPageNavigationTest exten
 			
 			ProductComparePage pc = dp.clickProductCompareLink();
 			
+			
 			Thread.sleep(500);
 		
-			Assert.assertTrue(pc.getPageTitle().contains("Product Comparison"), "Failed to navigate to Product Compare page!");
+			Assert.assertTrue(pc.isBreadcrumbWork(), "Breadcrumb test failed");
 			
 			
 		} catch (Exception e) {
@@ -38,7 +37,7 @@ public class TC_PC_009_ProductComparePageProductCategoryPageNavigationTest exten
 		
 		}
 		
-		logger.info("***Finished TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***");
+		logger.info("***Finished TC_PC_012_ProductCompareBreadcrumbTest ***");
 
 		
 	}
