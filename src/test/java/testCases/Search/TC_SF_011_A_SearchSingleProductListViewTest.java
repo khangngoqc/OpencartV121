@@ -42,7 +42,7 @@ public class TC_SF_011_A_SearchSingleProductListViewTest extends BaseClass {
 			
 			sp.refreshPage();
 			
-			sp.clickCompareToThisProduct();
+			sp.clickCompareThisProductBtn();
 			Assert.assertTrue(sp.isAlertBannerDisplayed(), "Compare this product button should work normally in List view.");
 			Assert.assertTrue(sp.getAlertBannerText().contains("Success: You have added"), "Compare this product button should work normally in List view.");
 			

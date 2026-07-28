@@ -47,7 +47,7 @@ public class TC_SF_012_B_SearchMultipleProductGridViewTest extends BaseClass {
 			
 			sp.refreshPage();
 			
-			sp.clickCompareToThisProduct();
+			sp.clickCompareThisProductBtn();
 			Assert.assertTrue(sp.isAlertBannerDisplayed(), "Compare this product button should work normally in Grid view.");
 			Assert.assertTrue(sp.getAlertBannerText().contains("Success: You have added"), "Compare this product button should work normally in Grid view.");
 			

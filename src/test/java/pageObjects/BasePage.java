@@ -18,12 +18,18 @@ public class BasePage extends BaseClass{
 		PageFactory.initElements(getDriver(), this);
 	}
 
+	@FindBy(xpath = "//input[@placeholder='Search']")
+	WebElement searchTxtBox;
+	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
+	WebElement searchBtn;
+
 	@FindBy(xpath ="//div[@id='search']") WebElement searchComponent;
 	@FindBy(xpath = "//div[@class='row']//ul//a[contains(.,'Site Map')]") WebElement SiteMapLink;
 	@FindBy(xpath = "//div[@id='content']//h1") WebElement pageHeading;
 	@FindBy(xpath = "//a[normalize-space()='Desktops']") WebElement navBarDesktopMenu;
 	@FindBy(xpath = "//a[normalize-space()='Show AllDesktops']") WebElement showAllDesktopsMenuItem;
 
+	//actions
 	public SiteMapPage clickSiteMapLink(){
 		SiteMapLink.click();
 		return new SiteMapPage();
@@ -33,8 +39,16 @@ public class BasePage extends BaseClass{
 		ele.click();
 	}
 
+	public void setSearchInput(String keyword){
+		searchTxtBox.clear();
+		searchTxtBox.sendKeys(keyword);
+	}
+	public SearchPage clickSearchBtn(){
+		click(searchBtn);
+		return new SearchPage();
+	}
 
-
+	//getters
 	public String getPageTitle() {
 		return getDriver().getTitle();
 	}
@@ -60,6 +74,7 @@ public class BasePage extends BaseClass{
 		getDriver().navigate().back();
 	}
 
+	//validations
 	public boolean isSearchComponentDisplay(){
 
 		return isDisplay(searchComponent);

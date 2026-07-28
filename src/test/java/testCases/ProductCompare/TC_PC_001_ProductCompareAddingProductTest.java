@@ -23,7 +23,7 @@ public class TC_PC_001_ProductCompareAddingProductTest extends BaseClass{
 			HomePage hp = new HomePage();
 			hp.setSearchInput(searchInput);
 			SearchPage sp = hp.clickSearch();
-			sp.clickCompareToThisProduct();
+			sp.clickCompareThisProductBtn();
 			
 			Assert.assertTrue(sp.isProductCompareBtnHoveringWork(), "Failed to dislpay button tooltip!");
 			Assert.assertTrue(sp.isProductCompareAlertBannerWork(searchInput), "Failed to dislpay alert banner!");

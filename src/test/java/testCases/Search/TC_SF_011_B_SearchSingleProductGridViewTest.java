@@ -41,7 +41,7 @@ public class TC_SF_011_B_SearchSingleProductGridViewTest extends BaseClass {
 			
 			sp.refreshPage();
 			
-			sp.clickCompareToThisProduct();
+			sp.clickCompareThisProductBtn();
 			Assert.assertTrue(sp.isAlertBannerDisplayed(), "Compare this product button should work normally in List view.");
 			Assert.assertTrue(sp.getAlertBannerText().contains("Success: You have added") && sp.isCompareProductLinkDisplayed(), "Compare this product button should work normally in List view.");
 			
