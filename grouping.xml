@@ -144,9 +144,12 @@
 			<class name="testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest" />
 			<class name="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest" />
 			<class name="testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest" />
 			<class name="testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest" />
-			
+			<class name="testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest" />
+			<class name="testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest" />
+
 			<!--ProductComapare cases-->
 			
 			

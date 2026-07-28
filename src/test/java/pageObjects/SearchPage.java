@@ -26,6 +26,9 @@ public class SearchPage extends BasePage {
 
     @FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
     WebElement alertBanner;
+    @FindBy(xpath ="(//div[@class='alert alert-success alert-dismissible']//a)[1]") WebElement alertProductLink;
+    @FindBy(xpath ="(//div[@class='alert alert-success alert-dismissible']//a)[2]") WebElement alertProductComparisonLink;
+
 
     @FindBy(xpath = "//div[@class='caption']//h4//a")
     List<WebElement> searchProductTitles;
@@ -40,7 +43,7 @@ public class SearchPage extends BasePage {
     WebElement addToCartBtn;
     @FindBy(xpath = "//button[@data-original-title='Add to Wish List'][1]")
     WebElement addToWishListBtn;
-    @FindBy(xpath = "//button[@data-original-title='Compare this Product'][1]")
+    @FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[1]")
     WebElement compareThisProductBtn;
 
     @FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]")
@@ -49,7 +52,7 @@ public class SearchPage extends BasePage {
     @FindBy(xpath = "//input[@id='input-search']")
     WebElement searchCriteriaTxtbox;
     @FindBy(xpath = "//input[@id='button-search']")
-    WebElement searchBtn;
+    WebElement criteriaSearchBtn;
     @FindBy(xpath = "//select[@name='category_id']")
     WebElement categoryDropdown;
     @FindBy(xpath = "//input[@name='sub_category']")
@@ -88,9 +91,8 @@ public class SearchPage extends BasePage {
         addToWishListBtn.click();
     }
 
-    public ProductComparePage clickCompareToThisProduct() {
+    public void clickCompareThisProductBtn() {
         compareThisProductBtn.click();
-        return new ProductComparePage();
     }
 
     public ProductComparePage clickProductCompareLink() {
@@ -114,8 +116,8 @@ public class SearchPage extends BasePage {
         searchCriteriaTxtbox.sendKeys(keyword);
     }
 
-    public void clickSearchBtn() {
-        searchBtn.click();
+    public void clickCriteriaSearchBtn() {
+        criteriaSearchBtn.click();
     }
 
     public void selectCategory(String category) {
@@ -436,6 +438,18 @@ public class SearchPage extends BasePage {
     	//System.out.println(getAlertBannerText());
     	boolean isCorrectBannerDisplayed = getAlertBannerText().contains("Success: You have added "+ productName +" to your product comparison!");
     	return isCorrectBannerDisplayed;
+    }
+
+    public boolean isAlertProductLinkWork(){
+        String productName = alertProductLink.getText();
+        click(alertProductLink);
+        return getDriver().getTitle().contains(productName);
+    }
+
+    public boolean isAlertProductComparisonLinkWork(){
+        click(compareThisProductBtn);
+        click(alertProductComparisonLink);
+        return getDriver().getTitle().contains("Comparison");
     }
 
 }

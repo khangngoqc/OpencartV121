@@ -20,6 +20,11 @@ public class ProductComparePage extends BasePage {
 	@FindBy(xpath = "//a[normalize-space()='Continue']")
 	WebElement continueBtn;
 
+	@FindBy(xpath="//table") WebElement compareTable;
+	@FindBy(xpath="//td[normalize-space()='Product']/following-sibling::td") List<WebElement> comparedProducts;
+	@FindBy(xpath="(//input[@value='Add to Cart'])[1]") WebElement addToCartBtn;
+	@FindBy(xpath="(//a[contains(text(),'Remove')])[1]") WebElement removeBtn;
+
 	public boolean isNonProductAddedMessageDisplayed() {
 		return isDisplay(nonProductAddedMessage);
 	}
@@ -66,4 +71,24 @@ public class ProductComparePage extends BasePage {
 		return true;
 
 	}
+
+	public boolean isNProductAdded(int numberOfProduct){
+		System.out.println(isDisplay(compareTable));
+		System.out.println((comparedProducts.size() == numberOfProduct) + " " +comparedProducts.size());
+		System.out.println(isDisplay(addToCartBtn));
+		System.out.println(isDisplay(removeBtn));
+		return isDisplay(compareTable) && (comparedProducts.size() == numberOfProduct) && isDisplay(addToCartBtn) && isDisplay(removeBtn);
+	}
+
+	//getters
+	public int getComparedProductsCount(){
+		try{
+			return comparedProducts.size();
+
+		}catch(NullPointerException e){
+			return 0;
+		}
+	}
+
+
 }
