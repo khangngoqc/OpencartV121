@@ -4111,3 +4111,9 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 16:12:22.280 [main] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Starting TC_PC_015_ProductCompareTwoProductAddedTest ***
 16:21:17.587 [main] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Starting TC_PC_015_ProductCompareTwoProductAddedTest ***
 16:21:20.489 [main] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Finished TC_PC_015_ProductCompareTwoProductAddedTest ***
+15:03:55.701 [main] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Starting TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+15:03:57.967 [main] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Finished TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+17:31:51.064 [main] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Starting TC_PC_017_ProductCompareThreeProductAddedTest ***
+17:31:54.254 [main] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Finished TC_PC_017_ProductCompareThreeProductAddedTest ***
+19:21:43.379 [main] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Starting TC_PC_018_ProductCompareFourProductsAddedTest ***
+19:21:47.432 [main] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Finished TC_PC_018_ProductCompareFourProductsAddedTest ***

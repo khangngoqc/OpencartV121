@@ -74,6 +74,10 @@ public class SearchPage extends BasePage {
 
 
     //actions
+    public ProductComparePage clickAlertProductComparisonLink(){
+        click(alertProductComparisonLink);
+        return new ProductComparePage();
+    }
     
     public void clickListViewBtn() {
     	click(listViewBtn);
