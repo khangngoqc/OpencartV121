@@ -133,7 +133,7 @@
 			<class name="testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest" />
 			<!--Search cases-->
 			
-			<!--ProductComapare cases-->
+			<!--ProductCompare cases-->
 			<!--<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
 			<class name="testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest" />
 			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />
@@ -147,10 +147,13 @@
 			<class name="testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest" />
 			<class name="testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest" />
 			<class name="testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest" />
-			<class name="testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest" />
 			<class name="testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest" />
+			<class name="testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest" />
+			<class name="testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest" />
 
-			<!--ProductComapare cases-->
+			<!--ProductCompare cases-->
 			
 			
 			
