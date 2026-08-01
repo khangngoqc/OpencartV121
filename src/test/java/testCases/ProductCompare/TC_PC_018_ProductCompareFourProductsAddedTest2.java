@@ -8,7 +8,7 @@ import pageObjects.ProductComparePage;
 import pageObjects.SearchPage;
 import testBase.BaseClass;
 
-public class TC_PC_018_ProductCompareFourProductsAddedTest extends BaseClass{
+public class TC_PC_018_ProductCompareFourProductsAddedTest2 extends BaseClass{
 	
 	@Test(groups = {"product compare", "master"})
 	void validate_product_comparison_add_two_product() {
@@ -33,20 +33,20 @@ public class TC_PC_018_ProductCompareFourProductsAddedTest extends BaseClass{
 			Thread.sleep(500);
 			sp.setSearchInput(searchKeyword2);
 			sp.clickSearchBtn();
-
 			sp.clickCompareThisProductBtn();
+			
 			Thread.sleep(500);
 
 			sp.setSearchInput(searchKeyword3);
 			sp.clickSearchBtn();
-
 			sp.clickCompareThisProductBtn();
+			
 			Thread.sleep(500);
 
 			sp.setSearchInput(searchKeyword4);
 			sp.clickSearchBtn();
-
 			sp.clickCompareThisProductBtn();
+			
 			Thread.sleep(500);
 
 

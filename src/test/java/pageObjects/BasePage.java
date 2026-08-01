@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import testBase.BaseClass;
 
+import java.util.List;
 import java.util.Objects;
 
 public class BasePage extends BaseClass{
@@ -18,6 +19,9 @@ public class BasePage extends BaseClass{
 		PageFactory.initElements(getDriver(), this);
 	}
 
+	@FindBy(xpath = "//div[@id='cart']//button[@data-toggle='dropdown']") WebElement cartBtn;
+	@FindBy(xpath = "//ul[@class='dropdown-menu pull-right']//td[2]//a") List <WebElement> cartProductNames; 
+	
 	@FindBy(xpath = "//input[@placeholder='Search']")
 	WebElement searchTxtBox;
 	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
@@ -46,6 +50,10 @@ public class BasePage extends BaseClass{
 	public SearchPage clickSearchBtn(){
 		click(searchBtn);
 		return new SearchPage();
+	}
+	
+	public void clickCartBtn() {
+		click(cartBtn);
 	}
 
 	//getters

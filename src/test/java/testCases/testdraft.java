@@ -33,32 +33,16 @@ public class testdraft {
 
 		WebDriver driver = new ChromeDriver();
 		driver.get(
-				"https://tutorialsninja.com/demo/index.php?route=product/search&sort=p.sort_order&order=ASC&search=mac");
+				"https://tutorialsninja.com/demo/index.php?route=product/compare");
+		
+		driver.findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
 
-		List<WebElement> productTitlesList = driver.findElements(By.xpath("//div[@class='caption']//h4/a"));
-		List<WebElement> priceList = driver.findElements(By.xpath("//p[@class='price']"));
+		List<WebElement> cartProductNames = driver.findElements(By.xpath("//div[@class='caption']//h4/a"));
+		
+		
+	
 
-		List<String> productCodeList = new ArrayList<>();
-
-		for (WebElement e : productTitlesList) {
-
-			e.click();
-			String desc = driver.findElement(By.xpath("//li[contains(normalize-space(),'Product Code')]")).getText();
-			String productCode = desc.split(":")[1].trim();
-			productCodeList.add(productCode);
-			// System.out.println(productCode);
-			driver.navigate().back();
-
-		}
-
-		System.out.println(productCodeList.toString());
-
-
-		boolean isSorted = isSortedStringAtoZ(productCodeList);
-
-		System.out.println(isSorted);
-
-		driver.quit();
+		//driver.quit();
 
 	}
 

@@ -150,8 +150,11 @@
 			<class name="testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest" />
 			<class name="testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest" />
 			<class name="testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest" />
-			<class name="testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest" />-->
-			<class name="testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest" />
+			<class name="testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest" />
+			<class name="testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest" />
+			<class name="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest" />
+			<class name="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest" />
 
 			<!--ProductCompare cases-->
 			
