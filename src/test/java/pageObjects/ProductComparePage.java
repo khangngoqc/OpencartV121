@@ -51,6 +51,24 @@ public class ProductComparePage extends BasePage {
 		}
 
 	}
+	
+	public void clickRemoveBtn() {
+		click(removeBtn);
+	}
+	
+	public void removeProducts(int numberOfProducts) throws InterruptedException {
+		
+		if(numberOfProducts > comparedProducts.size()) {
+			System.out.println("Invalid numberOfProducts!");
+			return;
+		}else {
+			for (int i = numberOfProducts; i > 0; i--) {
+				Thread.sleep(500);
+				getDriver().findElement(By.xpath("(//a[contains(text(),'Remove')])["+ i +"]")).click();
+			}	
+		}
+		
+	}
 
 	// validations
 

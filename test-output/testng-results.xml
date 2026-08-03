@@ -2,22 +2,25 @@
 <testng-results ignored="41" total="44" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-01T18:40:10 GMT+07:00" name="Suite" finished-at="2026-08-01T18:40:40 GMT+07:00" duration-ms="30185">
+  <suite started-at="2026-08-03T21:04:32 GMT+07:00" name="Suite" finished-at="2026-08-03T21:04:52 GMT+07:00" duration-ms="19449">
     <groups>
+      <group name="logout">
+        <method signature="TC_PC_022_ProductComparePageHeadingURLTitleTest.validate__heading_url_title()[pri:0, instance:testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@6302bbb1]" name="validate__heading_url_title" class="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest"/>
+      </group> <!-- logout -->
       <group name="product compare">
-        <method signature="TC_PC_019_ProductCompareProductsAddingLimitTest.validate_product_comparison_adding_limit()[pri:0, instance:testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest@2a65fe7c]" name="validate_product_comparison_adding_limit" class="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest"/>
-        <method signature="TC_PC_020_A_ProductCompareAddtoCartTest.validate_adding_a_product_cart()[pri:0, instance:testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest@4135c3b]" name="validate_adding_a_product_cart" class="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest"/>
-        <method signature="TC_PC_020_B_ProductCompareAddtoCartTest.validate_product_comparison_add_two_product()[pri:0, instance:testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest@6302bbb1]" name="validate_product_comparison_add_two_product" class="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest"/>
+        <method signature="TC_PC_021_A_ProductCompareRemoveTest.validate_remove_a_product_from_page()[pri:0, instance:testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest@2a65fe7c]" name="validate_remove_a_product_from_page" class="testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest"/>
+        <method signature="TC_PC_021_B_ProductCompareRemoveMultipleProductTest.validate_product_comparison_remove_products()[pri:0, instance:testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest@4135c3b]" name="validate_product_comparison_remove_products" class="testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest"/>
+        <method signature="TC_PC_022_ProductComparePageHeadingURLTitleTest.validate__heading_url_title()[pri:0, instance:testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@6302bbb1]" name="validate__heading_url_title" class="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest"/>
       </group> <!-- product compare -->
       <group name="master">
-        <method signature="TC_PC_019_ProductCompareProductsAddingLimitTest.validate_product_comparison_adding_limit()[pri:0, instance:testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest@2a65fe7c]" name="validate_product_comparison_adding_limit" class="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest"/>
-        <method signature="TC_PC_020_A_ProductCompareAddtoCartTest.validate_adding_a_product_cart()[pri:0, instance:testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest@4135c3b]" name="validate_adding_a_product_cart" class="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest"/>
-        <method signature="TC_PC_020_B_ProductCompareAddtoCartTest.validate_product_comparison_add_two_product()[pri:0, instance:testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest@6302bbb1]" name="validate_product_comparison_add_two_product" class="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest"/>
+        <method signature="TC_PC_021_A_ProductCompareRemoveTest.validate_remove_a_product_from_page()[pri:0, instance:testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest@2a65fe7c]" name="validate_remove_a_product_from_page" class="testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest"/>
+        <method signature="TC_PC_021_B_ProductCompareRemoveMultipleProductTest.validate_product_comparison_remove_products()[pri:0, instance:testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest@4135c3b]" name="validate_product_comparison_remove_products" class="testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest"/>
+        <method signature="TC_PC_022_ProductComparePageHeadingURLTitleTest.validate__heading_url_title()[pri:0, instance:testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@6302bbb1]" name="validate__heading_url_title" class="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-08-01T18:40:10 GMT+07:00" name="Test" finished-at="2026-08-01T18:40:40 GMT+07:00" duration-ms="30185">
-      <class name="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest@6302bbb1]" started-at="2026-08-01T18:40:28 GMT+07:00" name="setup" finished-at="2026-08-01T18:40:32 GMT+07:00" duration-ms="3558" status="PASS">
+    <test started-at="2026-08-03T21:04:32 GMT+07:00" name="Test" finished-at="2026-08-03T21:04:52 GMT+07:00" duration-ms="19449">
+      <class name="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@6302bbb1]" started-at="2026-08-03T21:04:48 GMT+07:00" name="setup" finished-at="2026-08-03T21:04:51 GMT+07:00" duration-ms="2908" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,17 +36,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_product_comparison_add_two_product()[pri:0, instance:testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest@6302bbb1]" started-at="2026-08-01T18:40:32 GMT+07:00" name="validate_product_comparison_add_two_product" finished-at="2026-08-01T18:40:40 GMT+07:00" duration-ms="8027" status="PASS">
+        <test-method signature="validate__heading_url_title()[pri:0, instance:testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@6302bbb1]" started-at="2026-08-03T21:04:51 GMT+07:00" name="validate__heading_url_title" finished-at="2026-08-03T21:04:51 GMT+07:00" duration-ms="552" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_product_comparison_add_two_product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest@6302bbb1]" started-at="2026-08-01T18:40:40 GMT+07:00" name="tearDown" finished-at="2026-08-01T18:40:40 GMT+07:00" duration-ms="584" status="PASS">
+        </test-method> <!-- validate__heading_url_title -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@6302bbb1]" started-at="2026-08-03T21:04:51 GMT+07:00" name="tearDown" finished-at="2026-08-03T21:04:52 GMT+07:00" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest -->
-      <class name="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest@4135c3b]" started-at="2026-08-01T18:40:22 GMT+07:00" name="setup" finished-at="2026-08-01T18:40:25 GMT+07:00" duration-ms="3081" status="PASS">
+      </class> <!-- testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest -->
+      <class name="testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest@4135c3b]" started-at="2026-08-03T21:04:38 GMT+07:00" name="setup" finished-at="2026-08-03T21:04:41 GMT+07:00" duration-ms="2923" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,17 +62,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_adding_a_product_cart()[pri:0, instance:testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest@4135c3b]" started-at="2026-08-01T18:40:25 GMT+07:00" name="validate_adding_a_product_cart" finished-at="2026-08-01T18:40:27 GMT+07:00" duration-ms="2529" status="PASS">
+        <test-method signature="validate_product_comparison_remove_products()[pri:0, instance:testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest@4135c3b]" started-at="2026-08-03T21:04:41 GMT+07:00" name="validate_product_comparison_remove_products" finished-at="2026-08-03T21:04:47 GMT+07:00" duration-ms="6395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_adding_a_product_cart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest@4135c3b]" started-at="2026-08-01T18:40:27 GMT+07:00" name="tearDown" finished-at="2026-08-01T18:40:28 GMT+07:00" duration-ms="581" status="PASS">
+        </test-method> <!-- validate_product_comparison_remove_products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest@4135c3b]" started-at="2026-08-03T21:04:47 GMT+07:00" name="tearDown" finished-at="2026-08-03T21:04:48 GMT+07:00" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest -->
-      <class name="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest@2a65fe7c]" started-at="2026-08-01T18:40:10 GMT+07:00" name="setup" finished-at="2026-08-01T18:40:14 GMT+07:00" duration-ms="4351" status="PASS">
+      </class> <!-- testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest -->
+      <class name="testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest@2a65fe7c]" started-at="2026-08-03T21:04:33 GMT+07:00" name="setup" finished-at="2026-08-03T21:04:36 GMT+07:00" duration-ms="3551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,15 +88,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_product_comparison_adding_limit()[pri:0, instance:testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest@2a65fe7c]" started-at="2026-08-01T18:40:15 GMT+07:00" name="validate_product_comparison_adding_limit" finished-at="2026-08-01T18:40:21 GMT+07:00" duration-ms="6601" status="PASS">
+        <test-method signature="validate_remove_a_product_from_page()[pri:0, instance:testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest@2a65fe7c]" started-at="2026-08-03T21:04:36 GMT+07:00" name="validate_remove_a_product_from_page" finished-at="2026-08-03T21:04:38 GMT+07:00" duration-ms="1405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_product_comparison_adding_limit -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest@2a65fe7c]" started-at="2026-08-01T18:40:21 GMT+07:00" name="tearDown" finished-at="2026-08-01T18:40:22 GMT+07:00" duration-ms="605" status="PASS">
+        </test-method> <!-- validate_remove_a_product_from_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest@2a65fe7c]" started-at="2026-08-03T21:04:38 GMT+07:00" name="tearDown" finished-at="2026-08-03T21:04:38 GMT+07:00" duration-ms="545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest -->
+      </class> <!-- testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

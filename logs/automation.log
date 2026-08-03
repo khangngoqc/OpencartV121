@@ -4160,3 +4160,24 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 18:40:27.886 [main] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Finished TC_PC_020_A_ProductCompareAddtoCartTest***
 18:40:32.039 [main] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
 18:40:40.056 [main] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Finished TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:15:05.826 [main] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Starting TC_PC_021_A_ProductCompareRemoveTest***
+20:15:07.240 [main] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Finished TC_PC_021_A_ProductCompareRemoveTest***
+20:15:35.242 [main] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Starting TC_PC_021_A_ProductCompareRemoveTest***
+20:36:12.195 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:36:17.912 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:39:48.129 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:41:17.953 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:43:04.869 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:43:40.703 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:44:55.360 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:45:01.845 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:45:56.974 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+20:46:14.163 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_020_B_ProductCompareAddtoCartTest ***
+21:02:48.688 [main] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:03:54.940 [main] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:04:36.694 [main] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Starting TC_PC_021_A_ProductCompareRemoveTest***
+21:04:38.083 [main] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Finished TC_PC_021_A_ProductCompareRemoveTest***
+21:04:41.578 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:04:47.970 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:04:51.325 [main] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:04:51.875 [main] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Finished TC_PC_022_BreadscrumbHeadingURLTitleTest *******

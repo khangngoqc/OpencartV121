@@ -94,6 +94,7 @@ public class BasePage extends BaseClass{
 	}
 
 	public boolean isPageTitleDisplayed(String pageName){
+		System.out.println(getDriver().getTitle());
 		return getDriver().getTitle().toLowerCase().contains(pageName.toLowerCase());
 	}
 
