@@ -26,6 +26,8 @@ public class ProductDisplayPage extends BasePage {
 	@FindBy(xpath = "//div[@role='tooltip' and contains(., 'Compare')]")
 	WebElement hoveringTooltip;
 
+	
+	//actions
 	public String getProductModelTexts() {
 
 		String productCode = productModalText.getText().split(":")[1].trim();
