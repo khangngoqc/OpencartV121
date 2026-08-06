@@ -142,35 +142,6 @@
 
 			<!--Search cases-->
 			
-			<!--ProductCompare cases-->
-			<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
-			<class name="testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest" />
-			<class name="testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest" />
-			<class name="testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest" />
-			<class name="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest" />
-			<class name="testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest" />
-			<class name="testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest" />
-			<class name="testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest" />
-			<class name="testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest" />
-			<class name="testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest" />
-			<class name="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest" />
-			<class name="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest" />
-			<class name="testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest" />
-			<class name="testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest" />
-			<class name="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest" />
-
-			<!--ProductCompare cases-->
-
-			
 			
 		</classes>
 	</test> <!--Test -->
@@ -266,61 +237,6 @@
 			<class name="testCases.ForgotPassword.TC_FP_024_ResetPasswordHideVisibility" />
 
 			<!--ForgotPassword cases-->
-			
-			<!--Search cases-->
-			<class name="testCases.Search.TC_SF_001_SearchExistingProductTest" />
-			<class name="testCases.Search.TC_SF_002_SearchNonExistingProductTest" />
-			<class name="testCases.Search.TC_SF_003_SearchEmptyTest" />
-			<class name="testCases.Search.TC_SF_004_SearchAfterLoginTest" />
-			<class name="testCases.Search.TC_SF_005_SearchMultipleExistingProductTest" />
-			<class name="testCases.Search.TC_SF_006_SearchInputPlaceholderTest" />
-			<class name="testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest" />
-			<class name="testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest" />
-			<class name="testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest" />
-			<class name="testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest" />
-			<class name="testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest" />
-			<class name="testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest" />
-			<class name="testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest" />
-			<class name="testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest" />
-			<class name="testCases.Search.TC_SF_013_ProductComparePageTest" />
-			<class name="testCases.Search.TC_SF_014_A_SearchProductSortTest" />
-			<class name="testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest" />
-			<class name="testCases.Search.TC_SF_016_SearchComponentVisibilityTest" />
-			<class name="testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest" />
-			<class name="testCases.Search.TC_SF_018_SearchPageBreadcrumbTest" />
-			<class name="testCases.Search.TC_SF_019_SearchWithKeyboardTest" />
-			<class name="testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest" />
-
-			<!--Search cases-->
-			
-			<!--ProductCompare cases-->
-			<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
-			<class name="testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest" />
-			<class name="testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest" />
-			<class name="testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest" />
-			<class name="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest" />
-			<class name="testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest" />
-			<class name="testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest" />
-			<class name="testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest" />
-			<class name="testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest" />
-			<class name="testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest" />
-			<class name="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest" />
-			<class name="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest" />
-			<class name="testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest" />
-			<class name="testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest" />
-			<class name="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest" />
-
-			<!--ProductCompare cases-->
-
 			
 			
 		</classes>
@@ -441,35 +357,6 @@
 			<class name="testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest" />
 
 			<!--Search cases-->
-			
-			<!--ProductCompare cases-->
-			<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
-			<class name="testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest" />
-			<class name="testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest" />
-			<class name="testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest" />
-			<class name="testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest" />
-			<class name="testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest" />
-			<class name="testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest" />
-			<class name="testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest" />
-			<class name="testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest" />
-			<class name="testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest" />
-			<class name="testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest" />
-			<class name="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest" />
-			<class name="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest" />
-			<class name="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest" />
-			<class name="testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest" />
-			<class name="testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest" />
-			<class name="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest" />
-
-			<!--ProductCompare cases-->
-
 			
 			
 		</classes>
