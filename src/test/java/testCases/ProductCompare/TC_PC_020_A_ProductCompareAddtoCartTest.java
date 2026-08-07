@@ -30,7 +30,6 @@ public class TC_PC_020_A_ProductCompareAddtoCartTest extends BaseClass{
 			ProductComparePage cp = sp.clickProductCompareLink();
 			
 			cp.clickAddToCartBtn();
-			cp.clickCartBtn();
 
 			Assert.assertEquals(cp.isProductAddedToCart(searchKeyword), true , "Failed to add product to cart!");
 			

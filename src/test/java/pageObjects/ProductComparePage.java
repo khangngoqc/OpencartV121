@@ -145,6 +145,8 @@ public class ProductComparePage extends BasePage {
 
 	public boolean isProductAddedToCart(String productName) throws InterruptedException {
 
+		Thread.sleep(500);
+		
 		clickCartBtn();
 
 		//getDriver().findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();

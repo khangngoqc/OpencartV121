@@ -24,9 +24,9 @@ public class TC_PC_003_ProductCompareAddingProductGridViewTest extends BaseClass
 			hp.setSearchInput(searchInput);
 			SearchPage sp = hp.clickSearch();
 			sp.clickGridViewBtn();
-			sp.clickCompareThisProductBtn();
 			
-			Assert.assertTrue(sp.isProductCompareBtnHoveringWork(), "Failed to dislpay button tooltip!");
+			Assert.assertTrue(sp.isCompareThisProductBtnTooltipWork(), "Failed to dislpay button tooltip!");
+						
 			Assert.assertTrue(sp.isProductCompareAlertBannerWork(searchInput), "Failed to dislpay alert banner!");
 			
 			ProductComparePage pc = sp.clickProductCompareLink();

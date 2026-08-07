@@ -1,0 +1,1739 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>opencart Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">opencart Functional Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 7, 2026 09:41:40 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">productcompare</a><a class="dropdown-item" href="#">master</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="49"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</p>
+            <p class="text-sm">
+              <span>9:41:42 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</h5>
+<span class='badge badge-success'>08.07.2026 9:41:42 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:41:42 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:42 PM</td>
+        <td>
+          adding_product_to_compare  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest</p>
+            <p class="text-sm">
+              <span>9:41:44 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest</h5>
+<span class='badge badge-success'>08.07.2026 9:41:44 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:41:44 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:44 PM</td>
+        <td>
+          adding_product_to_compare_list_view  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="51"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest</p>
+            <p class="text-sm">
+              <span>9:41:46 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest</h5>
+<span class='badge badge-success'>08.07.2026 9:41:46 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:41:46 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:46 PM</td>
+        <td>
+          adding_product_to_compare_grid_view  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="52"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest</p>
+            <p class="text-sm">
+              <span>9:41:52 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest</h5>
+<span class='badge badge-success'>08.07.2026 9:41:52 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:41:52 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=52</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:52 PM</td>
+        <td>
+          adding_product_to_compare_list_view_category  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="53"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest</p>
+            <p class="text-sm">
+              <span>9:41:58 PM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest</h5>
+<span class='badge badge-success'>08.07.2026 9:41:58 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:41:58 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:58 PM</td>
+        <td>
+          adding_product_to_compare_grid_view_category  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="54"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest</p>
+            <p class="text-sm">
+              <span>9:42:05 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:05 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:05 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=54</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:05 PM</td>
+        <td>
+          adding_product_to_compare_product_display_page_related_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="55"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest</p>
+            <p class="text-sm">
+              <span>9:42:10 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:10 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:10 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:10 PM</td>
+        <td>
+          adding_product_to_compare_homepage_featured_section  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="56"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest</p>
+            <p class="text-sm">
+              <span>9:42:14 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:14 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:14 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:14 PM</td>
+        <td>
+          adding_product_to_compare_homepage_featured_section  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="57"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest</p>
+            <p class="text-sm">
+              <span>9:42:16 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:16 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:16 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=57</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:16 PM</td>
+        <td>
+          product_compare_page_navigation_product_category_page  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="58"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</p>
+            <p class="text-sm">
+              <span>9:42:20 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:20 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:20 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=58</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:20 PM</td>
+        <td>
+          validate_product_comparison_without_adding_any_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="59"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest</p>
+            <p class="text-sm">
+              <span>9:42:24 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:24 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:24 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=59</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:24 PM</td>
+        <td>
+          validate_product_comparison_continue_btn  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="60"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</p>
+            <p class="text-sm">
+              <span>9:42:32 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:32 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:32 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=60</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:32 PM</td>
+        <td>
+          validate_product_comparison_breadcrumb  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="61"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest</p>
+            <p class="text-sm">
+              <span>9:42:36 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:36 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:36 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=61</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:36 PM</td>
+        <td>
+          validate_success_message_links  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="62"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest</p>
+            <p class="text-sm">
+              <span>9:42:40 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:40 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:40 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=62</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:40 PM</td>
+        <td>
+          validate_product_comparison_add_single_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="63"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</p>
+            <p class="text-sm">
+              <span>9:42:43 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:43 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:43 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=63</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:43 PM</td>
+        <td>
+          validate_product_comparison_add_two_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="64"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest</p>
+            <p class="text-sm">
+              <span>9:42:47 PM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:47 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:47 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=64</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:47 PM</td>
+        <td>
+          validate_product_comparison_add_two_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="65"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest</p>
+            <p class="text-sm">
+              <span>9:42:54 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:54 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:54 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=65</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:54 PM</td>
+        <td>
+          validate_product_comparison_add_two_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="66"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</p>
+            <p class="text-sm">
+              <span>9:42:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</h5>
+<span class='badge badge-success'>08.07.2026 9:42:59 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:42:59 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=66</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:59 PM</td>
+        <td>
+          validate_product_comparison_add_two_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="67"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest</p>
+            <p class="text-sm">
+              <span>9:43:07 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest</h5>
+<span class='badge badge-success'>08.07.2026 9:43:07 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:43:07 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=67</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:07 PM</td>
+        <td>
+          validate_product_comparison_adding_limit  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="68"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</p>
+            <p class="text-sm">
+              <span>9:43:10 PM</span> / <span>00:00:00:063</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</h5>
+<span class='badge badge-success'>08.07.2026 9:43:10 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:43:10 PM</span>
+<span class='badge badge-default'>00:00:00:063</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=68</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\ADMIN\myworkspace\OpencartV121/screenshots/validate_adding_a_product_cart_20260807094310.png' src="C:\Users\ADMIN\myworkspace\OpencartV121/screenshots/validate_adding_a_product_cart_20260807094310.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:43:10 PM</td>
+        <td>
+          validate_adding_a_product_cart got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:43:10 PM</td>
+        <td>
+          Failed to add product to cart! expected [true] but found [false]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="69"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest</p>
+            <p class="text-sm">
+              <span>9:43:21 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest</h5>
+<span class='badge badge-success'>08.07.2026 9:43:21 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:43:21 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=69</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:21 PM</td>
+        <td>
+          validate_product_comparison_add_two_product  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="70"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest</p>
+            <p class="text-sm">
+              <span>9:43:25 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest</h5>
+<span class='badge badge-success'>08.07.2026 9:43:25 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:43:25 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=70</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:25 PM</td>
+        <td>
+          validate_remove_a_product_from_page  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="71"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest</p>
+            <p class="text-sm">
+              <span>9:43:33 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest</h5>
+<span class='badge badge-success'>08.07.2026 9:43:33 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:43:33 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=71</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:33 PM</td>
+        <td>
+          validate_product_comparison_remove_products  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="72"
+          author=""
+          tag="master productcompare"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest</p>
+            <p class="text-sm">
+              <span>9:43:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest</h5>
+<span class='badge badge-success'>08.07.2026 9:43:34 PM</span>
+<span class='badge badge-danger'>08.07.2026 9:43:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=72</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">productcompare</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:34 PM</td>
+        <td>
+          validate__heading_url_title  got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>23</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">productcompare</p>
+<p class="duration text-sm">24 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>productcompare</h4>
+<span status="pass" class='badge log pass-bg'>23 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='52' id='52'>testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='54' id='54'>testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='56'>testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='57' id='57'>testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='58'>testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='59'>testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='60'>testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='61' id='61'>testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='62' id='62'>testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='63' id='63'>testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='64' id='64'>testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='65' id='65'>testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='66' id='66'>testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='67' id='67'>testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:43:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='68'>testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='69' id='69'>testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='70' id='70'>testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='71' id='71'>testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='72' id='72'>testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>23</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">master</p>
+<p class="duration text-sm">24 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>master</h4>
+<span status="pass" class='badge log pass-bg'>23 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='52' id='52'>testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:41:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='54' id='54'>testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='56'>testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='57' id='57'>testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='58'>testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='59'>testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='60'>testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='61' id='61'>testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='62' id='62'>testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='63' id='63'>testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='64' id='64'>testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='65' id='65'>testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:42:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='66' id='66'>testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='67' id='67'>testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:43:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='68'>testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='69' id='69'>testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='70' id='70'>testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='71' id='71'>testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:43:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='72' id='72'>testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 7, 2026 09:41:40 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 7, 2026 09:43:35 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>23</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='95%'>
+<b>23</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='4%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='92%'><b>23</b> events passed</small></div>
+<div>
+<small data-tooltip='4%'><b>1</b> events failed,
+<b data-tooltip='%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest":0,"testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest":0,"testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest":0,"testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest":0,"testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest":0.001,"testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest":0,"testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest":0,"testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest":0,"testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest":0,"testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest":0,"testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest":0,"testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest":0,"testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest":0,"testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest":0,"testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest":0,"testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest":0.001,"testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest":0,"testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest":0,"testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest":0,"testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest":0.063,"testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest":0,"testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest":0,"testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest":0,"testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest":0
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>productcompare</td>
+<td>23</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>95.833%</td>
+</tr>
+<tr>
+<td>master</td>
+<td>23</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>95.833%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>opencart</td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Admin</td>
+</tr>
+<tr>
+<td>Sub Module</td>
+<td>Customers</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>ADMIN</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>edge</td>
+</tr>
+<tr>
+<td>Groups</td>
+<td>[product compare]</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 23,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 23,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 1
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

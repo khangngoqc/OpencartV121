@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 07 21:39:09 GMT+07:00 2026</td>
+</tr>
+<tr><td>Total time:</td><td>150 seconds (150907 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>product compare </td>
+</tr><tr>
+<td>Excluded groups:</td><td> </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest</td>
+<td></td>
+<td>7</td>
+<td>testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest@5552768b</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest.adding_product_to_compare_grid_view_category()'><b>adding_product_to_compare_grid_view_category</b><br>Test class: testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest@574b560f</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest.validate_product_comparison_continue_btn()'><b>validate_product_comparison_continue_btn</b><br>Test class: testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest@71c3b41</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest.validate_remove_a_product_from_page()'><b>validate_remove_a_product_from_page</b><br>Test class: testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest@3c947bc5</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest.adding_product_to_compare_homepage_featured_section()'><b>adding_product_to_compare_homepage_featured_section</b><br>Test class: testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest@3943a2be</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest.adding_product_to_compare_grid_view()'><b>adding_product_to_compare_grid_view</b><br>Test class: testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest@757acd7b</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest.validate_product_comparison_adding_limit()'><b>validate_product_comparison_adding_limit</b><br>Test class: testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest@87a85e1</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest.adding_product_to_compare_list_view_category()'><b>adding_product_to_compare_list_view_category</b><br>Test class: testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest@36b4fe2a</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest.adding_product_to_compare_product_display_page_related_product()'><b>adding_product_to_compare_product_display_page_related_product</b><br>Test class: testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest@ba54932</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest.validate_adding_a_product_cart()'><b>validate_adding_a_product_cart</b><br>Test class: testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest@671a5887</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest.validate_product_comparison_remove_products()'><b>validate_product_comparison_remove_products</b><br>Test class: testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest@609db43b</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest.validate_product_comparison_breadcrumb()'><b>validate_product_comparison_breadcrumb</b><br>Test class: testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest@236e3f4e</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest.validate_product_comparison_add_single_product()'><b>validate_product_comparison_add_single_product</b><br>Test class: testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest@6bf0219d</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest@36d585c</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest.validate_product_comparison_without_adding_any_product()'><b>validate_product_comparison_without_adding_any_product</b><br>Test class: testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest@157853da</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest@5f16132a</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest@69fb6037</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest@dd0c991</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest.adding_product_to_compare()'><b>adding_product_to_compare</b><br>Test class: testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest@45ca843</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest.product_compare_page_navigation_product_category_page()'><b>product_compare_page_navigation_product_category_page</b><br>Test class: testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest@343570b7</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest.adding_product_to_compare_list_view()'><b>adding_product_to_compare_list_view</b><br>Test class: testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest@11c9af63</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest.validate_success_message_links()'><b>validate_success_message_links</b><br>Test class: testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest@3cc1435c</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest.validate__heading_url_title()'><b>validate__heading_url_title</b><br>Test class: testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@55f616cf</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest.adding_product_to_compare_homepage_featured_section()'><b>adding_product_to_compare_homepage_featured_section</b><br>Test class: testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest@28975c28</td></tr>
+</table><p>
+</body>
+</html>

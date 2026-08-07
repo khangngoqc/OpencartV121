@@ -55,13 +55,13 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 18 11:58:40 GMT+07:00 2026</td>
+<td>Started on:</td><td>Fri Aug 07 21:14:42 GMT+07:00 2026</td>
 </tr>
-<tr><td>Total time:</td><td>142 seconds (142809 ms)</td>
+<tr><td>Total time:</td><td>61 seconds (61386 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>search </td>
+<td>Included groups:</td><td>logout </td>
 </tr><tr>
 <td>Excluded groups:</td><td> </td>
 </tr>
@@ -76,20 +76,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest.validate_search_product_with_description_functionality()'><b>validate_search_product_with_description_functionality</b><br>Test class: testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest</td>
-<td><div><pre>java.lang.AssertionError: Product having the given text in its description should be displayed in the search results expected [true] but found [false]
-	at testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest.validate_search_product_with_description_functionality(TC_SF_008_SearchExistingProductDescriptionTest.java:29)
+<td title='testCases.Logout.TC_LG_003_LoginSessionTest.verify_login_browser_session()'><b>verify_login_browser_session</b><br>Test class: testCases.Logout.TC_LG_003_LoginSessionTest</td>
+<td><div><pre>java.lang.AssertionError: User session was not saved expected [true] but found [false]
+	at testCases.Logout.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:64)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace76642064", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace76642064'><pre>java.lang.AssertionError: Product having the given text in its description should be displayed in the search results expected [true] but found [false]
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1683950251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1683950251'><pre>java.lang.AssertionError: User session was not saved expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest.validate_search_product_with_description_functionality(TC_SF_008_SearchExistingProductDescriptionTest.java:29)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1079)
+	at org.testng.Assert.assertEquals(Assert.java:1043)
+	at testCases.Logout.TC_LG_003_LoginSessionTest.verify_login_browser_session(TC_LG_003_LoginSessionTest.java:64)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -112,7 +115,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 </pre></div></td>
 <td>10</td>
-<td>testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest@7dcf94f8</td></tr>
+<td>testCases.Logout.TC_LG_003_LoginSessionTest@1f2586d6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -123,110 +126,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest.validate_search_product_with_selecting_category()'><b>validate_search_product_with_selecting_category</b><br>Test class: testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest</td>
-<td></td>
-<td>21</td>
-<td>testCases.Search.TC_SF_009_SearchExistingProductSelectingCategoryTest@229f66ed</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_004_SearchAfterLoginTest.search_after_login()'><b>search_after_login</b><br>Test class: testCases.Search.TC_SF_004_SearchAfterLoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_004_SearchAfterLoginTest@385c9627</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_013_ProductComparePageTest.product_comparison_navigate()'><b>product_comparison_navigate</b><br>Test class: testCases.Search.TC_SF_013_ProductComparePageTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_013_ProductComparePageTest@77c2494c</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_018_SearchPageBreadcrumbTest.search_page_breadcrumb()'><b>search_page_breadcrumb</b><br>Test class: testCases.Search.TC_SF_018_SearchPageBreadcrumbTest</td>
-<td></td>
-<td>15</td>
-<td>testCases.Search.TC_SF_018_SearchPageBreadcrumbTest@1e800aaa</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest.access_search_page_from_sitemap()'><b>access_search_page_from_sitemap</b><br>Test class: testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_017_SearchPageSiteMapNavigationTest@5bda8e08</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_001_SearchExistingProductTest.validate_search_existing_product()'><b>validate_search_existing_product</b><br>Test class: testCases.Search.TC_SF_001_SearchExistingProductTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_001_SearchExistingProductTest@3fc2959f</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_005_SearchMultipleExistingProductTest.validate_search_multiple_existing_product()'><b>validate_search_multiple_existing_product</b><br>Test class: testCases.Search.TC_SF_005_SearchMultipleExistingProductTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_005_SearchMultipleExistingProductTest@139982de</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_006_SearchInputPlaceholderTest.validate_search_input_placeholder()'><b>validate_search_input_placeholder</b><br>Test class: testCases.Search.TC_SF_006_SearchInputPlaceholderTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_006_SearchInputPlaceholderTest@682b2fa</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest.validate_search_product_with_selecting_subcategory()'><b>validate_search_product_with_selecting_subcategory</b><br>Test class: testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_010_SearchExistingProductSubcategoryCheckTest@31190526</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest.validate_single_search_result_grid_view()'><b>validate_single_search_result_grid_view</b><br>Test class: testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.Search.TC_SF_011_B_SearchSingleProductGridViewTest@6743e411</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_014_A_SearchProductSortTest.product_comparison_navigate()'><b>product_comparison_navigate</b><br>Test class: testCases.Search.TC_SF_014_A_SearchProductSortTest</td>
-<td></td>
-<td>11</td>
-<td>testCases.Search.TC_SF_014_A_SearchProductSortTest@f5958c9</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_003_SearchEmptyTest.empty_search()'><b>empty_search</b><br>Test class: testCases.Search.TC_SF_003_SearchEmptyTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_003_SearchEmptyTest@6989da5e</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_002_SearchNonExistingProductTest.validate_search_non_existing_product()'><b>validate_search_non_existing_product</b><br>Test class: testCases.Search.TC_SF_002_SearchNonExistingProductTest</td>
+<td title='testCases.Logout.TC_LG_005_MALogoutOptionTest.verify_logout_btn_before_login()'><b>verify_logout_btn_before_login</b><br>Test class: testCases.Logout.TC_LG_005_MALogoutOptionTest</td>
 <td></td>
 <td>10</td>
-<td>testCases.Search.TC_SF_002_SearchNonExistingProductTest@5aa9e4eb</td></tr>
+<td>testCases.Logout.TC_LG_005_MALogoutOptionTest@3fc2959f</td></tr>
 <tr>
-<td title='testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest.validate_multiple_search_results_list_view()'><b>validate_multiple_search_results_list_view</b><br>Test class: testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest</td>
+<td title='testCases.Logout.TC_LG_004_LogoutAndBackingTest.verify_logout_backing()'><b>verify_logout_backing</b><br>Test class: testCases.Logout.TC_LG_004_LogoutAndBackingTest</td>
 <td></td>
-<td>2</td>
-<td>testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest@3eb25e1a</td></tr>
+<td>5</td>
+<td>testCases.Logout.TC_LG_004_LogoutAndBackingTest@10683d9d</td></tr>
 <tr>
-<td title='testCases.Search.TC_SF_016_SearchComponentVisibilityTest.search_component_visibility()'><b>search_component_visibility</b><br>Test class: testCases.Search.TC_SF_016_SearchComponentVisibilityTest</td>
+<td title='testCases.Logout.TC_LG_008_LogoutLoginSequencingTest.verify_login()'><b>verify_login</b><br>Test class: testCases.Logout.TC_LG_008_LogoutLoginSequencingTest</td>
 <td></td>
-<td>16</td>
-<td>testCases.Search.TC_SF_016_SearchComponentVisibilityTest@3eb738bb</td></tr>
+<td>7</td>
+<td>testCases.Logout.TC_LG_008_LogoutLoginSequencingTest@6989da5e</td></tr>
 <tr>
-<td title='testCases.Search.TC_SF_019_SearchWithKeyboardTest.search_keyboard_actions()'><b>search_keyboard_actions</b><br>Test class: testCases.Search.TC_SF_019_SearchWithKeyboardTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_019_SearchWithKeyboardTest@185a6e9</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest.validate_search_criteria_functionality()'><b>validate_search_criteria_functionality</b><br>Test class: testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.Search.TC_SF_007_SearchExistingProductCriteriaInputTest@217ed35e</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest.validate_multiple_search_results_Grid_view()'><b>validate_multiple_search_results_Grid_view</b><br>Test class: testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.Search.TC_SF_012_B_SearchMultipleProductGridViewTest@477b4cdf</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest.search_page_heading_title_url()'><b>search_page_heading_title_url</b><br>Test class: testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.Search.TC_SF_020_SearchPageHeadingURLTitleTest@6f03482</td></tr>
-<tr>
-<td title='testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest.validate_single_search_result_list_view()'><b>validate_single_search_result_list_view</b><br>Test class: testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest</td>
+<td title='testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest.verify_logout()'><b>verify_logout</b><br>Test class: testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest</td>
 <td></td>
 <td>1</td>
-<td>testCases.Search.TC_SF_011_A_SearchSingleProductListViewTest@662ac478</td></tr>
+<td>testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest@6a78afa0</td></tr>
 <tr>
-<td title='testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest.number_of_search_result_show()'><b>number_of_search_result_show</b><br>Test class: testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest</td>
+<td title='testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest.validate_breadcrumbs_heading_url_title()'><b>validate_breadcrumbs_heading_url_title</b><br>Test class: testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest</td>
 <td></td>
-<td>4</td>
-<td>testCases.Search.TC_SF_015_SearchProductNumberOfResultShowTest@233795b6</td></tr>
+<td>5</td>
+<td>testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest@385c9627</td></tr>
+<tr>
+<td title='testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest.verify_logout_through_btn_group()'><b>verify_logout_through_btn_group</b><br>Test class: testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest@2f4948e4</td></tr>
+<tr>
+<td title='testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest.verify_logout_btn_grp_before_login()'><b>verify_logout_btn_grp_before_login</b><br>Test class: testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest@5aa9e4eb</td></tr>
+<tr>
+<td title='testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest.validate__heading_url_title()'><b>validate__heading_url_title</b><br>Test class: testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@65e98b1c</td></tr>
 </table><p>
 </body>
 </html>

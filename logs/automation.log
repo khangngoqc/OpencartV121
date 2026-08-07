@@ -4181,3 +4181,206 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 21:04:47.970 [main] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
 21:04:51.325 [main] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
 21:04:51.875 [main] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Finished TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:14:48.992 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+21:14:50.765 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+21:14:52.277 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:14:53.786 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:14:55.181 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_003_LoginSessionTest - ***Starting TC_LG_003_LoginSessionTest ***
+21:15:06.874 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_004_LogoutAndBackingTest - ***Starting TC_LG_004_LogoutAndBackingTest ***
+21:15:12.434 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_004_LogoutAndBackingTest - ***Finished TC_LG_004_LogoutAndBackingTest ***
+21:15:13.933 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_005_MALogoutOptionTest - ***Starting TC_LG_005_MALogoutOptionTest ***
+21:15:24.026 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_005_MALogoutOptionTest - ***Finished TC_LG_005_MALogoutOptionTest ***
+21:15:25.670 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest - ***Starting TC_LG_006_BtnGrpLogoutOptionTest ***
+21:15:26.650 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_006_BtnGrpLogoutOptionTest - ***Finished TC_LG_006_BtnGrpLogoutOptionTest ***
+21:15:28.134 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_008_LogoutLoginSequencingTest - ***Starting TC_LG_008_LogoutLoginSequencingTest ***
+21:15:35.339 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_008_LogoutLoginSequencingTest - ***Finished TC_LG_008_LogoutLoginSequencingTest ***
+21:15:36.956 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Starting TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+21:15:41.934 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate breadcrumbs links...
+21:15:41.977 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Heading...
+21:15:41.998 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page URL...
+21:15:42.004 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest - validate Page Title...
+21:15:42.011 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_009_BreadscrumbHeadingURLTitleTest - ******* Finished TC_LG_009_BreadscrumbHeadingURLTitleTest *******
+21:15:43.559 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:15:44.074 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Finished TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:26:35.112 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+21:26:37.607 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+21:26:39.098 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:26:40.710 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:26:44.486 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+21:26:46.259 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+21:26:49.567 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:26:51.313 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:26:53.235 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Starting TC_LG_001_LogoutByHeaderMenuTest ***
+21:26:54.917 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_001_LogoutByHeaderMenuTest - ***Finished TC_LG_001_LogoutByHeaderMenuTest ***
+21:26:56.643 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Starting TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:26:58.299 [TestNG-tests-1] INFO  testCases.Logout.TC_LG_002_LogoutByButtonGroupMenuTest - ***Finished TC_LG_002_LogoutByButtonGroupMenuTest ***
+21:37:20.703 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:37:22.773 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+21:37:23.408 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+21:37:24.772 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+21:37:26.784 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+21:37:31.005 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+21:37:32.467 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+21:37:36.576 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+21:37:38.053 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:37:42.340 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:37:43.754 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest - ***Starting TC_PC_007_ProductCompareAddingProductFromHomePageTest ***
+21:37:47.400 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest - ***Starting TC_PC_007_ProductCompareAddingProductFromHomePageTest ***
+21:37:48.760 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest - ***Starting TC_PC_008_ProductComparePageSearchPageNavigationTest ***
+21:37:51.282 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest - ***Starting TC_PC_008_ProductComparePageSearchPageNavigationTest ***
+21:37:52.709 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest - ***Starting TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***
+21:37:53.838 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest - ***Finished TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***
+21:37:55.232 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest - ***Starting TC_PC_010_ProductComparePageNonProductAddedTest ***
+21:37:56.378 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest - ***Finished TC_PC_010_ProductComparePageNonProductAddedTest ***
+21:37:57.773 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest - ***Starting TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest ***
+21:37:59.097 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest - ***Finished TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest ***
+21:38:00.544 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest - ***Starting TC_PC_012_ProductCompareBreadcrumbTest ***
+21:38:06.139 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest - ***Finished TC_PC_012_ProductCompareBreadcrumbTest ***
+21:38:07.719 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest - ***Starting TC_PC_013_ProductCompareSuccessMessageTest ***
+21:38:09.247 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest - ***Finished TC_PC_013_ProductCompareSuccessMessageTest ***
+21:38:10.631 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Starting TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:38:23.147 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Starting TC_PC_015_ProductCompareTwoProductAddedTest ***
+21:38:25.515 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Finished TC_PC_015_ProductCompareTwoProductAddedTest ***
+21:38:26.975 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Starting TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+21:38:29.268 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Finished TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+21:38:30.704 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Starting TC_PC_017_ProductCompareThreeProductAddedTest ***
+21:38:33.848 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Finished TC_PC_017_ProductCompareThreeProductAddedTest ***
+21:38:35.208 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Starting TC_PC_018_ProductCompareFourProductsAddedTest ***
+21:38:39.261 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Finished TC_PC_018_ProductCompareFourProductsAddedTest ***
+21:38:40.599 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest - ***Starting TC_PC_019_ProductCompareProductsAddingLimitTest ***
+21:38:45.448 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest - ***Finished TC_PC_019_ProductCompareProductsAddingLimitTest ***
+21:38:46.815 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:38:49.783 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+21:38:57.068 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Finished TC_PC_020_B_ProductCompareAddtoCartTest ***
+21:38:58.504 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Starting TC_PC_021_A_ProductCompareRemoveTest***
+21:38:59.707 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Finished TC_PC_021_A_ProductCompareRemoveTest***
+21:39:01.167 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:39:07.348 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:39:08.716 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:39:09.326 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Finished TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:39:12.562 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:39:13.212 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:39:16.413 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+21:39:17.143 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+21:39:20.419 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+21:39:21.137 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+21:39:24.595 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+21:39:28.605 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+21:39:32.787 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+21:39:37.414 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+21:39:40.993 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:39:45.207 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:39:48.729 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest - ***Starting TC_PC_007_ProductCompareAddingProductFromHomePageTest ***
+21:39:52.386 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest - ***Starting TC_PC_007_ProductCompareAddingProductFromHomePageTest ***
+21:39:55.722 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest - ***Starting TC_PC_008_ProductComparePageSearchPageNavigationTest ***
+21:39:58.223 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest - ***Starting TC_PC_008_ProductComparePageSearchPageNavigationTest ***
+21:40:01.716 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest - ***Starting TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***
+21:40:02.882 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest - ***Finished TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***
+21:40:06.411 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest - ***Starting TC_PC_010_ProductComparePageNonProductAddedTest ***
+21:40:07.539 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest - ***Finished TC_PC_010_ProductComparePageNonProductAddedTest ***
+21:40:11.000 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest - ***Starting TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest ***
+21:40:12.288 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest - ***Finished TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest ***
+21:40:15.381 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest - ***Starting TC_PC_012_ProductCompareBreadcrumbTest ***
+21:40:21.011 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest - ***Finished TC_PC_012_ProductCompareBreadcrumbTest ***
+21:40:24.275 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest - ***Starting TC_PC_013_ProductCompareSuccessMessageTest ***
+21:40:25.731 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest - ***Finished TC_PC_013_ProductCompareSuccessMessageTest ***
+21:40:29.054 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Starting TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:40:30.492 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Finished TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:40:34.092 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Starting TC_PC_015_ProductCompareTwoProductAddedTest ***
+21:40:36.655 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Finished TC_PC_015_ProductCompareTwoProductAddedTest ***
+21:40:40.086 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Starting TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+21:40:42.406 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Finished TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+21:40:45.805 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Starting TC_PC_017_ProductCompareThreeProductAddedTest ***
+21:40:49.052 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Finished TC_PC_017_ProductCompareThreeProductAddedTest ***
+21:40:52.535 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Starting TC_PC_018_ProductCompareFourProductsAddedTest ***
+21:40:56.704 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Finished TC_PC_018_ProductCompareFourProductsAddedTest ***
+21:40:59.825 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest - ***Starting TC_PC_019_ProductCompareProductsAddingLimitTest ***
+21:41:04.965 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest - ***Finished TC_PC_019_ProductCompareProductsAddingLimitTest ***
+21:41:08.112 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:41:10.348 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Finished TC_PC_020_A_ProductCompareAddtoCartTest***
+21:41:13.629 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+21:41:21.279 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Finished TC_PC_020_B_ProductCompareAddtoCartTest ***
+21:41:24.762 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Starting TC_PC_021_A_ProductCompareRemoveTest***
+21:41:26.003 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Finished TC_PC_021_A_ProductCompareRemoveTest***
+21:41:29.269 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:41:35.890 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:41:39.275 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:41:39.979 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Finished TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:41:42.028 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:41:42.704 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:41:44.221 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+21:41:44.838 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest - ***Starting TC_PC_002_ProductCompareAddingProductListViewTest ***
+21:41:46.293 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+21:41:46.928 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+21:41:48.394 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+21:41:52.669 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest - ***Starting TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest ***
+21:41:54.142 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+21:41:58.302 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest - ***Starting TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest ***
+21:41:59.840 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:42:05.010 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest - ***Starting TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ***
+21:42:06.543 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest - ***Starting TC_PC_007_ProductCompareAddingProductFromHomePageTest ***
+21:42:10.116 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest - ***Starting TC_PC_007_ProductCompareAddingProductFromHomePageTest ***
+21:42:11.645 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest - ***Starting TC_PC_008_ProductComparePageSearchPageNavigationTest ***
+21:42:14.069 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest - ***Starting TC_PC_008_ProductComparePageSearchPageNavigationTest ***
+21:42:15.484 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest - ***Starting TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***
+21:42:16.589 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest - ***Finished TC_PC_009_ProductComparePageProductCategoryPageNavigationTest ***
+21:42:19.139 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest - ***Starting TC_PC_010_ProductComparePageNonProductAddedTest ***
+21:42:20.286 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest - ***Finished TC_PC_010_ProductComparePageNonProductAddedTest ***
+21:42:22.702 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest - ***Starting TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest ***
+21:42:24.048 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest - ***Finished TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest ***
+21:42:26.521 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest - ***Starting TC_PC_012_ProductCompareBreadcrumbTest ***
+21:42:32.381 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest - ***Finished TC_PC_012_ProductCompareBreadcrumbTest ***
+21:42:33.874 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest - ***Starting TC_PC_013_ProductCompareSuccessMessageTest ***
+21:42:36.453 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest - ***Finished TC_PC_013_ProductCompareSuccessMessageTest ***
+21:42:37.954 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Starting TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:42:40.018 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Finished TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:42:41.506 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Starting TC_PC_015_ProductCompareTwoProductAddedTest ***
+21:42:43.882 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest - ***Finished TC_PC_015_ProductCompareTwoProductAddedTest ***
+21:42:45.382 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Starting TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+21:42:47.725 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest - ***Finished TC_PC_016_ProductCompareSameProductAddedTwiceTest ***
+21:42:50.260 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Starting TC_PC_017_ProductCompareThreeProductAddedTest ***
+21:42:54.390 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest - ***Finished TC_PC_017_ProductCompareThreeProductAddedTest ***
+21:42:55.832 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Starting TC_PC_018_ProductCompareFourProductsAddedTest ***
+21:42:59.874 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest - ***Finished TC_PC_018_ProductCompareFourProductsAddedTest ***
+21:43:02.354 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest - ***Starting TC_PC_019_ProductCompareProductsAddingLimitTest ***
+21:43:07.314 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest - ***Finished TC_PC_019_ProductCompareProductsAddingLimitTest ***
+21:43:08.780 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:43:13.830 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Starting TC_PC_020_B_ProductCompareAddtoCartTest ***
+21:43:21.285 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest - ***Finished TC_PC_020_B_ProductCompareAddtoCartTest ***
+21:43:23.733 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Starting TC_PC_021_A_ProductCompareRemoveTest***
+21:43:25.084 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest - ***Finished TC_PC_021_A_ProductCompareRemoveTest***
+21:43:26.500 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Starting TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:43:33.016 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest - ***Finished TC_PC_021_B_ProductCompareRemoveMultipleProductTest ***
+21:43:34.459 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:43:34.956 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest - ******* Finished TC_PC_022_BreadscrumbHeadingURLTitleTest *******
+21:47:18.552 [TestNG-tests-1] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - ******* Starting TC_RF_001_AccountRegistrationTest *******
+21:47:18.612 [TestNG-tests-1] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - Click on MyAccount link
+21:47:18.853 [TestNG-tests-1] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - Click on Register link
+21:47:18.859 [TestNG-tests-1] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - set registration details
+21:47:20.797 [TestNG-tests-1] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - Validating expected message
+21:47:20.816 [TestNG-tests-1] INFO  testCases.Register.TC_RF_001_AccountRegistrationTest - ******* Finished TC_RF_001_AccountRegistrationTest *******
+21:47:52.611 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:48:35.229 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:49:03.599 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:49:34.642 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:49:37.052 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Finished TC_PC_020_A_ProductCompareAddtoCartTest***
+21:51:34.375 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Starting TC_PC_020_A_ProductCompareAddtoCartTest***
+21:51:36.504 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest - ***Finished TC_PC_020_A_ProductCompareAddtoCartTest***
+21:52:17.743 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Starting TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:52:18.828 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Finished TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:56:02.453 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Starting TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:56:04.129 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest - ***Finished TC_PC_014_ProductCompareSingleProductAddedTest ***
+21:57:01.171 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+21:57:01.835 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:03:35.422 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:03:37.221 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:04:46.184 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:06:19.234 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:06:21.164 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:06:30.377 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:06:32.461 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:06:41.776 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:06:59.547 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:07:01.448 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
+22:09:30.646 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+22:09:33.189 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***

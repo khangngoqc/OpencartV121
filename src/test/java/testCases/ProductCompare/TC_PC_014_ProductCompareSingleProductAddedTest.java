@@ -25,6 +25,9 @@ public class TC_PC_014_ProductCompareSingleProductAddedTest extends BaseClass{
 			Thread.sleep(500);
 
 			sp.clickCompareThisProductBtn();
+			
+			Thread.sleep(500);
+			
 			ProductComparePage cp = sp.clickProductCompareLink();
 
 			Assert.assertTrue(cp.isNProductAdded(1), "Failed to add single product to Product Compare page!");

@@ -7,11 +7,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
-
-import static java.awt.SystemColor.text;
 
 public class SearchPage extends BasePage {
 
@@ -45,6 +44,8 @@ public class SearchPage extends BasePage {
     WebElement addToWishListBtn;
     @FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[1]")
     WebElement compareThisProductBtn;
+    @FindBy(xpath = "//div[@role='tooltip' and contains(., 'Compare')]")
+    WebElement hoveringTooltip;
 
     @FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]")
     WebElement resultMessage;
@@ -365,6 +366,32 @@ public class SearchPage extends BasePage {
 
     }
 
+    
+    //validation
+    public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
+        return isHoveringTooltipWork(compareThisProductBtn, "Compare this Product");
+    }
+
+    public boolean isHoveringTooltipWork(WebElement e, String text) throws InterruptedException {
+        ((JavascriptExecutor) getDriver()).executeScript(
+                "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", e);
+
+        Thread.sleep(500);
+
+        act.moveToElement(e).pause(java.time.Duration.ofMillis(500)).perform();
+
+        if (!hoveringTooltip.isDisplayed()) {
+            return false;
+        }
+
+        if (!hoveringTooltip.getText().equals(text)) {
+            System.out.println(hoveringTooltip.getText());
+            return false;
+        }
+
+        return true;
+    }
+    
     public boolean isNumberOfResultsShowWork(int NumberOfResult) {
         Select dropdown = new Select(NumberOfResultShowDropdown);
         dropdown.selectByContainsVisibleText(Integer.toString(NumberOfResult));

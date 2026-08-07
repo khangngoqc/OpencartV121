@@ -9,58 +9,18 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="search"/>
+        <include name="logout"/>
         <exclude name=""/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest">
+      <class name="testCases.Logout.TC_LG_003_LoginSessionTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_login_browser_session"/>
           <include name="setup"/>
-          <include name="validate_search_product_with_description_functionality"/>
         </methods>
-      </class> <!-- testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest -->
+      </class> <!-- testCases.Logout.TC_LG_003_LoginSessionTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="firefox"/>
-    <groups>
-      <run>
-        <include name="search"/>
-        <exclude name=""/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="validate_search_product_with_description_functionality"/>
-        </methods>
-      </class> <!-- testCases.Search.TC_SF_008_SearchExistingProductDescriptionTest -->
-      <class name="testCases.Search.TC_SF_019_SearchWithKeyboardTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="search_keyboard_actions"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.Search.TC_SF_019_SearchWithKeyboardTest -->
-      <class name="testCases.Search.TC_SF_016_SearchComponentVisibilityTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="search_component_visibility"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.Search.TC_SF_016_SearchComponentVisibilityTest -->
-      <class name="testCases.Search.TC_SF_014_A_SearchProductSortTest">
-        <methods>
-          <include name="product_comparison_navigate"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.Search.TC_SF_014_A_SearchProductSortTest -->
-    </classes>
-  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Cross Browsers Suite] -->
