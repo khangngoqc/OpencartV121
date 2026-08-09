@@ -4384,3 +4384,14 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 22:07:01.448 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest - ***Starting TC_PC_003_ProductCompareAddingProductGridViewTest ***
 22:09:30.646 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
 22:09:33.189 [TestNG-tests-1] INFO  testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest - ***Starting TC_PC_001_ProductCompareAddingProductTest ***
+21:37:14.325 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:43:30.217 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:48:14.762 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:49:56.394 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:53:24.907 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:55:02.887 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:56:12.744 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:58:44.308 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+21:59:38.126 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***
+22:00:21.974 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Finished TC_PDP_001_ProductDisplayPageThumbnailTest ***
+22:00:56.836 [main] INFO  testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest - ***Starting TC_PDP_001_ProductDisplayPageThumbnailTest ***

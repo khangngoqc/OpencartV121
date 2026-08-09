@@ -3,14 +3,15 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<!--<include name="login"></include>-->
-			<!--<include name="logout"></include>-->
-			<!--<include name="forgot password"></include>-->
-			<!--<include name="search"></include>-->
-			<!--<include name="Sanity"></include>-->
-			<!--<include name="Regression"></include>-->
-			<!--<include name="register"></include>-->
-			<include name="product compare"></include>
+			<!--<include name="login"></include>
+			<include name="logout"></include>
+			<include name="forgot password"></include>
+			<include name="search"></include>
+			<include name="Sanity"></include>
+			<include name="Regression"></include>
+			<include name="register"></include>
+			<include name="product compare"></include>-->
+			<include name="product display"></include>
 
 
 		</run>
@@ -134,7 +135,7 @@
 			<!--Search cases-->
 			
 			<!--ProductCompare cases-->
-			<!--<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
+			<class name="testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest" />
 			<class name="testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest" />
 			<class name="testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest" />
 			<class name="testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest" />
@@ -154,14 +155,17 @@
 			<class name="testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest" />
 			<class name="testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest" />
 			<class name="testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest" />
-			<class name="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest" />-->
+			<class name="testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest" />
 			<class name="testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest" />
 			<class name="testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest" />
 			<class name="testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest" />
 
 			<!--ProductCompare cases-->
 			
-			
+			<!--ProductDisplayPage cases-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
+
+			<!--ProductCompare cases-->
 			
 		
 		</classes>

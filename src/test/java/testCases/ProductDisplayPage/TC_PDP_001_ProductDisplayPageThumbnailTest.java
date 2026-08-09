@@ -25,6 +25,12 @@ public class TC_PDP_001_ProductDisplayPageThumbnailTest extends BaseClass {
 			SearchPage sp = hp.searchAProduct(searchInput);
 			ProductDisplayPage dp = sp.clickFirstProductTitle();
 			
+			dp.clickMainThumbnail();
+			Assert.assertTrue(dp.isLightBoxViewDisplay(),"Failed to display Light box view!  | ");
+			Assert.assertTrue(dp.isLightBoxNavBtnsWork(), "Failed to navigate through images! | ");
+			Assert.assertTrue(dp.isCloseBtnWork(), "Falied to close Lightbox view! | ");
+			Assert.assertTrue(dp.isCorrectThumbnailDisplay(2), "Incorrect thumbnail display! |");
+			
 			
 			
 		} catch (Exception e) {

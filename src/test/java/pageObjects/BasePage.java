@@ -71,7 +71,12 @@ public class BasePage extends BaseClass{
 
 	public boolean isDisplay(WebElement element) {
 
-		return element.isDisplayed();
+		try {
+	
+			return element.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
 	}
 	
 	public void refreshPage() {

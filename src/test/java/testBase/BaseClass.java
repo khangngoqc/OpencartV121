@@ -49,7 +49,7 @@ public class BaseClass {
 	public WebDriverWait wait;
 	public MailosaurClient mailosaur;
 
-	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register", "forgot password", "product compare" })
+	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register", "forgot password", "product compare", "product display" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
@@ -140,7 +140,7 @@ public class BaseClass {
 
 	}
 
-	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" , "forgot password", "product compare"})
+	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" , "forgot password", "product compare", "product display"})
 	public void tearDown() {
 		getDriver().quit();
 		driver.remove();

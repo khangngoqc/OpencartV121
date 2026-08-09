@@ -32,17 +32,36 @@ public class testdraft {
 	public static void main(String[] args) throws InterruptedException, IOException, MailosaurException {
 
 		WebDriver driver = new ChromeDriver();
-		driver.get(
-				"https://tutorialsninja.com/demo/index.php?route=product/compare");
-		
-		driver.findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
+		driver.get("https://tutorialsninja.com/demo/index.php?route=product/product&product_id=43");
 
-		List<WebElement> cartProductNames = driver.findElements(By.xpath("//div[@class='caption']//h4/a"));
-		
-		
-	
+		driver.findElement(By.xpath("//ul[@class='thumbnails']//li[1]")).click();
 
-		//driver.quit();
+		Thread.sleep(500);
+
+		WebElement counterElement = driver.findElement(By.xpath("//div[@class='mfp-counter']"));
+		String counterText = counterElement.getText(); // "1 of 5"
+		System.out.println(counterText);
+
+		// Extract the total number using split
+		String[] parts = counterText.split(" of ");
+		int total = Integer.parseInt(parts[1].trim());
+
+		System.out.println("Total: " + total);
+
+		for (int p = 1; p <= total; p++) {
+
+			WebElement counterElement_counting = driver.findElement(By.xpath("//div[@class='mfp-counter']"));
+			String counterText_counting = counterElement.getText(); // "1 of 5"
+			String[] parts_counting = counterText_counting.split(" of ");
+			
+			WebElement nextBtn = driver.findElement(By.xpath("//button[@title='Next (Right arrow key)']"));
+			nextBtn.click();
+			
+			int currentImage = Integer.parseInt(parts_counting[0].trim());
+			System.out.println(currentImage + " of " + total);
+		}
+
+		driver.quit();
 
 	}
 
@@ -64,7 +83,7 @@ public class testdraft {
 
 		return true;
 	}
-	
+
 	public static boolean isSortedStringAtoZ(List<String> list) {
 		if (list == null | list.size() <= 1) {
 			return false;
@@ -83,7 +102,6 @@ public class testdraft {
 
 		return true;
 	}
-	
 
 	private boolean isSortedLowtoHigh(List<WebElement> list) {
 		if (list == null) {
