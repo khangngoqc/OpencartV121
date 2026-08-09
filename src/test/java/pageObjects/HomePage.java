@@ -71,6 +71,14 @@ public class HomePage extends BasePage {
 	public void clickLogout() {
 		lnkLogout.click();
 	}
+	
+	public SearchPage searchAProduct(String keyword) {
+		
+		setSearchInput(keyword);
+		clickSearch();
+		
+		return new SearchPage();
+	}
 
 	public SearchPage searchWithKeyboard(String keyword) throws InterruptedException {
 		for (int i = 1; i <= 8; i++) {

@@ -18,6 +18,14 @@ public class ProductDisplayPage extends BasePage {
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
 
+	@FindBy(xpath="//ul[@class='thumbnails']//li[1]") WebElement mainThumbnail;
+	
+	@FindBy(xpath="//img[@class='mfp-img']") WebElement lighBoxImage;
+	@FindBy(xpath="//button[@title='Next (Right arrow key)']") WebElement nextBtn;
+	@FindBy(xpath="//button[@title='Previous (Left arrow key)']") WebElement previousBtn;
+	@FindBy(xpath="//button[normalize-space()='×']") WebElement closeBtn;
+
+	
 	@FindBy(xpath = "(//div[@class='product-thumb transition']//h4//a)[1]")
 	WebElement firstProductTitle;
 
@@ -33,6 +41,22 @@ public class ProductDisplayPage extends BasePage {
 		return productCode;
 	}
 
+	public void clickMainThumbnail() {
+		click(mainThumbnail);
+	}
+	
+	public void clickNextBtn() {
+		click(nextBtn);
+	}
+	
+	public void clickPreviousBtn() {
+		click(previousBtn);
+	}
+	
+	public void clickCloseBtn() {
+		click(closeBtn);
+	}
+	
 	public void clickCompareThisProductBtn() {
 		click(compareThisProductBtn);
 	}
@@ -87,6 +111,17 @@ public class ProductDisplayPage extends BasePage {
 
 		return true;
 	}
+	
+	public boolean isLightBoxViewDisplay() {
+		
+		//debug output
+		 System.out.println("Lightbox image display status: " + isDisplay(lighBoxImage));
+		 System.out.println("Previous button display status: " + isDisplay(previousBtn));
+		 System.out.println("Next button display status: " + isDisplay(nextBtn));
+		 
+		return isDisplay(lighBoxImage) && isDisplay(previousBtn) && isDisplay(nextBtn);
+	}
+	
 
 	// getters
 	public String getFirstProductTitle() {
