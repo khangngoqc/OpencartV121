@@ -72,7 +72,6 @@ public class BasePage extends BaseClass{
 	public boolean isDisplay(WebElement element) {
 
 		try {
-	
 			return element.isDisplayed();
 		} catch (Exception e) {
 			return false;

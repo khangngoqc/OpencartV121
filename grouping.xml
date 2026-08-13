@@ -163,7 +163,10 @@
 			<!--ProductCompare cases-->
 			
 			<!--ProductDisplayPage cases-->
-			<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
+			<!--<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_002_ProductDisplayPageNameBrandCodeTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest" />
 
 			<!--ProductCompare cases-->
 			

@@ -35,6 +35,19 @@ public class ProductDisplayPage extends BasePage {
 	@FindBy(xpath = "//button[normalize-space()='×']")
 	WebElement closeBtn;
 
+	@FindBy(xpath = "//div[@class=\"col-sm-4\"]//ul//preceding-sibling::h1")
+	WebElement productName;
+	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Brand:')] ")
+	WebElement productBrand;
+	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Product Code:')]")
+	WebElement productCode;
+	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Availability:')]")
+	WebElement productAvailability;
+	@FindBy(xpath = "//ul[@class='list-unstyled']//h2[contains(.,'$')]")
+	WebElement productPrice;
+	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Ex Tax')]")
+	WebElement productExTaxPrice;
+
 	@FindBy(xpath = "(//div[@class='product-thumb transition']//h4//a)[1]")
 	WebElement firstProductTitle;
 
@@ -59,15 +72,16 @@ public class ProductDisplayPage extends BasePage {
 			System.out.println("Invalid noOfthumbnail! noOfthumbnail should be in range of 0 < noOfthumbnail < "
 					+ thumbnails.size());
 			return false;
-			
+
 		} else {
-			
+
 			System.out.println("valid input");
 			Thread.sleep(500);
-			
-			WebElement thumbnailElement = getDriver().findElement(By.xpath("(//ul[@class='thumbnails']//img)[" + noOfThumbnail + "]"));
-			
-			//click(thumbnailElement);
+
+			WebElement thumbnailElement = getDriver()
+					.findElement(By.xpath("(//ul[@class='thumbnails']//img)[" + noOfThumbnail + "]"));
+
+			// click(thumbnailElement);
 			thumbnailElement.click();
 
 			return true;
@@ -270,7 +284,7 @@ public class ProductDisplayPage extends BasePage {
 				int currentImage = Integer.parseInt(parts[0].trim());
 
 				return noOfThumbnail == currentImage;
-				
+
 			} else {
 				return false;
 			}
@@ -280,6 +294,48 @@ public class ProductDisplayPage extends BasePage {
 			return false;
 		}
 
+	}
+
+	public boolean isProductNameDisplay(String name) {
+		return isDisplay(productName) && productName.getText().contains(name);
+	}
+
+	public boolean isProductBrandDisplay(String brand) {
+		return isDisplay(productBrand) && productBrand.getText().contains(brand);
+	}
+
+	public boolean isProductCodeDisplay(String code) {
+		return isDisplay(productCode) && productCode.getText().contains(code);
+	}
+
+	public boolean isProductAvailabilityDisplay(String availability) {
+
+		// System.out.println("Availability display: " +
+		// isDisplay(productAvailability));
+		// System.out.println("Availability text display: " +
+		// productAvailability.getText());
+
+		return isDisplay(productAvailability) && productAvailability.getText().contains(availability);
+	}
+
+	public boolean isProductPriceDisplay(String price) {
+
+		// System.out.println("Availability display: " +
+		// isDisplay(productAvailability));
+		// System.out.println("Availability text display: " +
+		// productAvailability.getText());
+
+		return isDisplay(productPrice) && productPrice.getText().contains(price);
+	}
+
+	public boolean isProductExTaxPriceDisplay(String price) {
+
+		// System.out.println("Availability display: " +
+		// isDisplay(productAvailability));
+		// System.out.println("Availability text display: " +
+		// productAvailability.getText());
+
+		return isDisplay(productExTaxPrice) && productExTaxPrice.getText().contains(price);
 	}
 
 	// getters
