@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest">
+      <class name="testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest">
         <methods>
           <include name="tearDown"/>
+          <include name="validate_product_quantity_display"/>
           <include name="setup"/>
-          <include name="validate_product_availability_display"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -20,6 +20,7 @@ public class BasePage extends BaseClass{
 	}
 
 	@FindBy(xpath = "//div[@id='cart']//button[@data-toggle='dropdown']") WebElement cartBtn;
+	@FindBy(xpath = "//span[@id='cart-total']") WebElement cartTotalTxt;
 	@FindBy(xpath = "//ul[@class='dropdown-menu pull-right']//td[2]//a") List <WebElement> cartProductNames; 
 	
 	@FindBy(xpath = "//input[@placeholder='Search']")
@@ -42,6 +43,14 @@ public class BasePage extends BaseClass{
 	public void click(WebElement ele){
 		ele.click();
 	}
+	
+	public void input(WebElement ele, String string) {
+		ele.sendKeys(string);
+	}
+	
+	public void clearInput(WebElement ele) {
+		ele.clear();
+	}
 
 	public void setSearchInput(String keyword){
 		searchTxtBox.clear();
@@ -55,6 +64,11 @@ public class BasePage extends BaseClass{
 	public void clickCartBtn() {
 		click(cartBtn);
 	}
+	
+	public boolean findInDOM(String string) {
+		return getDriver().getPageSource().toLowerCase().contains(string.toLowerCase());
+	};
+	
 
 	//getters
 	public String getPageTitle() {
@@ -116,6 +130,21 @@ public class BasePage extends BaseClass{
 		return new DesktopsPage();
 	}
 
+	//getter
+	public String getCartTotalText() {
+		
+		return cartTotalTxt.getText();
+	}
+	
+	public int getAddedProductTotal() {
+		String[] part = getCartTotalText().split(" item\\(s\\) - ");
+		String total = part[0].trim();
+		
+		//debug output
+		System.out.println("total: " + total);
+		
+		return Integer.parseInt(total);
+	}
 
 
 }

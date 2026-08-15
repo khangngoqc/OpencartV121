@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest">
+      <class name="testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_thumbnail"/>
+          <include name="validate_product_availability_display"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -47,6 +47,10 @@ public class ProductDisplayPage extends BasePage {
 	WebElement productPrice;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Ex Tax')]")
 	WebElement productExTaxPrice;
+	@FindBy(xpath = "//input[@id='input-quantity']")
+	WebElement quantityTxtBox;
+	@FindBy(xpath = "//button[@id='button-cart']")
+	WebElement addToCartBtn;
 
 	@FindBy(xpath = "(//div[@class='product-thumb transition']//h4//a)[1]")
 	WebElement firstProductTitle;
@@ -110,6 +114,18 @@ public class ProductDisplayPage extends BasePage {
 		return new ProductComparePage();
 	}
 
+	public void addProductToCartByQuantity(int numberOfQuantity) throws InterruptedException {
+
+		clearInput(quantityTxtBox);
+		input(quantityTxtBox, Integer.toString(numberOfQuantity));
+		//quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
+		
+		Thread.sleep(500);
+		
+		click(addToCartBtn);
+
+	}
+
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
 		return isHoveringTooltipWork(compareThisProductBtn, "Compare this Product");
@@ -159,9 +175,11 @@ public class ProductDisplayPage extends BasePage {
 	public boolean isLightBoxViewDisplay() {
 
 		// debug output
-		System.out.println("Lightbox image display status: " + isDisplay(lighBoxImage));
-		System.out.println("Previous button display status: " + isDisplay(previousBtn));
-		System.out.println("Next button display status: " + isDisplay(nextBtn));
+		// System.out.println("Lightbox image display status: " +
+		// isDisplay(lighBoxImage));
+		// System.out.println("Previous button display status: " +
+		// isDisplay(previousBtn));
+		// System.out.println("Next button display status: " + isDisplay(nextBtn));
 
 		return isDisplay(lighBoxImage) && isDisplay(previousBtn) && isDisplay(nextBtn);
 	}
@@ -338,9 +356,34 @@ public class ProductDisplayPage extends BasePage {
 		return isDisplay(productExTaxPrice) && productExTaxPrice.getText().contains(price);
 	}
 
+	public boolean isDefaultQuantityDisplay() {
+		return Integer.parseInt(getQuantityValue()) == 1;
+	}
+
+	public boolean isAddToCartByQuantityWork(int numberOfQuantity) throws InterruptedException {
+
+		int beforeAddedTotal = getAddedProductTotal();
+
+		addProductToCartByQuantity(numberOfQuantity);
+		
+		Thread.sleep(500);
+
+		int afterAddedTotal = getAddedProductTotal();
+
+		// debug output
+		System.out.println("bf: " + beforeAddedTotal);
+		System.out.println("af: " + afterAddedTotal);
+
+		return beforeAddedTotal <= afterAddedTotal;
+	}
+
 	// getters
 	public String getFirstProductTitle() {
 		return firstProductTitle.getText();
+	}
+
+	public String getQuantityValue() {
+		return quantityTxtBox.getAttribute("value");
 	}
 
 }
