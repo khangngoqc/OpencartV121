@@ -4431,3 +4431,8 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 16:47:37.424 [main] INFO  testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest - ***Finished TC_PDP_005_ProductDisplayPageDefaultQuantityTest ***
 17:07:32.641 [main] INFO  testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest - ***Starting TC_PDP_006_ProductDisplayPageNegativeQuantityTest ***
 17:09:24.750 [main] INFO  testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest - ***Starting TC_PDP_006_ProductDisplayPageNegativeQuantityTest ***
+21:42:16.489 [main] INFO  testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest - ***Starting TC_PDP_006_ProductDisplayPageNegativeQuantityTest ***
+22:00:48.102 [main] INFO  testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest - ***Starting TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***
+22:00:50.002 [main] INFO  testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest - ***Finished TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***
+22:01:59.880 [main] INFO  testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest - ***Starting TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***
+22:02:00.685 [main] INFO  testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest - ***Finished TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***

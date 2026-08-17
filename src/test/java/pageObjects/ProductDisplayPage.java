@@ -51,6 +51,8 @@ public class ProductDisplayPage extends BasePage {
 	WebElement quantityTxtBox;
 	@FindBy(xpath = "//button[@id='button-cart']")
 	WebElement addToCartBtn;
+	
+	@FindBy(xpath="//div[@class='alert alert-info']") WebElement minimumQuantityAlertBanner;
 
 	@FindBy(xpath = "(//div[@class='product-thumb transition']//h4//a)[1]")
 	WebElement firstProductTitle;
@@ -118,6 +120,18 @@ public class ProductDisplayPage extends BasePage {
 
 		clearInput(quantityTxtBox);
 		input(quantityTxtBox, Integer.toString(numberOfQuantity));
+		//quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
+		
+		Thread.sleep(500);
+		
+		click(addToCartBtn);
+
+	}
+	
+	public void addProductToCartByQuantity(String numberOfQuantity) throws InterruptedException {
+
+		clearInput(quantityTxtBox);
+		input(quantityTxtBox, numberOfQuantity);
 		//quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
 		
 		Thread.sleep(500);
@@ -375,6 +389,22 @@ public class ProductDisplayPage extends BasePage {
 		System.out.println("af: " + afterAddedTotal);
 
 		return beforeAddedTotal <= afterAddedTotal;
+	}
+	
+	public boolean isMinimumQuantityDisplay() {
+		
+		
+		String[] parts = minimumQuantityAlertBanner.getText().split(" of ");
+		String minimumQuantity = parts[1].trim();
+		
+		boolean validateDefaultWQuantity = Integer.parseInt(getQuantityValue()) == Integer.parseInt(minimumQuantity);
+		
+		//debug output
+		System.out.println("product minimum quantity required: " + minimumQuantity);
+		System.out.println("Banner display? " +  isDisplay(minimumQuantityAlertBanner));
+		System.out.println("Correct default minimum quantity display? " +  validateDefaultWQuantity);
+		
+		return isDisplay(minimumQuantityAlertBanner) && validateDefaultWQuantity ;
 	}
 
 	// getters
