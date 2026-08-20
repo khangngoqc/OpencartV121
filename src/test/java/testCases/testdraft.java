@@ -1,14 +1,19 @@
 package testCases;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
@@ -29,39 +34,73 @@ public class testdraft {
 	static WebDriver driver;
 	public static MailosaurClient mailosaur;
 
-	public static void main(String[] args) throws InterruptedException, IOException, MailosaurException {
+	public static void main(String[] args) throws InterruptedException, IOException, MailosaurException, AWTException {
 
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://tutorialsninja.com/demo/index.php?route=product/product&product_id=43");
-
-		driver.findElement(By.xpath("//ul[@class='thumbnails']//li[1]")).click();
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://tutorialsninja.com/demo/index.php?route=product/product&product_id=42");
+		
+		//driver.findElement(By.xpath("//div[@class='heroSection-buttonContainer_secondaryBtn secondaryBtn']")).click();
+		
+		String filePath = "D:\\TestFile.txt";
+		
+		Thread.sleep(2000);
+		
+		//1)using sendKeys() methods
+		//driver.findElement(By.xpath("(//input[@id='file-upload'])[1]")).sendKeys("D:\\TestFile.txt");
+		
+		
+		//2) using Robot class
+		//driver.findElement(By.xpath("(//input[@id='file-upload'])[1]")).click();
+		
+		WebElement input =driver.findElement(By.xpath("//button[contains(.,'Upload File')]"));
+		
+		/*
+		 * JavascriptExecutor js = (JavascriptExecutor)driver;
+		 * js.executeScript("arguments[0].click()", input);
+		 */
+		
+		input.click();
+		
+		//step1: copy(ctrl+C) the file path into the system clipboard
+		StringSelection filePathSelection = new StringSelection(filePath);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePathSelection, null);
+		
+		//step2: paste(ctrl+V)
+		Robot rb = new Robot();
+		
+		rb.keyPress(KeyEvent.VK_CONTROL);	//For MAC: rb.keyPress(KeyEvent.VK_META);
+		rb.keyPress(KeyEvent.VK_V);
+		rb.keyRelease(KeyEvent.VK_V);
+		rb.keyRelease(KeyEvent.VK_CONTROL);
+		
 		Thread.sleep(500);
+		
+		rb.keyPress(KeyEvent.VK_TAB);
+		rb.keyRelease(KeyEvent.VK_TAB);
+		
+		Thread.sleep(500);
+		
+		rb.keyPress(KeyEvent.VK_TAB);
+		rb.keyRelease(KeyEvent.VK_TAB);
+		
+		Thread.sleep(500);
+		//step3: click on return/enter key
+		rb.keyPress(KeyEvent.VK_ENTER);
+		rb.keyRelease(KeyEvent.VK_ENTER);
+		
+		Thread.sleep(1000);
+		Alert myAlert = driver.switchTo().alert();
+		//myAlert.sendKeys("welcome");
+		myAlert.accept();	//close alert with OK button
+		
+		
+		
+		
+		
+	
 
-		WebElement counterElement = driver.findElement(By.xpath("//div[@class='mfp-counter']"));
-		String counterText = counterElement.getText(); // "1 of 5"
-		System.out.println(counterText);
-
-		// Extract the total number using split
-		String[] parts = counterText.split(" of ");
-		int total = Integer.parseInt(parts[1].trim());
-
-		System.out.println("Total: " + total);
-
-		for (int p = 1; p <= total; p++) {
-
-			WebElement counterElement_counting = driver.findElement(By.xpath("//div[@class='mfp-counter']"));
-			String counterText_counting = counterElement.getText(); // "1 of 5"
-			String[] parts_counting = counterText_counting.split(" of ");
-			
-			WebElement nextBtn = driver.findElement(By.xpath("//button[@title='Next (Right arrow key)']"));
-			nextBtn.click();
-			
-			int currentImage = Integer.parseInt(parts_counting[0].trim());
-			System.out.println(currentImage + " of " + total);
-		}
-
-		driver.quit();
+		//driver.quit();
 
 	}
 

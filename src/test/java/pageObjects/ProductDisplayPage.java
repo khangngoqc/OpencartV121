@@ -1,11 +1,18 @@
 package pageObjects;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class ProductDisplayPage extends BasePage {
 
@@ -49,10 +56,34 @@ public class ProductDisplayPage extends BasePage {
 	WebElement productExTaxPrice;
 	@FindBy(xpath = "//input[@id='input-quantity']")
 	WebElement quantityTxtBox;
+
+	// Product Form
+	@FindBy(xpath = "")
+	WebElement formRadio;
+	@FindBy(xpath = "(//input[@type='checkbox'])[1]")
+	WebElement formCheckbox1;
+	@FindBy(xpath = "(//input[@type='checkbox'])[2]")
+	WebElement formCheckbox2;
+	@FindBy(xpath = "(//input[@type='text' and @class='form-control'])[1]")
+	WebElement formTextInput;
+	@FindBy(xpath = "//select[@class='form-control']")
+	WebElement formSelect;
+	@FindBy(xpath = "//textarea[contains(@id,'input-option')]")
+	WebElement formTextarea;
+	@FindBy(xpath = "//button[contains(.,'Upload File')]")
+	WebElement formUploadFile;
+	@FindBy(xpath = "//div[@class='input-group date']//button[@type='button']")
+	WebElement formDateInput;
+	@FindBy(xpath = "//div[@class='input-group time']//button[@type='button']")
+	WebElement formTimeInput;
+	@FindBy(xpath = "//div[@class='input-group datetime']//button[@type='button']")
+	WebElement formDateTimeInput;
+
 	@FindBy(xpath = "//button[@id='button-cart']")
 	WebElement addToCartBtn;
-	
-	@FindBy(xpath="//div[@class='alert alert-info']") WebElement minimumQuantityAlertBanner;
+
+	@FindBy(xpath = "//div[@class='alert alert-info']")
+	WebElement minimumQuantityAlertBanner;
 
 	@FindBy(xpath = "(//div[@class='product-thumb transition']//h4//a)[1]")
 	WebElement firstProductTitle;
@@ -120,23 +151,100 @@ public class ProductDisplayPage extends BasePage {
 
 		clearInput(quantityTxtBox);
 		input(quantityTxtBox, Integer.toString(numberOfQuantity));
-		//quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
-		
+		// quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
+
 		Thread.sleep(500);
-		
+
 		click(addToCartBtn);
 
 	}
-	
+
 	public void addProductToCartByQuantity(String numberOfQuantity) throws InterruptedException {
 
 		clearInput(quantityTxtBox);
 		input(quantityTxtBox, numberOfQuantity);
-		//quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
-		
+		// quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
+
 		Thread.sleep(500);
-		
+
 		click(addToCartBtn);
+
+	}
+
+	public void clickRadio() {
+		click(formRadio);
+	}
+
+	public void enableCheckbox1() {
+		if (formCheckbox1.isEnabled() == false) {
+			click(formCheckbox1);
+		}
+	}
+
+	public void enableCheckbox2() {
+		if (formCheckbox2.isEnabled() == false) {
+			click(formCheckbox2);
+		}
+	}
+
+	public void handleFormSelect(int index) {
+		Select dropdown = new Select(formSelect);
+		List<WebElement> selectOptions = dropdown.getAllSelectedOptions();
+		int numberOfOptions = selectOptions.size();
+		if (index >= numberOfOptions || index <= 0) {
+			System.out.println(
+					"Invalid index input! index should be in range of  0 < [index] <= " + (numberOfOptions - 1));
+		} else {
+			dropdown.deselectByIndex(index - 1);
+		}
+	}
+
+	public void inputFormTextarea(String text) {
+		input(formTextarea, text);
+	}
+
+	public void uploadFormFile(String filepath) throws AWTException, InterruptedException {
+
+		try {
+
+			click(formUploadFile);
+			String filePath = "D:\\TestFile.txt";
+
+			// step1: copy(ctrl+C) the file path into the system clipboard
+			StringSelection filePathSelection = new StringSelection(filePath);
+			Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePathSelection, null);
+
+			// step2: paste(ctrl+V)
+			Robot rb = new Robot();
+
+			rb.keyPress(KeyEvent.VK_CONTROL); // For MAC: rb.keyPress(KeyEvent.VK_META);
+			rb.keyPress(KeyEvent.VK_V);
+			rb.keyRelease(KeyEvent.VK_V);
+			rb.keyRelease(KeyEvent.VK_CONTROL);
+
+			Thread.sleep(500);
+
+			rb.keyPress(KeyEvent.VK_TAB);
+			rb.keyRelease(KeyEvent.VK_TAB);
+
+			Thread.sleep(500);
+
+			rb.keyPress(KeyEvent.VK_TAB);
+			rb.keyRelease(KeyEvent.VK_TAB);
+
+			Thread.sleep(500);
+			// step3: click on return/enter key
+			rb.keyPress(KeyEvent.VK_ENTER);
+			rb.keyRelease(KeyEvent.VK_ENTER);
+
+			Thread.sleep(1000);
+			Alert myAlert = getDriver().switchTo().alert();
+			// myAlert.sendKeys("welcome");
+			myAlert.accept(); // close alert with OK button
+
+		} catch (Exception e) {
+			System.out.println("Fail to updload file! | " + e.getMessage());
+		}
 
 	}
 
@@ -379,7 +487,7 @@ public class ProductDisplayPage extends BasePage {
 		int beforeAddedTotal = getAddedProductTotal();
 
 		addProductToCartByQuantity(numberOfQuantity);
-		
+
 		Thread.sleep(500);
 
 		int afterAddedTotal = getAddedProductTotal();
@@ -390,21 +498,24 @@ public class ProductDisplayPage extends BasePage {
 
 		return beforeAddedTotal <= afterAddedTotal;
 	}
-	
+
 	public boolean isMinimumQuantityDisplay() {
-		
-		
+
 		String[] parts = minimumQuantityAlertBanner.getText().split(" of ");
 		String minimumQuantity = parts[1].trim();
-		
+
 		boolean validateDefaultWQuantity = Integer.parseInt(getQuantityValue()) == Integer.parseInt(minimumQuantity);
-		
-		//debug output
+
+		// debug output
 		System.out.println("product minimum quantity required: " + minimumQuantity);
-		System.out.println("Banner display? " +  isDisplay(minimumQuantityAlertBanner));
-		System.out.println("Correct default minimum quantity display? " +  validateDefaultWQuantity);
-		
-		return isDisplay(minimumQuantityAlertBanner) && validateDefaultWQuantity ;
+		System.out.println("Banner display? " + isDisplay(minimumQuantityAlertBanner));
+		System.out.println("Correct default minimum quantity display? " + validateDefaultWQuantity);
+
+		return isDisplay(minimumQuantityAlertBanner) && validateDefaultWQuantity;
+	}
+
+	public boolean validateminimumQuantityAlertBannerTxt(String message) {
+		return minimumQuantityAlertBanner.getText().equals(message);
 	}
 
 	// getters

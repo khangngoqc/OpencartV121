@@ -11,6 +11,7 @@ import testBase.BaseClass;
 public class TC_PDP_007_ProductDisplayPageMinimumQuantityTest extends BaseClass {
 
 	String searchInput = "Apple Cinema 30\"";
+	String warningMessage = "This product has a minimum quantity of 2";
 	
 
 	@Test(groups = {"master", "product display"})
@@ -25,6 +26,7 @@ public class TC_PDP_007_ProductDisplayPageMinimumQuantityTest extends BaseClass 
 			ProductDisplayPage dp = sp.clickFirstProductTitle();
 			
 			Assert.assertTrue(dp.isMinimumQuantityDisplay(), "Incorrect product default quantity display! | found: "  + dp.getQuantityValue());
+			Assert.assertTrue(dp.findInDOM(warningMessage),"Unable to find expected messsage! | ");
 			
 
 			logger.info("***Finished TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***");
