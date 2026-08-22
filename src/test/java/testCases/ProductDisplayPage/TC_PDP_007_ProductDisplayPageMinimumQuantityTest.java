@@ -12,7 +12,7 @@ public class TC_PDP_007_ProductDisplayPageMinimumQuantityTest extends BaseClass 
 
 	String searchInput = "Apple Cinema 30\"";
 	String warningMessage = "This product has a minimum quantity of 2";
-	
+	String testFilePath = "";
 
 	@Test(groups = {"master", "product display"})
 	public void validate_product_minimum_quantity_display() throws InterruptedException
@@ -26,6 +26,16 @@ public class TC_PDP_007_ProductDisplayPageMinimumQuantityTest extends BaseClass 
 			ProductDisplayPage dp = sp.clickFirstProductTitle();
 			
 			Assert.assertTrue(dp.isMinimumQuantityDisplay(), "Incorrect product default quantity display! | found: "  + dp.getQuantityValue());
+			
+			//fill product form
+			dp.enableCheckbox1();
+			dp.enableCheckbox2();
+			dp.handleFormSelect(1);
+			dp.inputFormTextarea("test textarea");
+			dp.uploadFormFile(testFilePath);
+			dp.InputFormDate(2026, 6, 27);
+			
+		
 			Assert.assertTrue(dp.findInDOM(warningMessage),"Unable to find expected messsage! | ");
 			
 

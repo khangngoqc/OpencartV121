@@ -9,8 +9,10 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
+import java.time.Month;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 import org.openqa.selenium.Alert;
@@ -39,69 +41,259 @@ public class testdraft {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://tutorialsninja.com/demo/index.php?route=product/product&product_id=42");
+		driver.manage().window().maximize();
+
+		handleDatePicker(driver, 2026, 6, 27);
+
+		// driver.quit();
+
+	}
+
+	public static void handleDatePicker(WebDriver driver, int year, String month, int date) throws InterruptedException {
+
+		WebElement datePickerButton = driver
+				.findElement(By.xpath("//div[@class='input-group date']//button[@type='button']"));
+		WebElement monthYearNav = driver.findElement(By.xpath("(//th[@class='picker-switch'])[1]"));
+
+		// WebElement yearNav =
+		// driver.findElement(By.xpath("(//th[@class='picker-switch'])[2]"));
+
+		((JavascriptExecutor) driver)
+				.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", datePickerButton);
+
+		datePickerButton.click();
+		monthYearNav.click();
+
+		if (year <= 0) {
+			System.out.println("invalid year input! ");
+			return;
+		}
+
+		int currentYear = java.time.Year.now().getValue();
+		if (year < 1900 || year > (currentYear + 100)) {
+			System.out.println("Year input out of bound! Input should be in range 1900 < [input] < currentYear + 100");
+			return;
+		}
+
+		Thread.sleep(500);
+		// select year
+		navigateToYear(driver, year);
+
+		Thread.sleep(500);
+		// select month
+		navigateToMonth(driver, month);
 		
-		//driver.findElement(By.xpath("//div[@class='heroSection-buttonContainer_secondaryBtn secondaryBtn']")).click();
+		Thread.sleep(500);
+		// select date
+		navigateToDate(driver, date);
+
+	}
+
+	public static void handleDatePicker(WebDriver driver, int year, int month, int date) throws InterruptedException {
+
+		WebElement datePickerButton = driver
+				.findElement(By.xpath("//div[@class='input-group date']//button[@type='button']"));
+		WebElement monthYearNav = driver.findElement(By.xpath("(//th[@class='picker-switch'])[1]"));
+
+		// WebElement yearNav =
+		// driver.findElement(By.xpath("(//th[@class='picker-switch'])[2]"));
+
+		((JavascriptExecutor) driver)
+				.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", datePickerButton);
+
+		datePickerButton.click();
+		monthYearNav.click();
+
+		if (year <= 0) {
+			System.out.println("invalid year input! ");
+			return;
+		}
+
+		int currentYear = java.time.Year.now().getValue();
+		if (year < 1900 || year > (currentYear + 100)) {
+			System.out.println("Year input out of bound! Input should be in range 1900 < [input] < currentYear + 100");
+			return;
+		}
+
+		Thread.sleep(500);
+		// select year
+		navigateToYear(driver, year);
+
+		Thread.sleep(500);
+		// select month
+		navigateToMonth(driver, month);
+
+		Thread.sleep(500);
+		// select date
+		navigateToDate(driver, date);
+	}
+
+	public static String extractYear(WebDriver driver) {
+
+		String MonthYearString = driver.findElement(By.xpath("(//th[@class='picker-switch'])[1]")).getText();
+
+		String currentYearString = driver.findElement(By.xpath("(//th[@class='picker-switch'])[2]")).getText();
+
+		// String yearToYearString =
+		// driver.findElement(By.xpath("(//th[@class='picker-switch'])[3]")).getText();
+		// String[] yearRange = yearToYearString.trim().split("-");
+		// String yearMin = yearRange[0];
+		// yearMax = yearRange[0];
+
+		return currentYearString;
+	}
+
+	public static void navigateToYear(WebDriver driver, int year) {
+
+		WebElement preBtn = driver.findElement(By.xpath("(//th[@class='prev'][contains(text(),'‹')])[2]"));
+		WebElement nxtBtn = driver.findElement(By.xpath("(//th[@class='next'][contains(text(),'›')])[2]"));
+
+		String defaultYearString = extractYear(driver);
+		int defaultYear = Integer.parseInt(defaultYearString);
+
+		while (defaultYear > year) {
+			preBtn.click();
+			defaultYear = Integer.parseInt(extractYear(driver));
+		}
+
+		while (defaultYear < year) {
+			nxtBtn.click();
+			defaultYear = Integer.parseInt(extractYear(driver));
+		}
+
+	}
+
+	public static void navigateToMonth(WebDriver driver, int month) {
+
+		if (month <= 0 || month > 12) {
+			System.out.println("Invalid month input! Input should be in range of 1 <= [month] <= 12");
+		}
+
+		WebElement monthEle = driver.findElement(By.xpath("(//span[@class='month'])[" + month + "]"));
+		monthEle.click();
+
+	}
+
+	public static void navigateToMonth(WebDriver driver, String month) {
+
+		try {
+			String monthInput = convertMonth(month);
+
+			WebElement monthEle = driver
+					.findElement(By.xpath("//span[@class='month'][normalize-space()='" + monthInput.trim() + "']"));
+			monthEle.click();
+		} catch (Exception e) {
+			System.out.println("Invalid month input! | " + month);
+		}
+
+	}
+
+	static String convertMonth(String month) {
+		HashMap<String, String> monthMap = new HashMap<String, String>();
+
+		monthMap.put("January", "Jan");
+		monthMap.put("February", "Feb");
+		monthMap.put("March", "Mar");
+		monthMap.put("April", "Apr");
+		monthMap.put("May", "May");
+		monthMap.put("June", "Jun");
+		monthMap.put("July", "Jul");
+		monthMap.put("August", "Aug");
+		monthMap.put("September", "Sep");
+		monthMap.put("October", "Oct");
+		monthMap.put("November", "Nov");
+		monthMap.put("December", "Dec");
+
+		monthMap.put("1", "Jan");
+		monthMap.put("2", "Feb");
+		monthMap.put("3", "Mar");
+		monthMap.put("4", "Apr");
+		monthMap.put("5", "May");
+		monthMap.put("6", "Jun");
+		monthMap.put("7", "Jul");
+		monthMap.put("8", "Aug");
+		monthMap.put("9", "Sep");
+		monthMap.put("10", "Oct");
+		monthMap.put("11", "Nov");
+		monthMap.put("12", "Dec");
+
+		String vmonth = monthMap.get(month);
+
+		if (vmonth == null) {
+			System.out.println("Invalid month...");
+		}
+
+		return vmonth;
+
+	}
+	
+	public static void navigateToDate(WebDriver driver, int date) {
 		
+		try {
+			
+			WebElement dateEle = driver.findElement(By.xpath("(//td[@class='day' and contains(text(),'"+ date +"')])[1]"));
+			dateEle.click();
+			
+		} catch (Exception e) {
+			System.out.println(e.getMessage() + "\n" + "Invalid date | " + date);
+		}
+		
+	}
+
+	public static void handleFileUpload() throws InterruptedException, AWTException {
+		// driver.findElement(By.xpath("//div[@class='heroSection-buttonContainer_secondaryBtn
+		// secondaryBtn']")).click();
+
 		String filePath = "D:\\TestFile.txt";
-		
+
 		Thread.sleep(2000);
-		
-		//1)using sendKeys() methods
-		//driver.findElement(By.xpath("(//input[@id='file-upload'])[1]")).sendKeys("D:\\TestFile.txt");
-		
-		
-		//2) using Robot class
-		//driver.findElement(By.xpath("(//input[@id='file-upload'])[1]")).click();
-		
-		WebElement input =driver.findElement(By.xpath("//button[contains(.,'Upload File')]"));
-		
+
+		// 1)using sendKeys() methods
+		// driver.findElement(By.xpath("(//input[@id='file-upload'])[1]")).sendKeys("D:\\TestFile.txt");
+
+		// 2) using Robot class
+		// driver.findElement(By.xpath("(//input[@id='file-upload'])[1]")).click();
+
+		WebElement input = driver.findElement(By.xpath("//button[contains(.,'Upload File')]"));
+
 		/*
 		 * JavascriptExecutor js = (JavascriptExecutor)driver;
 		 * js.executeScript("arguments[0].click()", input);
 		 */
-		
+
 		input.click();
-		
-		//step1: copy(ctrl+C) the file path into the system clipboard
+
+		// step1: copy(ctrl+C) the file path into the system clipboard
 		StringSelection filePathSelection = new StringSelection(filePath);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePathSelection, null);
-		
-		//step2: paste(ctrl+V)
+
+		// step2: paste(ctrl+V)
 		Robot rb = new Robot();
-		
-		rb.keyPress(KeyEvent.VK_CONTROL);	//For MAC: rb.keyPress(KeyEvent.VK_META);
+
+		rb.keyPress(KeyEvent.VK_CONTROL); // For MAC: rb.keyPress(KeyEvent.VK_META);
 		rb.keyPress(KeyEvent.VK_V);
 		rb.keyRelease(KeyEvent.VK_V);
 		rb.keyRelease(KeyEvent.VK_CONTROL);
-		
+
 		Thread.sleep(500);
-		
+
 		rb.keyPress(KeyEvent.VK_TAB);
 		rb.keyRelease(KeyEvent.VK_TAB);
-		
+
 		Thread.sleep(500);
-		
+
 		rb.keyPress(KeyEvent.VK_TAB);
 		rb.keyRelease(KeyEvent.VK_TAB);
-		
+
 		Thread.sleep(500);
-		//step3: click on return/enter key
+		// step3: click on return/enter key
 		rb.keyPress(KeyEvent.VK_ENTER);
 		rb.keyRelease(KeyEvent.VK_ENTER);
-		
+
 		Thread.sleep(1000);
 		Alert myAlert = driver.switchTo().alert();
-		//myAlert.sendKeys("welcome");
-		myAlert.accept();	//close alert with OK button
-		
-		
-		
-		
-		
-	
-
-		//driver.quit();
-
+		// myAlert.sendKeys("welcome");
+		myAlert.accept(); // close alert with OK button
 	}
 
 	public static boolean isSortedWebAtoZ(List<WebElement> list) {
