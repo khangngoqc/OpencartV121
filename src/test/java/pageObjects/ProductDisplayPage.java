@@ -11,7 +11,6 @@ import java.util.List;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
@@ -193,13 +192,18 @@ public class ProductDisplayPage extends BasePage {
 
 	public void handleFormSelect(int index) {
 		Select dropdown = new Select(formSelect);
-		List<WebElement> selectOptions = dropdown.getAllSelectedOptions();
+		List<WebElement> selectOptions = dropdown.getOptions();
+		//System.out.println(selectOptions.toString());
+		
 		int numberOfOptions = selectOptions.size();
+		
+		//System.out.println(selectOptions.size());
+		
 		if (index >= numberOfOptions || index <= 0) {
 			System.out.println(
 					"Invalid index input! index should be in range of  0 < [index] <= " + (numberOfOptions - 1));
 		} else {
-			dropdown.deselectByIndex(index - 1);
+			dropdown.selectByIndex(index - 1);
 		}
 	}
 
@@ -207,12 +211,11 @@ public class ProductDisplayPage extends BasePage {
 		input(formTextarea, text);
 	}
 
-	public void uploadFormFile(String filepath) throws AWTException, InterruptedException {
+	public void uploadFormFile(String filePath) throws AWTException, InterruptedException {
 
 		try {
 
 			click(formUploadFile);
-			String filePath = "D:\\TestFile.txt";
 
 			// step1: copy(ctrl+C) the file path into the system clipboard
 			StringSelection filePathSelection = new StringSelection(filePath);
@@ -336,9 +339,9 @@ public class ProductDisplayPage extends BasePage {
 
 	private String extractYear() {
 
-		String MonthYearString = getDriver().findElement(By.xpath("(//th[@class='picker-switch'])[1]")).getText();
+		String MonthYearString = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[1]")).getText();
 
-		String currentYearString = getDriver().findElement(By.xpath("(//th[@class='picker-switch'])[2]")).getText();
+		String currentYearString = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[2]")).getText();
 
 		// String yearToYearString =
 		// driver.findElement(By.xpath("(//th[@class='picker-switch'])[3]")).getText();
@@ -351,8 +354,8 @@ public class ProductDisplayPage extends BasePage {
 
 	private void navigateToYear(int year) {
 
-		WebElement preBtn = getDriver().findElement(By.xpath("(//th[@class='prev'][contains(text(),'‹')])[2]"));
-		WebElement nxtBtn = getDriver().findElement(By.xpath("(//th[@class='next'][contains(text(),'›')])[2]"));
+		WebElement preBtn = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='prev'][contains(text(),'‹')])[2]"));
+		WebElement nxtBtn = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='next'][contains(text(),'›')])[2]"));
 
 		String defaultYearString = extractYear();
 		int defaultYear = Integer.parseInt(defaultYearString);
@@ -375,7 +378,7 @@ public class ProductDisplayPage extends BasePage {
 			System.out.println("Invalid month input! Input should be in range of 1 <= [month] <= 12");
 		}
 
-		WebElement monthEle = getDriver().findElement(By.xpath("(//span[@class='month'])[" + month + "]"));
+		WebElement monthEle = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//span[@class='month'])[" + month + "]"));
 		monthEle.click();
 
 	}
@@ -386,7 +389,7 @@ public class ProductDisplayPage extends BasePage {
 			String monthInput = convertMonth(month);
 
 			WebElement monthEle = getDriver()
-					.findElement(By.xpath("//span[@class='month'][normalize-space()='" + monthInput.trim() + "']"));
+					.findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='month'][normalize-space()='" + monthInput.trim() + "']"));
 			monthEle.click();
 		} catch (Exception e) {
 			System.out.println("Invalid month input! | " + month);
@@ -438,13 +441,131 @@ public class ProductDisplayPage extends BasePage {
 		try {
 
 			WebElement dateEle = getDriver()
-					.findElement(By.xpath("(//td[@class='day' and contains(text(),'" + date + "')])[1]"));
+					.findElement(By.xpath("(//div[contains(@class,'picker-open')]//td[@class='day' and contains(text(),'" + date + "')])[1]"));
 			dateEle.click();
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage() + "\n" + "Invalid date | " + date);
 		}
 
+	}
+
+	public void InputFormTime(int hour, int min) {
+
+		click(formTimeInput);
+
+		navigateToHour(hour);
+		navigateToMinute(min);
+		
+		click(formTimeInput); //close widget
+	}
+
+	public int extractHour() {
+
+		WebElement hourEle = getDriver().findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-hour']"));
+		int hour = Integer.parseInt(hourEle.getText());
+
+		return hour;
+	}
+
+	public int extractMinute() {
+
+		WebElement minuteEle = getDriver().findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-minute']"));
+		int minute = Integer.parseInt(minuteEle.getText());
+
+		return minute;
+	}
+
+	public void navigateToHour(int hour) {
+
+		if (hour > 23 || hour < 0) {
+			System.out.println("Invalid hour input!");
+			return;
+		}
+
+		WebElement hourIncrementBtn = getDriver()
+				.findElement(By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='incrementHours']//span"));
+		WebElement hourDecrementBtn = getDriver()
+				.findElement(By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='decrementHours']//span"));
+
+		int currentHour = extractHour();
+
+		while (currentHour > hour) {
+			click(hourDecrementBtn);
+			currentHour = extractHour();
+		}
+
+		while (currentHour < hour) {
+			click(hourIncrementBtn);
+			currentHour = extractHour();
+		}
+
+	}
+
+	public void navigateToMinute(int min) {
+
+		if (min > 59 || min < 0) {
+			System.out.println("Invalid minute input!");
+			return;
+		}
+
+		WebElement minIncrementBtn = getDriver()
+				.findElement(By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='incrementMinutes']//span"));
+		WebElement minDecrementBtn = getDriver()
+				.findElement(By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='decrementMinutes']//span"));
+
+		int currentMin = extractMinute();
+
+		while (currentMin > min) {
+			click(minDecrementBtn);
+			currentMin = extractMinute();
+		}
+
+		while (currentMin < min) {
+			click(minIncrementBtn);
+			currentMin = extractMinute();
+		}
+
+	}
+	
+	public void inputFormDateTime(int year, int month, int date, int hour, int min) throws InterruptedException{
+		
+
+		click(formDateTimeInput);
+		
+		WebElement monthYearNav = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[1]"));
+
+		// WebElement yearNav =
+		// driver.findElement(By.xpath("(//th[@class='picker-switch'])[2]"));
+
+		monthYearNav.click();
+
+		if (year <= 0) {
+			System.out.println("invalid year input! ");
+			return;
+		}
+
+		int currentYear = java.time.Year.now().getValue();
+		if (year < 1900 || year > (currentYear + 100)) {
+			System.out.println("Year input out of bound! Input should be in range 1900 < [input] < currentYear + 100");
+			return;
+		}
+		
+		
+		navigateToYear(year);
+		navigateToMonth(month);
+		navigateToDate(date);
+		
+		WebElement timeAccordion = getDriver().findElement(By.xpath("//li[@class='picker-switch accordion-toggle']//a[@class='btn']"));
+		click(timeAccordion);
+		
+		Thread.sleep(500);
+		
+		navigateToHour(hour);
+		navigateToMinute(min);
+		
+		click(formDateTimeInput); //close widget
+		
 	}
 
 	// validations
@@ -715,6 +836,10 @@ public class ProductDisplayPage extends BasePage {
 
 	public boolean validateminimumQuantityAlertBannerTxt(String message) {
 		return minimumQuantityAlertBanner.getText().equals(message);
+	}
+	
+	public boolean isMinimumWarningQuantityExistInDOM() {
+		return findInDOM("Minimum order amount for + " + productName.getText().trim() + " is 2!");
 	}
 
 	// getters

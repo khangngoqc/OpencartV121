@@ -43,13 +43,90 @@ public class testdraft {
 		driver.get("https://tutorialsninja.com/demo/index.php?route=product/product&product_id=42");
 		driver.manage().window().maximize();
 
-		handleDatePicker(driver, 2026, 6, 27);
+		// handleDatePicker(driver, 2026, 6, 27);
+		handleTimeSelect(driver, 20, 39);
 
 		// driver.quit();
 
 	}
 
-	public static void handleDatePicker(WebDriver driver, int year, String month, int date) throws InterruptedException {
+	public static void handleTimeSelect(WebDriver driver, int hour, int min) {
+
+		WebElement timeSelectBtn = driver
+				.findElement(By.xpath("//div[@class='input-group time']//button[@type='button']"));
+		timeSelectBtn.click();
+		
+		navigateToHour(driver, hour);
+		navigateToMinute(driver, min);
+
+	}
+
+	public static int extractHour(WebDriver driver) {
+
+		WebElement hourEle = driver.findElement(By.xpath("(//span[@class='timepicker-hour'])[2]"));
+		int hour = Integer.parseInt(hourEle.getText());
+
+		return hour;
+	}
+
+	public static int extractMinute(WebDriver driver) {
+
+		WebElement minuteEle = driver.findElement(By.xpath("(//span[@class='timepicker-minute'])[2]"));
+		int minute = Integer.parseInt(minuteEle.getText());
+
+		return minute;
+	}
+
+	public static void navigateToHour(WebDriver driver, int hour) {
+
+		if (hour > 23 || hour < 0) {
+			System.out.println("Invalid hour input!");
+			return;
+		}
+
+		WebElement hourIncrementBtn = driver.findElement(By.xpath("(//a[@data-action='incrementHours']//span)[2]"));
+		WebElement hourDecrementBtn = driver.findElement(By.xpath("(//a[@data-action='decrementHours']//span)[2]"));
+
+		int currentHour = extractHour(driver);
+
+		while (currentHour > hour) {
+			hourDecrementBtn.click();
+			currentHour = extractHour(driver);
+		}
+
+		while (currentHour < hour) {
+			hourIncrementBtn.click();
+			currentHour = extractHour(driver);
+		}
+
+	}
+	
+	public static void navigateToMinute(WebDriver driver, int min) {
+
+		if (min > 59 || min < 0) {
+			System.out.println("Invalid minute input!");
+			return;
+		}
+
+		WebElement minIncrementBtn = driver.findElement(By.xpath("(//a[@data-action='incrementMinutes']//span)[2]"));
+		WebElement minDecrementBtn = driver.findElement(By.xpath("(//a[@data-action='decrementMinutes']//span)[2]"));
+
+		int currentMin = extractMinute(driver);
+
+		while (currentMin > min) {
+			minDecrementBtn.click();
+			currentMin = extractMinute(driver);
+		}
+
+		while (currentMin < min) {
+			minIncrementBtn.click();
+			currentMin = extractMinute(driver);
+		}
+
+	}
+
+	public static void handleDatePicker(WebDriver driver, int year, String month, int date)
+			throws InterruptedException {
 
 		WebElement datePickerButton = driver
 				.findElement(By.xpath("//div[@class='input-group date']//button[@type='button']"));
@@ -82,7 +159,7 @@ public class testdraft {
 		Thread.sleep(500);
 		// select month
 		navigateToMonth(driver, month);
-		
+
 		Thread.sleep(500);
 		// select date
 		navigateToDate(driver, date);
@@ -226,18 +303,19 @@ public class testdraft {
 		return vmonth;
 
 	}
-	
+
 	public static void navigateToDate(WebDriver driver, int date) {
-		
+
 		try {
-			
-			WebElement dateEle = driver.findElement(By.xpath("(//td[@class='day' and contains(text(),'"+ date +"')])[1]"));
+
+			WebElement dateEle = driver
+					.findElement(By.xpath("(//td[@class='day' and contains(text(),'" + date + "')])[1]"));
 			dateEle.click();
-			
+
 		} catch (Exception e) {
 			System.out.println(e.getMessage() + "\n" + "Invalid date | " + date);
 		}
-		
+
 	}
 
 	public static void handleFileUpload() throws InterruptedException, AWTException {
