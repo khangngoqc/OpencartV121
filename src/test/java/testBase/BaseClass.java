@@ -14,6 +14,9 @@ import java.util.Properties;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager; //Log4j
 import org.apache.logging.log4j.Logger; //Log4j
+import org.languagetool.JLanguageTool;
+import org.languagetool.language.AmericanEnglish;
+import org.languagetool.rules.RuleMatch;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -48,6 +51,7 @@ public class BaseClass {
 	public Actions act;
 	public WebDriverWait wait;
 	public MailosaurClient mailosaur;
+	public JLanguageTool langTool;
 
 	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register", "forgot password", "product compare", "product display" })
 	@Parameters({ "os", "browser" })
@@ -136,6 +140,11 @@ public class BaseClass {
 		
 		//Mailosaur setup
 		mailosaur = new MailosaurClient(p.getProperty("mailosaurAPI"));
+		
+		//Jlangtool
+		langTool = new JLanguageTool(new AmericanEnglish());
+		
+		
 		
 
 	}
@@ -252,6 +261,27 @@ public class BaseClass {
 		
 		return true;
 
+	}
+	
+	public boolean grammarCheck(String text) throws IOException {
+		
+		List<RuleMatch> matches = langTool.check(text);
+		
+		if(matches.isEmpty()) {
+			return true;
+		}
+		
+		if (!matches.isEmpty()) {
+			System.out.println("Text: \"" + text + "\"");
+			for (RuleMatch match : matches) {
+				System.out.println("Issue: " + match.getMessage() + " | " + match.getOriginalErrorStr());
+				System.out.println("Suggestion: " + match.getSuggestedReplacements());
+				System.out.println("Position: " + match.getFromPos() + "-" + match.getToPos());
+				System.out.println("------");
+			}
+		}
+		
+		return false;
 	}
 	
 

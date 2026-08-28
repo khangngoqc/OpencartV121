@@ -42,6 +42,8 @@ public class ProductDisplayPage extends BasePage {
 	WebElement previousBtn;
 	@FindBy(xpath = "//button[normalize-space()='×']")
 	WebElement closeBtn;
+	
+	@FindBy(xpath = "//div[@id='tab-description']") WebElement productDescription;
 
 	@FindBy(xpath = "//div[@class=\"col-sm-4\"]//ul//preceding-sibling::h1")
 	WebElement productName;
@@ -840,6 +842,10 @@ public class ProductDisplayPage extends BasePage {
 	
 	public boolean isMinimumWarningQuantityExistInDOM() {
 		return findInDOM("Minimum order amount for + " + productName.getText().trim() + " is 2!");
+	}
+	
+	public boolean isCorrectProductDecriptionDisplay() {
+		return isDisplay(productDescription) && getElementText(productDescription).contains(getElementText(productName).trim()) ;
 	}
 
 	// getters

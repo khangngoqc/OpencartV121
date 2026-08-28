@@ -9,12 +9,15 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
-import java.time.Month;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
+import org.languagetool.JLanguageTool;
+import org.languagetool.language.AmericanEnglish;
+import org.languagetool.rules.RuleMatch;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -37,14 +40,32 @@ public class testdraft {
 	public static MailosaurClient mailosaur;
 
 	public static void main(String[] args) throws InterruptedException, IOException, MailosaurException, AWTException {
+		
+		System.setProperty("jdk.xml.totalEntitySizeLimit", "0");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://tutorialsninja.com/demo/index.php?route=product/product&product_id=42");
+		driver.get("https://tutorialsninja.com/demo/index.php?route=product/product&product_id=41&search=imac");
 		driver.manage().window().maximize();
 
+		JLanguageTool langTool = new JLanguageTool(new AmericanEnglish());
+
+		WebElement descriptionEle = driver.findElement(By.xpath("//div[@id='tab-description']"));
+		String descText = descriptionEle.getText();
+		
+		List<RuleMatch> matches = langTool.check(descText);
+		if (!matches.isEmpty()) {
+			System.out.println("Text: \"" + descText + "\"");
+			for (RuleMatch match : matches) {
+				System.out.println("Issue: " + match.getMessage() + " | " + match.getOriginalErrorStr());
+				System.out.println("Suggestion: " + match.getSuggestedReplacements());
+				System.out.println("Position: " + match.getFromPos() + "-" + match.getToPos());
+				System.out.println("------");
+			}
+		}
+
 		// handleDatePicker(driver, 2026, 6, 27);
-		handleTimeSelect(driver, 20, 39);
+		//handleTimeSelect(driver, 20, 39);
 
 		// driver.quit();
 
@@ -55,7 +76,7 @@ public class testdraft {
 		WebElement timeSelectBtn = driver
 				.findElement(By.xpath("//div[@class='input-group time']//button[@type='button']"));
 		timeSelectBtn.click();
-		
+
 		navigateToHour(driver, hour);
 		navigateToMinute(driver, min);
 
@@ -100,7 +121,7 @@ public class testdraft {
 		}
 
 	}
-	
+
 	public static void navigateToMinute(WebDriver driver, int min) {
 
 		if (min > 59 || min < 0) {

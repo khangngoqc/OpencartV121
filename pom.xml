@@ -104,19 +104,20 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Source:https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<!--
+		Source:https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>5.1.2</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 		<dependency>
-        	<groupId>com.mailosaur</groupId>
-        	<artifactId>mailosaur-java</artifactId>
-        	<version>8.0.0</version>
-    	</dependency>
+			<groupId>com.mailosaur</groupId>
+			<artifactId>mailosaur-java</artifactId>
+			<version>8.0.0</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -124,7 +125,7 @@
 			<version>1.18.42</version>
 			<scope>provided</scope>
 		</dependency>
-    	
+
 		<!--
 		 Source: https://mvnrepository.com/artifact/org.slf4j/slf4j-api 
 		<dependency>
@@ -144,6 +145,19 @@
 		</dependency>
 
 -->
+
+		<!-- LanguageTool core + English rules -->
+		<dependency>
+			<groupId>org.languagetool</groupId>
+			<artifactId>languagetool-core</artifactId>
+			<version>6.4</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.languagetool</groupId>
+			<artifactId>language-en</artifactId>
+			<version>6.4</version>
+		</dependency>
 
 
 	</dependencies>
