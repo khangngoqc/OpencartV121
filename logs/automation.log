@@ -4463,3 +4463,12 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 22:11:11.925 [main] INFO  testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest - ***Starting TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***
 22:11:54.087 [main] INFO  testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest - ***Starting TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***
 22:12:24.202 [main] INFO  testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest - ***Starting TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***
+21:46:21.227 [main] INFO  testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest - ***Starting TC_PDP_008_ProductDisplayPageProductDescriptionTest ***
+21:47:51.672 [main] INFO  testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest - ***Starting TC_PDP_008_ProductDisplayPageProductDescriptionTest ***
+21:48:57.940 [main] INFO  testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest - ***Starting TC_PDP_008_ProductDisplayPageProductDescriptionTest ***
+21:56:50.717 [main] INFO  testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest - ***Starting TC_PDP_008_ProductDisplayPageProductDescriptionTest ***
+22:29:09.494 [main] INFO  testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest - ***Starting TC_PDP_008_ProductDisplayPageProductDescriptionTest ***
+22:29:53.162 [main] INFO  testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest - ***Starting TC_PDP_009_ProductDisplayPageProductSpecificationTest ***
+23:13:50.444 [main] INFO  testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest - ***Starting TC_PDP_010_ProductDisplayPageProductReviewsTest ***
+23:15:58.164 [main] INFO  testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest - ***Starting TC_PDP_010_ProductDisplayPageProductReviewsTest ***
+23:15:59.334 [main] INFO  testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest - ***Finished TC_PDP_010_ProductDisplayPageProductReviewsTest ***

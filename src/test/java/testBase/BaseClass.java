@@ -41,9 +41,14 @@ import com.mailosaur.MailosaurClient;
 public class BaseClass {
 
 	public static final ThreadLocal<WebDriver> driver =  new ThreadLocal<>();
+	public static final ThreadLocal<JLanguageTool> langTool = new ThreadLocal<>();
 	
 	public WebDriver getDriver() {
 		return driver.get();
+	}
+	
+	public JLanguageTool getLangTool() {
+	    return langTool.get();
 	}
 	
 	public Logger logger; // ;Log4j
@@ -51,12 +56,13 @@ public class BaseClass {
 	public Actions act;
 	public WebDriverWait wait;
 	public MailosaurClient mailosaur;
-	public JLanguageTool langTool;
-
+	
 	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register", "forgot password", "product compare", "product display" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
+		System.setProperty("jdk.xml.totalEntitySizeLimit", "0");
+		
 		// Loading config.properties file
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 		p = new Properties();
@@ -142,17 +148,18 @@ public class BaseClass {
 		mailosaur = new MailosaurClient(p.getProperty("mailosaurAPI"));
 		
 		//Jlangtool
-		langTool = new JLanguageTool(new AmericanEnglish());
-		
-		
-		
+		langTool.set(new JLanguageTool(new AmericanEnglish()));
 
 	}
 
 	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" , "forgot password", "product compare", "product display"})
 	public void tearDown() {
-		getDriver().quit();
+		if(getDriver() != null) {
+			getDriver().quit();
+		}
+		
 		driver.remove();
+		langTool.remove(); //clean up ThreadLocal to avoid leaks in thread-pooled runs
 	}
 
 	public String randomString() {
@@ -215,6 +222,9 @@ public class BaseClass {
 				HttpURLConnection conn = (HttpURLConnection) linkURL.openConnection(); // open connection to the
 																						// server
 				conn.connect(); // connect to server and send request to the server
+				
+				conn.setConnectTimeout(5000);
+				conn.setReadTimeout(5000);
 
 				if (conn.getResponseCode() >= 400) {
 					logger.info(l.getText() + "		" + conn.getResponseCode() + "		" + hrefAttrValue
@@ -264,8 +274,8 @@ public class BaseClass {
 	}
 	
 	public boolean grammarCheck(String text) throws IOException {
-		
-		List<RuleMatch> matches = langTool.check(text);
+				
+		List<RuleMatch> matches = getLangTool().check(text);
 		
 		if(matches.isEmpty()) {
 			return true;

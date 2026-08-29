@@ -5,6 +5,7 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
@@ -44,7 +45,15 @@ public class ProductDisplayPage extends BasePage {
 	WebElement closeBtn;
 	
 	@FindBy(xpath = "//div[@id='tab-description']") WebElement productDescription;
-
+	@FindBy(xpath = "//a[normalize-space()='Specification']") WebElement specificationTab;
+	@FindBy(xpath = "//div[@id='tab-specification']") WebElement productSpecification;
+	@FindBy(xpath = "//a[contains(.,'Reviews')]") WebElement reviewsTab;
+	@FindBy(xpath = "//input[@id='input-name']") WebElement yourNameTxtbox;
+	@FindBy(xpath = "//textarea[@id='input-review']") WebElement yourReviewTxtarea;
+	@FindBy(xpath = "//input[@type='radio' and @name='rating']") List<WebElement> ratingRadioBtns;
+	@FindBy(xpath = "//button[@id='button-review']") WebElement reviewContinueBtn;
+	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-success alert-dismissible']") WebElement reviewAlert;
+	
 	@FindBy(xpath = "//div[@class=\"col-sm-4\"]//ul//preceding-sibling::h1")
 	WebElement productName;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Brand:')] ")
@@ -141,6 +150,14 @@ public class ProductDisplayPage extends BasePage {
 
 	public void clickCloseBtn() {
 		click(closeBtn);
+	}
+	
+	public void clickSpecificationTab() {
+		click(specificationTab);
+	}
+	
+	public void clickReviewsTab() {
+		click(reviewsTab);
 	}
 
 	public void clickCompareThisProductBtn() {
@@ -462,7 +479,7 @@ public class ProductDisplayPage extends BasePage {
 		click(formTimeInput); //close widget
 	}
 
-	public int extractHour() {
+	private int extractHour() {
 
 		WebElement hourEle = getDriver().findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-hour']"));
 		int hour = Integer.parseInt(hourEle.getText());
@@ -470,7 +487,7 @@ public class ProductDisplayPage extends BasePage {
 		return hour;
 	}
 
-	public int extractMinute() {
+	private int extractMinute() {
 
 		WebElement minuteEle = getDriver().findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-minute']"));
 		int minute = Integer.parseInt(minuteEle.getText());
@@ -569,7 +586,36 @@ public class ProductDisplayPage extends BasePage {
 		click(formDateTimeInput); //close widget
 		
 	}
+	
+	public void inputYourName(String text) {
+		input(yourNameTxtbox, text);
+	}
 
+	public void inputYourReview(String text) {
+		input(yourReviewTxtarea, text);
+	}
+	
+	public void selectRating(int point) {
+		if(point < 1 || point > 5) {
+			System.out.println("Invalid rating [point] input "+ point + " | Rating input should be in range of 1 to 5 .");
+			return;
+		}
+		
+		click(ratingRadioBtns.get(point-1));
+		
+	}
+	
+	public void clickContinueBtn() {
+		click(reviewContinueBtn);
+	}
+	
+	public void writeAReview(String name, String review, int rating) {
+		inputYourName(name);
+		inputYourReview(review);
+		selectRating(rating);
+		clickContinueBtn();
+	}
+	
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
 		return isHoveringTooltipWork(compareThisProductBtn, "Compare this Product");
@@ -846,6 +892,22 @@ public class ProductDisplayPage extends BasePage {
 	
 	public boolean isCorrectProductDecriptionDisplay() {
 		return isDisplay(productDescription) && getElementText(productDescription).contains(getElementText(productName).trim()) ;
+	}
+	
+	public boolean isCorrectProductSpecificationDisplay() {
+		return isDisplay(productSpecification) && getElementText(productSpecification).contains(getElementText(productName).trim()) ;
+	}
+	
+	public boolean isDescGrammarCorrect() throws IOException {
+		return grammarCheck(getElementText(productDescription));
+	}
+	
+	public boolean isSpecGrammarCorrect() throws IOException {
+		return grammarCheck(getElementText(productSpecification));
+	}
+	
+	public boolean isSuccessMsgDisplay() {
+		return isDisplay(reviewAlert) && getElementText(reviewAlert).trim().contains("Thank you for your review. It has been submitted to the webmaster for approval.");
 	}
 
 	// getters

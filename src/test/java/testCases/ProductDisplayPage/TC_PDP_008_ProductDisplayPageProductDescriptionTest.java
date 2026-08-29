@@ -13,19 +13,20 @@ public class TC_PDP_008_ProductDisplayPageProductDescriptionTest extends BaseCla
 	String searchInput = "iMac";
 	
 	@Test(groups = { "master", "product display" })
-	public void validate_product_minimum_quantity_display() throws InterruptedException {
+	public void validate_product_description() throws InterruptedException {
 		try {
-			logger.info("***Starting TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***");
+			logger.info("***Starting TC_PDP_008_ProductDisplayPageProductDescriptionTest ***");
 
 			HomePage hp = new HomePage();
 
 			SearchPage sp = hp.searchAProduct(searchInput);
 			ProductDisplayPage dp = sp.clickFirstProductTitle();
 
-			Assert.assertTrue(isCorrectProductDecriptionDisplay(), "Incorrect description display! Primary keyword not found!");
+			Assert.assertTrue(dp.isCorrectProductDecriptionDisplay(), "Incorrect description display! Primary keyword not found!");
+			Assert.assertTrue(dp.isDescGrammarCorrect(), "Grammar issue found in description! ");
 			
 			
-			logger.info("***Finished TC_PDP_007_ProductDisplayPageMinimumQuantityTest ***");
+			logger.info("***Finished TC_PDP_008_ProductDisplayPageProductDescriptionTest ***");
 
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
@@ -33,9 +34,5 @@ public class TC_PDP_008_ProductDisplayPageProductDescriptionTest extends BaseCla
 
 	}
 
-	private boolean isCorrectProductDecriptionDisplay() {
-		// TODO Auto-generated method stub
-		return false;
-	}
 
 }

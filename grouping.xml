@@ -168,9 +168,11 @@
 			<class name="testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest" />
 
 			<!--ProductCompare cases-->
 			
