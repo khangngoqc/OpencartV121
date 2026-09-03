@@ -2,18 +2,18 @@
 <testng-results ignored="65" total="66" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-29T23:15:51 GMT+07:00" name="Suite" finished-at="2026-08-29T23:15:59 GMT+07:00" duration-ms="8335">
+  <suite started-at="2026-09-03T22:23:55 GMT+07:00" name="Suite" finished-at="2026-09-03T22:24:04 GMT+07:00" duration-ms="8235">
     <groups>
       <group name="product display">
-        <method signature="TC_PDP_010_ProductDisplayPageProductReviewsTest.validate_product_specification()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest@7c9d8e2]" name="validate_product_specification" class="testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest"/>
+        <method signature="TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest.validate_write_a_review_link()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest@7c9d8e2]" name="validate_write_a_review_link" class="testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest"/>
       </group> <!-- product display -->
       <group name="master">
-        <method signature="TC_PDP_010_ProductDisplayPageProductReviewsTest.validate_product_specification()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest@7c9d8e2]" name="validate_product_specification" class="testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest"/>
+        <method signature="TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest.validate_write_a_review_link()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest@7c9d8e2]" name="validate_write_a_review_link" class="testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-08-29T23:15:51 GMT+07:00" name="Test" finished-at="2026-08-29T23:15:59 GMT+07:00" duration-ms="8335">
-      <class name="testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest@7c9d8e2]" started-at="2026-08-29T23:15:51 GMT+07:00" name="setup" finished-at="2026-08-29T23:15:58 GMT+07:00" duration-ms="6421" status="PASS">
+    <test started-at="2026-09-03T22:23:55 GMT+07:00" name="Test" finished-at="2026-09-03T22:24:04 GMT+07:00" duration-ms="8235">
+      <class name="testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest@7c9d8e2]" started-at="2026-09-03T22:23:55 GMT+07:00" name="setup" finished-at="2026-09-03T22:24:02 GMT+07:00" duration-ms="6637" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_product_specification()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest@7c9d8e2]" started-at="2026-08-29T23:15:58 GMT+07:00" name="validate_product_specification" finished-at="2026-08-29T23:15:59 GMT+07:00" duration-ms="1189" status="PASS">
+        <test-method signature="validate_write_a_review_link()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest@7c9d8e2]" started-at="2026-09-03T22:24:02 GMT+07:00" name="validate_write_a_review_link" finished-at="2026-09-03T22:24:03 GMT+07:00" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_product_specification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest@7c9d8e2]" started-at="2026-08-29T23:15:59 GMT+07:00" name="tearDown" finished-at="2026-08-29T23:15:59 GMT+07:00" duration-ms="567" status="PASS">
+        </test-method> <!-- validate_write_a_review_link -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest@7c9d8e2]" started-at="2026-09-03T22:24:03 GMT+07:00" name="tearDown" finished-at="2026-09-03T22:24:04 GMT+07:00" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

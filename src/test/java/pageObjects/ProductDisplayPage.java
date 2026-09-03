@@ -52,7 +52,9 @@ public class ProductDisplayPage extends BasePage {
 	@FindBy(xpath = "//textarea[@id='input-review']") WebElement yourReviewTxtarea;
 	@FindBy(xpath = "//input[@type='radio' and @name='rating']") List<WebElement> ratingRadioBtns;
 	@FindBy(xpath = "//button[@id='button-review']") WebElement reviewContinueBtn;
-	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-success alert-dismissible']") WebElement reviewAlert;
+	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-success alert-dismissible']") WebElement reviewAlertSucces;
+	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-danger alert-dismissible']") WebElement reviewAlertDanger;
+	@FindBy(xpath = "//p[normalize-space()='There are no reviews for this product.']")  WebElement nonReviewText;
 	
 	@FindBy(xpath = "//div[@class=\"col-sm-4\"]//ul//preceding-sibling::h1")
 	WebElement productName;
@@ -95,6 +97,7 @@ public class ProductDisplayPage extends BasePage {
 
 	@FindBy(xpath = "//button[@id='button-cart']")
 	WebElement addToCartBtn;
+	@FindBy(xpath = "//a[normalize-space()='Write a review']") WebElement writeAReviewLink;
 
 	@FindBy(xpath = "//div[@class='alert alert-info']")
 	WebElement minimumQuantityAlertBanner;
@@ -616,6 +619,11 @@ public class ProductDisplayPage extends BasePage {
 		clickContinueBtn();
 	}
 	
+	public void clickWriteAReviewLink() {
+		click(writeAReviewLink);
+	}
+
+	
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
 		return isHoveringTooltipWork(compareThisProductBtn, "Compare this Product");
@@ -907,7 +915,20 @@ public class ProductDisplayPage extends BasePage {
 	}
 	
 	public boolean isSuccessMsgDisplay() {
-		return isDisplay(reviewAlert) && getElementText(reviewAlert).trim().contains("Thank you for your review. It has been submitted to the webmaster for approval.");
+		return isDisplay(reviewAlertSucces) && getElementText(reviewAlertSucces).trim().contains("Thank you for your review. It has been submitted to the webmaster for approval.");
+	}
+	
+	public boolean isNonReviewTextDisplay() {
+		return isDisplay(nonReviewText);
+	}
+
+	public boolean isCorrectAlertMsgDisplay(String keyword) {
+		return isDisplay(reviewAlertDanger) && getElementText(reviewAlertDanger).trim().contains(keyword);
+	}
+	
+	public boolean isReviewsTabActive() {
+		//System.out.println(reviewsTab.getAttribute("aria-expanded"));
+		return reviewsTab.getAttribute("aria-expanded").equals("true");
 	}
 
 	// getters
