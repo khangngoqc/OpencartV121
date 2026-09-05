@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest">
+      <class name="testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_write_a_review_link"/>
+          <include name="validate_review_count"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

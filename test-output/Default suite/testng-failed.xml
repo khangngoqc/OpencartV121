@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_012_ProductDisplayPageProductReviewsFieldMandatoryTest">
+      <class name="testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest">
         <methods>
           <include name="tearDown"/>
+          <include name="validate_review_count"/>
           <include name="setup"/>
-          <include name="validate_review_mandatory_fields"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_012_ProductDisplayPageProductReviewsFieldMandatoryTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -43,19 +43,30 @@ public class ProductDisplayPage extends BasePage {
 	WebElement previousBtn;
 	@FindBy(xpath = "//button[normalize-space()='×']")
 	WebElement closeBtn;
-	
-	@FindBy(xpath = "//div[@id='tab-description']") WebElement productDescription;
-	@FindBy(xpath = "//a[normalize-space()='Specification']") WebElement specificationTab;
-	@FindBy(xpath = "//div[@id='tab-specification']") WebElement productSpecification;
-	@FindBy(xpath = "//a[contains(.,'Reviews')]") WebElement reviewsTab;
-	@FindBy(xpath = "//input[@id='input-name']") WebElement yourNameTxtbox;
-	@FindBy(xpath = "//textarea[@id='input-review']") WebElement yourReviewTxtarea;
-	@FindBy(xpath = "//input[@type='radio' and @name='rating']") List<WebElement> ratingRadioBtns;
-	@FindBy(xpath = "//button[@id='button-review']") WebElement reviewContinueBtn;
-	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-success alert-dismissible']") WebElement reviewAlertSucces;
-	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-danger alert-dismissible']") WebElement reviewAlertDanger;
-	@FindBy(xpath = "//p[normalize-space()='There are no reviews for this product.']")  WebElement nonReviewText;
-	
+
+	@FindBy(xpath = "//div[@id='tab-description']")
+	WebElement productDescription;
+	@FindBy(xpath = "//a[normalize-space()='Specification']")
+	WebElement specificationTab;
+	@FindBy(xpath = "//div[@id='tab-specification']")
+	WebElement productSpecification;
+	@FindBy(xpath = "//a[contains(.,'Reviews')]")
+	WebElement reviewsTab;
+	@FindBy(xpath = "//input[@id='input-name']")
+	WebElement yourNameTxtbox;
+	@FindBy(xpath = "//textarea[@id='input-review']")
+	WebElement yourReviewTxtarea;
+	@FindBy(xpath = "//input[@type='radio' and @name='rating']")
+	List<WebElement> ratingRadioBtns;
+	@FindBy(xpath = "//button[@id='button-review']")
+	WebElement reviewContinueBtn;
+	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-success alert-dismissible']")
+	WebElement reviewAlertSucces;
+	@FindBy(xpath = "//div[@id='tab-review']//div[@class='alert alert-danger alert-dismissible']")
+	WebElement reviewAlertDanger;
+	@FindBy(xpath = "//p[normalize-space()='There are no reviews for this product.']")
+	WebElement nonReviewText;
+
 	@FindBy(xpath = "//div[@class=\"col-sm-4\"]//ul//preceding-sibling::h1")
 	WebElement productName;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Brand:')] ")
@@ -97,7 +108,12 @@ public class ProductDisplayPage extends BasePage {
 
 	@FindBy(xpath = "//button[@id='button-cart']")
 	WebElement addToCartBtn;
-	@FindBy(xpath = "//a[normalize-space()='Write a review']") WebElement writeAReviewLink;
+	@FindBy(xpath = "//span[@class='fa fa-stack']")
+	List<WebElement> averageStar;
+	@FindBy(xpath = "//a[contains(text(),' reviews')]")
+	WebElement reviewsNumber;
+	@FindBy(xpath = "//a[normalize-space()='Write a review']")
+	WebElement writeAReviewLink;
 
 	@FindBy(xpath = "//div[@class='alert alert-info']")
 	WebElement minimumQuantityAlertBanner;
@@ -154,11 +170,11 @@ public class ProductDisplayPage extends BasePage {
 	public void clickCloseBtn() {
 		click(closeBtn);
 	}
-	
+
 	public void clickSpecificationTab() {
 		click(specificationTab);
 	}
-	
+
 	public void clickReviewsTab() {
 		click(reviewsTab);
 	}
@@ -215,12 +231,12 @@ public class ProductDisplayPage extends BasePage {
 	public void handleFormSelect(int index) {
 		Select dropdown = new Select(formSelect);
 		List<WebElement> selectOptions = dropdown.getOptions();
-		//System.out.println(selectOptions.toString());
-		
+		// System.out.println(selectOptions.toString());
+
 		int numberOfOptions = selectOptions.size();
-		
-		//System.out.println(selectOptions.size());
-		
+
+		// System.out.println(selectOptions.size());
+
 		if (index >= numberOfOptions || index <= 0) {
 			System.out.println(
 					"Invalid index input! index should be in range of  0 < [index] <= " + (numberOfOptions - 1));
@@ -361,9 +377,13 @@ public class ProductDisplayPage extends BasePage {
 
 	private String extractYear() {
 
-		String MonthYearString = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[1]")).getText();
+		String MonthYearString = getDriver()
+				.findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[1]"))
+				.getText();
 
-		String currentYearString = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[2]")).getText();
+		String currentYearString = getDriver()
+				.findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[2]"))
+				.getText();
 
 		// String yearToYearString =
 		// driver.findElement(By.xpath("(//th[@class='picker-switch'])[3]")).getText();
@@ -376,8 +396,10 @@ public class ProductDisplayPage extends BasePage {
 
 	private void navigateToYear(int year) {
 
-		WebElement preBtn = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='prev'][contains(text(),'‹')])[2]"));
-		WebElement nxtBtn = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='next'][contains(text(),'›')])[2]"));
+		WebElement preBtn = getDriver().findElement(
+				By.xpath("(//div[contains(@class,'picker-open')]//th[@class='prev'][contains(text(),'‹')])[2]"));
+		WebElement nxtBtn = getDriver().findElement(
+				By.xpath("(//div[contains(@class,'picker-open')]//th[@class='next'][contains(text(),'›')])[2]"));
 
 		String defaultYearString = extractYear();
 		int defaultYear = Integer.parseInt(defaultYearString);
@@ -400,7 +422,8 @@ public class ProductDisplayPage extends BasePage {
 			System.out.println("Invalid month input! Input should be in range of 1 <= [month] <= 12");
 		}
 
-		WebElement monthEle = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//span[@class='month'])[" + month + "]"));
+		WebElement monthEle = getDriver()
+				.findElement(By.xpath("(//div[contains(@class,'picker-open')]//span[@class='month'])[" + month + "]"));
 		monthEle.click();
 
 	}
@@ -410,8 +433,9 @@ public class ProductDisplayPage extends BasePage {
 		try {
 			String monthInput = convertMonth(month);
 
-			WebElement monthEle = getDriver()
-					.findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='month'][normalize-space()='" + monthInput.trim() + "']"));
+			WebElement monthEle = getDriver().findElement(
+					By.xpath("//div[contains(@class,'picker-open')]//span[@class='month'][normalize-space()='"
+							+ monthInput.trim() + "']"));
 			monthEle.click();
 		} catch (Exception e) {
 			System.out.println("Invalid month input! | " + month);
@@ -462,8 +486,9 @@ public class ProductDisplayPage extends BasePage {
 
 		try {
 
-			WebElement dateEle = getDriver()
-					.findElement(By.xpath("(//div[contains(@class,'picker-open')]//td[@class='day' and contains(text(),'" + date + "')])[1]"));
+			WebElement dateEle = getDriver().findElement(
+					By.xpath("(//div[contains(@class,'picker-open')]//td[@class='day' and contains(text(),'" + date
+							+ "')])[1]"));
 			dateEle.click();
 
 		} catch (Exception e) {
@@ -478,13 +503,14 @@ public class ProductDisplayPage extends BasePage {
 
 		navigateToHour(hour);
 		navigateToMinute(min);
-		
-		click(formTimeInput); //close widget
+
+		click(formTimeInput); // close widget
 	}
 
 	private int extractHour() {
 
-		WebElement hourEle = getDriver().findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-hour']"));
+		WebElement hourEle = getDriver()
+				.findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-hour']"));
 		int hour = Integer.parseInt(hourEle.getText());
 
 		return hour;
@@ -492,7 +518,8 @@ public class ProductDisplayPage extends BasePage {
 
 	private int extractMinute() {
 
-		WebElement minuteEle = getDriver().findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-minute']"));
+		WebElement minuteEle = getDriver()
+				.findElement(By.xpath("//div[contains(@class,'picker-open')]//span[@class='timepicker-minute']"));
 		int minute = Integer.parseInt(minuteEle.getText());
 
 		return minute;
@@ -531,10 +558,10 @@ public class ProductDisplayPage extends BasePage {
 			return;
 		}
 
-		WebElement minIncrementBtn = getDriver()
-				.findElement(By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='incrementMinutes']//span"));
-		WebElement minDecrementBtn = getDriver()
-				.findElement(By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='decrementMinutes']//span"));
+		WebElement minIncrementBtn = getDriver().findElement(
+				By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='incrementMinutes']//span"));
+		WebElement minDecrementBtn = getDriver().findElement(
+				By.xpath("//div[contains(@class,'picker-open')]//a[@data-action='decrementMinutes']//span"));
 
 		int currentMin = extractMinute();
 
@@ -549,13 +576,13 @@ public class ProductDisplayPage extends BasePage {
 		}
 
 	}
-	
-	public void inputFormDateTime(int year, int month, int date, int hour, int min) throws InterruptedException{
-		
+
+	public void inputFormDateTime(int year, int month, int date, int hour, int min) throws InterruptedException {
 
 		click(formDateTimeInput);
-		
-		WebElement monthYearNav = getDriver().findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[1]"));
+
+		WebElement monthYearNav = getDriver()
+				.findElement(By.xpath("(//div[contains(@class,'picker-open')]//th[@class='picker-switch'])[1]"));
 
 		// WebElement yearNav =
 		// driver.findElement(By.xpath("(//th[@class='picker-switch'])[2]"));
@@ -572,24 +599,24 @@ public class ProductDisplayPage extends BasePage {
 			System.out.println("Year input out of bound! Input should be in range 1900 < [input] < currentYear + 100");
 			return;
 		}
-		
-		
+
 		navigateToYear(year);
 		navigateToMonth(month);
 		navigateToDate(date);
-		
-		WebElement timeAccordion = getDriver().findElement(By.xpath("//li[@class='picker-switch accordion-toggle']//a[@class='btn']"));
+
+		WebElement timeAccordion = getDriver()
+				.findElement(By.xpath("//li[@class='picker-switch accordion-toggle']//a[@class='btn']"));
 		click(timeAccordion);
-		
+
 		Thread.sleep(500);
-		
+
 		navigateToHour(hour);
 		navigateToMinute(min);
-		
-		click(formDateTimeInput); //close widget
-		
+
+		click(formDateTimeInput); // close widget
+
 	}
-	
+
 	public void inputYourName(String text) {
 		input(yourNameTxtbox, text);
 	}
@@ -597,33 +624,37 @@ public class ProductDisplayPage extends BasePage {
 	public void inputYourReview(String text) {
 		input(yourReviewTxtarea, text);
 	}
-	
+
 	public void selectRating(int point) {
-		if(point < 1 || point > 5) {
-			System.out.println("Invalid rating [point] input "+ point + " | Rating input should be in range of 1 to 5 .");
+		if (point < 1 || point > 5) {
+			System.out.println(
+					"Invalid rating [point] input " + point + " | Rating input should be in range of 1 to 5 .");
 			return;
 		}
-		
-		click(ratingRadioBtns.get(point-1));
-		
+
+		click(ratingRadioBtns.get(point - 1));
+
 	}
-	
+
 	public void clickContinueBtn() {
 		click(reviewContinueBtn);
 	}
-	
+
 	public void writeAReview(String name, String review, int rating) {
 		inputYourName(name);
 		inputYourReview(review);
 		selectRating(rating);
 		clickContinueBtn();
 	}
-	
+
 	public void clickWriteAReviewLink() {
 		click(writeAReviewLink);
 	}
-
 	
+	public void clickReviewCount() {
+		click(reviewsNumber);
+	}
+
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
 		return isHoveringTooltipWork(compareThisProductBtn, "Compare this Product");
@@ -893,31 +924,34 @@ public class ProductDisplayPage extends BasePage {
 	public boolean validateminimumQuantityAlertBannerTxt(String message) {
 		return minimumQuantityAlertBanner.getText().equals(message);
 	}
-	
+
 	public boolean isMinimumWarningQuantityExistInDOM() {
 		return findInDOM("Minimum order amount for + " + productName.getText().trim() + " is 2!");
 	}
-	
+
 	public boolean isCorrectProductDecriptionDisplay() {
-		return isDisplay(productDescription) && getElementText(productDescription).contains(getElementText(productName).trim()) ;
+		return isDisplay(productDescription)
+				&& getElementText(productDescription).contains(getElementText(productName).trim());
 	}
-	
+
 	public boolean isCorrectProductSpecificationDisplay() {
-		return isDisplay(productSpecification) && getElementText(productSpecification).contains(getElementText(productName).trim()) ;
+		return isDisplay(productSpecification)
+				&& getElementText(productSpecification).contains(getElementText(productName).trim());
 	}
-	
+
 	public boolean isDescGrammarCorrect() throws IOException {
 		return grammarCheck(getElementText(productDescription));
 	}
-	
+
 	public boolean isSpecGrammarCorrect() throws IOException {
 		return grammarCheck(getElementText(productSpecification));
 	}
-	
+
 	public boolean isSuccessMsgDisplay() {
-		return isDisplay(reviewAlertSucces) && getElementText(reviewAlertSucces).trim().contains("Thank you for your review. It has been submitted to the webmaster for approval.");
+		return isDisplay(reviewAlertSucces) && getElementText(reviewAlertSucces).trim()
+				.contains("Thank you for your review. It has been submitted to the webmaster for approval.");
 	}
-	
+
 	public boolean isNonReviewTextDisplay() {
 		return isDisplay(nonReviewText);
 	}
@@ -925,10 +959,37 @@ public class ProductDisplayPage extends BasePage {
 	public boolean isCorrectAlertMsgDisplay(String keyword) {
 		return isDisplay(reviewAlertDanger) && getElementText(reviewAlertDanger).trim().contains(keyword);
 	}
-	
+
 	public boolean isReviewsTabActive() {
-		//System.out.println(reviewsTab.getAttribute("aria-expanded"));
+		// System.out.println(reviewsTab.getAttribute("aria-expanded"));
 		return reviewsTab.getAttribute("aria-expanded").equals("true");
+	}
+
+	public boolean isAverageStarDisplay() {
+		for (WebElement e : averageStar) {
+			if (isDisplay(e) != true) {
+				return false;
+			}
+		}
+
+		return true;
+	}
+
+	public boolean isReviewsNumberDisplay() {
+		return isDisplay(reviewsNumber);
+	}
+
+	public boolean isReviewCountDisplay() {
+		int reCount = getReviewsCount();
+		
+		if(isDisplay(nonReviewText) && reCount == 0) {
+			return true;
+		}
+		
+		System.out.println(reCount);
+		
+		return false;
+		
 	}
 
 	// getters
@@ -938,6 +999,13 @@ public class ProductDisplayPage extends BasePage {
 
 	public String getQuantityValue() {
 		return quantityTxtBox.getAttribute("value");
+	}
+
+	public int getReviewsCount() {
+		String label = reviewsTab.getText(); // e.g. "Reviews (12)"
+		String digits = label.replaceAll("[^0-9]", ""); // "12"
+		return Integer.parseInt(digits);
+
 	}
 
 }

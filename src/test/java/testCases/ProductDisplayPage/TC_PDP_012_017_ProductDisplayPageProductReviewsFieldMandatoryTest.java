@@ -8,14 +8,14 @@ import pageObjects.ProductDisplayPage;
 import pageObjects.SearchPage;
 import testBase.BaseClass;
 
-public class TC_PDP_012_ProductDisplayPageProductReviewsFieldMandatoryTest extends BaseClass {
+public class TC_PDP_012_017_ProductDisplayPageProductReviewsFieldMandatoryTest extends BaseClass {
 
 	String searchInput = "iMac";
 	
 	@Test(groups = { "master", "product display" })
 	public void validate_review_mandatory_fields() throws InterruptedException {
 		try {
-			logger.info("***Starting TC_PDP_012_ProductDisplayPageProductReviewsFieldMandatoryTest ***");
+			logger.info("***Starting TC_PDP_012_017_ProductDisplayPageProductReviewsFieldMandatoryTest ***");
 
 			HomePage hp = new HomePage();
 
@@ -31,19 +31,19 @@ public class TC_PDP_012_ProductDisplayPageProductReviewsFieldMandatoryTest exten
 			Assert.assertTrue(dp.isCorrectAlertMsgDisplay("Name"), "Missing warning for message Your Name input!");
 			dp.refreshPage();
 	
-			//validate Your Name
+			//validate Your Review
 			dp.clickReviewsTab();
 			dp.writeAReview("Test Your Name", "", 3);
 			Assert.assertTrue(dp.isCorrectAlertMsgDisplay("Text"), "Missing warning for message Your Review input!");
 			dp.refreshPage();
 			
-			//validate Your Name
+			//validate Rating
 			dp.clickReviewsTab();
 			dp.writeAReview("Test Your Name", "this is a test review message for product " + searchInput, 0);
 			Assert.assertTrue(dp.isCorrectAlertMsgDisplay("review rating"), "Missing warning for message Rating input!");
 	
 			
-			logger.info("***Finished TC_PDP_012_ProductDisplayPageProductReviewsFieldMandatoryTest ***");
+			logger.info("***Finished TC_PDP_012_017_ProductDisplayPageProductReviewsFieldMandatoryTest ***");
 
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());

@@ -4488,3 +4488,17 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 22:22:37.304 [main] INFO  testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest - ***Starting TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest ***
 22:24:02.621 [main] INFO  testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest - ***Starting TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest ***
 22:24:03.466 [main] INFO  testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest - ***Finished TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest ***
+19:48:28.770 [main] INFO  testCases.ProductDisplayPage.TC_PDP_014_ProductDisplayPageProductAverageReviewsTest - ***Starting TC_PDP_014_ProductDisplayPageProductAverageReviewsTest ***
+19:48:29.581 [main] INFO  testCases.ProductDisplayPage.TC_PDP_014_ProductDisplayPageProductAverageReviewsTest - ***Finished TC_PDP_014_ProductDisplayPageProductAverageReviewsTest ***
+19:58:48.861 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Starting TC_PDP_014_ProductDisplayPageProductAverageReviewsTest ***
+19:58:49.677 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Finished TC_PDP_014_ProductDisplayPageProductAverageReviewsTest ***
+20:02:42.858 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Starting TC_PDP_014_ProductDisplayPageProductAverageReviewsTest ***
+20:02:43.682 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Finished TC_PDP_014_ProductDisplayPageProductAverageReviewsTest ***
+20:09:57.332 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Starting TC_PDP_015_ProductDisplayPageProductReviewsCountTest ***
+20:10:59.692 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Starting TC_PDP_015_ProductDisplayPageProductReviewsCountTest ***
+20:12:01.476 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Starting TC_PDP_015_ProductDisplayPageProductReviewsCountTest ***
+20:12:02.287 [main] INFO  testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest - ***Finished TC_PDP_015_ProductDisplayPageProductReviewsCountTest ***
+20:17:31.613 [main] INFO  testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest - ***Starting TC_PDP_016_ProductDisplayPageProductReviewsLinkTest ***
+20:17:32.441 [main] INFO  testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest - ***Finished TC_PDP_016_ProductDisplayPageProductReviewsLinkTest ***
+20:27:32.078 [main] INFO  testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest - ***Starting TC_PDP_018_ProductDisplayPageReviewRequiredCharTest ***
+20:27:33.872 [main] INFO  testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest - ***Finished TC_PDP_018_ProductDisplayPageReviewRequiredCharTest ***
