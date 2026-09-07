@@ -29,6 +29,7 @@ public class ProductDisplayPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
+	@FindBy(xpath="//a[normalize-space()='wish list']") WebElement alertWishListLnk;
 
 	@FindBy(xpath = "//ul[@class='thumbnails']//li[1]")
 	WebElement mainThumbnail;
@@ -67,6 +68,8 @@ public class ProductDisplayPage extends BasePage {
 	@FindBy(xpath = "//p[normalize-space()='There are no reviews for this product.']")
 	WebElement nonReviewText;
 
+	@FindBy(xpath = "//div[@class='col-sm-4']//button[@data-original-title='Add to Wish List']")
+	WebElement addToWishListBtn;
 	@FindBy(xpath = "//div[@class=\"col-sm-4\"]//ul//preceding-sibling::h1")
 	WebElement productName;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Brand:')] ")
@@ -650,9 +653,19 @@ public class ProductDisplayPage extends BasePage {
 	public void clickWriteAReviewLink() {
 		click(writeAReviewLink);
 	}
-	
+
 	public void clickReviewCount() {
 		click(reviewsNumber);
+	}
+
+	public void clickAddToWishListBtn() {
+		click(addToWishListBtn);
+	}
+	
+	public WishListPage clickAlertWishListLnk() {
+		click(alertWishListLnk);
+		
+		return new WishListPage();
 	}
 
 	// validations
@@ -981,15 +994,20 @@ public class ProductDisplayPage extends BasePage {
 
 	public boolean isReviewCountDisplay() {
 		int reCount = getReviewsCount();
-		
-		if(isDisplay(nonReviewText) && reCount == 0) {
+
+		if (isDisplay(nonReviewText) && reCount == 0) {
 			return true;
 		}
-		
+
 		System.out.println(reCount);
-		
+
 		return false;
-		
+
+	}
+
+	public boolean isWishListSuccessAlertDisplay() {
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName.getText() + " to your wish list!");
 	}
 
 	// getters

@@ -4502,3 +4502,12 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 20:17:32.441 [main] INFO  testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest - ***Finished TC_PDP_016_ProductDisplayPageProductReviewsLinkTest ***
 20:27:32.078 [main] INFO  testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest - ***Starting TC_PDP_018_ProductDisplayPageReviewRequiredCharTest ***
 20:27:33.872 [main] INFO  testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest - ***Finished TC_PDP_018_ProductDisplayPageReviewRequiredCharTest ***
+19:56:13.304 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
+19:57:50.979 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
+20:00:37.919 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
+20:00:44.382 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Finished TC_PDP_019_ProductDisplayPageWishListTest ***
+20:12:53.765 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
+20:13:50.910 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
+20:15:01.536 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
+20:16:27.558 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
+20:16:30.224 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Finished TC_PDP_019_ProductDisplayPageWishListTest ***

@@ -23,8 +23,7 @@ public class TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest ext
 		try {
 			
 			HomePage hp = new HomePage();
-			hp.setSearchInput(searchInput);
-			SearchPage sp = hp.clickSearch();
+			SearchPage sp = hp.searchAProduct(searchInput);
 			
 			ProductDisplayPage dp = sp.clickFirstProductTitle();;
 			

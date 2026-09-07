@@ -21,7 +21,7 @@ public class LoginPage extends BasePage {
 
 	@FindBy(xpath="//input[@id='input-email']") WebElement txtEmail;
 	@FindBy(xpath="//input[@id='input-password']") WebElement txtPassword;
-	@FindBy(xpath="//input[@value='Login']") WebElement btnLogin;
+	@FindBy(xpath="//input[@value='Login']") WebElement loginBtn;
 	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement btnContinue;
 	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement loginWarning;
 	@FindBy(xpath="//div[@class='form-group']//a[normalize-space()='Forgotten Password']") WebElement lnkForgottenPassword;
@@ -51,8 +51,8 @@ public class LoginPage extends BasePage {
 		txtPassword.sendKeys(pwd);
 	}
 	
-	public void clickLogin() {
-		btnLogin.click();
+	public void clickLoginBtn() {
+		loginBtn.click();
 	}
 	
 	public void clickContine() {
@@ -85,6 +85,14 @@ public class LoginPage extends BasePage {
 	
 	public void clickLoginMA() {
 		lnkLogin.click();
+	}
+	
+	public MyAccountPage loginAs(String email, String pwd) {
+		setEmail(email);
+		setPassword(pwd);
+		clickLoginBtn();
+		
+		return new MyAccountPage();
 	}
 	
 	

@@ -49,7 +49,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//div[@class='modal-conent']h4[normalize-space()='Privacy Policy']") WebElement puPrivacyPolicyHeading;
 	
 	//right column buttons
-	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Login']") WebElement btnLogin;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Login']") WebElement loginBtn;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Register']") WebElement btnRegister;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Edit Account']") WebElement btnEditAccount;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Forgotten Password']") WebElement btnForgottenPassword;
@@ -196,8 +196,8 @@ public class AccountRegistrationPage extends BasePage {
 		lnkLoginPage.click();
 	}
 	
-	public void clickLogin() {
-		btnLogin.click();
+	public void clickLoginBtn() {
+		loginBtn.click();
 	}
 
 	public void clickRegister() {

@@ -25,8 +25,8 @@ public class TC_PC_021_B_ProductCompareRemoveMultipleProductTest extends BaseCla
 		try {
 			
 			HomePage hp = new HomePage();
-			hp.setSearchInput(searchKeyword);
-			SearchPage sp = hp.clickSearch();
+			SearchPage sp = hp.searchAProduct(searchKeyword);
+
 
 			Thread.sleep(500);
 

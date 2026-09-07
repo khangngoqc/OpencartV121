@@ -37,7 +37,7 @@ public class LogoutPage extends BasePage {
 		lnkMyAccount.click();
 	}
 	
-	public void clickLogin() {
+	public void clickLoginMA() {
 		lnkLoginMA.click();
 	}
 	

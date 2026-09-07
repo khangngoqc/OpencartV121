@@ -13,15 +13,15 @@ public class TC_PC_022_ProductComparePageHeadingURLTitleTest extends BaseClass {
 	@Test(groups = { "master", "product compare" })
 	void validate__heading_url_title() {
 		
-		String searchKeyword = "iMac";
+		String searchInput = "iMac";
 
 		logger.info("******* Starting TC_PC_022_BreadscrumbHeadingURLTitleTest *******");
 
 		try {
 
 			HomePage hp = new HomePage();
-			hp.setSearchInput(searchKeyword);
-			SearchPage sp = hp.clickSearch();
+			SearchPage sp = hp.searchAProduct(searchInput);
+
 			
 			sp.clickCompareThisProductBtn();
 			ProductComparePage cp = sp.clickProductCompareLink();

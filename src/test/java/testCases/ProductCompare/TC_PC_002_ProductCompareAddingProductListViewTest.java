@@ -21,8 +21,8 @@ public class TC_PC_002_ProductCompareAddingProductListViewTest extends BaseClass
 		try {
 			
 			HomePage hp = new HomePage();
-			hp.setSearchInput(searchInput);
-			SearchPage sp = hp.clickSearch();
+			SearchPage sp = hp.searchAProduct(searchInput);
+
 			sp.clickListViewBtn();
 			sp.clickCompareThisProductBtn();
 			

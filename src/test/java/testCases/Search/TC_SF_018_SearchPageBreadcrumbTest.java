@@ -18,8 +18,7 @@ public class TC_SF_018_SearchPageBreadcrumbTest extends BaseClass {
 		try {
 		
 			HomePage hp = new HomePage();
-			hp.setSearchInput("Mac");
-			SearchPage sp = hp.clickSearch();
+			SearchPage sp = hp.searchAProduct("iMac");
 
 			Assert.assertTrue(sp.isBreadcrumbWork(), "Breadcrumb test failed!");
 

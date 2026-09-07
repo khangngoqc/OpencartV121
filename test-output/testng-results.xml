@@ -2,18 +2,18 @@
 <testng-results ignored="65" total="66" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-05T20:27:25 GMT+07:00" name="Suite" finished-at="2026-09-05T20:27:34 GMT+07:00" duration-ms="8955">
+  <suite started-at="2026-09-07T20:16:21 GMT+07:00" name="Suite" finished-at="2026-09-07T20:16:30 GMT+07:00" duration-ms="9419">
     <groups>
       <group name="product display">
-        <method signature="TC_PDP_018_ProductDisplayPageReviewRequiredCharTest.validate_review_mandatory_fields()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest@7c9d8e2]" name="validate_review_mandatory_fields" class="testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest"/>
+        <method signature="TC_PDP_019_ProductDisplayPageWishListTest.validate_review_mandatory_fields()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest@7c9d8e2]" name="validate_review_mandatory_fields" class="testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest"/>
       </group> <!-- product display -->
       <group name="master">
-        <method signature="TC_PDP_018_ProductDisplayPageReviewRequiredCharTest.validate_review_mandatory_fields()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest@7c9d8e2]" name="validate_review_mandatory_fields" class="testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest"/>
+        <method signature="TC_PDP_019_ProductDisplayPageWishListTest.validate_review_mandatory_fields()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest@7c9d8e2]" name="validate_review_mandatory_fields" class="testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-09-05T20:27:25 GMT+07:00" name="Test" finished-at="2026-09-05T20:27:34 GMT+07:00" duration-ms="8955">
-      <class name="testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest@7c9d8e2]" started-at="2026-09-05T20:27:25 GMT+07:00" name="setup" finished-at="2026-09-05T20:27:32 GMT+07:00" duration-ms="6411" status="PASS">
+    <test started-at="2026-09-07T20:16:21 GMT+07:00" name="Test" finished-at="2026-09-07T20:16:30 GMT+07:00" duration-ms="9419">
+      <class name="testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest@7c9d8e2]" started-at="2026-09-07T20:16:21 GMT+07:00" name="setup" finished-at="2026-09-07T20:16:27 GMT+07:00" duration-ms="6009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_review_mandatory_fields()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest@7c9d8e2]" started-at="2026-09-05T20:27:32 GMT+07:00" name="validate_review_mandatory_fields" finished-at="2026-09-05T20:27:33 GMT+07:00" duration-ms="1811" status="PASS">
+        <test-method signature="validate_review_mandatory_fields()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest@7c9d8e2]" started-at="2026-09-07T20:16:27 GMT+07:00" name="validate_review_mandatory_fields" finished-at="2026-09-07T20:16:30 GMT+07:00" duration-ms="2680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_review_mandatory_fields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest@7c9d8e2]" started-at="2026-09-05T20:27:33 GMT+07:00" name="tearDown" finished-at="2026-09-05T20:27:34 GMT+07:00" duration-ms="561" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest@7c9d8e2]" started-at="2026-09-07T20:16:30 GMT+07:00" name="tearDown" finished-at="2026-09-07T20:16:30 GMT+07:00" duration-ms="565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -22,8 +22,8 @@ public class TC_PC_008_ProductComparePageSearchPageNavigationTest extends BaseCl
 		try {
 			
 			HomePage hp = new HomePage();
-			hp.setSearchInput(searchInput);
-			SearchPage sp = hp.clickSearch();
+			SearchPage sp = hp.searchAProduct(searchInput);
+
 			ProductComparePage pc = sp.clickProductCompareLink();
 			
 			Thread.sleep(2000);

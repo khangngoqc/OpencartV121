@@ -55,18 +55,10 @@ public class HomePage extends BasePage {
 		lnkRegister.click();
 	}
 
-	public void clickLogin() {
-		lnkLogin.click();
-	}
-
 	public void setSearchInput(String keyword) {
 		txtSearch.sendKeys(keyword);
 	}
 
-	public SearchPage clickSearch() {
-		btnSearch.click();
-		return new SearchPage();
-	}
 
 	public void clickLogout() {
 		lnkLogout.click();

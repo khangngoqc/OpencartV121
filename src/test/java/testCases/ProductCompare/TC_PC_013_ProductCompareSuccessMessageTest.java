@@ -20,8 +20,7 @@ public class TC_PC_013_ProductCompareSuccessMessageTest extends BaseClass{
 		try {
 			
 			HomePage hp = new HomePage();
-			hp.setSearchInput(searchKeyword);
-			SearchPage sp = hp.clickSearch();
+			SearchPage sp = hp.searchAProduct(searchKeyword);
 
 			Thread.sleep(500);
 		
