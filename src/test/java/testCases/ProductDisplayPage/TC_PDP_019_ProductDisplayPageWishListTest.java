@@ -16,7 +16,7 @@ public class TC_PDP_019_ProductDisplayPageWishListTest extends BaseClass {
 	String searchInput = "iMac";
 
 	@Test(groups = { "master", "product display" })
-	public void validate_review_mandatory_fields() throws InterruptedException {
+	public void validate_wish_list() throws InterruptedException {
 		try {
 			logger.info("***Starting TC_PDP_019_ProductDisplayPageWishListTest ***");
 

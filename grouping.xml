@@ -179,8 +179,10 @@
 			<class name="testCases.ProductDisplayPage.TC_PDP_014_ProductDisplayPageProductAverageReviewsTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest" />
 
 			<!--ProductCompare cases-->
 			

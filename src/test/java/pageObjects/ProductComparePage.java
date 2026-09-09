@@ -17,6 +17,8 @@ public class ProductComparePage extends BasePage {
 	@FindBy(xpath = "//ul[@class='breadcrumb']//li//a")
 	List<WebElement> breadcrumbLinks;
 
+	@FindBy(xpath = "//h1[normalize-space()='Product Comparison']") WebElement pageHeading;
+	
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
 
@@ -51,26 +53,29 @@ public class ProductComparePage extends BasePage {
 		}
 
 	}
-	
+
 	public void clickRemoveBtn() {
 		click(removeBtn);
 	}
-	
+
 	public void removeProducts(int numberOfProducts) throws InterruptedException {
-		
-		if(numberOfProducts > comparedProducts.size()) {
+
+		if (numberOfProducts > comparedProducts.size()) {
 			System.out.println("Invalid numberOfProducts!");
 			return;
-		}else {
+		} else {
 			for (int i = numberOfProducts; i > 0; i--) {
 				Thread.sleep(500);
-				getDriver().findElement(By.xpath("(//a[contains(text(),'Remove')])["+ i +"]")).click();
-			}	
+				getDriver().findElement(By.xpath("(//a[contains(text(),'Remove')])[" + i + "]")).click();
+			}
 		}
-		
+
 	}
 
 	// validations
+	public boolean isPageHeadingDisplay() {
+		return isDisplay(pageHeading);
+	}
 
 	public boolean isNonProductAddedMessageDisplayed() {
 		return isDisplay(nonProductAddedMessage);
@@ -146,13 +151,13 @@ public class ProductComparePage extends BasePage {
 	public boolean isProductAddedToCart(String productName) throws InterruptedException {
 
 		Thread.sleep(500);
-		
+
 		clickCartBtn();
 
-		//getDriver().findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
-		
+		// getDriver().findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
+
 		Thread.sleep(500);
-		
+
 		for (WebElement e : cartProductNames) {
 			String B = e.getText().trim();
 
@@ -173,11 +178,11 @@ public class ProductComparePage extends BasePage {
 	public boolean allProductsAddedToCart() throws InterruptedException {
 
 		Thread.sleep(500);
-		
+
 		clickCartBtn();
 
-		//getDriver().findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
-		
+		// getDriver().findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
+
 		Thread.sleep(500);
 
 		List<String> texts1 = comparedProducts.stream().map(WebElement::getText).sorted().collect(Collectors.toList());
@@ -185,7 +190,7 @@ public class ProductComparePage extends BasePage {
 		List<String> texts2 = cartProductNames.stream().map(WebElement::getText).sorted().collect(Collectors.toList());
 
 		boolean sameText = texts1.equals(texts2);
-		
+
 		return sameText;
 	}
 

@@ -25,7 +25,7 @@ public class ProductDisplayPage extends BasePage {
 	@FindBy(xpath = "//li[contains(normalize-space(),'Product Code')]")
 	WebElement productModalText;
 	@FindBy(xpath = "//a[normalize-space()='product comparison']")
-	WebElement alerProductComparisonLink;
+	WebElement alerProductComparisonLnk;
 
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
@@ -70,6 +70,8 @@ public class ProductDisplayPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='col-sm-4']//button[@data-original-title='Add to Wish List']")
 	WebElement addToWishListBtn;
+	@FindBy(xpath = "//div[@class='col-sm-4']//button[@data-original-title='Compare this Product']")
+	WebElement productComparisonBtn;
 	@FindBy(xpath = "//div[@class=\"col-sm-4\"]//ul//preceding-sibling::h1")
 	WebElement productName;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Brand:')] ")
@@ -187,7 +189,7 @@ public class ProductDisplayPage extends BasePage {
 	}
 
 	public ProductComparePage clickAlertProductComparisonProductLink() {
-		click(alerProductComparisonLink);
+		click(alerProductComparisonLnk);
 		return new ProductComparePage();
 	}
 
@@ -667,6 +669,12 @@ public class ProductDisplayPage extends BasePage {
 		
 		return new WishListPage();
 	}
+	
+	public void clickProductComparisonBtn() {
+		click(productComparisonBtn);;
+	}
+	
+	
 
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
@@ -1008,6 +1016,37 @@ public class ProductDisplayPage extends BasePage {
 	public boolean isWishListSuccessAlertDisplay() {
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName.getText() + " to your wish list!");
+	}
+	
+	public boolean isComparisonSuccessAlertDisplay() {
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName.getText() + " to your product comparison!");
+	}
+	
+	public boolean isSocialOptionsAvailable() {
+		
+		String[] options = {"share", "retweet", "repost", "forward", "pinterest", 
+			    "like", "comment", "subscribe", "follow", "connect", 
+			    "viral", "trending", "buzz", "shoutout", "mention", 
+			    "tag", "broadcast", "publish", "post", "tweet", 
+			    "embed", "link", "syndicate", "distribute", "engage", "facebook"};
+		
+		for (String s : options) {
+			if (findInDOM(s)) {
+				System.out.println("Keyword found: " + s);
+				try {
+					getDriver().findElement(By.partialLinkText(s));
+					return true;
+				} catch (Exception e) {
+					System.out.println("Cannot find interactive element related to " + s + " keyword." );
+					continue;
+				}
+				
+			}
+		}
+		
+		return false;
+		
 	}
 
 	// getters

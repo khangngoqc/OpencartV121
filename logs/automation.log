@@ -4511,3 +4511,13 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 20:15:01.536 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
 20:16:27.558 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Starting TC_PDP_019_ProductDisplayPageWishListTest ***
 20:16:30.224 [main] INFO  testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest - ***Finished TC_PDP_019_ProductDisplayPageWishListTest ***
+20:03:14.992 [main] INFO  testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest - ***Starting TC_PDP_020_ProductDisplayPageProductComparisonTest ***
+20:06:35.065 [main] INFO  testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest - ***Starting TC_PDP_020_ProductDisplayPageProductComparisonTest ***
+20:06:36.261 [main] INFO  testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest - ***Finished TC_PDP_020_ProductDisplayPageProductComparisonTest ***
+20:25:04.826 [main] INFO  testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest - ***Starting TC_PDP_021_ProductDisplayPageSocialOptionsTest ***
+20:25:06.008 [main] INFO  testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest - ***Finished TC_PDP_021_ProductDisplayPageSocialOptionsTest ***
+20:26:21.661 [main] INFO  testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest - ***Starting TC_PDP_021_ProductDisplayPageSocialOptionsTest ***
+20:26:23.231 [main] INFO  testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest - ***Finished TC_PDP_021_ProductDisplayPageSocialOptionsTest ***
+20:36:38.630 [main] INFO  testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest - ***Starting TC_PDP_021_ProductDisplayPageSocialOptionsTest ***
+20:36:49.717 [main] INFO  testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest - ***Finished TC_PDP_021_ProductDisplayPageSocialOptionsTest ***
+20:39:49.819 [main] INFO  testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest - ***Starting TC_PDP_021_ProductDisplayPageSocialOptionsTest ***
