@@ -674,6 +674,10 @@ public class ProductDisplayPage extends BasePage {
 		click(productComparisonBtn);;
 	}
 	
+	public void clickFirstRelatedProductTitle() {
+		click(firstProductTitle);
+	}
+	
 	
 
 	// validations
@@ -1048,6 +1052,15 @@ public class ProductDisplayPage extends BasePage {
 		return false;
 		
 	}
+	
+	public boolean isCorrectProductNameDisplay(String name) {
+		
+		System.out.println(name + " | "+  productName.getText());
+		
+		return productName.getText().equals(name.trim());
+	}
+	
+	
 
 	// getters
 	public String getFirstProductTitle() {

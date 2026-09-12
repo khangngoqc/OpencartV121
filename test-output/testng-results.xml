@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="65" total="66" passed="0" failed="1" skipped="0">
+<testng-results ignored="65" total="67" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-09T20:39:43 GMT+07:00" name="Suite" finished-at="2026-09-09T20:41:03 GMT+07:00" duration-ms="80258">
+  <suite started-at="2026-09-12T21:19:51 GMT+07:00" name="Suite" finished-at="2026-09-12T21:20:09 GMT+07:00" duration-ms="17251">
     <groups>
       <group name="product display">
-        <method signature="TC_PDP_021_ProductDisplayPageSocialOptionsTest.validate_social_options()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest@7c9d8e2]" name="validate_social_options" class="testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest"/>
+        <method signature="TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest.validate_acccess_from_wish_list_()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest@6200f9cb]" name="validate_acccess_from_wish_list_" class="testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest"/>
+        <method signature="TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.validate_acccess_from_wish_list_name()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest@2002fc1d]" name="validate_acccess_from_wish_list_name" class="testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest"/>
       </group> <!-- product display -->
       <group name="master">
-        <method signature="TC_PDP_021_ProductDisplayPageSocialOptionsTest.validate_social_options()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest@7c9d8e2]" name="validate_social_options" class="testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest"/>
+        <method signature="TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest.validate_acccess_from_wish_list_()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest@6200f9cb]" name="validate_acccess_from_wish_list_" class="testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest"/>
+        <method signature="TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.validate_acccess_from_wish_list_name()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest@2002fc1d]" name="validate_acccess_from_wish_list_name" class="testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-09-09T20:39:43 GMT+07:00" name="Test" finished-at="2026-09-09T20:41:03 GMT+07:00" duration-ms="80258">
-      <class name="testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest@7c9d8e2]" started-at="2026-09-09T20:39:43 GMT+07:00" name="setup" finished-at="2026-09-09T20:39:49 GMT+07:00" duration-ms="6447" status="PASS">
+    <test started-at="2026-09-12T21:19:51 GMT+07:00" name="Test" finished-at="2026-09-12T21:20:09 GMT+07:00" duration-ms="17251">
+      <class name="testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest@6200f9cb]" started-at="2026-09-12T21:19:51 GMT+07:00" name="setup" finished-at="2026-09-12T21:19:58 GMT+07:00" duration-ms="6978" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,17 +31,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_social_options()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest@7c9d8e2]" started-at="2026-09-09T20:39:49 GMT+07:00" name="validate_social_options" finished-at="2026-09-09T20:41:02 GMT+07:00" duration-ms="72897" status="FAIL">
+        <test-method signature="validate_acccess_from_wish_list_()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest@6200f9cb]" started-at="2026-09-12T21:19:58 GMT+07:00" name="validate_acccess_from_wish_list_" finished-at="2026-09-12T21:20:01 GMT+07:00" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_acccess_from_wish_list_ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest@6200f9cb]" started-at="2026-09-12T21:20:01 GMT+07:00" name="tearDown" finished-at="2026-09-12T21:20:01 GMT+07:00" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest -->
+      <class name="testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest@2002fc1d]" started-at="2026-09-12T21:20:01 GMT+07:00" name="setup" finished-at="2026-09-12T21:20:05 GMT+07:00" duration-ms="3896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_acccess_from_wish_list_name()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest@2002fc1d]" started-at="2026-09-12T21:20:05 GMT+07:00" name="validate_acccess_from_wish_list_name" finished-at="2026-09-12T21:20:08 GMT+07:00" duration-ms="2559" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Failed to locate any social interactive option on page!|  expected [true] but found [false]]]>
+              <![CDATA[Cannot invoke "pageObjects.ProductDisplayPage.isCorrectProductNameDisplay(String)" because "pdp" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed to locate any social interactive option on page!|  expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Cannot invoke "pageObjects.ProductDisplayPage.isCorrectProductNameDisplay(String)" because "pdp" is null
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest.validate_social_options(TC_PDP_021_ProductDisplayPageSocialOptionsTest.java:35)
+at testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.validate_acccess_from_wish_list_name(TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -71,12 +97,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_social_options -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest@7c9d8e2]" started-at="2026-09-09T20:41:02 GMT+07:00" name="tearDown" finished-at="2026-09-09T20:41:03 GMT+07:00" duration-ms="467" status="PASS">
+        </test-method> <!-- validate_acccess_from_wish_list_name -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest@2002fc1d]" started-at="2026-09-12T21:20:08 GMT+07:00" name="tearDown" finished-at="2026-09-12T21:20:09 GMT+07:00" duration-ms="571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
