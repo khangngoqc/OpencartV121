@@ -25,7 +25,8 @@ public class BasePage extends BaseClass {
 	WebElement lnkRegister;
 	@FindBy(xpath = "(//a[normalize-space()='Login'])[1]")
 	WebElement lnkLogin;
-	@FindBy(xpath="//a[@id='wishlist-total']") WebElement WishListLnk;
+	@FindBy(xpath = "//a[@id='wishlist-total']") WebElement WishListLnk;
+	@FindBy(xpath = "//a[@title='Shopping Cart']") WebElement shoppingCartLnk;
 
 	@FindBy(xpath = "//div[@id='cart']//button[@data-toggle='dropdown']")
 	WebElement cartBtn;
@@ -69,6 +70,12 @@ public class BasePage extends BaseClass {
 		click(WishListLnk);
 		
 		return new WishListPage();
+	}
+	
+	public ShoppingCartPage clickShoppingCartLnk() {
+		click(shoppingCartLnk);
+		
+		return new ShoppingCartPage();
 	}
 	
 	public void clickSearch() {

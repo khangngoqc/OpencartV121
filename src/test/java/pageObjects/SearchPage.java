@@ -143,6 +143,12 @@ public class SearchPage extends BasePage {
         dropdown.selectByContainsVisibleText(option);
     }
     
+    public ProductDisplayPage clickAlertProductLink() {
+    	click(alertProductLink);
+    	
+    	return new ProductDisplayPage();
+    }
+    
     
     //validations
     public boolean isResultMessageDiplayed() {
