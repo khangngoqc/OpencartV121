@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest">
+      <class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest">
         <methods>
-          <include name="validate_acccess_from_wish_list_name"/>
           <include name="tearDown"/>
+          <include name="validate_acccess_from_checkout_page"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

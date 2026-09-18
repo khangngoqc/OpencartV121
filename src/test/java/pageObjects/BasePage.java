@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import testBase.BaseClass;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
@@ -25,8 +26,12 @@ public class BasePage extends BaseClass {
 	WebElement lnkRegister;
 	@FindBy(xpath = "(//a[normalize-space()='Login'])[1]")
 	WebElement lnkLogin;
-	@FindBy(xpath = "//a[@id='wishlist-total']") WebElement WishListLnk;
-	@FindBy(xpath = "//a[@title='Shopping Cart']") WebElement shoppingCartLnk;
+	@FindBy(xpath = "//a[@id='wishlist-total']")
+	WebElement WishListLnk;
+	@FindBy(xpath = "//a[@title='Shopping Cart']")
+	WebElement shoppingCartLnk;
+	@FindBy(xpath = "//a[@title='Checkout']")
+	WebElement checkoutLnk;
 
 	@FindBy(xpath = "//div[@id='cart']//button[@data-toggle='dropdown']")
 	WebElement cartBtn;
@@ -34,6 +39,8 @@ public class BasePage extends BaseClass {
 	WebElement cartTotalTxt;
 	@FindBy(xpath = "//ul[@class='dropdown-menu pull-right']//td[2]//a")
 	List<WebElement> cartProductNames;
+	@FindBy(xpath = "(//button[@title='Remove'])")
+	List<WebElement> removeBtns;
 
 	@FindBy(xpath = "//input[@placeholder='Search']")
 	WebElement searchTxtBox;
@@ -65,19 +72,25 @@ public class BasePage extends BaseClass {
 
 		return new LoginPage();
 	}
-	
+
 	public WishListPage clickWishListLnk() {
 		click(WishListLnk);
-		
+
 		return new WishListPage();
 	}
-	
+
 	public ShoppingCartPage clickShoppingCartLnk() {
 		click(shoppingCartLnk);
-		
+
 		return new ShoppingCartPage();
 	}
-	
+
+	public CheckoutPage clickCheckoutLnk() {
+		click(checkoutLnk);
+
+		return new CheckoutPage();
+	}
+
 	public void clickSearch() {
 		searchBtn.click();
 	}
@@ -124,6 +137,19 @@ public class BasePage extends BaseClass {
 	public boolean findInDOM(String string) {
 		return getDriver().getPageSource().toLowerCase().contains(string.toLowerCase());
 	};
+
+	public void clearCart() {
+		try {
+			for(WebElement btn : removeBtns) {
+				click(cartBtn);
+				click(btn);
+			}
+
+		} catch (Exception e) {
+			System.out.println("Out of product to remove!");
+			return;
+		}
+	}
 
 	// getters
 	public String getPageTitle() {

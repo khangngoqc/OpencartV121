@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="65" total="68" passed="3" failed="0" skipped="0">
+<testng-results ignored="65" total="66" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-16T20:16:38 GMT+07:00" name="Suite" finished-at="2026-09-16T20:17:01 GMT+07:00" duration-ms="23305">
+  <suite started-at="2026-09-18T21:47:07 GMT+07:00" name="Suite" finished-at="2026-09-18T21:47:25 GMT+07:00" duration-ms="17270">
     <groups>
       <group name="product display">
-        <method signature="TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest.validate_acccess_from_add_to_cart_link()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest@69453e37]" name="validate_acccess_from_add_to_cart_link" class="testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest"/>
-        <method signature="TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest.validate_acccess_shopping_cart_name()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest@6f4a47c7]" name="validate_acccess_shopping_cart_name" class="testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest"/>
-        <method signature="TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest.validate_acccess_shopping_cart_image()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest@ae13544]" name="validate_acccess_shopping_cart_image" class="testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest"/>
+        <method signature="TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest.validate_acccess_from_checkout_page()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" name="validate_acccess_from_checkout_page" class="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest"/>
       </group> <!-- product display -->
       <group name="master">
-        <method signature="TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest.validate_acccess_from_add_to_cart_link()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest@69453e37]" name="validate_acccess_from_add_to_cart_link" class="testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest"/>
-        <method signature="TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest.validate_acccess_shopping_cart_name()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest@6f4a47c7]" name="validate_acccess_shopping_cart_name" class="testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest"/>
-        <method signature="TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest.validate_acccess_shopping_cart_image()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest@ae13544]" name="validate_acccess_shopping_cart_image" class="testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest"/>
+        <method signature="TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest.validate_acccess_from_checkout_page()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" name="validate_acccess_from_checkout_page" class="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-09-16T20:16:38 GMT+07:00" name="Test" finished-at="2026-09-16T20:17:01 GMT+07:00" duration-ms="23305">
-      <class name="testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest@6f4a47c7]" started-at="2026-09-16T20:16:48 GMT+07:00" name="setup" finished-at="2026-09-16T20:16:52 GMT+07:00" duration-ms="3564" status="PASS">
+    <test started-at="2026-09-18T21:47:07 GMT+07:00" name="Test" finished-at="2026-09-18T21:47:25 GMT+07:00" duration-ms="17270">
+      <class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" started-at="2026-09-18T21:47:08 GMT+07:00" name="setup" finished-at="2026-09-18T21:47:14 GMT+07:00" duration-ms="6099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,67 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_acccess_shopping_cart_name()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest@6f4a47c7]" started-at="2026-09-16T20:16:52 GMT+07:00" name="validate_acccess_shopping_cart_name" finished-at="2026-09-16T20:16:54 GMT+07:00" duration-ms="2274" status="PASS">
+        <test-method signature="validate_acccess_from_checkout_page()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" started-at="2026-09-18T21:47:14 GMT+07:00" name="validate_acccess_from_checkout_page" finished-at="2026-09-18T21:47:24 GMT+07:00" duration-ms="10559" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_acccess_shopping_cart_name -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest@6f4a47c7]" started-at="2026-09-16T20:16:54 GMT+07:00" name="tearDown" finished-at="2026-09-16T20:16:55 GMT+07:00" duration-ms="562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest@ae13544]" started-at="2026-09-16T20:16:55 GMT+07:00" name="setup" finished-at="2026-09-16T20:16:58 GMT+07:00" duration-ms="3255" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validate_acccess_shopping_cart_image()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest@ae13544]" started-at="2026-09-16T20:16:58 GMT+07:00" name="validate_acccess_shopping_cart_image" finished-at="2026-09-16T20:17:01 GMT+07:00" duration-ms="2960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_acccess_shopping_cart_image -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest@ae13544]" started-at="2026-09-16T20:17:01 GMT+07:00" name="tearDown" finished-at="2026-09-16T20:17:01 GMT+07:00" duration-ms="570" status="PASS">
+        </test-method> <!-- validate_acccess_from_checkout_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" started-at="2026-09-18T21:47:24 GMT+07:00" name="tearDown" finished-at="2026-09-18T21:47:25 GMT+07:00" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest@69453e37]" started-at="2026-09-16T20:16:38 GMT+07:00" name="setup" finished-at="2026-09-16T20:16:45 GMT+07:00" duration-ms="7036" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validate_acccess_from_add_to_cart_link()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest@69453e37]" started-at="2026-09-16T20:16:45 GMT+07:00" name="validate_acccess_from_add_to_cart_link" finished-at="2026-09-16T20:16:48 GMT+07:00" duration-ms="2452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_acccess_from_add_to_cart_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest@69453e37]" started-at="2026-09-16T20:16:48 GMT+07:00" name="tearDown" finished-at="2026-09-16T20:16:48 GMT+07:00" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
