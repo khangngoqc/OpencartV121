@@ -16,30 +16,28 @@ public class ShoppingCartPage extends BasePage {
 	@FindBy(xpath = "//form/div/table/tbody/tr/td[2]/a")
 	List<WebElement> productNames;
 
-	
 	// actions
-		public ProductDisplayPage clickProductImageByIndex(int index) {
+	public ProductDisplayPage clickProductImageByIndex(int index) {
 
-			try {
+		try {
 
-				if (index <= 0 || index > productImages.size()) {
-					System.out.println("Invalid index input!" + index);
-					return null;
-				}
-
-				productImages.get(index - 1).click();
-
-				return new ProductDisplayPage();
-
-			} catch (Exception e) {
-
+			if (index <= 0 || index > productImages.size()) {
 				System.out.println("Invalid index input!" + index);
+				return null;
 			}
 
-			return null;
+			productImages.get(index - 1).click();
 
+			return new ProductDisplayPage();
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
 		}
-	
+
+		return null;
+
+	}
 
 	public ProductDisplayPage clickProductNameByIndex(int index) {
 
@@ -64,8 +62,6 @@ public class ShoppingCartPage extends BasePage {
 		return null;
 
 	}
-	
-	
 
 	// getters
 	public String getProductNameByIndex(int index) {

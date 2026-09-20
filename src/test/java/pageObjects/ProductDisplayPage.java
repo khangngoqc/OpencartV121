@@ -29,7 +29,8 @@ public class ProductDisplayPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
-	@FindBy(xpath="//a[normalize-space()='wish list']") WebElement alertWishListLnk;
+	@FindBy(xpath = "//a[normalize-space()='wish list']")
+	WebElement alertWishListLnk;
 
 	@FindBy(xpath = "//ul[@class='thumbnails']//li[1]")
 	WebElement mainThumbnail;
@@ -78,8 +79,12 @@ public class ProductDisplayPage extends BasePage {
 	WebElement productBrand;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Product Code:')]")
 	WebElement productCode;
+	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Points')]")
+	WebElement productRewardPoints;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Availability:')]")
 	WebElement productAvailability;
+	@FindBy(xpath = "(//ul[@class='list-unstyled']//li//span[contains(.,'$')])[1]")
+	WebElement productOriginalPrice;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//h2[contains(.,'$')]")
 	WebElement productPrice;
 	@FindBy(xpath = "//ul[@class='list-unstyled']//li[contains(.,'Ex Tax')]")
@@ -663,22 +668,20 @@ public class ProductDisplayPage extends BasePage {
 	public void clickAddToWishListBtn() {
 		click(addToWishListBtn);
 	}
-	
+
 	public WishListPage clickAlertWishListLnk() {
 		click(alertWishListLnk);
-		
+
 		return new WishListPage();
 	}
-	
+
 	public void clickProductComparisonBtn() {
-		click(productComparisonBtn);;
+		click(productComparisonBtn);
 	}
-	
+
 	public void clickFirstRelatedProductTitle() {
 		click(firstProductTitle);
 	}
-	
-	
 
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
@@ -879,6 +882,10 @@ public class ProductDisplayPage extends BasePage {
 	public boolean isProductCodeDisplay(String code) {
 		return isDisplay(productCode) && productCode.getText().contains(code);
 	}
+	
+	public boolean isProductRewardPointsDisplay(int point) {
+		return isDisplay(productRewardPoints) && productRewardPoints.getText().contains(Integer.toString(point));
+	}
 
 	public boolean isProductAvailabilityDisplay(String availability) {
 
@@ -888,6 +895,20 @@ public class ProductDisplayPage extends BasePage {
 		// productAvailability.getText());
 
 		return isDisplay(productAvailability) && productAvailability.getText().contains(availability);
+	}
+	
+	public boolean isOriginalProductPriceDisplay(int price) {
+
+		System.out.println("Original price display: " +
+		isDisplay(productOriginalPrice));
+		System.out.println("Original price text display: " +
+				productOriginalPrice.getText());
+
+		System.out.println("Original price text is stiked out: " +
+				isElementStrikedOut(productOriginalPrice));
+
+		
+		return isDisplay(productOriginalPrice) && productOriginalPrice.getText().contains(Integer.toString(price)) && isElementStrikedOut(productOriginalPrice);
 	}
 
 	public boolean isProductPriceDisplay(String price) {
@@ -1021,20 +1042,18 @@ public class ProductDisplayPage extends BasePage {
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName.getText() + " to your wish list!");
 	}
-	
+
 	public boolean isComparisonSuccessAlertDisplay() {
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName.getText() + " to your product comparison!");
 	}
-	
+
 	public boolean isSocialOptionsAvailable() {
-		
-		String[] options = {"share", "retweet", "repost", "forward", "pinterest", 
-			    "like", "comment", "subscribe", "follow", "connect", 
-			    "viral", "trending", "buzz", "shoutout", "mention", 
-			    "tag", "broadcast", "publish", "post", "tweet", 
-			    "embed", "link", "syndicate", "distribute", "engage", "facebook"};
-		
+
+		String[] options = { "share", "retweet", "repost", "forward", "pinterest", "like", "comment", "subscribe",
+				"follow", "connect", "viral", "trending", "buzz", "shoutout", "mention", "tag", "broadcast", "publish",
+				"post", "tweet", "embed", "link", "syndicate", "distribute", "engage", "facebook" };
+
 		for (String s : options) {
 			if (findInDOM(s)) {
 				System.out.println("Keyword found: " + s);
@@ -1042,25 +1061,23 @@ public class ProductDisplayPage extends BasePage {
 					getDriver().findElement(By.partialLinkText(s));
 					return true;
 				} catch (Exception e) {
-					System.out.println("Cannot find interactive element related to " + s + " keyword." );
+					System.out.println("Cannot find interactive element related to " + s + " keyword.");
 					continue;
 				}
-				
+
 			}
 		}
-		
+
 		return false;
-		
+
 	}
-	
+
 	public boolean isCorrectProductNameDisplay(String name) {
-		
-		System.out.println(name + " | "+  productName.getText());
-		
+
+		System.out.println(name + " | " + productName.getText());
+
 		return productName.getText().equals(name.trim());
 	}
-	
-	
 
 	// getters
 	public String getFirstProductTitle() {

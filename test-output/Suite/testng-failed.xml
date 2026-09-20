@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest">
+      <class name="testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest">
         <methods>
+          <include name="validate_product_name_reward_points_display"/>
           <include name="tearDown"/>
-          <include name="validate_acccess_from_checkout_page"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

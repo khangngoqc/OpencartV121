@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="65" total="66" passed="1" failed="0" skipped="0">
+<testng-results ignored="65" total="67" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-18T21:47:07 GMT+07:00" name="Suite" finished-at="2026-09-18T21:47:25 GMT+07:00" duration-ms="17270">
+  <suite started-at="2026-09-20T14:01:07 GMT+07:00" name="Suite" finished-at="2026-09-20T14:01:20 GMT+07:00" duration-ms="13104">
     <groups>
       <group name="product display">
-        <method signature="TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest.validate_acccess_from_checkout_page()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" name="validate_acccess_from_checkout_page" class="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest"/>
+        <method signature="TC_PDP_031_ProductDisplayPageRewardPointTest.validate_product_name_reward_points_display()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest@20d525]" name="validate_product_name_reward_points_display" class="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest"/>
+        <method signature="TC_PDP_032_ProductDisplayPageOriginalPriceTest.validate_product_name_reward_points_display()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest@6200f9cb]" name="validate_product_name_reward_points_display" class="testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest"/>
       </group> <!-- product display -->
       <group name="master">
-        <method signature="TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest.validate_acccess_from_checkout_page()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" name="validate_acccess_from_checkout_page" class="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest"/>
+        <method signature="TC_PDP_031_ProductDisplayPageRewardPointTest.validate_product_name_reward_points_display()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest@20d525]" name="validate_product_name_reward_points_display" class="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest"/>
+        <method signature="TC_PDP_032_ProductDisplayPageOriginalPriceTest.validate_product_name_reward_points_display()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest@6200f9cb]" name="validate_product_name_reward_points_display" class="testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-09-18T21:47:07 GMT+07:00" name="Test" finished-at="2026-09-18T21:47:25 GMT+07:00" duration-ms="17270">
-      <class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" started-at="2026-09-18T21:47:08 GMT+07:00" name="setup" finished-at="2026-09-18T21:47:14 GMT+07:00" duration-ms="6099" status="PASS">
+    <test started-at="2026-09-20T14:01:07 GMT+07:00" name="Test" finished-at="2026-09-20T14:01:20 GMT+07:00" duration-ms="13104">
+      <class name="testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest@6200f9cb]" started-at="2026-09-20T14:01:15 GMT+07:00" name="setup" finished-at="2026-09-20T14:01:19 GMT+07:00" duration-ms="3881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +31,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_acccess_from_checkout_page()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" started-at="2026-09-18T21:47:14 GMT+07:00" name="validate_acccess_from_checkout_page" finished-at="2026-09-18T21:47:24 GMT+07:00" duration-ms="10559" status="PASS">
+        <test-method signature="validate_product_name_reward_points_display()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest@6200f9cb]" started-at="2026-09-20T14:01:19 GMT+07:00" name="validate_product_name_reward_points_display" finished-at="2026-09-20T14:01:20 GMT+07:00" duration-ms="875" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_acccess_from_checkout_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@7c9d8e2]" started-at="2026-09-18T21:47:24 GMT+07:00" name="tearDown" finished-at="2026-09-18T21:47:25 GMT+07:00" duration-ms="443" status="PASS">
+        </test-method> <!-- validate_product_name_reward_points_display -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest@6200f9cb]" started-at="2026-09-20T14:01:20 GMT+07:00" name="tearDown" finished-at="2026-09-20T14:01:20 GMT+07:00" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest -->
+      <class name="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest@20d525]" started-at="2026-09-20T14:01:07 GMT+07:00" name="setup" finished-at="2026-09-20T14:01:13 GMT+07:00" duration-ms="6167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_reward_points_display()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest@20d525]" started-at="2026-09-20T14:01:13 GMT+07:00" name="validate_product_name_reward_points_display" finished-at="2026-09-20T14:01:14 GMT+07:00" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_reward_points_display -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest@20d525]" started-at="2026-09-20T14:01:14 GMT+07:00" name="tearDown" finished-at="2026-09-20T14:01:15 GMT+07:00" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

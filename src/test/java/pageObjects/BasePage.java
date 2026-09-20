@@ -37,6 +37,8 @@ public class BasePage extends BaseClass {
 	WebElement cartBtn;
 	@FindBy(xpath = "//span[@id='cart-total']")
 	WebElement cartTotalTxt;
+	@FindBy(xpath = "//img[@class='img-thumbnail']")
+	List<WebElement> cartProductImages;
 	@FindBy(xpath = "//ul[@class='dropdown-menu pull-right']//td[2]//a")
 	List<WebElement> cartProductNames;
 	@FindBy(xpath = "(//button[@title='Remove'])")
@@ -180,6 +182,61 @@ public class BasePage extends BaseClass {
 	public void backToPreviousPage() {
 		getDriver().navigate().back();
 	}
+	
+	public ProductDisplayPage clickCartProductNameByIndex(int index) {
+
+		System.out.println("In cart product count: " + cartProductNames.size());
+
+		try {
+
+			if (index <= 0 || index > cartProductNames.size()) {
+				System.out.println("Invalid index input!" + index);
+				return null;
+			}
+
+			cartProductNames.get(index - 1).click();
+
+			return new ProductDisplayPage();
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
+		}
+
+		return null;
+
+	}
+	
+	public ProductDisplayPage clickCartProductImageByIndex(int index) {
+
+		try {
+
+			if (index <= 0 || index > cartProductImages.size()) {
+				System.out.println("Invalid index input!" + index);
+				return null;
+			}
+
+			cartProductImages.get(index - 1).click();
+
+			return new ProductDisplayPage();
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
+		}
+
+		return null;
+
+	}
+
+	public void hoverNavBarDesktop() {
+		act.moveToElement(navBarDesktopMenu).perform();
+	}
+
+	public DesktopsPage clickShowAllDesktopFromNavBarDesktopMenu() {
+		click(showAllDesktopsMenuItem);
+		return new DesktopsPage();
+	}
 
 	// validations
 	public boolean isSearchComponentDisplay() {
@@ -201,15 +258,22 @@ public class BasePage extends BaseClass {
 		// System.out.println(getDriver().getCurrentUrl());
 		return getDriver().getCurrentUrl().contains(urlKeyword.toLowerCase());
 	}
-
-	public void hoverNavBarDesktop() {
-		act.moveToElement(navBarDesktopMenu).perform();
+	
+	public boolean isElementStrikedOut(WebElement ele) {
+		
+		String textDecoration = ele.getCssValue("text-decoration-line");
+		
+		if (textDecoration == null || textDecoration.isEmpty()) {
+			textDecoration = ele.getCssValue("text-decoration");
+		}
+		
+		System.out.println("textDecoration: " + textDecoration);
+		
+		boolean isStrikedOut = textDecoration.contains("line-through");
+		
+		return isStrikedOut;
 	}
 
-	public DesktopsPage clickShowAllDesktopFromNavBarDesktopMenu() {
-		click(showAllDesktopsMenuItem);
-		return new DesktopsPage();
-	}
 
 	// getter
 	public String getCartTotalText() {
