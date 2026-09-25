@@ -4616,3 +4616,32 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 14:01:14.713 [main] INFO  testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest - ***Finished TC_PDP_031_ProductDisplayPageRewardPointTest ***
 14:01:19.183 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Starting TC_PDP_032_ProductDisplayPageOriginalPriceTest.java ***
 14:01:20.056 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Finished TC_PDP_032_ProductDisplayPageOriginalPriceTest ***
+21:24:05.034 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Starting TC_PDP_032_ProductDisplayPageOriginalPriceTest.java ***
+21:24:05.812 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Finished TC_PDP_032_ProductDisplayPageOriginalPriceTest ***
+21:24:10.542 [main] INFO  testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest - ***Starting TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest.java ***
+21:24:11.277 [main] INFO  testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest - ***Finished TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest ***
+21:32:49.177 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Starting TC_PDP_032_ProductDisplayPageOriginalPriceTest.java ***
+21:32:50.006 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Finished TC_PDP_032_ProductDisplayPageOriginalPriceTest ***
+21:32:54.008 [main] INFO  testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest - ***Starting TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest.java ***
+21:40:29.297 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Starting TC_PDP_032_ProductDisplayPageOriginalPriceTest.java ***
+21:40:30.811 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Finished TC_PDP_032_ProductDisplayPageOriginalPriceTest ***
+21:40:35.138 [main] INFO  testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest - ***Starting TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest.java ***
+21:40:36.324 [main] INFO  testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest - ***Finished TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest ***
+22:04:59.199 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Starting TC_PDP_032_ProductDisplayPageOriginalPriceTest.java ***
+22:05:00.054 [main] INFO  testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest - ***Finished TC_PDP_032_ProductDisplayPageOriginalPriceTest ***
+22:05:04.497 [main] INFO  testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest - ***Starting TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest.java ***
+22:05:05.294 [main] INFO  testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest - ***Finished TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest ***
+22:05:09.194 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Starting TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:06:07.985 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Starting TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:06:48.706 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Starting TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:06:49.839 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Finished TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:09:18.177 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Starting TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:11:44.325 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Starting TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:11:45.686 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Finished TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:18:35.638 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Starting TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:18:36.953 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Finished TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:18:41.636 [main] INFO  testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest - ******* Starting TC_PDP_035_ProductDisplayPageHeadingURLTitleTest *******
+22:19:33.213 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Starting TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:19:34.489 [main] INFO  testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest - ***Finished TC_PDP_034_ProductDisplayPageAvailableOptionTest ***
+22:19:38.874 [main] INFO  testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest - ******* Starting TC_PDP_035_ProductDisplayPageHeadingURLTitleTest *******
+22:19:39.558 [main] INFO  testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest - ******* Finished TC_PDP_035_ProductDisplayPageHeadingURLTitleTest *******

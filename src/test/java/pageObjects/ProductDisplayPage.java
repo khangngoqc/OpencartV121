@@ -247,12 +247,25 @@ public class ProductDisplayPage extends BasePage {
 
 		// System.out.println(selectOptions.size());
 
-		if (index >= numberOfOptions || index <= 0) {
+		if (index > numberOfOptions || index <= 0) {
 			System.out.println(
-					"Invalid index input! index should be in range of  0 < [index] <= " + (numberOfOptions - 1));
+					"Invalid index input! index should be in range of  0 < [index] <= " + numberOfOptions);
 		} else {
 			dropdown.selectByIndex(index - 1);
 		}
+	}
+	
+	public boolean isOptionSelected(String option) {
+		Select dropdown = new Select(formSelect);
+		String selected = dropdown.getFirstSelectedOption().getText();
+		
+		System.out.println("Selected option: " + selected);
+		
+		if(selected.contains(option)){
+			return true;
+		}
+		
+		return false;
 	}
 
 	public void inputFormTextarea(String text) {
@@ -1093,6 +1106,33 @@ public class ProductDisplayPage extends BasePage {
 		String digits = label.replaceAll("[^0-9]", ""); // "12"
 		return Integer.parseInt(digits);
 
+	}
+	
+	public boolean isCorrectBulkPurchasePriceDisplay(int amount, float price) {
+		try {
+			
+			WebElement bulkPurchase = getDriver().findElement(By.xpath("//ul[@class='list-unstyled']//li[contains(.,'"+ amount +" or more $')]"));
+			//getLogger().info("STEP get bulkPurchase element of " + amount);
+			
+			System.out.println("isDisplay: "+ bulkPurchase.isDisplayed());
+			System.out.println("isc contain expected value: "+ bulkPurchase.getText().contains(String.valueOf(price)));
+			
+			/*
+			 * getLogger().info("isDisplay: "+ bulkPurchase.isDisplayed());
+			 * getLogger().info("isc contain expected value: "+
+			 * bulkPurchase.getText().contains(String.valueOf(price)));
+			 */
+			
+			return isDisplay(bulkPurchase) && bulkPurchase.getText().contains(String.valueOf(price));
+			
+	
+		} catch (Exception e) {
+			 System.out.println(e.getMessage());
+			 
+		}	
+		
+		return false;
+		
 	}
 
 }

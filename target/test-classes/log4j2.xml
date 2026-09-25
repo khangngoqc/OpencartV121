@@ -32,9 +32,11 @@
 	<Loggers>
 		<!-- Root logger references the console and rolling appenders -->
 		<Root level="Debug">
-			<!--<AppenderRef ref="Console"/> -->
+			<AppenderRef ref="Console"/> 
 			<AppenderRef ref="File" />
 		</Root>
+		
+		
 	</Loggers>
 
 </Configuration>
