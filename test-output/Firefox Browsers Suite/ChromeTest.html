@@ -55,18 +55,330 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>26/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 07 21:39:09 GMT+07:00 2026</td>
+<td>Started on:</td><td>Sat Sep 26 16:18:12 GMT+07:00 2026</td>
 </tr>
-<tr><td>Total time:</td><td>150 seconds (150907 ms)</td>
+<tr><td>Total time:</td><td>324 seconds (324745 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>product compare </td>
+<td>Included groups:</td><td>product display </td>
 </tr><tr>
 <td>Excluded groups:</td><td> </td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest.validate_acccess_from_wish_list_()'><b>validate_acccess_from_wish_list_</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest</td>
+<td><div><pre>java.lang.AssertionError: Cannot invoke &quot;pageObjects.ProductDisplayPage.isCorrectProductNameDisplay(String)&quot; because &quot;pdp&quot; is null
+	at testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest.validate_acccess_from_wish_list_(TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace570103803", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace570103803'><pre>java.lang.AssertionError: Cannot invoke &quot;pageObjects.ProductDisplayPage.isCorrectProductNameDisplay(String)&quot; because &quot;pdp&quot; is null
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest.validate_acccess_from_wish_list_(TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>2</td>
+<td>testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest@21e360a</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest.validate_product_specification()'><b>validate_product_specification</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest</td>
+<td><div><pre>java.lang.AssertionError: Incorrect specification display! Primary keyword not found! expected [true] but found [false]
+	at testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest.validate_product_specification(TC_PDP_009_ProductDisplayPageProductSpecificationTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace549575362", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace549575362'><pre>java.lang.AssertionError: Incorrect specification display! Primary keyword not found! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest.validate_product_specification(TC_PDP_009_ProductDisplayPageProductSpecificationTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>1</td>
+<td>testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest@1e04fa0a</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest.validate_social_options()'><b>validate_social_options</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest</td>
+<td><div><pre>java.lang.AssertionError: Failed to locate any social interactive option on page!|  expected [true] but found [false]
+	at testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest.validate_social_options(TC_PDP_021_ProductDisplayPageSocialOptionsTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace880814789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace880814789'><pre>java.lang.AssertionError: Failed to locate any social interactive option on page!|  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest.validate_social_options(TC_PDP_021_ProductDisplayPageSocialOptionsTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>74</td>
+<td>testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest@2c35e847</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest.validate_product_description()'><b>validate_product_description</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest</td>
+<td><div><pre>java.lang.AssertionError: Grammar issue found in description!  expected [true] but found [false]
+	at testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest.validate_product_description(TC_PDP_008_ProductDisplayPageProductDescriptionTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1759507544", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1759507544'><pre>java.lang.AssertionError: Grammar issue found in description!  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest.validate_product_description(TC_PDP_008_ProductDisplayPageProductDescriptionTest.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>1</td>
+<td>testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest@66d3eec0</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest.validate_product_quantity_display()'><b>validate_product_quantity_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest</td>
+<td><div><pre>java.lang.AssertionError: Missing warning for negative quantity value! |  expected [true] but found [false]
+	at testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest.validate_product_quantity_display(TC_PDP_006_ProductDisplayPageNegativeQuantityTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace595632554", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace595632554'><pre>java.lang.AssertionError: Missing warning for negative quantity value! |  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1079)
+	at org.testng.Assert.assertEquals(Assert.java:1043)
+	at testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest.validate_product_quantity_display(TC_PDP_006_ProductDisplayPageNegativeQuantityTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>1</td>
+<td>testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest@614ca7df</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest.validate_acccess_from_cart_name()'><b>validate_acccess_from_cart_name</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest</td>
+<td><div><pre>java.lang.AssertionError: Failed to navigate to product display page!|  expected [true] but found [false]
+	at testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest.validate_acccess_from_cart_name(TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1100936613", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1100936613'><pre>java.lang.AssertionError: Failed to navigate to product display page!|  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest.validate_acccess_from_cart_name(TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>14</td>
+<td>testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest@52af26ee</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest.validate_product_minimum_quantity_display()'><b>validate_product_minimum_quantity_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest</td>
+<td><div><pre>java.lang.AssertionError: Unable to find expected messsage! |  expected [true] but found [false]
+	at testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest.validate_product_minimum_quantity_display(TC_PDP_007_ProductDisplayPageMinimumQuantityTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace469822718", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace469822718'><pre>java.lang.AssertionError: Unable to find expected messsage! |  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest.validate_product_minimum_quantity_display(TC_PDP_007_ProductDisplayPageMinimumQuantityTest.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>13</td>
+<td>testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest@4738a206</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.validate_acccess_from_wish_list_name()'><b>validate_acccess_from_wish_list_name</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest</td>
+<td><div><pre>java.lang.AssertionError: Cannot invoke &quot;pageObjects.ProductDisplayPage.isCorrectProductNameDisplay(String)&quot; because &quot;pdp&quot; is null
+	at testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.validate_acccess_from_wish_list_name(TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace130450953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace130450953'><pre>java.lang.AssertionError: Cannot invoke &quot;pageObjects.ProductDisplayPage.isCorrectProductNameDisplay(String)&quot; because &quot;pdp&quot; is null
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.validate_acccess_from_wish_list_name(TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>2</td>
+<td>testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest@5ba3f27a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,125 +388,135 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest</td>
-<td></td>
-<td>7</td>
-<td>testCases.ProductCompare.TC_PC_020_B_ProductCompareAddtoCartTest@5552768b</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest.adding_product_to_compare_grid_view_category()'><b>adding_product_to_compare_grid_view_category</b><br>Test class: testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest</td>
-<td></td>
-<td>4</td>
-<td>testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest@574b560f</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest.validate_product_comparison_continue_btn()'><b>validate_product_comparison_continue_btn</b><br>Test class: testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.ProductCompare.TC_PC_011_ProductComparePageNonProductAddedContinueBtnTest@71c3b41</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest.validate_remove_a_product_from_page()'><b>validate_remove_a_product_from_page</b><br>Test class: testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.ProductCompare.TC_PC_021_A_ProductCompareRemoveTest@3c947bc5</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest.adding_product_to_compare_homepage_featured_section()'><b>adding_product_to_compare_homepage_featured_section</b><br>Test class: testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest.validate_product_comparison()'><b>validate_product_comparison</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest</td>
 <td></td>
 <td>2</td>
-<td>testCases.ProductCompare.TC_PC_008_ProductComparePageSearchPageNavigationTest@3943a2be</td></tr>
+<td>testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest@7c24b813</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest.adding_product_to_compare_grid_view()'><b>adding_product_to_compare_grid_view</b><br>Test class: testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_012_017_ProductDisplayPageProductReviewsFieldMandatoryTest.validate_review_mandatory_fields()'><b>validate_review_mandatory_fields</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_012_017_ProductDisplayPageProductReviewsFieldMandatoryTest</td>
+<td></td>
+<td>13</td>
+<td>testCases.ProductDisplayPage.TC_PDP_012_017_ProductDisplayPageProductReviewsFieldMandatoryTest@618425b5</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest.validate_review_mandatory_fields()'><b>validate_review_mandatory_fields</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest@5d7148e2</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest.validate_thumbnail()'><b>validate_thumbnail</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest</td>
+<td></td>
+<td>13</td>
+<td>testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest@a530d0a</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest.validate_product_availability_display()'><b>validate_product_availability_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest</td>
 <td></td>
 <td>0</td>
-<td>testCases.ProductCompare.TC_PC_003_ProductCompareAddingProductGridViewTest@757acd7b</td></tr>
+<td>testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest@5acf93bb</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest.validate_product_comparison_adding_limit()'><b>validate_product_comparison_adding_limit</b><br>Test class: testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest.validate_product_quantity_display()'><b>validate_product_quantity_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest</td>
 <td></td>
-<td>5</td>
-<td>testCases.ProductCompare.TC_PC_019_ProductCompareProductsAddingLimitTest@87a85e1</td></tr>
+<td>1</td>
+<td>testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest@6cd28fa7</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest.adding_product_to_compare_list_view_category()'><b>adding_product_to_compare_list_view_category</b><br>Test class: testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest</td>
-<td></td>
-<td>4</td>
-<td>testCases.ProductCompare.TC_PC_004_ProductCompareAddingProductFromCategoryPageListViewTest@36b4fe2a</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest.adding_product_to_compare_product_display_page_related_product()'><b>adding_product_to_compare_product_display_page_related_product</b><br>Test class: testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest</td>
-<td></td>
-<td>4</td>
-<td>testCases.ProductCompare.TC_PC_006_ProductCompareAddingProductFromProductDisplayPageTest@ba54932</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest.validate_adding_a_product_cart()'><b>validate_adding_a_product_cart</b><br>Test class: testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest.validate_acccess_shopping_cart_name()'><b>validate_acccess_shopping_cart_name</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest</td>
 <td></td>
 <td>2</td>
-<td>testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest@671a5887</td></tr>
+<td>testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest@74751b3</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest.validate_product_comparison_remove_products()'><b>validate_product_comparison_remove_products</b><br>Test class: testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest.validate_product_bulk_purchase_price()'><b>validate_product_bulk_purchase_price</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest</td>
 <td></td>
-<td>6</td>
-<td>testCases.ProductCompare.TC_PC_021_B_ProductCompareRemoveMultipleProductTest@609db43b</td></tr>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest@209da20d</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest.validate_product_comparison_breadcrumb()'><b>validate_product_comparison_breadcrumb</b><br>Test class: testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest.validate_acccess_from_cart_image()'><b>validate_acccess_from_cart_image</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest</td>
 <td></td>
-<td>5</td>
-<td>testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest@236e3f4e</td></tr>
+<td>14</td>
+<td>testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest@6fd83fc1</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest.validate_product_comparison_add_single_product()'><b>validate_product_comparison_add_single_product</b><br>Test class: testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest.validate_product_availability_display()'><b>validate_product_availability_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest</td>
 <td></td>
-<td>1</td>
-<td>testCases.ProductCompare.TC_PC_014_ProductCompareSingleProductAddedTest@6bf0219d</td></tr>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest@7e7be63f</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest.validate_review_link()'><b>validate_review_link</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest</td>
 <td></td>
-<td>4</td>
-<td>testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest@36d585c</td></tr>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest@4fb3ee4e</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest.validate_product_comparison_without_adding_any_product()'><b>validate_product_comparison_without_adding_any_product</b><br>Test class: testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_022_ProductDisplayPageRelatedProductsTest.validate_social_options()'><b>validate_social_options</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_022_ProductDisplayPageRelatedProductsTest</td>
 <td></td>
-<td>1</td>
-<td>testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest@157853da</td></tr>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_022_ProductDisplayPageRelatedProductsTest@7bd4937b</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_011_ProductDisplayPageProductNonReviewsTest.validate_non_reivew_available_text()'><b>validate_non_reivew_available_text</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_011_ProductDisplayPageProductNonReviewsTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_011_ProductDisplayPageProductNonReviewsTest@18d87d80</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest.validate_review_count()'><b>validate_review_count</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest@f5acb9d</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_002_ProductDisplayPageNameBrandCodeTest.validate_product_name_brand_code_display()'><b>validate_product_name_brand_code_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_002_ProductDisplayPageNameBrandCodeTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_002_ProductDisplayPageNameBrandCodeTest@1a18644</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest.validate_product_name_reward_points_display()'><b>validate_product_name_reward_points_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest@bae7dc0</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest.validate_wish_list()'><b>validate_wish_list</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest</td>
 <td></td>
 <td>2</td>
-<td>testCases.ProductCompare.TC_PC_016_ProductCompareSameProductAddedTwiceTest@5f16132a</td></tr>
+<td>testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest@25fb8912</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.ProductCompare.TC_PC_017_ProductCompareThreeProductsAddedTest@69fb6037</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest.validate_product_comparison_add_two_product()'><b>validate_product_comparison_add_two_product</b><br>Test class: testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest.validate_acccess_from_add_to_cart_link()'><b>validate_acccess_from_add_to_cart_link</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest</td>
 <td></td>
 <td>2</td>
-<td>testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest@dd0c991</td></tr>
+<td>testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest@58d75e99</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest.adding_product_to_compare()'><b>adding_product_to_compare</b><br>Test class: testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_014_ProductDisplayPageProductAverageReviewsTest.validate_average_review()'><b>validate_average_review</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_014_ProductDisplayPageProductAverageReviewsTest</td>
 <td></td>
 <td>0</td>
-<td>testCases.ProductCompare.TC_PC_001_ProductCompareAddingProductTest@45ca843</td></tr>
+<td>testCases.ProductDisplayPage.TC_PDP_014_ProductDisplayPageProductAverageReviewsTest@543588e6</td></tr>
 <tr>
-<td title='testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest.product_compare_page_navigation_product_category_page()'><b>product_compare_page_navigation_product_category_page</b><br>Test class: testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest</td>
+<td title='testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest.validate_acccess_from_checkout_page()'><b>validate_acccess_from_checkout_page</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest</td>
+<td></td>
+<td>10</td>
+<td>testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest@306e95ec</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest.validate_acccess_shopping_cart_image()'><b>validate_acccess_shopping_cart_image</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest@741a8937</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest.validate_product_name_reward_points_display()'><b>validate_product_name_reward_points_display</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest@4f2b503c</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest.validate__heading_url_title()'><b>validate__heading_url_title</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest@1b2abca6</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest.validate_product_specification()'><b>validate_product_specification</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest@1af2d44a</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest.validate_write_a_review_link()'><b>validate_write_a_review_link</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest@58695725</td></tr>
+<tr>
+<td title='testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest.validate_product_available_option()'><b>validate_product_available_option</b><br>Test class: testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest</td>
 <td></td>
 <td>1</td>
-<td>testCases.ProductCompare.TC_PC_009_ProductComparePageProductCategoryPageNavigationTest@343570b7</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest.adding_product_to_compare_list_view()'><b>adding_product_to_compare_list_view</b><br>Test class: testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.ProductCompare.TC_PC_002_ProductCompareAddingProductListViewTest@11c9af63</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest.validate_success_message_links()'><b>validate_success_message_links</b><br>Test class: testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.ProductCompare.TC_PC_013_ProductCompareSuccessMessageTest@3cc1435c</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest.validate__heading_url_title()'><b>validate__heading_url_title</b><br>Test class: testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.ProductCompare.TC_PC_022_ProductComparePageHeadingURLTitleTest@55f616cf</td></tr>
-<tr>
-<td title='testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest.adding_product_to_compare_homepage_featured_section()'><b>adding_product_to_compare_homepage_featured_section</b><br>Test class: testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.ProductCompare.TC_PC_007_ProductCompareAddingProductFromHomePageTest@28975c28</td></tr>
+<td>testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest@e15b7e8</td></tr>
 </table><p>
 </body>
 </html>

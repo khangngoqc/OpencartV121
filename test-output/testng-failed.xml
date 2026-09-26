@@ -6,20 +6,27 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="product display"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest">
+      <class name="testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate__heading_url_title"/>
+          <include name="validate_acccess_from_cart_name"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest -->
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest -->
+      <class name="testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_acccess_from_cart_image"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

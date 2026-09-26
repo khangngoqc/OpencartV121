@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -41,7 +42,7 @@ public class BasePage extends BaseClass {
 	List<WebElement> cartProductImages;
 	@FindBy(xpath = "//ul[@class='dropdown-menu pull-right']//td[2]//a")
 	List<WebElement> cartProductNames;
-	@FindBy(xpath = "(//button[@title='Remove'])")
+	@FindBy(xpath = "//button[@title='Remove']")
 	List<WebElement> removeBtns;
 
 	@FindBy(xpath = "//input[@placeholder='Search']")
@@ -143,8 +144,10 @@ public class BasePage extends BaseClass {
 	public void clearCart() {
 		try {
 			for(WebElement btn : removeBtns) {
+				Thread.sleep(500);
 				click(cartBtn);
-				click(btn);
+				Thread.sleep(500);
+				getDriver().findElement(By.xpath("//button[@title='Remove']")).click();
 			}
 
 		} catch (Exception e) {

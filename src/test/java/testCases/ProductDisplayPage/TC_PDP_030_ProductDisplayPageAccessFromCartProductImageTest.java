@@ -23,30 +23,34 @@ public class TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest extends
 			logger.info("***Starting TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest ***");
 
 			HomePage hp = new HomePage();
-			hp.clearCart();
-			
+
 			hp.clickMyAccount();
 
 			LoginPage lp = hp.clickLogin();
 
 			MyAccountPage map = lp.loginAs(p.getProperty("email"), p.getProperty("password"));
-			
-			SearchPage sp = hp.searchAProduct(searchInput);
-			
+
+			map.clearCart();
+
+			SearchPage sp = map.searchAProduct(searchInput);
+
 			String searchProduct = sp.getFirstSearchProductTitle();
-			
-			ProductDisplayPage pdp = sp.clickFirstProductTitle();
-			pdp.addProductToCartByQuantity(1);
-			
-			pdp.clickCartBtn();
-			
-			pdp.clickCartProductImageByIndex(testProductIndex);
+
+			sp.clickAddToCart();
 			
 			Thread.sleep(1000);
+
+			sp.clickCartBtn();
+
+			Thread.sleep(1000);
 			
-			Assert.assertTrue(pdp.isCorrectProductNameDisplay(searchProduct), "Failed to navigate to product display page!| ");
-			
-			
+			ProductDisplayPage pdp = sp.clickCartProductImageByIndex(testProductIndex);
+
+			Thread.sleep(1000);
+
+			Assert.assertTrue(pdp.isCorrectProductNameDisplay(searchProduct),
+					"Failed to navigate to product display page!| ");
+
 			logger.info("***Finished TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest ***");
 
 		} catch (Exception e) {

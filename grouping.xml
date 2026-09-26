@@ -24,7 +24,7 @@
 	<test thread-count="3" name="Test" parallel="none">
 
 		<parameter name="os" value="windows"></parameter>
-		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
 			<!--Register cases-->
@@ -163,7 +163,7 @@
 			<!--ProductCompare cases-->
 			
 			<!--ProductDisplayPage cases-->
-		<!--	<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
+			<!--<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_002_ProductDisplayPageNameBrandCodeTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest" />
@@ -189,14 +189,14 @@
 			<class name="testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest" />-->
 			<class name="testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest" />
+			<!--<class name="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest" />-->
 
 			<!--ProductCompare cases-->
 			

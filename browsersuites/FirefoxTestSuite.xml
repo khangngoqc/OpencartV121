@@ -170,6 +170,43 @@
 
 			<!--ProductCompare cases-->
 			
+			<!--ProductDisplayPage cases-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_002_ProductDisplayPageNameBrandCodeTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_005_ProductDisplayPageDefaultQuantityTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_010_ProductDisplayPageProductReviewsTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_011_ProductDisplayPageProductNonReviewsTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_012_017_ProductDisplayPageProductReviewsFieldMandatoryTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_014_ProductDisplayPageProductAverageReviewsTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_015_ProductDisplayPageProductReviewsCountTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_016_ProductDisplayPageProductReviewsLinkTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_018_ProductDisplayPageReviewRequiredCharTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_019_ProductDisplayPageWishListTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_022_ProductDisplayPageRelatedProductsTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest" />
+
+			<!--ProductCompare cases-->
 			
 		</classes>
 	</test> <!--Test -->

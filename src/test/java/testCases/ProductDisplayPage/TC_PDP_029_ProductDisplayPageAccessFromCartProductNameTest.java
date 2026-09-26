@@ -23,7 +23,6 @@ public class TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest extends 
 			logger.info("***Starting TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest ***");
 
 			HomePage hp = new HomePage();
-			hp.clearCart();
 			
 			hp.clickMyAccount();
 
@@ -31,16 +30,21 @@ public class TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest extends 
 
 			MyAccountPage map = lp.loginAs(p.getProperty("email"), p.getProperty("password"));
 			
-			SearchPage sp = hp.searchAProduct(searchInput);
+			map.clearCart();
+			
+			SearchPage sp = map.searchAProduct(searchInput);
 			
 			String searchProduct = sp.getFirstSearchProductTitle();
+		
+			sp.clickAddToCart();
 			
-			ProductDisplayPage pdp = sp.clickFirstProductTitle();
-			pdp.addProductToCartByQuantity(1);
+			Thread.sleep(1000);
 			
-			pdp.clickCartBtn();
+			sp.clickCartBtn();
 			
-			pdp.clickCartProductNameByIndex(testProductIndex);
+			Thread.sleep(1000);
+			
+			ProductDisplayPage pdp = sp.clickCartProductNameByIndex(testProductIndex);
 			
 			Thread.sleep(1000);
 			

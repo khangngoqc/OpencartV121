@@ -742,14 +742,14 @@ public class ProductDisplayPage extends BasePage {
 		return true;
 	}
 
-	public boolean isLightBoxViewDisplay() {
+	public boolean isLightBoxViewDisplay() throws InterruptedException {
 
+		Thread.sleep(1000);
+		
 		// debug output
-		// System.out.println("Lightbox image display status: " +
-		// isDisplay(lighBoxImage));
-		// System.out.println("Previous button display status: " +
-		// isDisplay(previousBtn));
-		// System.out.println("Next button display status: " + isDisplay(nextBtn));
+		System.out.println("Lightbox image display status: " + isDisplay(lighBoxImage));
+		System.out.println("Previous button display status: " + isDisplay(previousBtn));
+		System.out.println("Next button display status: " + isDisplay(nextBtn));
 
 		return isDisplay(lighBoxImage) && isDisplay(previousBtn) && isDisplay(nextBtn);
 	}

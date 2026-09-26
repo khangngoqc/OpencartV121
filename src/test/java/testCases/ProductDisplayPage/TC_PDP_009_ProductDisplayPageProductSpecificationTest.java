@@ -24,7 +24,7 @@ public class TC_PDP_009_ProductDisplayPageProductSpecificationTest extends BaseC
 			
 			dp.clickSpecificationTab();
 
-			Assert.assertTrue(dp.isCorrectProductDecriptionDisplay(), "Incorrect specification display! Primary keyword not found!");
+			Assert.assertTrue(dp.isCorrectProductSpecificationDisplay(), "Incorrect specification display! Primary keyword not found!");
 			Assert.assertTrue(dp.isSpecGrammarCorrect(), "Grammar issue found in specification! ");
 			
 			

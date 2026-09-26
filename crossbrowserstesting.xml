@@ -10,8 +10,9 @@
 			<include name="Sanity"></include>
 			<include name="Regression"></include>
 			<include name="register"></include>
-			<include name="search"></include>-->
-			<include name="product compare"></include>
+			<include name="search"></include>
+			<include name="product compare"></include>-->
+			<include name="product display"></include>
 
 			<exclude name=""></exclude>
 

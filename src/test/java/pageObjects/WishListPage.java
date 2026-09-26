@@ -9,9 +9,9 @@ public class WishListPage extends BasePage {
 
 	@FindBy(xpath = "//div[@id='content']//h2")
 	WebElement pageHeading2;
-	@FindBy(xpath = "//td[@class='text-center']//a")
+	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[1]/a")
 	List<WebElement> productImages;
-	@FindBy(xpath = "//td[@class='text-left'][1]//a")
+	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")
 	List<WebElement> productNames;
 
 	public WishListPage() {
@@ -24,7 +24,7 @@ public class WishListPage extends BasePage {
 		try {
 
 			if (index <= 0 || index > productImages.size()) {
-				System.out.println("Invalid index input!" + index);
+				System.out.println("Invalid index input! " + index +  " of " + productImages.size());
 				return null;
 			}
 
