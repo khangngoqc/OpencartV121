@@ -31,6 +31,9 @@ public class ProductDisplayPage extends BasePage {
 	WebElement alertBanner;
 	@FindBy(xpath = "//a[normalize-space()='wish list']")
 	WebElement alertWishListLnk;
+	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	WebElement alertShoppingCartLnk;
+	
 
 	@FindBy(xpath = "//ul[@class='thumbnails']//li[1]")
 	WebElement mainThumbnail;
@@ -204,7 +207,7 @@ public class ProductDisplayPage extends BasePage {
 		input(quantityTxtBox, Integer.toString(numberOfQuantity));
 		// quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
 
-		Thread.sleep(500);
+		Thread.sleep(1000);
 
 		click(addToCartBtn);
 
@@ -695,6 +698,12 @@ public class ProductDisplayPage extends BasePage {
 	public void clickFirstRelatedProductTitle() {
 		click(firstProductTitle);
 	}
+	
+	public ShoppingCartPage clickAlertShoppingCartLnk() {
+		click(alertShoppingCartLnk);
+		
+		return new ShoppingCartPage();
+	}
 
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
@@ -1059,6 +1068,11 @@ public class ProductDisplayPage extends BasePage {
 	public boolean isComparisonSuccessAlertDisplay() {
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName.getText() + " to your product comparison!");
+	}
+	
+	public boolean isAddToCartSuccessAlertDisplay() {
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName.getText() + " to your shopping cart!");
 	}
 
 	public boolean isSocialOptionsAvailable() {

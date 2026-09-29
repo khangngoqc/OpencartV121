@@ -10,9 +10,9 @@
 			<include name="Sanity"></include>
 			<include name="Regression"></include>
 			<include name="register"></include>
-			<include name="product compare"></include>-->
-			<include name="product display"></include>
-
+			<include name="product compare"></include>
+			<include name="product display"></include>-->
+			<include name="add to cart"></include>
 
 		</run>
 	</groups>
@@ -163,7 +163,7 @@
 			<!--ProductCompare cases-->
 			
 			<!--ProductDisplayPage cases-->
-			<!--<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_002_ProductDisplayPageNameBrandCodeTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_003_ProductDisplayPageAvaialabilityTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_004_ProductDisplayPagePricesTest" />
@@ -189,16 +189,26 @@
 			<class name="testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_026_ProductDisplayPageAccessFromShoppingCartNameTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_027_ProductDisplayPageAccessFromShoppingCartImageTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_028_ProductDisplayPageAccessFromCheckoutTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest" />
-			<!--<class name="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest" />
+			<class name="testCases.ProductDisplayPage.TC_PDP_031_ProductDisplayPageRewardPointTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_032_ProductDisplayPageOriginalPriceTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_033_ProductDisplayPageBulkPurchasePricesTest" />
 			<class name="testCases.ProductDisplayPage.TC_PDP_034_ProductDisplayPageAvailableOptionTest" />
-			<class name="testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest" />-->
+			<class name="testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest" />
 
 			<!--ProductCompare cases-->
+			
+			
+			<!--AddToCart cases-->
+			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
+			
+			
+			
+			<!--AddToCart cases-->
+			
 			
 		
 		</classes>

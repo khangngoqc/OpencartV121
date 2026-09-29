@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
@@ -61,6 +62,23 @@ public class ShoppingCartPage extends BasePage {
 
 		return null;
 
+	}
+
+	// validation
+	public boolean isProductAdded(String productName) {
+
+		try {
+			for (WebElement e : productNames) {
+				if (e.getText().contains(productName)) {
+					return true;
+				}
+			}
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+		return false;
 	}
 
 	// getters

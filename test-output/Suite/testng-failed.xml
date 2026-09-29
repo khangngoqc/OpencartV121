@@ -9,24 +9,17 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="product display"/>
+        <include name="add to cart"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest">
+      <class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_acccess_from_cart_name"/>
+          <include name="validate_acccess_from_wish_list"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_acccess_from_cart_image"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_030_ProductDisplayPageAccessFromCartProductImageTest -->
+      </class> <!-- testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

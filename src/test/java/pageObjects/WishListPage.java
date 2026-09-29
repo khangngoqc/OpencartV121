@@ -2,11 +2,17 @@ package pageObjects;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class WishListPage extends BasePage {
 
+	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+	WebElement alertBanner;
+	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	WebElement alertShoppingCartLnk;
+	
 	@FindBy(xpath = "//div[@id='content']//h2")
 	WebElement pageHeading2;
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[1]/a")
@@ -63,12 +69,29 @@ public class WishListPage extends BasePage {
 		return null;
 
 	}
+	
+	public void clickAddToCartOf(String productName) {
+		WebElement addToCartBtn = getDriver().findElement(By.xpath("//tr[contains(.,'"+ productName +"')]//button[@data-original-title='Add to Cart']"));
+		click(addToCartBtn);	
+	}
+	
+	public ShoppingCartPage clickAlertShoppingCartLnk() {
+		click(alertShoppingCartLnk);
+		
+		return new ShoppingCartPage();
+	}
 
 	// validations
 	public boolean isPageHeadingDisplay() {
 		System.out.println(pageHeading2.getText());
 		return isDisplay(pageHeading2) && pageHeading2.getText().trim().equals("My Wish List");
 	}
+	
+	public boolean isAddToCartSuccessAlertDisplay(String productName) {
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName + " to your shopping cart!");
+	}
+
 
 	// getters
 	public String getProductNameByIndex(int index) {
