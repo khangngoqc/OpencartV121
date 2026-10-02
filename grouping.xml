@@ -202,8 +202,11 @@
 			
 			
 			<!--AddToCart cases-->
-			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
-			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
+			<!--<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />-->
+			<class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest" />
+			<class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest" />
 			
 			
 			

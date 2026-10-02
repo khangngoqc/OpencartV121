@@ -488,5 +488,10 @@ public class SearchPage extends BasePage {
         click(alertProductComparisonLink);
         return getDriver().getTitle().contains("Comparison");
     }
+    
+    public boolean isAddToCartSuccessAlertDisplay(String productName) {
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName + " to your shopping cart!");
+	}
 
 }

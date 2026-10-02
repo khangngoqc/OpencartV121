@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest">
+      <class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_acccess_from_wish_list"/>
+          <include name="validate_acccess_from_search_page"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest -->
+      </class> <!-- testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

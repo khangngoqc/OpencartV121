@@ -133,7 +133,9 @@ public class ProductDisplayPage extends BasePage {
 
 	@FindBy(xpath = "(//div[@class='product-thumb transition']//h4//a)[1]")
 	WebElement firstProductTitle;
-
+	@FindBy(xpath = "(//span[normalize-space()='Add to Cart'])[1]") WebElement firstRelatedProductAddToCartBtn;
+	
+	
 	@FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[2]")
 	WebElement compareThisProductBtn;
 	@FindBy(xpath = "//div[@role='tooltip' and contains(., 'Compare')]")
@@ -704,7 +706,12 @@ public class ProductDisplayPage extends BasePage {
 		
 		return new ShoppingCartPage();
 	}
-
+	
+	public void clickFirstRelatedProductAddToCartBtn() {
+		
+		click(firstRelatedProductAddToCartBtn);
+	}
+	
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
 		return isHoveringTooltipWork(compareThisProductBtn, "Compare this Product");
@@ -1071,8 +1078,17 @@ public class ProductDisplayPage extends BasePage {
 	}
 	
 	public boolean isAddToCartSuccessAlertDisplay() {
+		System.out.println(alertBanner.getText());
+		
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName.getText() + " to your shopping cart!");
+	}
+	
+	public boolean isAddToCartSuccessAlertDisplay(String productName) {
+		System.out.println(alertBanner.getText());
+		
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName + " to your shopping cart!");
 	}
 
 	public boolean isSocialOptionsAvailable() {

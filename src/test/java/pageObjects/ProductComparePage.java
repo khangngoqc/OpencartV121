@@ -148,32 +148,6 @@ public class ProductComparePage extends BasePage {
 		return isDisplay(alertBanner);
 	}
 
-	public boolean isProductAddedToCart(String productName) throws InterruptedException {
-
-		Thread.sleep(500);
-
-		clickCartBtn();
-
-		// getDriver().findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
-
-		Thread.sleep(500);
-
-		for (WebElement e : cartProductNames) {
-			String B = e.getText().trim();
-
-			// Debug output
-			System.out.println("A: " + productName);
-			System.out.println("B: " + B);
-			System.out.println("Match: " + B.equalsIgnoreCase(productName));
-
-			if (B.equalsIgnoreCase(productName)) { // Use equalsIgnoreCase() instead
-				return true;
-			}
-
-		}
-
-		return false;
-	}
 
 	public boolean allProductsAddedToCart() throws InterruptedException {
 

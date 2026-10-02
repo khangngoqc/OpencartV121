@@ -44,6 +44,7 @@ public class BasePage extends BaseClass {
 	List<WebElement> cartProductNames;
 	@FindBy(xpath = "//button[@title='Remove']")
 	List<WebElement> removeBtns;
+	@FindBy(xpath="//strong[normalize-space()='View Cart']") WebElement viewCartLnk;
 
 	@FindBy(xpath = "//input[@placeholder='Search']")
 	WebElement searchTxtBox;
@@ -60,6 +61,7 @@ public class BasePage extends BaseClass {
 	WebElement navBarDesktopMenu;
 	@FindBy(xpath = "//a[normalize-space()='Show AllDesktops']")
 	WebElement showAllDesktopsMenuItem;
+	@FindBy(xpath="//*[@id=\"menu\"]/div[2]/ul/li[1]/div/div/ul/li[2]/a") WebElement macSubMenu;
 
 	// actions
 	public void clickMyAccount() {
@@ -155,6 +157,11 @@ public class BasePage extends BaseClass {
 			return;
 		}
 	}
+	
+	public ShoppingCartPage clickViewCartLnk() {
+		click(viewCartLnk);
+		return new ShoppingCartPage();
+	}
 
 	// getters
 	public String getPageTitle() {
@@ -240,6 +247,12 @@ public class BasePage extends BaseClass {
 		click(showAllDesktopsMenuItem);
 		return new DesktopsPage();
 	}
+	
+	public SubCategoryPage clickMacSubMenu() {
+		click(macSubMenu); 
+		
+		return new SubCategoryPage();
+	}
 
 	// validations
 	public boolean isSearchComponentDisplay() {
@@ -275,6 +288,33 @@ public class BasePage extends BaseClass {
 		boolean isStrikedOut = textDecoration.contains("line-through");
 		
 		return isStrikedOut;
+	}
+	
+	public boolean isProductAddedToCart(String productName) throws InterruptedException {
+
+		Thread.sleep(500);
+
+		clickCartBtn();
+
+		// getDriver().findElement(By.xpath("//div[@id='cart']//button[@data-toggle='dropdown']")).click();
+
+		Thread.sleep(500);
+
+		for (WebElement e : cartProductNames) {
+			String B = e.getText().trim();
+
+			// Debug output
+			System.out.println("A: " + productName);
+			System.out.println("B: " + B);
+			System.out.println("Match: " + B.equalsIgnoreCase(productName));
+
+			if (B.equalsIgnoreCase(productName)) { // Use equalsIgnoreCase() instead
+				return true;
+			}
+
+		}
+
+		return false;
 	}
 
 
