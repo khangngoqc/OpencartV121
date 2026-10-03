@@ -14,6 +14,8 @@ public class SubCategoryPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
+	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	WebElement alertShoppingCartLnk;
 
 	@FindBy(xpath = "//div[@class='caption']//h4")
 	List<WebElement> productTitles;
@@ -35,15 +37,21 @@ public class SubCategoryPage extends BasePage {
 			return null;
 		}
 	}
-	
-	//validation
-	public boolean isAddToCartSuccessAlertDisplay(String productName) {
-		return isDisplay(alertBanner) && alertBanner.getText()
-				.contains("Success: You have added " + productName + " to your shopping cart!");
+
+	public ShoppingCartPage clickAlertShoppingCartLnk() {
+
+		click(alertShoppingCartLnk);
+
+		return new ShoppingCartPage();
 	}
-	
-	
-	//getter
+
+	// validation
+	public boolean isAddToCartSuccessAlertDisplay(String productName) {
+		return isDisplay(alertBanner)
+				&& alertBanner.getText().contains("Success: You have added " + productName + " to your shopping cart!");
+	}
+
+	// getter
 	public String getProductTitleByIndex(int index) {
 		try {
 			if (index < 1 || index > productTitles.size()) {
@@ -51,13 +59,12 @@ public class SubCategoryPage extends BasePage {
 				return null;
 			}
 			return getElementText(productTitles.get(index - 1));
-			
+
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			return null;
 		}
-		
+
 	}
-	
-	
+
 }

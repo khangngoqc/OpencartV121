@@ -6,20 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <groups>
       <run>
         <include name="add to cart"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest">
+      <class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validate_acccess_from_search_page"/>
+          <include name="validate_adding_product_from_display_page"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest -->
+      </class> <!-- testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

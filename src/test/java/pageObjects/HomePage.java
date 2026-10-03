@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -38,10 +40,17 @@ public class HomePage extends BasePage {
 	WebElement alertBanner;
 	@FindBy(xpath = "//a[normalize-space()='product comparison']")
 	WebElement alerProductComparisonLink;
+	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	WebElement alertShoppingCartLnk;
 
+	@FindBy(xpath = "//div[@class='product-thumb transition']//h4//a")
+	List<WebElement> featuredProductTitles;
 	@FindBy(xpath = "(//div[@class='product-thumb transition']//h4//a)[1]")
 	WebElement firstProductTitle;
-
+	@FindBy(xpath = "//button//span[normalize-space()='Add to Cart']")
+	List<WebElement> addToCartBtns;
+	@FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[1]")
+	List<WebElement> compareProductBtns;
 	@FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[1]")
 	WebElement compareThisProductBtn;
 	@FindBy(xpath = "//div[@role='tooltip' and contains(., 'Compare')]")
@@ -59,16 +68,15 @@ public class HomePage extends BasePage {
 		txtSearch.sendKeys(keyword);
 	}
 
-
 	public void clickLogout() {
 		lnkLogout.click();
 	}
-	
+
 	public SearchPage searchAProduct(String keyword) {
-		
+
 		setSearchInput(keyword);
 		clickSearch();
-		
+
 		return new SearchPage();
 	}
 
@@ -85,15 +93,55 @@ public class HomePage extends BasePage {
 
 		return new SearchPage();
 	}
-	
+
 	public ProductComparePage clickAlertProductComparisonProductLink() {
 		click(alerProductComparisonLink);
 		return new ProductComparePage();
 	}
-	
+
 	public void clickCompareThisProductBtn() {
 		click(compareThisProductBtn);
 	}
+
+	public void clickAddToCartByIndex(int index) {
+		try {
+			if (index < 1 || index > addToCartBtns.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + addToCartBtns.size());
+				return;
+			}
+			click(addToCartBtns.get(index - 1));
+
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return;
+		}
+	}
+
+	public ShoppingCartPage clickAlertShoppingCartLnk() {
+
+		click(alertShoppingCartLnk);
+
+		return new ShoppingCartPage();
+	}
+	
+	public void clickCompareProductByIndex(int index) {
+		try {
+			if (index < 1 || index > compareProductBtns.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + compareProductBtns.size());
+				return;
+			}
+			click(compareProductBtns.get(index - 1));
+
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return;
+		}
+	}
+	
+	
+	
 
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
@@ -129,7 +177,7 @@ public class HomePage extends BasePage {
 
 		return true;
 	}
-	
+
 	public boolean isCompareThisProductAlertDisplayed_FirstProduct() {
 		String successMessage = alertBanner.getText();
 
@@ -141,13 +189,33 @@ public class HomePage extends BasePage {
 		return true;
 	}
 
+	public boolean isAddToCartSuccessAlertDisplay(String productName) {
+		return isDisplay(alertBanner)
+				&& alertBanner.getText().contains("Success: You have added " + productName + " to your shopping cart!");
+	}
+
 	// elements getter
 	public WebElement getLnkLogout() {
 		return lnkLogout;
 	}
-	
+
 	public String getFirstProductTitle() {
 		return firstProductTitle.getText();
+	}
+
+	public String getProductTitleByIndex(int index) {
+		try {
+			if (index < 1 || index > featuredProductTitles.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + addToCartBtns.size());
+				return null;
+			}
+			return getElementText(featuredProductTitles.get(index - 1));
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return null;
+		}
+
 	}
 
 }

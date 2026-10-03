@@ -4,79 +4,23 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="3" parallel="tests" name="ChromeTest(failed)">
+  <test thread-count="3" parallel="tests" name="EdgeTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
     <groups>
       <run>
-        <include name="product display"/>
+        <include name="add to cart"/>
         <exclude name=""/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest">
+      <class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="validate_social_options"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_product_minimum_quantity_display"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_007_ProductDisplayPageMinimumQuantityTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest">
-        <methods>
-          <include name="validate_acccess_from_wish_list_name"/>
+          <include name="validate_adding_product_from_display_page"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_024_ProductDisplayPageAccessFromWishListNameTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_product_specification"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_009_ProductDisplayPageProductSpecificationTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_product_quantity_display"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="validate_product_description"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_008_ProductDisplayPageProductDescriptionTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_acccess_from_cart_name"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_029_ProductDisplayPageAccessFromCartProductNameTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_acccess_from_wish_list_"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_023_ProductDisplayPageAccessFromWishListImageTest -->
-      <class name="testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validate_thumbnail"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.ProductDisplayPage.TC_PDP_001_ProductDisplayPageThumbnailTest -->
+      </class> <!-- testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Edge Browsers Suite] -->

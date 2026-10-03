@@ -12,7 +12,7 @@
 			<include name="register"></include>
 			<include name="search"></include>-->
 			<include name="product compare"></include>
-
+			<include name="add to cart"></include>
 
 			<exclude name=""></exclude>
 
@@ -208,6 +208,17 @@
 
 			<!--ProductCompare cases-->
 			
+			<!--AddToCart cases-->
+			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
+			<class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest" />
+			<class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest" />
+			<class name="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest" />
+			
+			
+			<!--AddToCart cases-->
 			
 		</classes>
 	</test> <!--Test -->

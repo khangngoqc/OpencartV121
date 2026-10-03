@@ -31,7 +31,7 @@ public class TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest extend
 			
 			Assert.assertTrue(dp.isAddToCartSuccessAlertDisplay(addedRelatedProduct), "Failed to locate added to cart success message!");
 			
-			ShoppingCartPage scp = sp.clickShoppingCartLnk();
+			ShoppingCartPage scp = sp.clickAlertShoppingCartLnk();
 			
 			Assert.assertTrue(scp.isProductAdded(addedRelatedProduct), "Can not find added product!");
 			

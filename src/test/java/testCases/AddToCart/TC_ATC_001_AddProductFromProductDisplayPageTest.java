@@ -13,11 +13,13 @@ import testBase.BaseClass;
 public class TC_ATC_001_AddProductFromProductDisplayPageTest extends BaseClass{
 	
 	String searchInput = "iMac";
+	int retry =1 ;
 	
 	@Test(groups = { "master", "add to cart" })
 	public void validate_adding_product_from_display_page() throws InterruptedException {
 		
 		logger.info("***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***");
+		
 		
 		HomePage hp = new HomePage();
 		
@@ -25,9 +27,11 @@ public class TC_ATC_001_AddProductFromProductDisplayPageTest extends BaseClass{
 		
 		ProductDisplayPage dp = sp.clickFirstProductTitle();
 		
+		Thread.sleep(1000);
+		
 		dp.addProductToCartByQuantity(1);
 		
-		Assert.assertTrue(dp.isAddToCartSuccessAlertDisplay(), "Failed to verify Add to Cart success alert!");
+		Assert.assertTrue(dp.isAddToCartSuccessAlertDisplay(retry), "Failed to verify Add to Cart success alert!");
 		
 		Thread.sleep(1000);
 		

@@ -54,7 +54,7 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("Operating System", os);
 	
 		String browser = testContext.getCurrentXmlTest().getParameter("browser");
-		extent.setSystemInfo("Operating System", browser);
+		extent.setSystemInfo("Browser", browser);
 		
 		List<String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
 		if (!includedGroups.isEmpty()) {

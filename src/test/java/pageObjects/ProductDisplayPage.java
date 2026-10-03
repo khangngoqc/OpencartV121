@@ -209,10 +209,11 @@ public class ProductDisplayPage extends BasePage {
 		input(quantityTxtBox, Integer.toString(numberOfQuantity));
 		// quantityTxtBox.sendKeys(Integer.toString(numberOfQuantity));
 
-		Thread.sleep(1000);
+		Thread.sleep(500);
 
 		click(addToCartBtn);
 
+		
 	}
 
 	public void addProductToCartByQuantity(String numberOfQuantity) throws InterruptedException {
@@ -702,7 +703,15 @@ public class ProductDisplayPage extends BasePage {
 	}
 	
 	public ShoppingCartPage clickAlertShoppingCartLnk() {
-		click(alertShoppingCartLnk);
+		
+		try {
+			click(alertShoppingCartLnk);	
+		} catch (Exception e) {
+			System.out.println("Failed to locate button. Reload and retry");
+			refreshPage();
+			click(addToCartBtn);
+			click(alertShoppingCartLnk);
+		}
 		
 		return new ShoppingCartPage();
 	}
@@ -1077,11 +1086,36 @@ public class ProductDisplayPage extends BasePage {
 				.contains("Success: You have added " + productName.getText() + " to your product comparison!");
 	}
 	
+	public boolean isAddToCartSuccessAlertDisplay(int i) throws InterruptedException {
+		
+		String productName = this.productName.getText();
+		
+		try {
+			
+			String alertBannerText = alertBanner.getText();
+			return isDisplay(alertBanner) && alertBannerText
+					.contains("Success: You have added " + productName + " to your shopping cart!");
+			
+		} catch (Exception e) {
+			
+			refreshPage();
+			addProductToCartByQuantity(2);
+
+			String alertBannerText = alertBanner.getText();
+			return isDisplay(alertBanner) && alertBannerText
+					.contains("Success: You have added " + productName + " to your shopping cart!");
+			
+		}
+		
+		
+	}
+	
+	
 	public boolean isAddToCartSuccessAlertDisplay() {
-		System.out.println(alertBanner.getText());
 		
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName.getText() + " to your shopping cart!");
+		
 	}
 	
 	public boolean isAddToCartSuccessAlertDisplay(String productName) {

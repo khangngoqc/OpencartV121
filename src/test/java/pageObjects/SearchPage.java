@@ -27,7 +27,8 @@ public class SearchPage extends BasePage {
     WebElement alertBanner;
     @FindBy(xpath ="(//div[@class='alert alert-success alert-dismissible']//a)[1]") WebElement alertProductLink;
     @FindBy(xpath ="(//div[@class='alert alert-success alert-dismissible']//a)[2]") WebElement alertProductComparisonLink;
-
+    @FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	WebElement alertShoppingCartLnk;
 
     @FindBy(xpath = "//div[@class='caption']//h4//a")
     List<WebElement> searchProductTitles;
@@ -371,6 +372,14 @@ public class SearchPage extends BasePage {
         return productCodeList;
 
     }
+    
+    public ShoppingCartPage clickAlertShoppingCartLnk() {
+
+		click(alertShoppingCartLnk);
+
+		return new ShoppingCartPage();
+	}
+
 
     
     //validation

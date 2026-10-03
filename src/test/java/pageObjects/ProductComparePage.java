@@ -21,6 +21,8 @@ public class ProductComparePage extends BasePage {
 	
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
+	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	WebElement alertShoppingCartLnk;
 
 	@FindBy(xpath = "(//p[normalize-space()='You have not chosen any products to compare.'])[1]")
 	WebElement nonProductAddedMessage;
@@ -31,6 +33,11 @@ public class ProductComparePage extends BasePage {
 	WebElement compareTable;
 	@FindBy(xpath = "//td[normalize-space()='Product']/following-sibling::td")
 	List<WebElement> comparedProducts;
+	@FindBy(xpath = "//td[normalize-space()='Product']/following-sibling::td/a")
+	List<WebElement> comparedProductTitles;
+	
+	@FindBy(xpath = "//input[@value='Add to Cart']")
+	List<WebElement> addToCartBtns;
 	@FindBy(xpath = "(//input[@value='Add to Cart'])[1]")
 	WebElement addToCartBtn;
 	@FindBy(xpath = "(//a[contains(text(),'Remove')])[1]")
@@ -70,6 +77,28 @@ public class ProductComparePage extends BasePage {
 			}
 		}
 
+	}
+	
+	public void clickAddToCartByIndex(int index) {
+		try {
+			if (index < 1 || index > addToCartBtns.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + addToCartBtns.size());
+				return;
+			}
+			click(addToCartBtns.get(index - 1));
+
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return;
+		}
+	}
+	
+	public ShoppingCartPage clickAlertShoppingCartLnk() {
+
+		click(alertShoppingCartLnk);
+
+		return new ShoppingCartPage();
 	}
 
 	// validations
@@ -167,6 +196,11 @@ public class ProductComparePage extends BasePage {
 
 		return sameText;
 	}
+	
+	public boolean isAddToCartSuccessAlertDisplay(String productName) {
+		return isDisplay(alertBanner)
+				&& alertBanner.getText().contains("Success: You have added " + productName + " to your shopping cart!");
+	}
 
 	// getters
 	public int getComparedProductsCount() {
@@ -180,6 +214,21 @@ public class ProductComparePage extends BasePage {
 
 	public String getAlertBannerText() {
 		return alertBanner.getText();
+	}
+	
+	public String getProductTitleByIndex(int index) {
+		try {
+			if (index < 1 || index > comparedProductTitles.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + comparedProductTitles.size());
+				return null;
+			}
+			return getElementText(comparedProductTitles.get(index - 1));
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return null;
+		}
+
 	}
 
 }

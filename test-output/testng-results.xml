@@ -1,79 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="99" total="102" passed="3" failed="0" skipped="0">
+<testng-results ignored="447" total="468" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-02T17:36:16 GMT+07:00" name="Suite" finished-at="2026-10-02T17:36:28 GMT+07:00" duration-ms="12544">
+  <suite started-at="2026-10-03T21:15:03 GMT+07:00" name="Firefox Browsers Suite" finished-at="2026-10-03T21:15:56 GMT+07:00" duration-ms="53217">
     <groups>
       <group name="add to cart">
-        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@683dbc2c]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
-        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@68267da0]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
-        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@2638011]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_001_AddProductFromProductDisplayPageTest.validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@3a44431a]" name="validate_adding_product_from_display_page" class="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest"/>
+        <method signature="TC_ATC_002_AddToCartFromWishListTest.validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@3c7f66c4]" name="validate_acccess_from_wish_list" class="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest"/>
+        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@194bcebf]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
+        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@17497425]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
+        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@f0da945]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_006_AddToCartFromHomePageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@4803b726]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest"/>
+        <method signature="TC_ATC_007_AddToCartFromProductComparisonPageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@ffaa6af]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest"/>
       </group> <!-- add to cart -->
       <group name="master">
-        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@683dbc2c]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
-        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@68267da0]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
-        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@2638011]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_001_AddProductFromProductDisplayPageTest.validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@3a44431a]" name="validate_adding_product_from_display_page" class="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest"/>
+        <method signature="TC_ATC_002_AddToCartFromWishListTest.validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@3c7f66c4]" name="validate_acccess_from_wish_list" class="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest"/>
+        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@194bcebf]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
+        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@17497425]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
+        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@f0da945]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_006_AddToCartFromHomePageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@4803b726]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest"/>
+        <method signature="TC_ATC_007_AddToCartFromProductComparisonPageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@ffaa6af]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-10-02T17:36:16 GMT+07:00" name="Test" finished-at="2026-10-02T17:36:28 GMT+07:00" duration-ms="12544">
+    <test started-at="2026-10-03T21:15:03 GMT+07:00" name="FirefoxTest" finished-at="2026-10-03T21:15:56 GMT+07:00" duration-ms="53217">
       <class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@683dbc2c]" started-at="2026-10-02T17:36:16 GMT+07:00" name="setup" finished-at="2026-10-02T17:36:21 GMT+07:00" duration-ms="4765" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@194bcebf]" started-at="2026-10-03T21:15:28 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:31 GMT+07:00" duration-ms="2976" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@683dbc2c]" started-at="2026-10-02T17:36:21 GMT+07:00" name="validate_acccess_from_search_page" finished-at="2026-10-02T17:36:22 GMT+07:00" duration-ms="883" status="PASS">
+        <test-method signature="validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@194bcebf]" started-at="2026-10-03T21:15:31 GMT+07:00" name="validate_acccess_from_search_page" finished-at="2026-10-03T21:15:32 GMT+07:00" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_acccess_from_search_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@683dbc2c]" started-at="2026-10-02T17:36:22 GMT+07:00" name="tearDown" finished-at="2026-10-02T17:36:22 GMT+07:00" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@194bcebf]" started-at="2026-10-03T21:15:32 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:33 GMT+07:00" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest -->
       <class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@68267da0]" started-at="2026-10-02T17:36:22 GMT+07:00" name="setup" finished-at="2026-10-02T17:36:24 GMT+07:00" duration-ms="2294" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@17497425]" started-at="2026-10-03T21:15:33 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:36 GMT+07:00" duration-ms="2915" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@68267da0]" started-at="2026-10-02T17:36:24 GMT+07:00" name="validate_add_product_form_display_page_related_product" finished-at="2026-10-02T17:36:26 GMT+07:00" duration-ms="1416" status="PASS">
+        <test-method signature="validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@17497425]" started-at="2026-10-03T21:15:36 GMT+07:00" name="validate_add_product_form_display_page_related_product" finished-at="2026-10-03T21:15:39 GMT+07:00" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_add_product_form_display_page_related_product -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@68267da0]" started-at="2026-10-02T17:36:26 GMT+07:00" name="tearDown" finished-at="2026-10-02T17:36:26 GMT+07:00" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@17497425]" started-at="2026-10-03T21:15:39 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:39 GMT+07:00" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest -->
-      <class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@2638011]" started-at="2026-10-02T17:36:26 GMT+07:00" name="setup" finished-at="2026-10-02T17:36:27 GMT+07:00" duration-ms="1820" status="PASS">
+      <class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@3a44431a]" started-at="2026-10-03T21:15:03 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:06 GMT+07:00" duration-ms="3169" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@3a44431a]" started-at="2026-10-03T21:15:06 GMT+07:00" name="validate_adding_product_from_display_page" finished-at="2026-10-03T21:15:21 GMT+07:00" duration-ms="14588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_adding_product_from_display_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@3a44431a]" started-at="2026-10-03T21:15:21 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:21 GMT+07:00" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@4803b726]" started-at="2026-10-03T21:15:44 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:47 GMT+07:00" duration-ms="3016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@4803b726]" started-at="2026-10-03T21:15:47 GMT+07:00" name="validate_add_from_home_page" finished-at="2026-10-03T21:15:48 GMT+07:00" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_home_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@4803b726]" started-at="2026-10-03T21:15:48 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:49 GMT+07:00" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest -->
+      <class name="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@ffaa6af]" started-at="2026-10-03T21:15:49 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:52 GMT+07:00" duration-ms="3064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@ffaa6af]" started-at="2026-10-03T21:15:52 GMT+07:00" name="validate_add_from_home_page" finished-at="2026-10-03T21:15:56 GMT+07:00" duration-ms="3822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_home_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@ffaa6af]" started-at="2026-10-03T21:15:56 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:56 GMT+07:00" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@3c7f66c4]" started-at="2026-10-03T21:15:21 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:24 GMT+07:00" duration-ms="2984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@3c7f66c4]" started-at="2026-10-03T21:15:24 GMT+07:00" name="validate_acccess_from_wish_list" finished-at="2026-10-03T21:15:28 GMT+07:00" duration-ms="3403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_acccess_from_wish_list -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@3c7f66c4]" started-at="2026-10-03T21:15:28 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:28 GMT+07:00" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest -->
+      <class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@f0da945]" started-at="2026-10-03T21:15:39 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:42 GMT+07:00" duration-ms="3104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@f0da945]" started-at="2026-10-03T21:15:42 GMT+07:00" name="validate_add_from_subcategory_page" finished-at="2026-10-03T21:15:44 GMT+07:00" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_subcategory_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@f0da945]" started-at="2026-10-03T21:15:44 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:44 GMT+07:00" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Firefox Browsers Suite -->
+  <suite started-at="2026-10-03T21:14:33 GMT+07:00" name="Chrome Browsers Suite" finished-at="2026-10-03T21:15:03 GMT+07:00" duration-ms="29294">
+    <groups>
+      <group name="add to cart">
+        <method signature="TC_ATC_001_AddProductFromProductDisplayPageTest.validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@68c72235]" name="validate_adding_product_from_display_page" class="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest"/>
+        <method signature="TC_ATC_002_AddToCartFromWishListTest.validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@10959ece]" name="validate_acccess_from_wish_list" class="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest"/>
+        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@3a6bb9bf]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
+        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@34f7cfd9]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
+        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@65f095f8]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_006_AddToCartFromHomePageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@59af0466]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest"/>
+        <method signature="TC_ATC_007_AddToCartFromProductComparisonPageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@3e6ef8ad]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest"/>
+      </group> <!-- add to cart -->
+      <group name="master">
+        <method signature="TC_ATC_001_AddProductFromProductDisplayPageTest.validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@68c72235]" name="validate_adding_product_from_display_page" class="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest"/>
+        <method signature="TC_ATC_002_AddToCartFromWishListTest.validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@10959ece]" name="validate_acccess_from_wish_list" class="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest"/>
+        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@3a6bb9bf]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
+        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@34f7cfd9]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
+        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@65f095f8]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_006_AddToCartFromHomePageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@59af0466]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest"/>
+        <method signature="TC_ATC_007_AddToCartFromProductComparisonPageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@3e6ef8ad]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2026-10-03T21:14:33 GMT+07:00" name="ChromeTest" finished-at="2026-10-03T21:15:03 GMT+07:00" duration-ms="29294">
+      <class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@3a6bb9bf]" started-at="2026-10-03T21:14:48 GMT+07:00" name="setup" finished-at="2026-10-03T21:14:50 GMT+07:00" duration-ms="2134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
@@ -85,15 +247,381 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@2638011]" started-at="2026-10-02T17:36:27 GMT+07:00" name="validate_add_from_subcategory_page" finished-at="2026-10-02T17:36:28 GMT+07:00" duration-ms="908" status="PASS">
+        <test-method signature="validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@3a6bb9bf]" started-at="2026-10-03T21:14:50 GMT+07:00" name="validate_acccess_from_search_page" finished-at="2026-10-03T21:14:51 GMT+07:00" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_acccess_from_search_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@3a6bb9bf]" started-at="2026-10-03T21:14:51 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:14:51 GMT+07:00" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@34f7cfd9]" started-at="2026-10-03T21:14:51 GMT+07:00" name="setup" finished-at="2026-10-03T21:14:53 GMT+07:00" duration-ms="1879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@34f7cfd9]" started-at="2026-10-03T21:14:53 GMT+07:00" name="validate_add_product_form_display_page_related_product" finished-at="2026-10-03T21:14:54 GMT+07:00" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_product_form_display_page_related_product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@34f7cfd9]" started-at="2026-10-03T21:14:54 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:14:55 GMT+07:00" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest -->
+      <class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@68c72235]" started-at="2026-10-03T21:14:34 GMT+07:00" name="setup" finished-at="2026-10-03T21:14:38 GMT+07:00" duration-ms="4338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@68c72235]" started-at="2026-10-03T21:14:38 GMT+07:00" name="validate_adding_product_from_display_page" finished-at="2026-10-03T21:14:42 GMT+07:00" duration-ms="3989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_adding_product_from_display_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@68c72235]" started-at="2026-10-03T21:14:42 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:14:42 GMT+07:00" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@59af0466]" started-at="2026-10-03T21:14:57 GMT+07:00" name="setup" finished-at="2026-10-03T21:14:59 GMT+07:00" duration-ms="1743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@59af0466]" started-at="2026-10-03T21:14:59 GMT+07:00" name="validate_add_from_home_page" finished-at="2026-10-03T21:15:00 GMT+07:00" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_home_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@59af0466]" started-at="2026-10-03T21:15:00 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:00 GMT+07:00" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest -->
+      <class name="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@3e6ef8ad]" started-at="2026-10-03T21:15:00 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:02 GMT+07:00" duration-ms="2065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@3e6ef8ad]" started-at="2026-10-03T21:15:02 GMT+07:00" name="validate_add_from_home_page" finished-at="2026-10-03T21:15:03 GMT+07:00" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_home_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@3e6ef8ad]" started-at="2026-10-03T21:15:03 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:15:03 GMT+07:00" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@10959ece]" started-at="2026-10-03T21:14:42 GMT+07:00" name="setup" finished-at="2026-10-03T21:14:44 GMT+07:00" duration-ms="2315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@10959ece]" started-at="2026-10-03T21:14:44 GMT+07:00" name="validate_acccess_from_wish_list" finished-at="2026-10-03T21:14:48 GMT+07:00" duration-ms="3774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_acccess_from_wish_list -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@10959ece]" started-at="2026-10-03T21:14:48 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:14:48 GMT+07:00" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest -->
+      <class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@65f095f8]" started-at="2026-10-03T21:14:55 GMT+07:00" name="setup" finished-at="2026-10-03T21:14:57 GMT+07:00" duration-ms="2031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@65f095f8]" started-at="2026-10-03T21:14:57 GMT+07:00" name="validate_add_from_subcategory_page" finished-at="2026-10-03T21:14:57 GMT+07:00" duration-ms="829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_add_from_subcategory_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@2638011]" started-at="2026-10-02T17:36:28 GMT+07:00" name="tearDown" finished-at="2026-10-02T17:36:28 GMT+07:00" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@65f095f8]" started-at="2026-10-03T21:14:57 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:14:57 GMT+07:00" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Chrome Browsers Suite -->
+  <suite started-at="2026-10-03T21:16:23 GMT+07:00" name="Cross Browsers Suite" finished-at="2026-10-03T21:16:23 GMT+07:00" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Cross Browsers Suite -->
+  <suite started-at="2026-10-03T21:15:56 GMT+07:00" name="Edge Browsers Suite" finished-at="2026-10-03T21:16:23 GMT+07:00" duration-ms="26715">
+    <groups>
+      <group name="add to cart">
+        <method signature="TC_ATC_001_AddProductFromProductDisplayPageTest.validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@6d4d66d2]" name="validate_adding_product_from_display_page" class="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest"/>
+        <method signature="TC_ATC_002_AddToCartFromWishListTest.validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@2a265ea9]" name="validate_acccess_from_wish_list" class="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest"/>
+        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@11392934]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
+        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@6892b3b6]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
+        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@6e6f2380]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_006_AddToCartFromHomePageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@76a4ebf2]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest"/>
+        <method signature="TC_ATC_007_AddToCartFromProductComparisonPageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@2e8c1c9b]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest"/>
+      </group> <!-- add to cart -->
+      <group name="master">
+        <method signature="TC_ATC_001_AddProductFromProductDisplayPageTest.validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@6d4d66d2]" name="validate_adding_product_from_display_page" class="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest"/>
+        <method signature="TC_ATC_002_AddToCartFromWishListTest.validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@2a265ea9]" name="validate_acccess_from_wish_list" class="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest"/>
+        <method signature="TC_ATC_003_AddToCartFromSearchPageTest.validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@11392934]" name="validate_acccess_from_search_page" class="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest"/>
+        <method signature="TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest.validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@6892b3b6]" name="validate_add_product_form_display_page_related_product" class="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest"/>
+        <method signature="TC_ATC_005_AddToCartFromSubCategoryPageTest.validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@6e6f2380]" name="validate_add_from_subcategory_page" class="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest"/>
+        <method signature="TC_ATC_006_AddToCartFromHomePageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@76a4ebf2]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest"/>
+        <method signature="TC_ATC_007_AddToCartFromProductComparisonPageTest.validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@2e8c1c9b]" name="validate_add_from_home_page" class="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2026-10-03T21:15:56 GMT+07:00" name="EdgeTest" finished-at="2026-10-03T21:16:23 GMT+07:00" duration-ms="26715">
+      <class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@11392934]" started-at="2026-10-03T21:16:09 GMT+07:00" name="setup" finished-at="2026-10-03T21:16:11 GMT+07:00" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_acccess_from_search_page()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@11392934]" started-at="2026-10-03T21:16:11 GMT+07:00" name="validate_acccess_from_search_page" finished-at="2026-10-03T21:16:12 GMT+07:00" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_acccess_from_search_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest@11392934]" started-at="2026-10-03T21:16:12 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:16:12 GMT+07:00" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@6892b3b6]" started-at="2026-10-03T21:16:12 GMT+07:00" name="setup" finished-at="2026-10-03T21:16:14 GMT+07:00" duration-ms="2031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_product_form_display_page_related_product()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@6892b3b6]" started-at="2026-10-03T21:16:14 GMT+07:00" name="validate_add_product_form_display_page_related_product" finished-at="2026-10-03T21:16:15 GMT+07:00" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_product_form_display_page_related_product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest@6892b3b6]" started-at="2026-10-03T21:16:15 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:16:15 GMT+07:00" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest -->
+      <class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@6d4d66d2]" started-at="2026-10-03T21:15:56 GMT+07:00" name="setup" finished-at="2026-10-03T21:15:58 GMT+07:00" duration-ms="2139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_adding_product_from_display_page()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@6d4d66d2]" started-at="2026-10-03T21:15:58 GMT+07:00" name="validate_adding_product_from_display_page" finished-at="2026-10-03T21:16:02 GMT+07:00" duration-ms="3969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_adding_product_from_display_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest@6d4d66d2]" started-at="2026-10-03T21:16:02 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:16:02 GMT+07:00" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@76a4ebf2]" started-at="2026-10-03T21:16:18 GMT+07:00" name="setup" finished-at="2026-10-03T21:16:20 GMT+07:00" duration-ms="1781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@76a4ebf2]" started-at="2026-10-03T21:16:20 GMT+07:00" name="validate_add_from_home_page" finished-at="2026-10-03T21:16:20 GMT+07:00" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_home_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest@76a4ebf2]" started-at="2026-10-03T21:16:20 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:16:20 GMT+07:00" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest -->
+      <class name="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@2e8c1c9b]" started-at="2026-10-03T21:16:20 GMT+07:00" name="setup" finished-at="2026-10-03T21:16:22 GMT+07:00" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_home_page()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@2e8c1c9b]" started-at="2026-10-03T21:16:22 GMT+07:00" name="validate_add_from_home_page" finished-at="2026-10-03T21:16:23 GMT+07:00" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_home_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest@2e8c1c9b]" started-at="2026-10-03T21:16:23 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:16:23 GMT+07:00" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest -->
+      <class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@2a265ea9]" started-at="2026-10-03T21:16:02 GMT+07:00" name="setup" finished-at="2026-10-03T21:16:05 GMT+07:00" duration-ms="2093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_acccess_from_wish_list()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@2a265ea9]" started-at="2026-10-03T21:16:05 GMT+07:00" name="validate_acccess_from_wish_list" finished-at="2026-10-03T21:16:09 GMT+07:00" duration-ms="4453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_acccess_from_wish_list -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest@2a265ea9]" started-at="2026-10-03T21:16:09 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:16:09 GMT+07:00" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest -->
+      <class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@6e6f2380]" started-at="2026-10-03T21:16:15 GMT+07:00" name="setup" finished-at="2026-10-03T21:16:17 GMT+07:00" duration-ms="1844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_add_from_subcategory_page()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@6e6f2380]" started-at="2026-10-03T21:16:17 GMT+07:00" name="validate_add_from_subcategory_page" finished-at="2026-10-03T21:16:18 GMT+07:00" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_from_subcategory_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest@6e6f2380]" started-at="2026-10-03T21:16:18 GMT+07:00" name="tearDown" finished-at="2026-10-03T21:16:18 GMT+07:00" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Edge Browsers Suite -->
 </testng-results>

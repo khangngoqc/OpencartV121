@@ -24,7 +24,7 @@
 	<test thread-count="3" name="Test" parallel="none">
 
 		<parameter name="os" value="windows"></parameter>
-		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="browser" value="edge"></parameter>
 
 		<classes>
 			<!--Register cases-->
@@ -202,13 +202,14 @@
 			
 			
 			<!--AddToCart cases-->
-			<!--<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
-			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />-->
+			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
+			<!--<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
 			<class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest" />
 			<class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest" />
 			<class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest" />
-			
-			
+			<class name="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest" />
+			<class name="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest" />
+			-->
 			
 			<!--AddToCart cases-->
 			

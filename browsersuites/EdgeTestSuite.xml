@@ -4,14 +4,15 @@
 
 	<groups>
 		<run>
-			<!--<include name="login"></include>
+			<include name="login"></include>
 			<include name="logout"></include>						
 			<include name="forgot password"></include>
 			<include name="Sanity"></include>
 			<include name="Regression"></include>
 			<include name="register"></include>
-			<include name="search"></include>-->
+			<include name="search"></include>
 			<include name="product compare"></include>
+			<include name="add to cart"></include>
 
 
 			<exclude name=""></exclude>
@@ -25,7 +26,7 @@
 		<listener class-name="utilities.ExtentReportManager"></listener>
 	</listeners>
 
-	<test name="ChromeTest">
+	<test name="EdgeTest">
 
 		<parameter name="os" value="Windows"></parameter>
 		<parameter name="browser" value="edge"></parameter>
@@ -207,6 +208,17 @@
 			<class name="testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest" />
 
 			<!--ProductCompare cases-->
+			
+			<!--AddToCart cases-->
+			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
+			<class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest" />
+			<class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest" />
+			<class name="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest" />
+			<class name="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest" />
+			
+			<!--AddToCart cases-->
 			
 			
 		</classes>

@@ -30,7 +30,7 @@ public class TC_ATC_005_AddToCartFromSubCategoryPageTest extends BaseClass {
 			
 			Assert.assertTrue(sb.isAddToCartSuccessAlertDisplay(addedProduct), "Failed to locate added to cart success message!");
 			
-			ShoppingCartPage scp = sb.clickShoppingCartLnk();
+			ShoppingCartPage scp = sb.clickAlertShoppingCartLnk();
 			
 			Assert.assertTrue(scp.isProductAdded(addedProduct), "Can not find added product!");
 			
