@@ -91,6 +91,22 @@ public class WishListPage extends BasePage {
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName + " to your shopping cart!");
 	}
+	
+	public boolean isProductAdded(String productName) {
+
+		try {
+			for (WebElement e : productNames) {
+				if (e.getText().contains(productName)) {
+					return true;
+				}
+			}
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+		return false;
+	}
 
 
 	// getters
@@ -99,7 +115,7 @@ public class WishListPage extends BasePage {
 		try {
 
 			if (index <= 0 || index > productNames.size()) {
-				System.out.println("Invalid index input!" + index);
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + productNames.size());
 				return null;
 			}
 			
@@ -111,9 +127,10 @@ public class WishListPage extends BasePage {
 		} catch (Exception e) {
 
 			System.out.println("Invalid index input!" + index);
+			return null;
 		}
 
-		return null;
+		
 		
 	}
 

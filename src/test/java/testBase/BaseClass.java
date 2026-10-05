@@ -57,7 +57,7 @@ public class BaseClass {
 	public WebDriverWait wait;
 	public MailosaurClient mailosaur;
 	
-	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register", "forgot password", "product compare", "product display", "add to cart" })
+	@BeforeClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register", "forgot password", "product compare", "product display", "add to cart", "wish list" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
 
@@ -152,7 +152,7 @@ public class BaseClass {
 
 	}
 
-	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" , "forgot password", "product compare", "product display", "add to cart"})
+	@AfterClass(groups = { "sanity", "regression", "master", "logout", "login", "search", "register" , "forgot password", "product compare", "product display", "add to cart", "wish list"})
 	public void tearDown() {
 		if(getDriver() != null) {
 			getDriver().quit();

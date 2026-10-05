@@ -11,8 +11,9 @@
 			<include name="Regression"></include>
 			<include name="register"></include>
 			<include name="product compare"></include>
-			<include name="product display"></include>-->
-			<include name="add to cart"></include>
+			<include name="product display"></include>
+			<include name="add to cart"></include>-->
+			<include name="wish list"></include>
 
 		</run>
 	</groups>
@@ -214,6 +215,11 @@
 			<!--AddToCart cases-->
 			
 			
+			<!--WishList cases-->
+			<class name="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes" />
+			
+			
+			<!--WishList cases-->
 		
 		</classes>
 		

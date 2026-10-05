@@ -9,17 +9,17 @@
     <parameter name="browser" value="edge"/>
     <groups>
       <run>
-        <include name="add to cart"/>
+        <include name="wish list"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest">
+      <class name="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes">
         <methods>
+          <include name="adding_related_product_from_display_page"/>
           <include name="tearDown"/>
-          <include name="validate_adding_product_from_display_page"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest -->
+      </class> <!-- testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

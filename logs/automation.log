@@ -5193,3 +5193,7 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 21:16:20.828 [TestNG-tests-1] INFO  testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest - ***Finished TC_ATC_006_AddToCartFromHomePageTest ***
 21:16:22.576 [TestNG-tests-1] INFO  testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest - ***Starting TC_ATC_007_AddToCartFromProductComparisonPageTest ***
 21:16:23.391 [TestNG-tests-1] INFO  testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest - ***Finished TC_ATC_007_AddToCartFromProductComparisonPageTest ***
+21:18:56.459 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+21:20:24.273 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+21:23:02.776 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+21:23:06.033 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Finshed TC_ATC_001_AddProductFromProductDisplayPageTest ***

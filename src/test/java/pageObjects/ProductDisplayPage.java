@@ -138,15 +138,11 @@ public class ProductDisplayPage extends BasePage {
 	
 	@FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[2]")
 	WebElement compareThisProductBtn;
+	@FindBy(xpath = "//div[@class='caption']//h4//a") List<WebElement> relatedProductTitles;
+	@FindBy(xpath = "//div[@class='col-xs-6 col-sm-3']//button[2]") List<WebElement> relatedWishListBtns;
 	@FindBy(xpath = "//div[@role='tooltip' and contains(., 'Compare')]")
 	WebElement hoveringTooltip;
 
-	public String getProductModelTexts() {
-
-		String productCode = productModalText.getText().split(":")[1].trim();
-
-		return productCode;
-	}
 
 	public void clickMainThumbnail() {
 		click(mainThumbnail);
@@ -721,6 +717,25 @@ public class ProductDisplayPage extends BasePage {
 		click(firstRelatedProductAddToCartBtn);
 	}
 	
+	public void clickRelatedWishListBtnByIndex(int index) {
+		
+		try {
+			if (index < 1 || index > relatedWishListBtns.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + relatedWishListBtns.size());
+				return;
+			}
+			click(relatedWishListBtns.get(index - 1));
+
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return;
+		}
+		
+		
+		
+	}
+	
 	// validations
 	public boolean isCompareThisProductBtnTooltipWork() throws InterruptedException {
 		return isHoveringTooltipWork(compareThisProductBtn, "Compare this Product");
@@ -1080,6 +1095,11 @@ public class ProductDisplayPage extends BasePage {
 		return isDisplay(alertBanner) && alertBanner.getText()
 				.contains("Success: You have added " + productName.getText() + " to your wish list!");
 	}
+	
+	public boolean isWishListSuccessAlertDisplay(String productName) {
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName + " to your wish list!");
+	}
 
 	public boolean isComparisonSuccessAlertDisplay() {
 		return isDisplay(alertBanner) && alertBanner.getText()
@@ -1155,22 +1175,6 @@ public class ProductDisplayPage extends BasePage {
 
 		return productName.getText().equals(name.trim());
 	}
-
-	// getters
-	public String getFirstProductTitle() {
-		return firstProductTitle.getText();
-	}
-
-	public String getQuantityValue() {
-		return quantityTxtBox.getAttribute("value");
-	}
-
-	public int getReviewsCount() {
-		String label = reviewsTab.getText(); // e.g. "Reviews (12)"
-		String digits = label.replaceAll("[^0-9]", ""); // "12"
-		return Integer.parseInt(digits);
-
-	}
 	
 	public boolean isCorrectBulkPurchasePriceDisplay(int amount, float price) {
 		try {
@@ -1198,5 +1202,45 @@ public class ProductDisplayPage extends BasePage {
 		return false;
 		
 	}
+
+	// getters
+	public String getFirstProductTitle() {
+		return firstProductTitle.getText();
+	}
+
+	public String getQuantityValue() {
+		return quantityTxtBox.getAttribute("value");
+	}
+
+	public int getReviewsCount() {
+		String label = reviewsTab.getText(); // e.g. "Reviews (12)"
+		String digits = label.replaceAll("[^0-9]", ""); // "12"
+		return Integer.parseInt(digits);
+
+	}
+	
+	public String getProductModelTexts() {
+
+		String productCode = productModalText.getText().split(":")[1].trim();
+
+		return productCode;
+	}
+	
+	public String getRelatedProductTitleByIndex(int index) {
+		try {
+			if (index < 1 || index > relatedProductTitles.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + relatedProductTitles.size());
+				return null;
+			}
+			return getElementText(relatedProductTitles.get(index - 1));
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return null;
+		}
+
+	}
+	
+	
 
 }
