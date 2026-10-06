@@ -24,8 +24,8 @@
 
 	<test thread-count="3" name="Test" parallel="none">
 
-		<parameter name="os" value="windows"></parameter>
-		<parameter name="browser" value="edge"></parameter>
+		<parameter name="os" value="mac"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
 			<!--Register cases-->
@@ -217,8 +217,9 @@
 			
 			<!--WishList cases-->
 			<class name="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes" />
-			
-			
+			<class name="testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest" />
+
+
 			<!--WishList cases-->
 		
 		</classes>

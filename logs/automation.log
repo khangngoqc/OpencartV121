@@ -5197,3 +5197,13 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 21:20:24.273 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
 21:23:02.776 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
 21:23:06.033 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Finshed TC_ATC_001_AddProductFromProductDisplayPageTest ***
+14:14:39.426 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+14:14:43.010 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***
+14:16:08.029 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+14:16:12.580 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***
+14:17:48.566 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+14:17:50.436 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Finshed TC_ATC_001_AddProductFromProductDisplayPageTest ***
+14:17:52.465 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***
+14:21:14.946 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+14:21:18.256 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***
+14:21:19.870 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Finshed TC_WL_003_AddingRelatedProductFromHomePageTest ***

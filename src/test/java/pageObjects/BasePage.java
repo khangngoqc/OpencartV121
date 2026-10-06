@@ -34,6 +34,8 @@ public class BasePage extends BaseClass {
 	@FindBy(xpath = "//a[@title='Checkout']")
 	WebElement checkoutLnk;
 
+	@FindBy(xpath="//a[normalize-space()='Qafox.com']") WebElement storeLogo;
+
 	@FindBy(xpath = "//div[@id='cart']//button[@data-toggle='dropdown']")
 	WebElement cartBtn;
 	@FindBy(xpath = "//span[@id='cart-total']")
@@ -64,6 +66,12 @@ public class BasePage extends BaseClass {
 	@FindBy(xpath="//*[@id=\"menu\"]/div[2]/ul/li[1]/div/div/ul/li[2]/a") WebElement macSubMenu;
 
 	// actions
+	public HomePage clickStoreLogo(){
+		click(storeLogo);
+
+		return new HomePage();
+	}
+
 	public void clickMyAccount() {
 		click(lnkMyAccount);
 	}
