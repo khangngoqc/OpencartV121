@@ -13,6 +13,10 @@ public class DesktopsPage extends BasePage {
 
     @FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
     WebElement alertBanner;
+
+    //sideOptions
+    @FindBy(xpath="//a[contains(.,'-Mac (1)')]") WebElement sideOptionMac;
+    
     
     @FindBy(xpath = "//a[@id='compare-total']")
     WebElement productCompareLink;
@@ -28,6 +32,9 @@ public class DesktopsPage extends BasePage {
     WebElement compareThisProductBtn;
     @FindBy(xpath = "//div[@role='tooltip' and contains(., 'Compare')]")
     WebElement hoveringTooltip;
+    
+    
+   
 
 
     //actions
@@ -46,6 +53,12 @@ public class DesktopsPage extends BasePage {
     public ProductComparePage clickProductCompareLink() {
         click(productCompareLink);
         return new ProductComparePage();
+    }
+    
+    public SubCategoryPage clickSideOptionMac() {
+    	click(sideOptionMac);
+    	
+    	return new SubCategoryPage();
     }
 
     //validations

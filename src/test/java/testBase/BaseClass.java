@@ -194,6 +194,10 @@ public class BaseClass {
 		return targetFilePath;
 
 	}
+	
+	public String captureScreenBase64() {
+	    return ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BASE64);
+	}
 
 	public boolean brokenLinksCheck() {
 		

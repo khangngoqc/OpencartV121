@@ -5207,3 +5207,15 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 14:21:14.946 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
 14:21:18.256 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***
 14:21:19.870 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Finshed TC_WL_003_AddingRelatedProductFromHomePageTest ***
+18:02:17.983 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***
+18:02:20.864 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Finshed TC_WL_003_AddingRelatedProductFromHomePageTest ***
+18:02:54.402 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***
+18:02:57.967 [main] INFO  testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes - ***Finshed TC_ATC_001_AddProductFromProductDisplayPageTest ***
+18:03:01.006 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***
+18:03:03.491 [main] INFO  testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest - ***Finshed TC_WL_003_AddingRelatedProductFromHomePageTest ***
+18:17:45.640 [main] INFO  testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest - ***Starting TC_WL_004_WishListProductFromSubCategoryPageTest ***
+18:19:44.519 [main] INFO  testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest - ***Starting TC_WL_004_WishListProductFromSubCategoryPageTest ***
+18:19:48.451 [main] INFO  testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest - ***Finshed TC_WL_004_WishListProductFromSubCategoryPageTest ***
+18:20:11.458 [main] INFO  testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest - ***Starting TC_WL_004_WishListProductFromSubCategoryPageTest ***
+18:25:00.345 [main] INFO  testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest - ***Starting TC_WL_004_WishListProductFromSubCategoryPageTest ***
+18:28:07.910 [main] INFO  testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest - ***Starting TC_WL_004_WishListProductFromSubCategoryPageTest ***

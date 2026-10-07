@@ -1,43 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="100" total="101" passed="1" failed="0" skipped="0">
+<testng-results ignored="100" total="101" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-05T21:22:57 GMT+07:00" name="Suite" finished-at="2026-10-05T21:23:06 GMT+07:00" duration-ms="8738">
+  <suite started-at="2026-10-07T18:28:02 GMT+07:00" name="Suite" finished-at="2026-10-07T18:28:11 GMT+07:00" duration-ms="9708">
     <groups>
       <group name="wish list">
-        <method signature="TC_WL_002_AddingRelatedProductFromDisplayPageTes.adding_related_product_from_display_page()[pri:0, instance:testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes@2898ac89]" name="adding_related_product_from_display_page" class="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes"/>
+        <method signature="TC_WL_004_WishListProductFromSubCategoryPageTest.adding_featured_product_from_home_page()[pri:0, instance:testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest@683dbc2c]" name="adding_featured_product_from_home_page" class="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest"/>
       </group> <!-- wish list -->
       <group name="master">
-        <method signature="TC_WL_002_AddingRelatedProductFromDisplayPageTes.adding_related_product_from_display_page()[pri:0, instance:testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes@2898ac89]" name="adding_related_product_from_display_page" class="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes"/>
+        <method signature="TC_WL_004_WishListProductFromSubCategoryPageTest.adding_featured_product_from_home_page()[pri:0, instance:testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest@683dbc2c]" name="adding_featured_product_from_home_page" class="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-10-05T21:22:57 GMT+07:00" name="Test" finished-at="2026-10-05T21:23:06 GMT+07:00" duration-ms="8738">
-      <class name="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes@2898ac89]" started-at="2026-10-05T21:22:57 GMT+07:00" name="setup" finished-at="2026-10-05T21:23:02 GMT+07:00" duration-ms="5093" status="PASS">
+    <test started-at="2026-10-07T18:28:02 GMT+07:00" name="Test" finished-at="2026-10-07T18:28:11 GMT+07:00" duration-ms="9708">
+      <class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest@683dbc2c]" started-at="2026-10-07T18:28:02 GMT+07:00" name="setup" finished-at="2026-10-07T18:28:07 GMT+07:00" duration-ms="5664" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[window]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="adding_related_product_from_display_page()[pri:0, instance:testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes@2898ac89]" started-at="2026-10-05T21:23:02 GMT+07:00" name="adding_related_product_from_display_page" finished-at="2026-10-05T21:23:06 GMT+07:00" duration-ms="3272" status="PASS">
+        <test-method signature="adding_featured_product_from_home_page()[pri:0, instance:testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest@683dbc2c]" started-at="2026-10-07T18:28:07 GMT+07:00" name="adding_featured_product_from_home_page" finished-at="2026-10-07T18:28:11 GMT+07:00" duration-ms="3575" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to locate wish listed product on page. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to locate wish listed product on page. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest.adding_featured_product_from_home_page(TC_WL_004_WishListProductFromSubCategoryPageTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- adding_related_product_from_display_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes@2898ac89]" started-at="2026-10-05T21:23:06 GMT+07:00" name="tearDown" finished-at="2026-10-05T21:23:06 GMT+07:00" duration-ms="209" status="PASS">
+        </test-method> <!-- adding_featured_product_from_home_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest@683dbc2c]" started-at="2026-10-07T18:28:11 GMT+07:00" name="tearDown" finished-at="2026-10-07T18:28:11 GMT+07:00" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes -->
+      </class> <!-- testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

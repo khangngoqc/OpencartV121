@@ -5,21 +5,21 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="os" value="window"/>
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="wish list"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes">
+      <class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest">
         <methods>
-          <include name="adding_related_product_from_display_page"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="adding_featured_product_from_home_page"/>
         </methods>
-      </class> <!-- testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes -->
+      </class> <!-- testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,14 +5,14 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC_WL_003_AddingRelatedProductFromHomePageTest extends BaseClass{
+public class TC_WL_003_WishListFeaturedProductFromHomePageTest extends BaseClass{
 	
 	String searchInput = "iMac";
 	int testProductIndex = 1; 
 	
 	@Test(groups = { "master", "wish list" })
 	public void adding_featured_product_from_home_page() {
-		logger.info("***Starting TC_WL_003_AddingRelatedProductFromHomePageTest ***");
+		logger.info("***Starting TC_WL_003_WishListFeaturedProductFromHomePageTest ***");
 		
 		HomePage hp = new HomePage();
 		
@@ -34,7 +34,7 @@ public class TC_WL_003_AddingRelatedProductFromHomePageTest extends BaseClass{
 		
 		Assert.assertTrue(wp.isProductAdded(testProductTitle), "Failed to locate wish listed product on page.");
 
-		logger.info("***Finshed TC_WL_003_AddingRelatedProductFromHomePageTest ***");
+		logger.info("***Finshed TC_WL_003_WishListFeaturedProductFromHomePageTest ***");
 	}
 
 }

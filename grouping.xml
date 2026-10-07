@@ -24,7 +24,7 @@
 
 	<test thread-count="3" name="Test" parallel="none">
 
-		<parameter name="os" value="mac"></parameter>
+		<parameter name="os" value="window"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
@@ -202,7 +202,7 @@
 			<!--ProductCompare cases-->
 			
 			
-			<!--AddToCart cases-->
+			<!--AddToCart cases-->D
 			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
 			<!--<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
 			<class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest" />
@@ -216,8 +216,9 @@
 			
 			
 			<!--WishList cases-->
-			<class name="testCases.WishList.TC_WL_002_AddingRelatedProductFromDisplayPageTes" />
-			<class name="testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest" />
+			<!--<class name="testCases.WishList.TC_WL_002_WishListRelatedProductFromDisplayPageTest" />
+			<class name="testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest" />-->
+			<class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" />
 
 
 			<!--WishList cases-->

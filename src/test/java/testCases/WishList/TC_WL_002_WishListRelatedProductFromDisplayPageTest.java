@@ -11,14 +11,14 @@ import pageObjects.SearchPage;
 import pageObjects.WishListPage;
 import testBase.BaseClass;
 
-public class TC_WL_002_AddingRelatedProductFromDisplayPageTes extends BaseClass{
+public class TC_WL_002_WishListRelatedProductFromDisplayPageTest extends BaseClass{
 	
 	String searchInput = "iMac";
 	int testProductIndex = 1; 
 	
 	@Test(groups = { "master", "wish list" })
 	public void adding_related_product_from_display_page() {
-		logger.info("***Starting TC_ATC_001_AddProductFromProductDisplayPageTest ***");
+		logger.info("***Starting TC_WL_002_WishListRelatedProductFromDisplayPageTest ***");
 		
 		HomePage hp = new HomePage();
 		
@@ -44,7 +44,7 @@ public class TC_WL_002_AddingRelatedProductFromDisplayPageTes extends BaseClass{
 		
 		
 		
-		logger.info("***Finshed TC_ATC_001_AddProductFromProductDisplayPageTest ***");
+		logger.info("***Finshed TC_WL_002_WishListRelatedProductFromDisplayPageTest ***");
 	}
 
 }

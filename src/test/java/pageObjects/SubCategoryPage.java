@@ -16,11 +16,15 @@ public class SubCategoryPage extends BasePage {
 	WebElement alertBanner;
 	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
 	WebElement alertShoppingCartLnk;
+	@FindBy(xpath = "//a[normalize-space()='wish list']")
+	WebElement alertWishListLnk;
 
 	@FindBy(xpath = "//div[@class='caption']//h4")
 	List<WebElement> productTitles;
 	@FindBy(xpath = "//button//span[normalize-space()='Add to Cart']")
 	List<WebElement> addToCartBtns;
+	@FindBy(xpath = "//button[@data-original-title='Add to Wish List']")
+	List<WebElement> wishListBtns;
 
 	public ProductDisplayPage clickAddToCartByIndex(int index) {
 		try {
@@ -45,10 +49,38 @@ public class SubCategoryPage extends BasePage {
 		return new ShoppingCartPage();
 	}
 
+	public void clickWishListBtnByIndex(int index) {
+
+		try {
+			if (index < 1 || index > wishListBtns.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + wishListBtns.size());
+				return;
+			}
+			click(wishListBtns.get(index - 1));
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			return;
+		}
+
+	}
+
+	public WishListPage clickAlertWishListLnk() {
+		click(alertWishListLnk);
+
+		return new WishListPage();
+	}
+
 	// validation
 	public boolean isAddToCartSuccessAlertDisplay(String productName) {
 		return isDisplay(alertBanner)
 				&& alertBanner.getText().contains("Success: You have added " + productName + " to your shopping cart!");
+	}
+	
+
+	public boolean isWishListSuccessAlertDisplay(String productName) {
+		return isDisplay(alertBanner) && alertBanner.getText()
+				.contains("Success: You have added " + productName + " to your wish list!");
 	}
 
 	// getter
