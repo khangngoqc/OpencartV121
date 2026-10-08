@@ -19,6 +19,7 @@ public class WishListPage extends BasePage {
 	List<WebElement> productImages;
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")
 	List<WebElement> productNames;
+	@FindBy(xpath="//a[@data-original-title='Remove']") List<WebElement> removeFromWishListBtns;
 
 	public WishListPage() {
 		super();
@@ -79,6 +80,19 @@ public class WishListPage extends BasePage {
 		click(alertShoppingCartLnk);
 		
 		return new ShoppingCartPage();
+	}
+	
+	public void clearWishList() {
+		try {
+			for(WebElement btn : removeFromWishListBtns) {
+				Thread.sleep(500);
+				getDriver().findElement(By.xpath("(//a[@data-original-title='Remove'])[1]")).click();
+			}
+
+		} catch (Exception e) {
+			System.out.println("Out of product to remove!");
+			return;
+		}
 	}
 
 	// validations

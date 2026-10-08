@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" class="method navigator-link" hash-for-method="adding_featured_product_from_home_page">adding_featured_product_from_home_page</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" class="method navigator-link" hash-for-method="wish_list_product_from_category_page">wish_list_product_from_category_page</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest" class="method navigator-link" hash-for-method="wish_list_product_from_search_page">wish_list_product_from_search_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,26 +123,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="adding_featured_product_from_home_page">
-                  </a> <!-- adding_featured_product_from_home_page -->
-                  <span class="method-name">adding_featured_product_from_home_page</span>
-                  <div class="stack-trace">java.lang.AssertionError: Failed to locate wish listed product on page. expected [true] but found [false]
-	at testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest.adding_featured_product_from_home_page(TC_WL_004_WishListProductFromSubCategoryPageTest.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
+                  <a name="wish_list_product_from_category_page">
+                  </a> <!-- wish_list_product_from_category_page -->
+                  <span class="method-name">wish_list_product_from_category_page</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wish_list_product_from_search_page">
+                  </a> <!-- wish_list_product_from_search_page -->
+                  <span class="method-name">wish_list_product_from_search_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -266,6 +281,7 @@
       &lt;class name=&quot;testCases.ProductDisplayPage.TC_PDP_035_ProductDisplayPageHeadingURLTitleTest&quot;/&gt;
       &lt;class name=&quot;testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest&quot;/&gt;
       &lt;class name=&quot;testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest&quot;/&gt;
+      &lt;class name=&quot;testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -279,7 +295,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (101 classes)</span>
+                <span class="test-name">Test (102 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -293,7 +309,11 @@
               <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">adding_featured_product_from_home_page</span>
+                <span class="method-in-group-name">wish_list_product_from_category_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wish_list_product_from_search_page</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -301,7 +321,11 @@
               <span class="test-group-name">wish list</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">adding_featured_product_from_home_page</span>
+                <span class="method-in-group-name">wish_list_product_from_category_page</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wish_list_product_from_search_page</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -321,16 +345,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'adding_featured_product_from_home_page')
-data.setCell(0, 2, 'testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest')
-data.setCell(0, 3, 3575);
+data.setCell(0, 1, 'wish_list_product_from_search_page')
+data.setCell(0, 2, 'testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest')
+data.setCell(0, 3, 3027);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'wish_list_product_from_category_page')
+data.setCell(1, 2, 'testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest')
+data.setCell(1, 3, 2800);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -370,16 +398,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest</span>
+              <span class="ignored-class-name">testCases.Register.TC_RF_012_KeyboardKeysRegistrationTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_adding_product_from_display_page</span>
+                <span class="ignored-method-name">validate_registration_with_Keyboard</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Register.TC_RF_012_KeyboardKeysRegistrationTest</span>
+              <span class="ignored-class-name">testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_Keyboard</span>
+                <span class="ignored-method-name">validate_adding_product_from_display_page</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -475,16 +503,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest</span>
+              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_social_options</span>
+                <span class="ignored-method-name">validate_adding_a_product_cart</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_020_A_ProductCompareAddtoCartTest</span>
+              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_021_ProductDisplayPageSocialOptionsTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_adding_a_product_cart</span>
+                <span class="ignored-method-name">validate_social_options</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -531,16 +559,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</span>
+              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_product_comparison_without_adding_any_product</span>
+                <span class="ignored-method-name">validate_product_comparison_add_two_product</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_015_ProductCompareTwoProductAddedTest</span>
+              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_010_ProductComparePageNonProductAddedTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_product_comparison_add_two_product</span>
+                <span class="ignored-method-name">validate_product_comparison_without_adding_any_product</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -685,16 +713,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</span>
+              <span class="ignored-class-name">testCases.Register.TC_RF_010_InvalidEmailRegistrationTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_product_comparison_breadcrumb</span>
+                <span class="ignored-method-name">validate_registration_with_invalid_email</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Register.TC_RF_010_InvalidEmailRegistrationTest</span>
+              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_012_ProductCompareBreadcrumbTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_invalid_email</span>
+                <span class="ignored-method-name">validate_product_comparison_breadcrumb</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -734,9 +762,9 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Register.TC_RF_016_SpaceInputRegistrationTest</span>
+              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_registration_with_space_input</span>
+                <span class="ignored-method-name">validate_product_comparison_add_two_product</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -748,16 +776,9 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductCompare.TC_PC_018_ProductCompareFourProductsAddedTest</span>
+              <span class="ignored-class-name">testCases.Register.TC_RF_016_SpaceInputRegistrationTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_product_comparison_add_two_product</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Search.TC_SF_002_SearchNonExistingProductTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_search_non_existing_product</span>
+                <span class="ignored-method-name">validate_registration_with_space_input</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -765,6 +786,13 @@ return data;
               <span class="ignored-class-name">testCases.ProductCompare.TC_PC_005_ProductCompareAddingProductFromCategoryPageGridViewTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">adding_product_to_compare_grid_view_category</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.Search.TC_SF_002_SearchNonExistingProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validate_search_non_existing_product</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -804,16 +832,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest</span>
+              <span class="ignored-class-name">testCases.Search.TC_SF_005_SearchMultipleExistingProductTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_write_a_review_link</span>
+                <span class="ignored-method-name">validate_search_multiple_existing_product</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Search.TC_SF_005_SearchMultipleExistingProductTest</span>
+              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_013_ProductDisplayPageProductWriteAReviewLinkTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_search_multiple_existing_product</span>
+                <span class="ignored-method-name">validate_write_a_review_link</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -839,16 +867,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Search.TC_SF_001_SearchExistingProductTest</span>
+              <span class="ignored-class-name">testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_search_existing_product</span>
+                <span class="ignored-method-name">validate_multiple_search_results_list_view</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Search.TC_SF_012_A_SearchMultipleProductListViewTest</span>
+              <span class="ignored-class-name">testCases.Search.TC_SF_001_SearchExistingProductTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_multiple_search_results_list_view</span>
+                <span class="ignored-method-name">validate_search_existing_product</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -888,16 +916,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.Search.TC_SF_004_SearchAfterLoginTest</span>
+              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">search_after_login</span>
+                <span class="ignored-method-name">validate_acccess_from_add_to_cart_link</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_025_ProductDisplayPageAddToCartAlertLinkTest</span>
+              <span class="ignored-class-name">testCases.Search.TC_SF_004_SearchAfterLoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_acccess_from_add_to_cart_link</span>
+                <span class="ignored-method-name">search_after_login</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -1007,16 +1035,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest</span>
+              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_product_comparison</span>
+                <span class="ignored-method-name">validate_product_quantity_display</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_006_ProductDisplayPageNegativeQuantityTest</span>
+              <span class="ignored-class-name">testCases.ProductDisplayPage.TC_PDP_020_ProductDisplayPageProductComparisonTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_product_quantity_display</span>
+                <span class="ignored-method-name">validate_product_comparison</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -1062,14 +1090,27 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">adding_featured_product_from_home_page</span>
-                <span class="method-start">5677 ms</span>
+                <span class="method-name">wish_list_product_from_category_page</span>
+                <span class="method-start">4591 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9369 ms</span>
+                <span class="method-start">7411 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(window, chrome)</span>
+                <span class="method-start">7523 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">wish_list_product_from_search_page</span>
+                <span class="method-start">9813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12843 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

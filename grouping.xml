@@ -219,6 +219,7 @@
 			<!--<class name="testCases.WishList.TC_WL_002_WishListRelatedProductFromDisplayPageTest" />
 			<class name="testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest" />-->
 			<class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" />
+			<class name="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest" />
 
 
 			<!--WishList cases-->

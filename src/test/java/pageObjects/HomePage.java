@@ -244,7 +244,7 @@ public class HomePage extends BasePage {
 	public String getProductTitleByIndex(int index) {
 		try {
 			if (index < 1 || index > featuredProductTitles.size()) {
-				System.out.println("Invalid " + index + " | expected: 1 <= index < " + addToCartBtns.size());
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + featuredProductTitles.size());
 				return null;
 			}
 			return getElementText(featuredProductTitles.get(index - 1));
