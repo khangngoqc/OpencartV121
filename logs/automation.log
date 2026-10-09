@@ -5225,3 +5225,9 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 15:29:11.687 [main] INFO  testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest - ***Finshed TC_WL_004_WishListProductFromSubCategoryPageTest ***
 15:29:14.111 [main] INFO  testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest - ***Starting TC_WL_005_WishListProductFromSearchPageTest ***
 15:29:17.136 [main] INFO  testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest - ***Finshed TC_WL_005_WishListProductFromSearchPageTest ***
+12:45:46.967 [main] INFO  testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest - ***Starting TC_WL_006_WishListPageHeaderNavigatingTest ***
+12:45:55.209 [main] INFO  testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest - ***Finshed TC_WL_006_WishListPageHeaderNavigatingTest ***
+12:47:26.366 [main] INFO  testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest - ***Starting TC_WL_005_WishListProductFromSearchPageTest ***
+12:47:30.021 [main] INFO  testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest - ***Finshed TC_WL_005_WishListProductFromSearchPageTest ***
+12:47:33.706 [main] INFO  testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest - ***Starting TC_WL_006_WishListPageHeaderNavigatingTest ***
+12:47:37.797 [main] INFO  testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest - ***Finshed TC_WL_006_WishListPageHeaderNavigatingTest ***

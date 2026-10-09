@@ -204,22 +204,23 @@
 			
 			<!--AddToCart cases-->D
 			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
-			<!--<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
+			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
 			<class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest" />
 			<class name="testCases.AddToCart.TC_ATC_004_AddToCartFromProductDisplayPageRelatedProductTest" />
 			<class name="testCases.AddToCart.TC_ATC_005_AddToCartFromSubCategoryPageTest" />
 			<class name="testCases.AddToCart.TC_ATC_006_AddToCartFromHomePageTest" />
 			<class name="testCases.AddToCart.TC_ATC_007_AddToCartFromProductComparisonPageTest" />
-			-->
+			
 			
 			<!--AddToCart cases-->
 			
 			
 			<!--WishList cases-->
 			<!--<class name="testCases.WishList.TC_WL_002_WishListRelatedProductFromDisplayPageTest" />
-			<class name="testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest" />-->
-			<class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" />
+			<class name="testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest" />
+			<class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" />-->
 			<class name="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest" />
+			<class name="testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest" />
 
 
 			<!--WishList cases-->
