@@ -5231,3 +5231,15 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 12:47:30.021 [main] INFO  testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest - ***Finshed TC_WL_005_WishListProductFromSearchPageTest ***
 12:47:33.706 [main] INFO  testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest - ***Starting TC_WL_006_WishListPageHeaderNavigatingTest ***
 12:47:37.797 [main] INFO  testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest - ***Finshed TC_WL_006_WishListPageHeaderNavigatingTest ***
+14:17:36.080 [main] INFO  testCases.WishList.TC_WL_006_WishListPageAlertLinkNavigatingTest - ***Starting TC_WL_006_WishListPageAlertLinkNavigatingTest ***
+14:17:41.138 [main] INFO  testCases.WishList.TC_WL_006_WishListPageAlertLinkNavigatingTest - ***Finshed TC_WL_006_WishListPageAlertLinkNavigatingTest ***
+14:17:43.669 [main] INFO  testCases.WishList.TC_WL_007_WishListPageHeaderNavigatingTest - ***Starting TC_WL_007_WishListPageHeaderNavigatingTest ***
+14:17:47.949 [main] INFO  testCases.WishList.TC_WL_007_WishListPageHeaderNavigatingTest - ***Finshed TC_WL_007_WishListPageHeaderNavigatingTest ***
+14:29:59.999 [main] INFO  testCases.WishList.TC_WL_008_WishListPageMyAccountOptionNavigatingTest - ***Starting TC_WL_008_WishListPageMyAccountOptionNavigatingTest ***
+14:30:02.364 [main] INFO  testCases.WishList.TC_WL_008_WishListPageMyAccountOptionNavigatingTest - ***Finshed TC_WL_008_WishListPageMyAccountOptionNavigatingTest ***
+14:41:44.022 [main] INFO  testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest - ***Starting TC_WL_009_WishListPageMyAccountOptionNavigatingTest ***
+14:41:46.388 [main] INFO  testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest - ***Finshed TC_WL_009_WishListPageMyAccountOptionNavigatingTest ***
+14:51:10.590 [main] INFO  testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest - ***Starting TC_WL_009_WishListPageMyAccountOptionNavigatingTest ***
+14:51:12.480 [main] INFO  testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest - ***Finshed TC_WL_009_WishListPageMyAccountOptionNavigatingTest ***
+14:51:15.088 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Starting TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+14:51:16.689 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Finshed TC_WL_010_WishListPageFooterOptionNavigatingTest ***

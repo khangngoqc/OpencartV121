@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="100" total="102" passed="2" failed="0" skipped="0">
+<testng-results ignored="106" total="108" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-09T12:47:20 GMT+07:00" name="Suite" finished-at="2026-10-09T12:47:37 GMT+07:00" duration-ms="17185">
+  <suite started-at="2026-10-11T14:51:05 GMT+07:00" name="Suite" finished-at="2026-10-11T14:51:16 GMT+07:00" duration-ms="11098">
     <groups>
       <group name="wish list">
-        <method signature="TC_WL_005_WishListProductFromSearchPageTest.wish_list_product_from_search_page()[pri:0, instance:testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest@68267da0]" name="wish_list_product_from_search_page" class="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest"/>
-        <method signature="TC_WL_006_WishListPageHeaderNavigatingTest.wish_list_product_from_search_page()[pri:0, instance:testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest@2638011]" name="wish_list_product_from_search_page" class="testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest"/>
+        <method signature="TC_WL_009_WishListPageMyAccountOptionNavigatingTest.wish_list_page_my_account_option_navigating_test()[pri:0, instance:testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest@68567e20]" name="wish_list_page_my_account_option_navigating_test" class="testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest"/>
+        <method signature="TC_WL_010_WishListPageFooterOptionNavigatingTest.wish_list_page_footer_option_navigating_test()[pri:0, instance:testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest@76ed1b7c]" name="wish_list_page_footer_option_navigating_test" class="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest"/>
       </group> <!-- wish list -->
       <group name="master">
-        <method signature="TC_WL_005_WishListProductFromSearchPageTest.wish_list_product_from_search_page()[pri:0, instance:testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest@68267da0]" name="wish_list_product_from_search_page" class="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest"/>
-        <method signature="TC_WL_006_WishListPageHeaderNavigatingTest.wish_list_product_from_search_page()[pri:0, instance:testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest@2638011]" name="wish_list_product_from_search_page" class="testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest"/>
+        <method signature="TC_WL_009_WishListPageMyAccountOptionNavigatingTest.wish_list_page_my_account_option_navigating_test()[pri:0, instance:testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest@68567e20]" name="wish_list_page_my_account_option_navigating_test" class="testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest"/>
+        <method signature="TC_WL_010_WishListPageFooterOptionNavigatingTest.wish_list_page_footer_option_navigating_test()[pri:0, instance:testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest@76ed1b7c]" name="wish_list_page_footer_option_navigating_test" class="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-10-09T12:47:20 GMT+07:00" name="Test" finished-at="2026-10-09T12:47:37 GMT+07:00" duration-ms="17185">
-      <class name="testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest@2638011]" started-at="2026-10-09T12:47:30 GMT+07:00" name="setup" finished-at="2026-10-09T12:47:33 GMT+07:00" duration-ms="3528" status="PASS">
+    <test started-at="2026-10-11T14:51:05 GMT+07:00" name="Test" finished-at="2026-10-11T14:51:16 GMT+07:00" duration-ms="11098">
+      <class name="testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest@68567e20]" started-at="2026-10-11T14:51:05 GMT+07:00" name="setup" finished-at="2026-10-11T14:51:10 GMT+07:00" duration-ms="4749" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,17 +31,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="wish_list_product_from_search_page()[pri:0, instance:testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest@2638011]" started-at="2026-10-09T12:47:33 GMT+07:00" name="wish_list_product_from_search_page" finished-at="2026-10-09T12:47:37 GMT+07:00" duration-ms="4093" status="PASS">
+        <test-method signature="wish_list_page_my_account_option_navigating_test()[pri:0, instance:testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest@68567e20]" started-at="2026-10-11T14:51:10 GMT+07:00" name="wish_list_page_my_account_option_navigating_test" finished-at="2026-10-11T14:51:12 GMT+07:00" duration-ms="1904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wish_list_product_from_search_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest@2638011]" started-at="2026-10-09T12:47:37 GMT+07:00" name="tearDown" finished-at="2026-10-09T12:47:37 GMT+07:00" duration-ms="109" status="PASS">
+        </test-method> <!-- wish_list_page_my_account_option_navigating_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest@68567e20]" started-at="2026-10-11T14:51:12 GMT+07:00" name="tearDown" finished-at="2026-10-11T14:51:12 GMT+07:00" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest -->
-      <class name="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest@68267da0]" started-at="2026-10-09T12:47:20 GMT+07:00" name="setup" finished-at="2026-10-09T12:47:26 GMT+07:00" duration-ms="5462" status="PASS">
+      </class> <!-- testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest -->
+      <class name="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest@76ed1b7c]" started-at="2026-10-11T14:51:12 GMT+07:00" name="setup" finished-at="2026-10-11T14:51:15 GMT+07:00" duration-ms="2472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,15 +57,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="wish_list_product_from_search_page()[pri:0, instance:testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest@68267da0]" started-at="2026-10-09T12:47:26 GMT+07:00" name="wish_list_product_from_search_page" finished-at="2026-10-09T12:47:30 GMT+07:00" duration-ms="3669" status="PASS">
+        <test-method signature="wish_list_page_footer_option_navigating_test()[pri:0, instance:testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest@76ed1b7c]" started-at="2026-10-11T14:51:15 GMT+07:00" name="wish_list_page_footer_option_navigating_test" finished-at="2026-10-11T14:51:16 GMT+07:00" duration-ms="1602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wish_list_product_from_search_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest@68267da0]" started-at="2026-10-09T12:47:30 GMT+07:00" name="tearDown" finished-at="2026-10-09T12:47:30 GMT+07:00" duration-ms="134" status="PASS">
+        </test-method> <!-- wish_list_page_footer_option_navigating_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest@76ed1b7c]" started-at="2026-10-11T14:51:16 GMT+07:00" name="tearDown" finished-at="2026-10-11T14:51:16 GMT+07:00" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest -->
+      </class> <!-- testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

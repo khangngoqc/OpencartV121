@@ -218,10 +218,14 @@
 			<!--WishList cases-->
 			<!--<class name="testCases.WishList.TC_WL_002_WishListRelatedProductFromDisplayPageTest" />
 			<class name="testCases.WishList.TC_WL_003_AddingRelatedProductFromHomePageTest" />
-			<class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" />-->
+			<class name="testCases.WishList.TC_WL_004_WishListProductFromSubCategoryPageTest" />
 			<class name="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest" />
-			<class name="testCases.WishList.TC_WL_006_WishListPageHeaderNavigatingTest" />
-
+			<class name="testCases.WishList.TC_WL_006_WishListPageAlertLinkNavigatingTest" />
+			<class name="testCases.WishList.TC_WL_007_WishListPageHeaderNavigatingTest" />
+			<class name="testCases.WishList.TC_WL_008_WishListPageRightColumnOptionNavigatingTest" />-->
+			<class name="testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest" />
+			<class name="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest" />
+	
 
 			<!--WishList cases-->
 		

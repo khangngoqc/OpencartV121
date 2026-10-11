@@ -34,7 +34,8 @@ public class BasePage extends BaseClass {
 	@FindBy(xpath = "//a[@title='Checkout']")
 	WebElement checkoutLnk;
 
-	@FindBy(xpath="//a[normalize-space()='Qafox.com']") WebElement storeLogo;
+	@FindBy(xpath = "//a[normalize-space()='Qafox.com']")
+	WebElement storeLogo;
 
 	@FindBy(xpath = "//div[@id='cart']//button[@data-toggle='dropdown']")
 	WebElement cartBtn;
@@ -46,7 +47,8 @@ public class BasePage extends BaseClass {
 	List<WebElement> cartProductNames;
 	@FindBy(xpath = "//button[@title='Remove']")
 	List<WebElement> removeBtns;
-	@FindBy(xpath="//strong[normalize-space()='View Cart']") WebElement viewCartLnk;
+	@FindBy(xpath = "//strong[normalize-space()='View Cart']")
+	WebElement viewCartLnk;
 
 	@FindBy(xpath = "//input[@placeholder='Search']")
 	WebElement searchTxtBox;
@@ -63,10 +65,14 @@ public class BasePage extends BaseClass {
 	WebElement navBarDesktopMenu;
 	@FindBy(xpath = "//a[normalize-space()='Show AllDesktops']")
 	WebElement showAllDesktopsMenuItem;
-	@FindBy(xpath="//*[@id=\"menu\"]/div[2]/ul/li[1]/div/div/ul/li[2]/a") WebElement macSubMenu;
+	@FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[1]/div/div/ul/li[2]/a")
+	WebElement macSubMenu;
+
+	@FindBy(xpath = "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
+	WebElement footerWishListLnk;
 
 	// actions
-	public HomePage clickStoreLogo(){
+	public HomePage clickStoreLogo() {
 		click(storeLogo);
 
 		return new HomePage();
@@ -153,7 +159,7 @@ public class BasePage extends BaseClass {
 
 	public void clearCart() {
 		try {
-			for(WebElement btn : removeBtns) {
+			for (WebElement btn : removeBtns) {
 				Thread.sleep(500);
 				click(cartBtn);
 				Thread.sleep(500);
@@ -165,10 +171,16 @@ public class BasePage extends BaseClass {
 			return;
 		}
 	}
-	
+
 	public ShoppingCartPage clickViewCartLnk() {
 		click(viewCartLnk);
 		return new ShoppingCartPage();
+	}
+	
+	public WishListPage clickFooterWishListLnk() {
+		click(footerWishListLnk);
+
+		return new WishListPage();
 	}
 
 	// getters
@@ -200,7 +212,7 @@ public class BasePage extends BaseClass {
 	public void backToPreviousPage() {
 		getDriver().navigate().back();
 	}
-	
+
 	public ProductDisplayPage clickCartProductNameByIndex(int index) {
 
 		System.out.println("In cart product count: " + cartProductNames.size());
@@ -224,7 +236,7 @@ public class BasePage extends BaseClass {
 		return null;
 
 	}
-	
+
 	public ProductDisplayPage clickCartProductImageByIndex(int index) {
 
 		try {
@@ -255,10 +267,10 @@ public class BasePage extends BaseClass {
 		click(showAllDesktopsMenuItem);
 		return new DesktopsPage();
 	}
-	
+
 	public SubCategoryPage clickMacSubMenu() {
-		click(macSubMenu); 
-		
+		click(macSubMenu);
+
 		return new SubCategoryPage();
 	}
 
@@ -282,22 +294,22 @@ public class BasePage extends BaseClass {
 		// System.out.println(getDriver().getCurrentUrl());
 		return getDriver().getCurrentUrl().contains(urlKeyword.toLowerCase());
 	}
-	
+
 	public boolean isElementStrikedOut(WebElement ele) {
-		
+
 		String textDecoration = ele.getCssValue("text-decoration-line");
-		
+
 		if (textDecoration == null || textDecoration.isEmpty()) {
 			textDecoration = ele.getCssValue("text-decoration");
 		}
-		
+
 		System.out.println("textDecoration: " + textDecoration);
-		
+
 		boolean isStrikedOut = textDecoration.contains("line-through");
-		
+
 		return isStrikedOut;
 	}
-	
+
 	public boolean isProductAddedToCart(String productName) throws InterruptedException {
 
 		Thread.sleep(500);
@@ -324,7 +336,6 @@ public class BasePage extends BaseClass {
 
 		return false;
 	}
-
 
 	// getter
 	public String getCartTotalText() {

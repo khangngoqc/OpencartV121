@@ -11,14 +11,14 @@ import pageObjects.SearchPage;
 import pageObjects.WishListPage;
 import testBase.BaseClass;
 
-public class TC_WL_006_WishListPageHeaderNavigatingTest extends BaseClass{
+public class TC_WL_007_WishListPageHeaderNavigatingTest extends BaseClass{
 	
 	String searchInput = "iMac";
 	int testProductIndex = 1; 
 	
 	@Test(groups = { "master", "wish list" })
-	public void wish_list_page_navigating_test() {
-		logger.info("***Starting TC_WL_006_WishListPageHeaderNavigatingTest ***");
+	public void wish_list_page_header_navigating_test() {
+		logger.info("***Starting TC_WL_007_WishListPageHeaderNavigatingTest ***");
 		
 		HomePage hp = new HomePage();
 		
@@ -42,11 +42,11 @@ public class TC_WL_006_WishListPageHeaderNavigatingTest extends BaseClass{
 		
 		Assert.assertTrue(sp.isWishListSuccessAlertDisplay(testProductTitle), "Failed to locate success message!");
 		
-		wp =  sp.clickAlertWishListLnk();
+		wp =  sp.clickWishListLnk();
 		
 		Assert.assertTrue(wp.isPageHeadingDisplay(), "Failed to locate wish list page heading.");
 
-		logger.info("***Finshed TC_WL_006_WishListPageHeaderNavigatingTest ***");
+		logger.info("***Finshed TC_WL_007_WishListPageHeaderNavigatingTest ***");
 	}
 
 }
