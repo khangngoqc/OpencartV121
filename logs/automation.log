@@ -5243,3 +5243,28 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 14:51:12.480 [main] INFO  testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest - ***Finshed TC_WL_009_WishListPageMyAccountOptionNavigatingTest ***
 14:51:15.088 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Starting TC_WL_010_WishListPageFooterOptionNavigatingTest ***
 14:51:16.689 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Finshed TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:10:09.887 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Starting TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:10:12.364 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Finshed TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:19:17.152 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Starting TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:19:19.635 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Finshed TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:23:05.494 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Starting TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:23:07.492 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Finshed TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:23:32.996 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:24:43.098 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:29:47.387 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:31:45.999 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:34:23.687 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:37:46.780 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Starting TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:37:48.867 [main] INFO  testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest - ***Finshed TC_WL_010_WishListPageFooterOptionNavigatingTest ***
+20:37:52.181 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:39:56.977 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:41:11.647 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:42:30.502 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:52:06.076 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:53:16.240 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:54:25.971 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+20:55:36.447 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+21:01:47.314 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+21:02:02.174 [main] DEBUG testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - Index 0 out of bounds for length 0
+21:04:25.979 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+21:04:34.886 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******

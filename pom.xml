@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.43.0</version>
+			<version>4.51.0</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -152,7 +152,7 @@
 			<artifactId>languagetool-core</artifactId>
 			<version>6.4</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.languagetool</groupId>
 			<artifactId>language-en</artifactId>

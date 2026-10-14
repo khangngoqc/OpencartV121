@@ -202,7 +202,7 @@
 			<!--ProductCompare cases-->
 			
 			
-			<!--AddToCart cases-->D
+			<!--AddToCart cases-->
 			<class name="testCases.AddToCart.TC_ATC_001_AddProductFromProductDisplayPageTest" />
 			<class name="testCases.AddToCart.TC_ATC_002_AddToCartFromWishListTest" />
 			<class name="testCases.AddToCart.TC_ATC_003_AddToCartFromSearchPageTest" />
@@ -222,9 +222,10 @@
 			<class name="testCases.WishList.TC_WL_005_WishListProductFromSearchPageTest" />
 			<class name="testCases.WishList.TC_WL_006_WishListPageAlertLinkNavigatingTest" />
 			<class name="testCases.WishList.TC_WL_007_WishListPageHeaderNavigatingTest" />
-			<class name="testCases.WishList.TC_WL_008_WishListPageRightColumnOptionNavigatingTest" />-->
+			<class name="testCases.WishList.TC_WL_008_WishListPageRightColumnOptionNavigatingTest" />
 			<class name="testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest" />
-			<class name="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest" />
+			<class name="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest" />-->
+			<class name="testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest" />
 	
 
 			<!--WishList cases-->

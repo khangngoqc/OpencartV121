@@ -1,6 +1,7 @@
 package pageObjects;
 
 import java.util.List;
+import java.util.Objects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,18 +9,22 @@ import org.openqa.selenium.support.FindBy;
 
 public class WishListPage extends BasePage {
 
+	@FindBy(xpath = "//ul[@class='breadcrumb']//li//a")
+	List<WebElement> breadcrumbLinks;
+
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertBanner;
 	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
 	WebElement alertShoppingCartLnk;
-	
+
 	@FindBy(xpath = "//div[@id='content']//h2")
 	WebElement pageHeading2;
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[1]/a")
 	List<WebElement> productImages;
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")
 	List<WebElement> productNames;
-	@FindBy(xpath="//a[@data-original-title='Remove']") List<WebElement> removeFromWishListBtns;
+	@FindBy(xpath = "//a[@data-original-title='Remove']")
+	List<WebElement> removeFromWishListBtns;
 
 	public WishListPage() {
 		super();
@@ -31,7 +36,7 @@ public class WishListPage extends BasePage {
 		try {
 
 			if (index <= 0 || index > productImages.size()) {
-				System.out.println("Invalid index input! " + index +  " of " + productImages.size());
+				System.out.println("Invalid index input! " + index + " of " + productImages.size());
 				return null;
 			}
 
@@ -47,8 +52,7 @@ public class WishListPage extends BasePage {
 		return null;
 
 	}
-	
-	
+
 	public ProductDisplayPage clickProductNameByIndex(int index) {
 
 		try {
@@ -70,21 +74,22 @@ public class WishListPage extends BasePage {
 		return null;
 
 	}
-	
+
 	public void clickAddToCartOf(String productName) {
-		WebElement addToCartBtn = getDriver().findElement(By.xpath("//tr[contains(.,'"+ productName +"')]//button[@data-original-title='Add to Cart']"));
-		click(addToCartBtn);	
+		WebElement addToCartBtn = getDriver().findElement(
+				By.xpath("//tr[contains(.,'" + productName + "')]//button[@data-original-title='Add to Cart']"));
+		click(addToCartBtn);
 	}
-	
+
 	public ShoppingCartPage clickAlertShoppingCartLnk() {
 		click(alertShoppingCartLnk);
-		
+
 		return new ShoppingCartPage();
 	}
-	
+
 	public void clearWishList() {
 		try {
-			for(WebElement btn : removeFromWishListBtns) {
+			for (WebElement btn : removeFromWishListBtns) {
 				Thread.sleep(500);
 				getDriver().findElement(By.xpath("(//a[@data-original-title='Remove'])[1]")).click();
 			}
@@ -100,12 +105,12 @@ public class WishListPage extends BasePage {
 		System.out.println(pageHeading2.getText());
 		return isDisplay(pageHeading2) && pageHeading2.getText().trim().equals("My Wish List");
 	}
-	
+
 	public boolean isAddToCartSuccessAlertDisplay(String productName) {
-		return isDisplay(alertBanner) && alertBanner.getText()
-				.contains("Success: You have added " + productName + " to your shopping cart!");
+		return isDisplay(alertBanner)
+				&& alertBanner.getText().contains("Success: You have added " + productName + " to your shopping cart!");
 	}
-	
+
 	public boolean isProductAdded(String productName) {
 
 		try {
@@ -122,6 +127,71 @@ public class WishListPage extends BasePage {
 		return false;
 	}
 
+	public boolean isBreadcrumbWork() throws InterruptedException {
+
+		for (int i = 0; i < breadcrumbLinks.size(); i++) {
+
+			System.out.println(breadcrumbLinks.get(i).getText());
+
+			if (!breadcrumbLinks.get(i).isDisplayed()) {
+				return false;
+
+			} else if (i == 0) {
+				click(breadcrumbLinks.get(i));
+				if (!Objects.requireNonNull(getDriver().getCurrentUrl()).contains("home")) {
+
+					System.out.println(getDriver().getCurrentUrl());
+
+					return false;
+				}
+				Thread.sleep(2000);
+
+				getDriver().navigate().back();
+
+			} else if (i == (breadcrumbLinks.size() - 1)) {
+ 				click(breadcrumbLinks.get(i));
+				if (!Objects.requireNonNull(
+					getDriver().getCurrentUrl().contains("wishlist"))) {
+
+				System.out.println(Objects.requireNonNull(getDriver().getCurrentUrl()));
+				System.out.println(breadcrumbLinks.get(i).getText().toLowerCase());
+				System.out.println(getDriver().getCurrentUrl());
+				System.out.println("Account check: " + !Objects.requireNonNull(getDriver().getCurrentUrl())
+						.contains(breadcrumbLinks.get(i).getText().toLowerCase()));
+				System.out.println(
+						"Wishlist check: " + !Objects.requireNonNull(getDriver().getCurrentUrl()).contains("wishlist"));
+
+				return false;
+				}
+				
+				Thread.sleep(2000);
+
+				getDriver().navigate().back();
+				
+			} else {
+				click(breadcrumbLinks.get(i));
+				if (!Objects.requireNonNull(
+						getDriver().getCurrentUrl().contains(breadcrumbLinks.get(i).getText().toLowerCase()))) {
+
+					System.out.println(Objects.requireNonNull(getDriver().getCurrentUrl()));
+					System.out.println(breadcrumbLinks.get(i).getText().toLowerCase());
+					System.out.println(getDriver().getCurrentUrl());
+					System.out.println("Account check: " + !Objects.requireNonNull(getDriver().getCurrentUrl())
+							.contains(breadcrumbLinks.get(i).getText().toLowerCase()));
+					System.out.println("Wishlist check: "
+							+ !Objects.requireNonNull(getDriver().getCurrentUrl()).contains("wishlist"));
+
+					return false;
+				}
+				Thread.sleep(2000);
+
+				getDriver().navigate().back();
+
+			}
+		}
+
+		return true;
+	}
 
 	// getters
 	public String getProductNameByIndex(int index) {
@@ -132,11 +202,10 @@ public class WishListPage extends BasePage {
 				System.out.println("Invalid " + index + " | expected: 1 <= index < " + productNames.size());
 				return null;
 			}
-			
+
 			System.out.println(productNames.get(index - 1).getText());
 
 			return productNames.get(index - 1).getText();
-
 
 		} catch (Exception e) {
 
@@ -144,8 +213,6 @@ public class WishListPage extends BasePage {
 			return null;
 		}
 
-		
-		
 	}
 
 }
