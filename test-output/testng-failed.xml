@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest">
+      <class name="testCases.WishList.TC_WL_013_WishListPageEmptyStateTest">
         <methods>
           <include name="tearDown"/>
-          <include name="wish_list_page_breadcrumb"/>
+          <include name="wishlist_page_empty_state"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest -->
+      </class> <!-- testCases.WishList.TC_WL_013_WishListPageEmptyStateTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

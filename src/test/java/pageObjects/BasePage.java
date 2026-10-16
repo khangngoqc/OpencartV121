@@ -61,6 +61,8 @@ public class BasePage extends BaseClass {
 	WebElement SiteMapLink;
 	@FindBy(xpath = "//div[@id='content']//h1")
 	WebElement pageHeading;
+	@FindBy(xpath = "//div[@id='content']//h2")
+	WebElement pageHeading2;
 	@FindBy(xpath = "//a[normalize-space()='Desktops']")
 	WebElement navBarDesktopMenu;
 	@FindBy(xpath = "//a[normalize-space()='Show AllDesktops']")
@@ -281,8 +283,13 @@ public class BasePage extends BaseClass {
 	}
 
 	public boolean isPageHeadingDisplayed() {
-		// System.out.println(pageHeading.getText());
+		System.out.println(pageHeading.getText());
 		return isDisplay(pageHeading) && pageHeading.getText().contains(getDriver().getTitle());
+	}
+	
+	public boolean isPageHeadingDisplayed(String keyword) {
+		System.out.println(pageHeading2.getText());
+		return isDisplay(pageHeading2) && pageHeading2.getText().toLowerCase().contains(keyword.toLowerCase());
 	}
 
 	public boolean isPageTitleDisplayed(String pageName) {
@@ -291,7 +298,7 @@ public class BasePage extends BaseClass {
 	}
 
 	public boolean isPageURLDisplayed(String urlKeyword) {
-		// System.out.println(getDriver().getCurrentUrl());
+		System.out.println(getDriver().getCurrentUrl());
 		return getDriver().getCurrentUrl().contains(urlKeyword.toLowerCase());
 	}
 

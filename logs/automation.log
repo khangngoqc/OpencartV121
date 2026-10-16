@@ -5268,3 +5268,57 @@ Session ID: ca5d4b8d-9b67-4b63-a667-58ec80d767e5
 21:02:02.174 [main] DEBUG testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - Index 0 out of bounds for length 0
 21:04:25.979 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
 21:04:34.886 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:31:28.251 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+14:31:38.205 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:41:47.003 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+14:41:57.184 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:42:40.916 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+14:42:50.838 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:42:54.118 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Starting TC_WL_012_WishListPageHeadingURLTitleTest *******
+14:43:04.214 [main] DEBUG testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - element not interactable
+  (Session info: chrome=155.0.8059.80)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6cd733cf9a7abf81fd7aa45785beb07, clickElement {id=f.58F428D053463D6E777AF38CED6CB4DB.d.F5E948DAE44E6E52BFE2D35E924D37F7.e.278}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56493}, goog:processID: 8856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56493/devtoo..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a6cd733cf9a7abf81fd7aa45785beb07)] -> xpath: (//a[normalize-space()='Login'])[1]]
+Session ID: a6cd733cf9a7abf81fd7aa45785beb07
+14:43:42.472 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+14:43:52.368 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:43:55.236 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Starting TC_WL_012_WishListPageHeadingURLTitleTest *******
+14:46:57.700 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+14:47:09.612 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:47:12.540 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Starting TC_WL_012_WishListPageHeadingURLTitleTest *******
+14:49:14.453 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+14:49:24.761 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:49:27.694 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Starting TC_WL_012_WishListPageHeadingURLTitleTest *******
+14:49:41.864 [main] DEBUG testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']//h1"}
+  (Session info: chrome=155.0.8059.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [527889ff072886a68027ecfabd771792, findElement {value=//div[@id='content']//h1, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54343}, goog:processID: 24652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54343/devtoo..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 527889ff072886a68027ecfabd771792
+14:52:12.085 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Starting TC_WL_011_WishListPageBreadcrumbTest *******
+14:52:21.901 [main] INFO  testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest - ******* Finished TC_WL_011_WishListPageBreadcrumbTest *******
+14:52:24.825 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Starting TC_WL_012_WishListPageHeadingURLTitleTest *******
+14:52:28.549 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Finished TC_WL_012_WishListPageHeadingURLTitleTest *******
+16:16:07.850 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Starting TC_WL_012_WishListPageHeadingURLTitleTest *******
+16:16:13.065 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Finished TC_WL_012_WishListPageHeadingURLTitleTest *******
+16:16:16.256 [main] INFO  testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - ******* Starting TC_WL_013_WishListPageEmptyStateTest *******
+16:16:41.531 [main] DEBUG testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']//h1"}
+  (Session info: chrome=155.0.8059.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [359500ac9dca1e28d2d8ab8bbd73d7b0, findElement {value=//div[@id='content']//h1, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60292}, goog:processID: 24488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60292/devtoo..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 359500ac9dca1e28d2d8ab8bbd73d7b0
+16:17:20.058 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Starting TC_WL_012_WishListPageHeadingURLTitleTest *******
+16:17:24.854 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Finished TC_WL_012_WishListPageHeadingURLTitleTest *******
+16:17:27.810 [main] INFO  testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - ******* Starting TC_WL_013_WishListPageEmptyStateTest *******
+16:17:42.072 [main] INFO  testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - ******* Finished TC_WL_013_WishListPageEmptyStateTest *******

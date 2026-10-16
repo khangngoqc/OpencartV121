@@ -19,6 +19,9 @@ public class WishListPage extends BasePage {
 
 	@FindBy(xpath = "//div[@id='content']//h2")
 	WebElement pageHeading2;
+	@FindBy(xpath="//p[normalize-space()='Your wish list is empty.']") WebElement emptyStateText;
+	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement continueBtn;
+	
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[1]/a")
 	List<WebElement> productImages;
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")
@@ -98,6 +101,13 @@ public class WishListPage extends BasePage {
 			System.out.println("Out of product to remove!");
 			return;
 		}
+	}
+	
+	public MyAccountPage clickContinueBtn(){
+		
+		click(continueBtn);
+		
+		return new MyAccountPage();
 	}
 
 	// validations
@@ -191,6 +201,10 @@ public class WishListPage extends BasePage {
 		}
 
 		return true;
+	}
+	
+	public boolean isEmptyWishListTextDisplay() {
+		return isDisplay(emptyStateText);
 	}
 
 	// getters

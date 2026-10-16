@@ -224,8 +224,10 @@
 			<class name="testCases.WishList.TC_WL_007_WishListPageHeaderNavigatingTest" />
 			<class name="testCases.WishList.TC_WL_008_WishListPageRightColumnOptionNavigatingTest" />
 			<class name="testCases.WishList.TC_WL_009_WishListPageMyAccountOptionNavigatingTest" />
-			<class name="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest" />-->
-			<class name="testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest" />
+			<class name="testCases.WishList.TC_WL_010_WishListPageFooterOptionNavigatingTest" />
+			<class name="testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest" />-->
+			<class name="testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest" />
+			<class name="testCases.WishList.TC_WL_013_WishListPageEmptyStateTest" />
 	
 
 			<!--WishList cases-->

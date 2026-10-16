@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="106" total="107" passed="1" failed="0" skipped="0">
+<testng-results ignored="106" total="108" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-14T21:04:18 GMT+07:00" name="Suite" finished-at="2026-10-14T21:04:35 GMT+07:00" duration-ms="16672">
+  <suite started-at="2026-10-16T16:17:14 GMT+07:00" name="Suite" finished-at="2026-10-16T16:17:42 GMT+07:00" duration-ms="27475">
     <groups>
       <group name="wish list">
-        <method signature="TC_WL_011_WishListPageBreadcrumbTest.wish_list_page_breadcrumb()[pri:0, instance:testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest@17a7f733]" name="wish_list_page_breadcrumb" class="testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest"/>
+        <method signature="TC_WL_012_WishListPageHeadingURLTitleTest.wishlist_page_heading_title_url()[pri:0, instance:testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest@68567e20]" name="wishlist_page_heading_title_url" class="testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest"/>
+        <method signature="TC_WL_013_WishListPageEmptyStateTest.wishlist_page_empty_state()[pri:0, instance:testCases.WishList.TC_WL_013_WishListPageEmptyStateTest@76ed1b7c]" name="wishlist_page_empty_state" class="testCases.WishList.TC_WL_013_WishListPageEmptyStateTest"/>
       </group> <!-- wish list -->
+      <group name="search">
+        <method signature="TC_WL_012_WishListPageHeadingURLTitleTest.wishlist_page_heading_title_url()[pri:0, instance:testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest@68567e20]" name="wishlist_page_heading_title_url" class="testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest"/>
+        <method signature="TC_WL_013_WishListPageEmptyStateTest.wishlist_page_empty_state()[pri:0, instance:testCases.WishList.TC_WL_013_WishListPageEmptyStateTest@76ed1b7c]" name="wishlist_page_empty_state" class="testCases.WishList.TC_WL_013_WishListPageEmptyStateTest"/>
+      </group> <!-- search -->
       <group name="master">
-        <method signature="TC_WL_011_WishListPageBreadcrumbTest.wish_list_page_breadcrumb()[pri:0, instance:testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest@17a7f733]" name="wish_list_page_breadcrumb" class="testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest"/>
+        <method signature="TC_WL_012_WishListPageHeadingURLTitleTest.wishlist_page_heading_title_url()[pri:0, instance:testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest@68567e20]" name="wishlist_page_heading_title_url" class="testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest"/>
+        <method signature="TC_WL_013_WishListPageEmptyStateTest.wishlist_page_empty_state()[pri:0, instance:testCases.WishList.TC_WL_013_WishListPageEmptyStateTest@76ed1b7c]" name="wishlist_page_empty_state" class="testCases.WishList.TC_WL_013_WishListPageEmptyStateTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-10-14T21:04:18 GMT+07:00" name="Test" finished-at="2026-10-14T21:04:35 GMT+07:00" duration-ms="16672">
-      <class name="testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest@17a7f733]" started-at="2026-10-14T21:04:18 GMT+07:00" name="setup" finished-at="2026-10-14T21:04:25 GMT+07:00" duration-ms="7444" status="PASS">
+    <test started-at="2026-10-16T16:17:14 GMT+07:00" name="Test" finished-at="2026-10-16T16:17:42 GMT+07:00" duration-ms="27475">
+      <class name="testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest@68567e20]" started-at="2026-10-16T16:17:14 GMT+07:00" name="setup" finished-at="2026-10-16T16:17:20 GMT+07:00" duration-ms="5113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +35,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="wish_list_page_breadcrumb()[pri:0, instance:testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest@17a7f733]" started-at="2026-10-14T21:04:25 GMT+07:00" name="wish_list_page_breadcrumb" finished-at="2026-10-14T21:04:34 GMT+07:00" duration-ms="8922" status="PASS">
+        <test-method signature="wishlist_page_heading_title_url()[pri:0, instance:testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest@68567e20]" started-at="2026-10-16T16:17:20 GMT+07:00" name="wishlist_page_heading_title_url" finished-at="2026-10-16T16:17:24 GMT+07:00" duration-ms="4817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wish_list_page_breadcrumb -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest@17a7f733]" started-at="2026-10-14T21:04:34 GMT+07:00" name="tearDown" finished-at="2026-10-14T21:04:35 GMT+07:00" duration-ms="128" status="PASS">
+        </test-method> <!-- wishlist_page_heading_title_url -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest@68567e20]" started-at="2026-10-16T16:17:24 GMT+07:00" name="tearDown" finished-at="2026-10-16T16:17:25 GMT+07:00" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.WishList.TC_WL_011_WishListPageBreadcrumbTest -->
+      </class> <!-- testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest -->
+      <class name="testCases.WishList.TC_WL_013_WishListPageEmptyStateTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.WishList.TC_WL_013_WishListPageEmptyStateTest@76ed1b7c]" started-at="2026-10-16T16:17:25 GMT+07:00" name="setup" finished-at="2026-10-16T16:17:27 GMT+07:00" duration-ms="2759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wishlist_page_empty_state()[pri:0, instance:testCases.WishList.TC_WL_013_WishListPageEmptyStateTest@76ed1b7c]" started-at="2026-10-16T16:17:27 GMT+07:00" name="wishlist_page_empty_state" finished-at="2026-10-16T16:17:42 GMT+07:00" duration-ms="14263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist_page_empty_state -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WishList.TC_WL_013_WishListPageEmptyStateTest@76ed1b7c]" started-at="2026-10-16T16:17:42 GMT+07:00" name="tearDown" finished-at="2026-10-16T16:17:42 GMT+07:00" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.WishList.TC_WL_013_WishListPageEmptyStateTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
