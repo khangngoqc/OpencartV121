@@ -19,13 +19,21 @@ public class WishListPage extends BasePage {
 
 	@FindBy(xpath = "//div[@id='content']//h2")
 	WebElement pageHeading2;
-	@FindBy(xpath="//p[normalize-space()='Your wish list is empty.']") WebElement emptyStateText;
-	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement continueBtn;
-	
+	@FindBy(xpath = "//p[normalize-space()='Your wish list is empty.']")
+	WebElement emptyStateText;
+	@FindBy(xpath = "//a[normalize-space()='Continue']")
+	WebElement continueBtn;
+
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[1]/a")
 	List<WebElement> productImages;
 	@FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")
 	List<WebElement> productNames;
+	@FindBy(xpath = "//*[@id=\"content\"]/div/table/tbody/tr/td[3]")
+	List<WebElement> productModels;
+	@FindBy(xpath = "//*[@id=\"content\"]/div/table/tbody/tr/td[4]")
+	List<WebElement> productStocks;
+	@FindBy(xpath = "//*[@id=\"content\"]/div/table/tbody/tr/td[5]")
+	List<WebElement> productUnitPrices;
 	@FindBy(xpath = "//a[@data-original-title='Remove']")
 	List<WebElement> removeFromWishListBtns;
 
@@ -102,11 +110,11 @@ public class WishListPage extends BasePage {
 			return;
 		}
 	}
-	
-	public MyAccountPage clickContinueBtn(){
-		
+
+	public MyAccountPage clickContinueBtn() {
+
 		click(continueBtn);
-		
+
 		return new MyAccountPage();
 	}
 
@@ -159,25 +167,24 @@ public class WishListPage extends BasePage {
 				getDriver().navigate().back();
 
 			} else if (i == (breadcrumbLinks.size() - 1)) {
- 				click(breadcrumbLinks.get(i));
-				if (!Objects.requireNonNull(
-					getDriver().getCurrentUrl().contains("wishlist"))) {
+				click(breadcrumbLinks.get(i));
+				if (!Objects.requireNonNull(getDriver().getCurrentUrl().contains("wishlist"))) {
 
-				System.out.println(Objects.requireNonNull(getDriver().getCurrentUrl()));
-				System.out.println(breadcrumbLinks.get(i).getText().toLowerCase());
-				System.out.println(getDriver().getCurrentUrl());
-				System.out.println("Account check: " + !Objects.requireNonNull(getDriver().getCurrentUrl())
-						.contains(breadcrumbLinks.get(i).getText().toLowerCase()));
-				System.out.println(
-						"Wishlist check: " + !Objects.requireNonNull(getDriver().getCurrentUrl()).contains("wishlist"));
+					System.out.println(Objects.requireNonNull(getDriver().getCurrentUrl()));
+					System.out.println(breadcrumbLinks.get(i).getText().toLowerCase());
+					System.out.println(getDriver().getCurrentUrl());
+					System.out.println("Account check: " + !Objects.requireNonNull(getDriver().getCurrentUrl())
+							.contains(breadcrumbLinks.get(i).getText().toLowerCase()));
+					System.out.println("Wishlist check: "
+							+ !Objects.requireNonNull(getDriver().getCurrentUrl()).contains("wishlist"));
 
-				return false;
+					return false;
 				}
-				
+
 				Thread.sleep(2000);
 
 				getDriver().navigate().back();
-				
+
 			} else {
 				click(breadcrumbLinks.get(i));
 				if (!Objects.requireNonNull(
@@ -202,12 +209,71 @@ public class WishListPage extends BasePage {
 
 		return true;
 	}
-	
+
 	public boolean isEmptyWishListTextDisplay() {
 		return isDisplay(emptyStateText);
 	}
 
+	public boolean isWishListedProductDisplayed(int index, String id, String name, String model, String stock,
+			String uprice) {
+
+		String productImage = getProductImageLinkByIndex(index);
+		String productName = getProductNameByIndex(index);
+		String productModel = getProductModelByIndex(index);
+		String productUnitPrice = getProductUnitPriceByIndex(index);
+
+		boolean isCorrectImage = productImage.contains(id);
+		boolean isCorrectName = productName.contains(name);
+		boolean isCorrectModel = productModel.contains(model);
+		boolean isCorrectUnitPrice = productUnitPrice.contains(uprice);
+
+		if (isCorrectImage) {
+			if (isCorrectName) {
+				if (isCorrectModel) {
+					if (isCorrectUnitPrice) {
+						return true;
+					} else {
+						System.out.println("Incorrect unit price.");
+						return false;
+					}
+				} else {
+					System.out.println("Incorrect stock status.");
+					return false;
+				}
+			} else {
+				System.out.println("Incorrect name.");
+				return false;
+			}
+		} else {
+			System.out.println("Incorrect image.");
+			return false;
+		}
+
+	}
+
 	// getters
+
+	public String getProductImageLinkByIndex(int index) {
+
+		try {
+
+			if (index <= 0 || index > productImages.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + productImages.size());
+				return null;
+			}
+
+			System.out.println(productImages.get(index - 1).getAttribute("href"));
+
+			return productImages.get(index - 1).getAttribute("href");
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
+			return null;
+		}
+
+	}
+
 	public String getProductNameByIndex(int index) {
 
 		try {
@@ -220,6 +286,69 @@ public class WishListPage extends BasePage {
 			System.out.println(productNames.get(index - 1).getText());
 
 			return productNames.get(index - 1).getText();
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
+			return null;
+		}
+
+	}
+
+	public String getProductModelByIndex(int index) {
+
+		try {
+
+			if (index <= 0 || index > productModels.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + productModels.size());
+				return null;
+			}
+
+			System.out.println(productModels.get(index - 1).getText());
+
+			return productModels.get(index - 1).getText();
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
+			return null;
+		}
+
+	}
+
+	public String getProductStockByIndex(int index) {
+
+		try {
+
+			if (index <= 0 || index > productStocks.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + productStocks.size());
+				return null;
+			}
+
+			System.out.println(productStocks.get(index - 1).getText());
+
+			return productStocks.get(index - 1).getText();
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
+			return null;
+		}
+
+	}
+
+	public String getProductUnitPriceByIndex(int index) {
+
+		try {
+
+			if (index <= 0 || index > productUnitPrices.size()) {
+				System.out.println("Invalid " + index + " | expected: 1 <= index < " + productUnitPrices.size());
+				return null;
+			}
+
+			System.out.println(productUnitPrices.get(index - 1).getText());
+
+			return productUnitPrices.get(index - 1).getText();
 
 		} catch (Exception e) {
 

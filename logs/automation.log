@@ -5322,3 +5322,10 @@ Session ID: 359500ac9dca1e28d2d8ab8bbd73d7b0
 16:17:24.854 [main] INFO  testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest - ******* Finished TC_WL_012_WishListPageHeadingURLTitleTest *******
 16:17:27.810 [main] INFO  testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - ******* Starting TC_WL_013_WishListPageEmptyStateTest *******
 16:17:42.072 [main] INFO  testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - ******* Finished TC_WL_013_WishListPageEmptyStateTest *******
+20:52:07.153 [main] INFO  testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - ******* Starting TC_WL_013_WishListPageEmptyStateTest *******
+20:52:11.758 [main] INFO  testCases.WishList.TC_WL_013_WishListPageEmptyStateTest - ******* Finished TC_WL_013_WishListPageEmptyStateTest *******
+20:52:14.325 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Starting TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:52:28.719 [main] DEBUG testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - Cannot invoke "String.contains(java.lang.CharSequence)" because "productImage" is null
+20:55:55.655 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Starting TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:58:18.304 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Starting TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:58:25.717 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Finished TC_WL_014_WishListPageOneProductAddedStateTest *******
