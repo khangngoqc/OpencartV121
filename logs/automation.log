@@ -5329,3 +5329,19 @@ Session ID: 359500ac9dca1e28d2d8ab8bbd73d7b0
 20:55:55.655 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Starting TC_WL_014_WishListPageOneProductAddedStateTest *******
 20:58:18.304 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Starting TC_WL_014_WishListPageOneProductAddedStateTest *******
 20:58:25.717 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Finished TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:56:42.239 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Starting TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:56:55.103 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Finished TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:56:57.473 [main] INFO  testCases.WishList.TC_WL_015_WishListPageRemovingProductTest - ******* Starting TC_WL_015_WishListPageRemovingProductTest *******
+20:57:26.073 [main] DEBUG testCases.WishList.TC_WL_015_WishListPageRemovingProductTest - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']"}
+  (Session info: chrome=156.0.8078.48)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e67729795cc006425a842018c3dd95f, findElement {using=xpath, value=//div[@class='alert alert-success alert-dismissible']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.48, chrome: {chromedriverVersion: 156.0.8078.73 (2f9a11097447..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52624}, goog:processID: 26776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52624/devtoo..., se:cdpVersion: 156.0.8078.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e67729795cc006425a842018c3dd95f
+20:58:33.696 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Starting TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:58:41.567 [main] INFO  testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest - ******* Finished TC_WL_014_WishListPageOneProductAddedStateTest *******
+20:58:43.980 [main] INFO  testCases.WishList.TC_WL_015_WishListPageRemovingProductTest - ******* Starting TC_WL_015_WishListPageRemovingProductTest *******
+20:58:51.161 [main] INFO  testCases.WishList.TC_WL_015_WishListPageRemovingProductTest - ******* Finished TC_WL_015_WishListPageRemovingProductTest *******

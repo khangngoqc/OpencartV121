@@ -229,6 +229,7 @@
 			<class name="testCases.WishList.TC_WL_012_WishListPageHeadingURLTitleTest" />
 			<class name="testCases.WishList.TC_WL_013_WishListPageEmptyStateTest" />-->
 			<class name="testCases.WishList.TC_WL_014_WishListPageOneProductAddedStateTest" />
+			<class name="testCases.WishList.TC_WL_015_WishListPageRemovingProductTest" />
 	
 
 			<!--WishList cases-->

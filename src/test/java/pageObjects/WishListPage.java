@@ -63,6 +63,28 @@ public class WishListPage extends BasePage {
 		return null;
 
 	}
+	
+	public void removeProducByIndex(int index) {
+
+		try {
+
+			if (index <= 0 || index > removeFromWishListBtns.size()) {
+				System.out.println("Invalid index input! " + index + " of " + removeFromWishListBtns.size());
+				return;
+			}
+
+			click(removeFromWishListBtns.get(index - 1));
+
+
+		} catch (Exception e) {
+
+			System.out.println("Invalid index input!" + index);
+		}
+
+		return;
+
+	}
+
 
 	public ProductDisplayPage clickProductNameByIndex(int index) {
 
@@ -249,6 +271,13 @@ public class WishListPage extends BasePage {
 			return false;
 		}
 
+	}
+	
+	public boolean isModifySuccessAlertBannerDisplay(){
+		
+		boolean modifySuccessMessage = alertBanner.getText().contains("Success: You have modified your wish list!");
+		
+		return isDisplay(alertBanner) && modifySuccessMessage;
 	}
 
 	// getters
